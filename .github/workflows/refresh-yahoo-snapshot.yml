@@ -37,7 +37,7 @@ jobs:
           node scripts/build-manager-history-v3.mjs \
             /tmp/shivagpt-manager-history-source.json \
             public/shivagpt-manager-history.json
-          node -e 'const fs=require("fs"),d=JSON.parse(fs.readFileSync("public/shivagpt-manager-history.json","utf8")),j=d.manager_profiles.find(x=>x.manager_id==="manager_jason");if(d.schema!=="shivagpt-manager-history-v3"||d.read_only!==true||d.manager_profiles.length!==12||d.manager_lookup.by_name.jason!=="manager_jason"||!j||j.manager_name!=="Jason"||j.current_team_name!=="The Can'''t Finish on Top Turds"||!j.seasons["2025"]||!j.historical_team_names.includes("The Polished Turds"))process.exit(1)'
+          node -e 'const fs=require("fs"),d=JSON.parse(fs.readFileSync("public/shivagpt-manager-history.json","utf8")),j=d.manager_profiles.find(x=>x.manager_id==="manager_jason");if(d.schema!=="shivagpt-manager-history-v3"||d.read_only!==true||d.manager_profiles.length!==12||d.manager_lookup.by_name.jason!=="manager_jason"||d.manager_lookup.by_team_name["the cant finish on top turds"]!=="manager_jason"||!j||j.manager_name!=="Jason"||!j.seasons["2025"]||!j.historical_team_names.includes("The Polished Turds"))process.exit(1)'
       - name: Publish changed snapshots
         run: |
           git config user.name "ShivaGPT Data Bot"
