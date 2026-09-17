@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const [inputPath, outputPath] = process.argv.slice(2);
+const [inputPath, outputPath, shardDirectory] = process.argv.slice(2);
 if (!inputPath || !outputPath) throw new Error("Usage: node build-manager-history-v3.mjs INPUT OUTPUT");
 
 const source = JSON.parse(fs.readFileSync(inputPath, "utf8"));
@@ -258,4 +258,38 @@ if (!jason || !jason.seasons?.["2025"] || !jason.historical_team_names.some((nam
 }
 
 fs.writeFileSync(outputPath, JSON.stringify(output));
+if (shardDirectory) {
+  fs.mkdirSync(shardDirectory, { recursive: true });
+  const records = {};
+  for (const profile of managerProfiles) {
+    const relativePath = `public/manager-history/${profile.manager_id}.json`;
+    records[profile.manager_id] = {
+      manager_id: profile.manager_id,
+      manager_name: profile.manager_name,
+      current_team_name: profile.current_team_name,
+      historical_team_names: profile.historical_team_names,
+      seasons: Object.keys(profile.seasons),
+      path: relativePath,
+      schema: "shivagpt-manager-profile-v1",
+    };
+    fs.writeFileSync(`${shardDirectory}/${profile.manager_id}.json`, JSON.stringify({
+      schema: "shivagpt-manager-profile-v1",
+      read_only: true,
+      generated_at: output.generated_at,
+      source_master_path: "public/shivagpt-manager-history.json",
+      source_master_schema: output.schema,
+      manager_profile: profile,
+    }));
+  }
+  fs.writeFileSync(`${shardDirectory}/index.json`, JSON.stringify({
+    schema: "shivagpt-manager-index-v1",
+    read_only: true,
+    generated_at: output.generated_at,
+    source_master_path: "public/shivagpt-manager-history.json",
+    source_master_schema: output.schema,
+    lookup: output.manager_lookup,
+    records,
+    usage: "Resolve a manager_id using lookup.by_name, lookup.by_team_name or lookup.by_manager_ref, then fetch records[manager_id].path.",
+  }));
+}
 console.log(JSON.stringify({ schema: output.schema, managers: output.manager_profiles.length, jason: { manager_id: jason.manager_id, manager_ref: jason.manager_ref, current_team_name: jason.current_team_name, historical_team_names: jason.historical_team_names, seasons: Object.keys(jason.seasons) } }));
