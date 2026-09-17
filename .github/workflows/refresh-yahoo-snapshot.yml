@@ -37,4 +37,4 @@ jobs:
           git commit -m "Refresh sanitized Yahoo snapshot"
           git push
 
-# Includes sanitized rosters plus separately labeled FA and W player pools.
+# Includes all Yahoo FA/W pages, all team rosters, and no private account fields.
