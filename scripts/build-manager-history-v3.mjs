@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const [inputPath, outputPath, shardDirectory] = process.argv.slice(2);
+const [inputPath, outputPath] = process.argv.slice(2);
 if (!inputPath || !outputPath) throw new Error("Usage: node build-manager-history-v3.mjs INPUT OUTPUT");
 
 const source = JSON.parse(fs.readFileSync(inputPath, "utf8"));
@@ -92,7 +92,7 @@ function transactionAssociation(transaction, teamKey) {
 }
 
 function transactionSummary(transaction, association) {
-  return {
+  const summary = {
     transaction_key: transaction.transaction_key || null,
     transaction_id: transaction.transaction_id || null,
     type: transaction.type || null,
@@ -101,8 +101,66 @@ function transactionSummary(transaction, association) {
     association,
     trader_team_name: transaction.trader_team_name || null,
     tradee_team_name: transaction.tradee_team_name || null,
-    picks: transaction.picks || null,
+    picks: (transaction.picks || []).map((item) => {
+      const pick = item.pick || item;
+      return {
+        round: pick.round || null,
+        source_team_name: pick.source_team_name || null,
+        destination_team_name: pick.destination_team_name || null,
+        original_team_name: pick.original_team_name || null,
+      };
+    }),
   };
+  return Object.fromEntries(Object.entries(summary).filter(([, value]) => value !== null && value !== undefined && !(Array.isArray(value) && value.length === 0)));
+}
+
+function compactDraftPick(pick) {
+  return Object.fromEntries(Object.entries({
+    overall_pick: pick.overall_pick,
+    round: pick.round,
+    player_id: pick.player_id,
+    player_name: pick.player_name,
+    position: pick.position,
+    nfl_team: pick.nfl_team,
+    is_keeper: Boolean(pick.is_keeper),
+  }).filter(([, value]) => value !== null && value !== undefined));
+}
+
+function compactDraftSummary(summary) {
+  if (!summary) return null;
+  return {
+    positional_pick_sequence: summary.positional_pick_sequence,
+    first_round_selected: summary.first_round_selected,
+    totals_by_position: summary.totals_by_position,
+  };
+}
+
+function compactLeagueTransaction(transaction) {
+  const picks = (transaction.picks || []).map((item) => {
+    const pick = item.pick || item;
+    return [
+      pick.source_team_key || null,
+      pick.source_team_name || null,
+      pick.destination_team_key || null,
+      pick.destination_team_name || null,
+      pick.original_team_key || null,
+      pick.original_team_name || null,
+      pick.round || null,
+    ];
+  });
+  return [
+    transaction.transaction_key || null,
+    transaction.transaction_id || null,
+    transaction.type || null,
+    transaction.status || null,
+    transaction.timestamp || null,
+    transaction.trader_team_key || null,
+    transaction.trader_team_name || null,
+    transaction.tradee_team_key || null,
+    transaction.tradee_team_name || null,
+    transaction.faab_bid || null,
+    picks.length ? picks : null,
+  ];
 }
 
 function counts(values, key) {
@@ -129,9 +187,9 @@ const managerProfiles = MANAGERS.map((manager) => {
     if (!team) continue;
     historicalNames.add(team.team_name);
     const rosterRecord = (archive.final_rosters || []).find((item) => item.manager_ref === sourceProfile.manager_ref);
-    const draft = (archive.draft || []).filter((item) => item.manager_ref === sourceProfile.manager_ref);
-    const keepers = (archive.keepers || []).filter((item) => item.manager_ref === sourceProfile.manager_ref);
-    const draftSummary = (archive.draft_summaries || []).find((item) => item.manager_ref === sourceProfile.manager_ref) || null;
+    const draft = (archive.draft || []).filter((item) => item.manager_ref === sourceProfile.manager_ref).map(compactDraftPick);
+    const keepers = (archive.keepers || []).filter((item) => item.manager_ref === sourceProfile.manager_ref).map(compactDraftPick);
+    const draftSummary = compactDraftSummary((archive.draft_summaries || []).find((item) => item.manager_ref === sourceProfile.manager_ref));
     const transactions = (archive.transactions || [])
       .map((transaction) => ({ transaction, association: transactionAssociation(transaction, team.team_key) }))
       .filter((item) => item.association)
@@ -241,9 +299,11 @@ const output = {
       league_name: season.league_name,
       settings: season.settings,
       standings: season.standings,
-      transactions: season.transactions,
+      completed_transaction_fields: ["transaction_key", "transaction_id", "type", "status", "timestamp", "trader_team_key", "trader_team_name", "tradee_team_key", "tradee_team_name", "faab_bid", "draft_picks"],
+      completed_transaction_draft_pick_fields: ["source_team_key", "source_team_name", "destination_team_key", "destination_team_name", "original_team_key", "original_team_name", "round"],
+      completed_transactions: (season.transactions || []).map(compactLeagueTransaction),
       yahoo_limitations: season.yahoo_limitations,
-      preservation_note: "Manager-specific teams, rosters, keepers, drafts and draft summaries are normalized without loss of their analytical fields under manager_profiles. The league-wide completed transaction collection remains here because Yahoo did not preserve team attribution on every add/drop record.",
+      preservation_note: "All non-null transaction fields, league settings and standings are retained. Manager-specific teams, rosters, keepers, drafts, draft summaries and factual Yahoo team metrics are normalized under manager_profiles; repeated and null-only representations are omitted without removing their underlying information.",
     }])),
     manager_continuity: source.manager_continuity,
     manager_profiles: source.manager_profiles,
@@ -251,45 +311,40 @@ const output = {
   },
 };
 
-if (output.manager_profiles.length !== 12) throw new Error("Expected 12 manager profiles.");
-const jason = output.manager_profiles.find((profile) => profile.manager_id === "manager_jason");
-if (!jason || !jason.seasons?.["2025"] || !jason.historical_team_names.some((name) => normalize(name) === normalize("The Polished Turds"))) {
-  throw new Error("Jason validation failed.");
+if (output.manager_profiles.length !== MANAGERS.length) throw new Error(`Expected ${MANAGERS.length} manager profiles.`);
+if (new Set(output.manager_profiles.map((profile) => profile.manager_id)).size !== MANAGERS.length) throw new Error("Manager IDs are not unique.");
+if (new Set(output.manager_profiles.map((profile) => profile.manager_ref)).size !== MANAGERS.length) throw new Error("Anonymous manager references are not unique.");
+
+for (const expected of MANAGERS) {
+  const profile = output.manager_profiles.find((item) => item.manager_id === expected.manager_id);
+  if (!profile) throw new Error(`Missing manager profile: ${expected.manager_id}.`);
+  for (const season of ["2025", "2026"]) {
+    if (!profile.seasons?.[season]) throw new Error(`Missing ${season} history for ${expected.manager_id}.`);
+  }
+  for (const name of [profile.manager_name, profile.preferred_name]) {
+    if (output.manager_lookup.by_name[normalize(name)] !== expected.manager_id) {
+      throw new Error(`Name lookup failed for ${expected.manager_id}: ${name}.`);
+    }
+  }
+  for (const teamName of [profile.current_team_name, profile.yahoo_current_team_name, ...profile.historical_team_names]) {
+    if (output.manager_lookup.by_team_name[normalize(teamName)] !== expected.manager_id) {
+      throw new Error(`Team-name lookup failed for ${expected.manager_id}: ${teamName}.`);
+    }
+  }
+  if (output.manager_lookup.by_manager_ref[profile.manager_ref] !== expected.manager_id) {
+    throw new Error(`Manager-reference lookup failed for ${expected.manager_id}.`);
+  }
 }
 
 fs.writeFileSync(outputPath, JSON.stringify(output));
-if (shardDirectory) {
-  fs.mkdirSync(shardDirectory, { recursive: true });
-  const records = {};
-  for (const profile of managerProfiles) {
-    const relativePath = `public/manager-history/${profile.manager_id}.json`;
-    records[profile.manager_id] = {
-      manager_id: profile.manager_id,
-      manager_name: profile.manager_name,
-      current_team_name: profile.current_team_name,
-      historical_team_names: profile.historical_team_names,
-      seasons: Object.keys(profile.seasons),
-      path: relativePath,
-      schema: "shivagpt-manager-profile-v1",
-    };
-    fs.writeFileSync(`${shardDirectory}/${profile.manager_id}.json`, JSON.stringify({
-      schema: "shivagpt-manager-profile-v1",
-      read_only: true,
-      generated_at: output.generated_at,
-      source_master_path: "public/shivagpt-manager-history.json",
-      source_master_schema: output.schema,
-      manager_profile: profile,
-    }));
-  }
-  fs.writeFileSync(`${shardDirectory}/index.json`, JSON.stringify({
-    schema: "shivagpt-manager-index-v1",
-    read_only: true,
-    generated_at: output.generated_at,
-    source_master_path: "public/shivagpt-manager-history.json",
-    source_master_schema: output.schema,
-    lookup: output.manager_lookup,
-    records,
-    usage: "Resolve a manager_id using lookup.by_name, lookup.by_team_name or lookup.by_manager_ref, then fetch records[manager_id].path.",
-  }));
-}
-console.log(JSON.stringify({ schema: output.schema, managers: output.manager_profiles.length, jason: { manager_id: jason.manager_id, manager_ref: jason.manager_ref, current_team_name: jason.current_team_name, historical_team_names: jason.historical_team_names, seasons: Object.keys(jason.seasons) } }));
+console.log(JSON.stringify({
+  schema: output.schema,
+  managers: output.manager_profiles.map((profile) => ({
+    manager_id: profile.manager_id,
+    manager_ref: profile.manager_ref,
+    manager_name: profile.manager_name,
+    current_team_name: profile.current_team_name,
+    historical_team_names: profile.historical_team_names,
+    seasons: Object.keys(profile.seasons),
+  })),
+}));
