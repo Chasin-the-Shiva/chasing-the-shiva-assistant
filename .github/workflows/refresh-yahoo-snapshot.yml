@@ -37,4 +37,4 @@ jobs:
           git commit -m "Refresh sanitized Yahoo snapshot"
           git push
 
-# Includes sanitized rosters and the live available-player pool.
+# Includes sanitized rosters plus live free-agent and waiver ownership data.
