@@ -1,0 +1,38 @@
+name: Refresh sanitized Yahoo snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-yahoo-snapshot.yml"
+  schedule:
+    - cron: "35 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-yahoo-snapshot
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download sanitized read-only snapshot
+        run: |
+          mkdir -p public
+          curl --fail --silent --show-error --retry 3 \
+            "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-feed" \
+            --output public/shivagpt-live.json
+          node -e 'const fs=require("fs");const p=JSON.parse(fs.readFileSync("public/shivagpt-live.json","utf8"));if(p.schema!=="shivagpt-season-manager-v1"||p.read_only!==true)process.exit(1)'
+      - name: Publish changed snapshot
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/shivagpt-live.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh sanitized Yahoo snapshot"
+          git push
