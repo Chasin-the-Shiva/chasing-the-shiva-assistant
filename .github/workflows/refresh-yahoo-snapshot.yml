@@ -21,20 +21,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download and strictly sanitize read-only snapshot
+      - name: Download and strictly sanitize read-only snapshots
         run: |
           mkdir -p public
           curl --fail --silent --show-error --retry 3 \
             "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-feed" \
             --output /tmp/shivagpt-source.json
-          node -e 'const fs=require("fs"),src=JSON.parse(fs.readFileSync("/tmp/shivagpt-source.json","utf8")),deny=/(url|uri|guid|email|account|login|manager|nickname|token|secret|client|(^|_)key$|avatar|logo|commissioner|sendbird|renew|^user_)/i;function clean(v){if(Array.isArray(v))return v.map(clean);if(!v||typeof v!=="object")return v;return Object.fromEntries(Object.entries(v).filter(([k])=>!deny.test(k)).map(([k,x])=>[k,clean(x)]));}if(src.schema!=="shivagpt-season-manager-v1"||src.read_only!==true)process.exit(1);fs.writeFileSync("public/shivagpt-live.json",JSON.stringify(clean(src)))'
-      - name: Publish changed snapshot
+          node -e 'const fs=require("fs"),src=JSON.parse(fs.readFileSync("/tmp/shivagpt-source.json","utf8")),deny=/(url|uri|guid|email|account|login|manager|nickname|token|secret|client|(^|_)key$|avatar|logo|commissioner|sendbird|renew|^user_)/i;function clean(v){if(Array.isArray(v))return v.map(clean);if(!v||typeof v!=="object")return v;return Object.fromEntries(Object.entries(v).filter(([k])=>!deny.test(k)).map(([k,x])=>[k,clean(x)]));}if(src.schema!=="shivagpt-season-manager-v1"||src.read_only!==true)process.exit(1);const data=clean(src),available={schema:data.schema,read_only:data.read_only,retrieved_at:data.retrieved_at,league_id:data.league_id,league_name:data.league_name,team_name:data.team_name,available_players:data.available_players};delete data.available_players;fs.writeFileSync("public/shivagpt-live.json",JSON.stringify(data));fs.writeFileSync("public/shivagpt-available.json",JSON.stringify(available))'
+      - name: Publish changed snapshots
         run: |
           git config user.name "ShivaGPT Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/shivagpt-live.json
+          git add public/shivagpt-live.json public/shivagpt-available.json
           git diff --cached --quiet && exit 0
-          git commit -m "Refresh sanitized Yahoo snapshot"
+          git commit -m "Refresh sanitized Yahoo snapshots"
           git push
 
-# Includes all Yahoo FA/W pages, all team rosters, and no private account fields.
+# Publishes separate compact league and complete FA/W snapshots.
