@@ -21,13 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download sanitized read-only snapshot
+      - name: Download and strictly sanitize read-only snapshot
         run: |
           mkdir -p public
           curl --fail --silent --show-error --retry 3 \
             "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-feed" \
-            --output public/shivagpt-live.json
-          node -e 'const fs=require("fs");const p=JSON.parse(fs.readFileSync("public/shivagpt-live.json","utf8"));if(p.schema!=="shivagpt-season-manager-v1"||p.read_only!==true)process.exit(1)'
+            --output /tmp/shivagpt-source.json
+          node -e 'const fs=require("fs"),src=JSON.parse(fs.readFileSync("/tmp/shivagpt-source.json","utf8")),deny=/(url|uri|guid|email|account|login|manager|nickname|token|secret|client|(^|_)key$|avatar|logo|commissioner|sendbird|renew|^user_)/i;function clean(v){if(Array.isArray(v))return v.map(clean);if(!v||typeof v!=="object")return v;return Object.fromEntries(Object.entries(v).filter(([k])=>!deny.test(k)).map(([k,x])=>[k,clean(x)]));}if(src.schema!=="shivagpt-season-manager-v1"||src.read_only!==true)process.exit(1);fs.writeFileSync("public/shivagpt-live.json",JSON.stringify(clean(src)))'
       - name: Publish changed snapshot
         run: |
           git config user.name "ShivaGPT Data Bot"
