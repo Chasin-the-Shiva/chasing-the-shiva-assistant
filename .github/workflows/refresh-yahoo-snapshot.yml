@@ -37,4 +37,4 @@ jobs:
           git commit -m "Refresh sanitized Yahoo snapshots"
           git push
 
-# Publishes separate compact league and complete FA/W snapshots.
+# Publishes league data with all 192 draft results plus a separate complete FA/W file.
