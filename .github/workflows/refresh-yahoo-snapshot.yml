@@ -28,13 +28,16 @@ jobs:
             "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-feed" \
             --output /tmp/shivagpt-source.json
           node -e 'const fs=require("fs"),src=JSON.parse(fs.readFileSync("/tmp/shivagpt-source.json","utf8")),deny=/(url|uri|guid|email|account|login|manager|nickname|token|secret|client|(^|_)key$|avatar|logo|commissioner|sendbird|renew|^user_)/i;function clean(v){if(Array.isArray(v))return v.map(clean);if(!v||typeof v!=="object")return v;return Object.fromEntries(Object.entries(v).filter(([k])=>!deny.test(k)).map(([k,x])=>[k,clean(x)]));}if(src.schema!=="shivagpt-season-manager-v1"||src.read_only!==true)process.exit(1);const data=clean(src),available={schema:data.schema,read_only:data.read_only,retrieved_at:data.retrieved_at,league_id:data.league_id,league_name:data.league_name,team_name:data.team_name,available_players:data.available_players};delete data.available_players;fs.writeFileSync("public/shivagpt-live.json",JSON.stringify(data));fs.writeFileSync("public/shivagpt-available.json",JSON.stringify(available))'
-      - name: Publish locked historical reference
+      - name: Build locked deterministic manager history
         if: github.event_name != 'schedule'
         run: |
           curl --fail --silent --show-error --retry 3 \
             "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-history" \
             --output /tmp/shivagpt-manager-history-source.json
-          node -e 'const fs=require("fs"),history=JSON.parse(fs.readFileSync("/tmp/shivagpt-manager-history-source.json","utf8")),blocked=new Set(["manager","managers","nickname","manager_id","manager_guid","manager_display_name","manager_identity_key","manager_identity_source","guid","email","emails","account_id","user_id","login","access_token","refresh_token","client_secret","client_id"]);let bad=[];function scan(v,p=[]){if(Array.isArray(v))return v.forEach((x,i)=>scan(x,p.concat(i)));if(v&&typeof v==="object")for(const [k,x]of Object.entries(v)){if(blocked.has(k.toLowerCase()))bad.push(p.concat(k).join("."));scan(x,p.concat(k));}}scan(history);if(history.schema!=="shivagpt-manager-history-v2"||history.read_only!==true||(history.manager_profiles||[]).length!==12||(history.manager_continuity||[]).length!==12||bad.length)process.exit(1);fs.writeFileSync("public/shivagpt-manager-history.json",JSON.stringify(history))'
+          node scripts/build-manager-history-v3.mjs \
+            /tmp/shivagpt-manager-history-source.json \
+            public/shivagpt-manager-history.json
+          node -e 'const fs=require("fs"),d=JSON.parse(fs.readFileSync("public/shivagpt-manager-history.json","utf8")),j=d.manager_profiles.find(x=>x.manager_id==="manager_jason");if(d.schema!=="shivagpt-manager-history-v3"||d.read_only!==true||d.manager_profiles.length!==12||d.manager_lookup.by_name.jason!=="manager_jason"||!j||j.manager_name!=="Jason"||j.current_team_name!=="The Can'''t Finish on Top Turds"||!j.seasons["2025"]||!j.historical_team_names.includes("The Polished Turds"))process.exit(1)'
       - name: Publish changed snapshots
         run: |
           git config user.name "ShivaGPT Data Bot"
@@ -44,4 +47,4 @@ jobs:
           git commit -m "Refresh sanitized Yahoo snapshots"
           git push
 
-# Scheduled runs refresh only current-season data. Historical manager research is rebuilt only by an explicit manual run or workflow configuration change.
+# Scheduled runs refresh only current-season data. Manager history v3 is rebuilt only by an explicit manual run or workflow configuration change.
