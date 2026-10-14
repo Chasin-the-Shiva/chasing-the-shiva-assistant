@@ -18,8 +18,22 @@ async function fetchPage(scope, start) {
   url.searchParams.set("scope", scope);
   url.searchParams.set("start", String(start));
   url.searchParams.set("count", "25");
-  const response = await fetch(url, {headers: {accept: "application/json"}, signal: AbortSignal.timeout(120000)});
-  assert(response.ok, `Stats API HTTP ${response.status} (${scope}, ${start})`);
+  let response;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      response = await fetch(url, {headers: {accept: "application/json"}, signal: AbortSignal.timeout(120000)});
+      if (response.ok) break;
+      if (![429, 500, 502, 503, 504].includes(response.status) || attempt === 4) {
+        throw new Error(`Stats API HTTP ${response.status} (${scope}, ${start}); attempt ${attempt}`);
+      }
+      console.warn(`Temporary API HTTP ${response.status} for ${scope} page ${start}; retry ${attempt}/3`);
+    } catch (error) {
+      if (attempt === 4 || (response && ![429, 500, 502, 503, 504].includes(response.status))) throw error;
+      console.warn(`Transient request failure for ${scope} page ${start}; retry ${attempt}/3`);
+    }
+    await new Promise(resolve => setTimeout(resolve, [3000, 9000, 20000][attempt - 1]));
+  }
+  assert(response?.ok, `Stats API did not recover (${scope}, ${start})`);
   const data = await response.json();
   assert(data.schema === "shivagpt-season-manager-player-stats-v1" && data.read_only === true && !data.error, "Invalid stats response");
   assert(String(data.league_id) === "721343" && Number(data.season) === 2026, "League/season mismatch");
