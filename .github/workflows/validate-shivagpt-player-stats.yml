@@ -1,0 +1,21 @@
+name: Validate ShivaGPT player statistics collector
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Collect and validate entire Yahoo player pool
+        run: node scripts/collect-player-stats.mjs
+      - name: Show coverage without disclosing player data
+        run: |
+          node -e 'const d=require("./public/shivagpt-player-stats.json"); console.log(JSON.stringify({schema:d.schema,completed_through_week:d.completed_through_week,collection:d.collection},null,2))'
