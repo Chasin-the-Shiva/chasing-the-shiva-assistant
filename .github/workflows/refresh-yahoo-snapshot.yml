@@ -33,6 +33,7 @@ jobs:
           curl --fail --silent --show-error --retry 3 \
             "https://shivagpt-yahoo-api.redmoosejoe.chatgpt.site/season-manager-feed" \
             --output /tmp/shivagpt-source.json
+                      node -e 'const d=require("/tmp/shivagpt-source.json");if(d.schema!=="shivagpt-season-manager-v1"||d.read_only!==true||d.error||!d.retrieved_at||!d.settings||!d.roster||!d.standings||!Array.isArray(d.available_players)){console.error("Yahoo feed invalid or unavailable; preserving existing snapshots");process.exit(1)}'
           node -e 'const fs=require("fs"),src=JSON.parse(fs.readFileSync("/tmp/shivagpt-source.json","utf8")),deny=/(url|uri|guid|email|account|login|manager|nickname|token|secret|client|(^|_)key$|avatar|logo|commissioner|sendbird|renew|^user_)/i;function clean(v){if(Array.isArray(v))return v.map(clean);if(!v||typeof v!=="object")return v;return Object.fromEntries(Object.entries(v).filter(([k])=>!deny.test(k)).map(([k,x])=>[k,clean(x)]));}if(src.schema!=="shivagpt-season-manager-v1"||src.read_only!==true)process.exit(1);const data=clean(src),available={schema:data.schema,read_only:data.read_only,retrieved_at:data.retrieved_at,league_id:data.league_id,league_name:data.league_name,team_name:data.team_name,available_players:data.available_players};delete data.available_players;fs.writeFileSync("public/shivagpt-live.json",JSON.stringify(data));fs.writeFileSync("public/shivagpt-available.json",JSON.stringify(available))'
           node scripts/build-scoring-reference.mjs \
             public/shivagpt-live.json \
