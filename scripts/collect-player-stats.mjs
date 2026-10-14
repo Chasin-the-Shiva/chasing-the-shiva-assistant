@@ -53,13 +53,29 @@ for (const scope of scopes) {
       total = data.pagination.total;
     }
     for (const player of data.players) {
-      assert(player && /^\\d+$/.test(String(player.player_id)), "Invalid player ID");
+      assert(player && /^\d+$/.test(String(player.player_id)), "Invalid player ID");
       assert(Array.isArray(player.weeks), "Missing player weeks");
       count++;
       const id = String(player.player_id);
       assert(!seen.has(id), `Duplicate player across scopes: ${id}; rerun scan`);
       seen.add(id);
-      all.push(player);
+      all.push({
+        player_id: id,
+        name: player.name ?? null,
+        position: player.position ?? null,
+        nfl_team: player.nfl_team ?? null,
+        availability_status: player.availability_status ?? null,
+        rostered_team_id: player.rostered_team_id ?? null,
+        rostered_team_name: player.rostered_team_name ?? null,
+        season_yahoo_fantasy_points: player.season_yahoo_fantasy_points ?? null,
+        season_statistical_categories: player.season_statistical_categories ?? [],
+        weeks: player.weeks.map(w => ({
+          week: w.week,
+          yahoo_fantasy_points: w.yahoo_fantasy_points ?? null,
+          statistical_categories: w.statistical_categories ?? [],
+          data_status: w.data_status ?? null
+        }))
+      });
     }
     const p = data.pagination;
     if (!p.has_more) {
