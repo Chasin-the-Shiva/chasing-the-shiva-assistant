@@ -42,5 +42,6 @@ jobs:
           git add reports/shivagpt-integration-health.json
           git diff --cached --quiet && exit 0
           git commit -m "Publish ShivaGPT end-to-end validation results"
+          git restore reports/shivagpt-monitoring-400.json reports/shivagpt-waiver-decision-queue.json reports/shivagpt-tuesday-latest.md
           git pull --rebase origin main
           git push origin HEAD:main
