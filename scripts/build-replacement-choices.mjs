@@ -5,8 +5,8 @@ if(nfl.schema!=="shivagpt-nfl-opportunity-v1"||snaps.schema!=="shivagpt-nfl-snap
 const completedWeek=Number(queue.completed_through_week);
 if(!Number.isInteger(completedWeek)||completedWeek<1||completedWeek>18)throw Error('Unverified completed scoring week');
 const work=new Map(),snapMap=new Map(),workHistory=new Map(),snapHistory=new Map();
-for(const x of nfl.players){const key=String(x.yahoo_player_id);if(!workHistory.has(key))workHistory.set(key,[]);workHistory.get(key).push(x);if(!work.has(key)||x.week>work.get(key).week)work.set(key,x);}
-for(const x of snaps.rows){const key=String(x.yahoo_player_id);if(!snapHistory.has(key))snapHistory.set(key,[]);snapHistory.get(key).push(x);if(!snapMap.has(key)||x.week>snapMap.get(key).week)snapMap.set(key,x);}
+for(const x of nfl.players){if(!Number.isInteger(Number(x.week))||Number(x.week)>completedWeek)continue;const key=String(x.yahoo_player_id);if(!workHistory.has(key))workHistory.set(key,[]);workHistory.get(key).push(x);if(!work.has(key)||x.week>work.get(key).week)work.set(key,x);}
+for(const x of snaps.rows){if(!Number.isInteger(Number(x.week))||Number(x.week)>completedWeek)continue;const key=String(x.yahoo_player_id);if(!snapHistory.has(key))snapHistory.set(key,[]);snapHistory.get(key).push(x);if(!snapMap.has(key)||x.week>snapMap.get(key).week)snapMap.set(key,x);}
 const workload=id=>{
  const key=String(id),w=work.get(key),s=snapMap.get(key);
  const recent=(workHistory.get(key)||[]).filter(x=>x.week<=completedWeek).sort((a,b)=>b.week-a.week).slice(0,3);
@@ -18,7 +18,7 @@ const workload=id=>{
  const snapAvg=consecutiveSnaps?Number((recentSnaps.reduce((sum,x)=>sum+x.offense_pct,0)/3).toFixed(3)):null;
  return {week:w?.week??null,touches:w?Number(w.metrics.carries||0)+Number(w.metrics.targets||0):null,
   offensive_snap_share:s?.offense_pct??null,snap_week:s?.week??null,
-  last_three_weeks:weekly,three_week_average_touches:avg,three_week_snap_share:snapAvg};
+  last_three_weeks:weekly,three_week_data_complete:consecutive,three_week_snap_data_complete:consecutiveSnaps,three_week_average_touches:avg,three_week_snap_share:snapAvg};
 };
 if(queue.schema!=="shivagpt-waiver-decision-queue-v1"||gates.schema!=="shivagpt-acquisition-gates-v1"||queue.league_id!=="721343"||gates.league_id!=="721343")throw Error("Untrusted input");
 const protectedNames=new Set(["Justin Jefferson","Chris Olave","Chase Brown","De'Von Achane","A.J. Brown"]);
@@ -31,8 +31,8 @@ for(const target of gates.watchlist){
  const incomingWorkload=workload(target.player_id);
  const priorWeeks=incomingWorkload.last_three_weeks.slice(1);
  const priorAvg=priorWeeks.length===2?(priorWeeks[0].touches+priorWeeks[1].touches)/2:null;
- const emerging=priorAvg!==null&&incomingWorkload.touches>=priorAvg+5&&incomingWorkload.offensive_snap_share>=0.3;
- const stable=incomingWorkload.last_three_weeks.length===3&&incomingWorkload.last_three_weeks.every(x=>x.touches>=8);
+ const emerging=incomingWorkload.week===completedWeek&&incomingWorkload.snap_week===completedWeek&&priorAvg!==null&&incomingWorkload.last_three_weeks[0]?.week===completedWeek&&incomingWorkload.last_three_weeks[1]?.week===completedWeek-1&&incomingWorkload.last_three_weeks[2]?.week===completedWeek-2&&incomingWorkload.touches>=priorAvg+5&&incomingWorkload.offensive_snap_share>=0.3;
+ const stable=incomingWorkload.week===completedWeek&&incomingWorkload.three_week_data_complete&&incomingWorkload.three_week_snap_data_complete&&incomingWorkload.three_week_snap_share>=0.25&&incomingWorkload.last_three_weeks.every(x=>x.touches>=8);
  const roleClass=stable?"SUSTAINED_USAGE":emerging?"RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION":"LOW_OR_UNVERIFIED_OPPORTUNITY";
  for(const drop of roster){
   const row=variants.find(x=>String(x.drop.id)===String(drop.player_id));
@@ -72,7 +72,7 @@ const out={schema:"shivagpt-replacement-choices-v1",read_only:true,
  limitations:["Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
  "The same-position average point gap is historical, not a projection of future performance.",
  "Touches combine rushing attempts and targets, not return yards; workload comparisons require matching weeks.",
- "Three-week averages are null unless all three weekly data points exist; these are role signals, not projections.",
+ "Three-week averages require consecutive completed weeks and sustained role requires corresponding snap-share evidence; these are role signals, not projections.",
  "No roster move, FAAB bid, or actionable drop is approved without a full weekly starter/FLEX review."]};
 await fs.writeFile("reports/shivagpt-replacement-choices.json",JSON.stringify(out,null,2)+"\n");
 console.log(JSON.stringify({candidates:out.candidates,with_safe_alternatives:output.filter(x=>x.drop_alternatives.some(y=>y.viability!=="DO_NOT_DROP")).length}));
