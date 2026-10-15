@@ -1,0 +1,41 @@
+{
+  "schema": "shivagpt-nfl-source-probe-v1",
+  "read_only": true,
+  "retrieved_at": "2026-10-15T17:21:16.295800+00:00",
+  "source_url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+  "last_modified": "Thu, 15 Oct 2026 14:12:02 GMT",
+  "season": 2026,
+  "rows": 5506,
+  "unique_player_ids": 1597,
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "opportunity_fields": [
+    "attempts",
+    "passing_air_yards",
+    "passing_first_downs",
+    "rushing_yards",
+    "rushing_tds",
+    "rushing_fumbles",
+    "rushing_fumbles_lost",
+    "rushing_first_downs",
+    "rushing_epa",
+    "rushing_2pt_conversions",
+    "rushing_10",
+    "rushing_12",
+    "rushing_20",
+    "rushing_40",
+    "receptions",
+    "targets",
+    "receiving_air_yards",
+    "receiving_first_downs",
+    "target_share",
+    "air_yards_share"
+  ],
+  "join_status": "YAHOO_PLAYER_ID_CROSSWALK_REQUIRED",
+  "note": "NFL player stats are external evidence, not replacements for Yahoo league-scored fantasy points."
+}
