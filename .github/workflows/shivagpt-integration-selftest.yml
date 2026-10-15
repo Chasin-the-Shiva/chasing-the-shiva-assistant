@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Explain source readiness before integration test
+        run: node scripts/shivagpt-preflight.mjs
       - name: Check program syntax
         run: |
           node --check scripts/build-monitoring-400.mjs
