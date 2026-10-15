@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:24:59.507Z | Yahoo stats through Week 5
+Generated: 2026-10-15T17:25:57.125Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T13:26:54.472Z | Availability snapshot: 2026-10-15T13:26:54.472Z
 
 ## Data coverage
