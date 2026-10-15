@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T16:50:18.116Z | Yahoo stats through Week 5
+Generated: 2026-10-15T17:24:59.507Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T13:26:54.472Z | Availability snapshot: 2026-10-15T13:26:54.472Z
 
 ## Data coverage
@@ -84,83 +84,114 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 ## Rolling 400-player research priorities
 - Monitor status: verified.
 - Monitoring pool: 195 rostered + 205 available.
-- Overflow opportunity signals: 48.
+- Overflow opportunity signals: 47.
 
 | Player | Position | FA/W | Screening triggers |
 |---|---|---|---|
 | Jacoby Brissett | QB | W | offensive_activity, ownership_spike_research |
-| Jameis Winston | QB | FA | offensive_activity, ownership_spike_research |
 | Pat Freiermuth | TE | FA | offensive_activity, ownership_spike_research |
-| DeMario Douglas | WR | FA | offensive_activity, ownership_spike_research |
 | Roman Wilson | WR | FA | offensive_activity, ownership_spike_research |
-| Tyler Huntley | QB | FA | offensive_activity |
-| Kyler Murray | QB | FA | offensive_activity, ownership_spike_research |
+| DeMario Douglas | WR | FA | offensive_activity, ownership_spike_research |
 | Dohnte Meyers | WR | FA | offensive_activity, ownership_spike_research |
 | Mike Washington Jr. | RB | FA | offensive_activity, ownership_spike_research |
+| Jameis Winston | QB | FA | offensive_activity, ownership_spike_research |
 | Mike Gesicki | TE | FA | offensive_activity, ownership_spike_research |
-| Samaje Perine | RB | FA | offensive_activity |
 | Bo Nix | QB | W | offensive_activity, ownership_spike_research |
-| Justin Herbert | QB | W | offensive_activity, ownership_spike_research |
 | Jake Ferguson | TE | FA | offensive_activity, ownership_spike_research |
-| Malik Willis | QB | FA | offensive_activity |
-| 49ers | DEF | FA | ownership_spike_research |
-| Kyle Williams | WR | FA | offensive_activity |
-| Zavion Thomas | WR | FA | offensive_activity |
+| Kyler Murray | QB | FA | offensive_activity, ownership_spike_research |
+| Justin Herbert | QB | W | offensive_activity, ownership_spike_research |
+| Samaje Perine | RB | FA | offensive_activity |
 | Ty Johnson | RB | FA | offensive_activity |
 | Justice Hill | RB | FA | offensive_activity |
-| Daniel Jones | QB | FA | offensive_activity |
 | Dylan Laube | RB | FA | offensive_activity |
+| Raheim Sanders | RB | FA | offensive_activity, IR_return_research_unverified |
+| Tyler Huntley | QB | FA | offensive_activity |
+| Kyle Williams | WR | FA | offensive_activity |
+| Roschon Johnson | RB | FA | offensive_activity |
+| Corey Kiner | RB | FA | offensive_activity |
+| Zavion Thomas | WR | FA | offensive_activity |
+| Tyrone Tracy Jr. | RB | FA | offensive_activity |
+| Pierre Strong Jr. | RB | FA | offensive_activity |
+| Seth McGowan | RB | FA | offensive_activity |
 | Isaiah Bond | WR | FA | offensive_activity |
 | Kevin Coleman Jr. | WR | FA | offensive_activity |
+| Isaiah Davis | RB | FA | offensive_activity |
+| DeeJay Dallas | RB | FA | offensive_activity |
 | Ryan Flournoy | WR | FA | offensive_activity |
-| Corey Kiner | RB | FA | offensive_activity |
+| Najee Harris | RB | FA | offensive_activity |
+| Austin Ekeler | RB | FA | offensive_activity |
+| CJ Donaldson | RB | FA | offensive_activity |
 | Deven Thompkins | WR | FA | offensive_activity |
-| Roschon Johnson | RB | FA | offensive_activity |
-| Tyrone Tracy Jr. | RB | FA | offensive_activity |
-| Rashod Bateman | WR | FA | offensive_activity |
-| Teagan Quitoriano | TE | FA | offensive_activity |
-| Pierre Strong Jr. | RB | FA | offensive_activity |
-| Chig Okonkwo | TE | FA | offensive_activity |
-| Raheim Sanders | RB | FA | offensive_activity, IR_return_research_unverified |
-| Geno Smith | QB | FA | offensive_activity |
+| Demond Claiborne | RB | FA | offensive_activity |
 
 Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.
 
 ## ADD/DROP research comparisons (not approved moves)
-- Verified snapshot FAAB: 30. 39 candidate comparisons awaiting NFL-role and trade-value research.
+- Verified snapshot FAAB: 30. 202 candidate comparisons awaiting NFL-role and trade-value research.
 
 | Add candidate | Yahoo status | Potential drop | Recent scoring difference |
 |---|---|---|---:|
+| Jacoby Brissett | W | Jaylen Wright | 74.3 |
+| Jacoby Brissett | W | Dalton Schultz | 73.5 |
+| Jacoby Brissett | W | Kendre Miller | 73.0 |
+| Jacoby Brissett | W | Rachaad White | 68.5 |
+| Pat Freiermuth | FA | Jaylen Wright | 11.7 |
 | Pat Freiermuth | FA | Dalton Schultz | 10.9 |
-| DeMario Douglas | FA | Dontayvion Wicks | 2.7 |
-| DeMario Douglas | FA | Mack Hollins | 2.5 |
-| Roman Wilson | FA | Dontayvion Wicks | 3.7 |
-| Roman Wilson | FA | Mack Hollins | 3.6 |
-| Dohnte Meyers | FA | Dontayvion Wicks | 14.5 |
-| Dohnte Meyers | FA | Mack Hollins | 14.3 |
+| Pat Freiermuth | FA | Kendre Miller | 10.4 |
+| Pat Freiermuth | FA | Rachaad White | 5.9 |
+| Roman Wilson | FA | Jaylen Wright | 10.7 |
+| Roman Wilson | FA | Dalton Schultz | 10.0 |
+| Roman Wilson | FA | Kendre Miller | 9.5 |
+| Roman Wilson | FA | Rachaad White | 4.9 |
+| DeMario Douglas | FA | Jaylen Wright | 9.7 |
+| DeMario Douglas | FA | Dalton Schultz | 8.9 |
+| DeMario Douglas | FA | Kendre Miller | 8.4 |
+| DeMario Douglas | FA | Rachaad White | 3.9 |
+| Dohnte Meyers | FA | Jaylen Wright | 21.5 |
+| Dohnte Meyers | FA | Dalton Schultz | 20.7 |
+| Dohnte Meyers | FA | Kendre Miller | 20.2 |
+| Dohnte Meyers | FA | Rachaad White | 15.7 |
 | Mike Washington Jr. | FA | Jaylen Wright | 2.2 |
+| Mike Washington Jr. | FA | Dalton Schultz | 1.5 |
 | Mike Washington Jr. | FA | Kendre Miller | 0.9 |
+| Jameis Winston | FA | Jaylen Wright | 57.0 |
+| Jameis Winston | FA | Dalton Schultz | 56.3 |
+| Jameis Winston | FA | Kendre Miller | 55.7 |
+| Jameis Winston | FA | Rachaad White | 51.2 |
+| Mike Gesicki | FA | Jaylen Wright | 7.9 |
 | Mike Gesicki | FA | Dalton Schultz | 7.1 |
-| Samaje Perine | FA | Jaylen Wright | 7.3 |
-| Samaje Perine | FA | Kendre Miller | 6.0 |
-| Jake Ferguson | FA | Dalton Schultz | 0.3 |
-| 49ers | FA | Ravens | 2.7 |
-| Kyle Williams | FA | Dontayvion Wicks | 11.0 |
-| Kyle Williams | FA | Mack Hollins | 10.9 |
-| Ty Johnson | FA | Jaylen Wright | 8.7 |
-| Ty Johnson | FA | Kendre Miller | 7.5 |
-| Justice Hill | FA | Jaylen Wright | 6.2 |
-| Justice Hill | FA | Kendre Miller | 4.9 |
-| Dylan Laube | FA | Jaylen Wright | 2.2 |
-| Dylan Laube | FA | Kendre Miller | 1.0 |
-| Ryan Flournoy | FA | Dontayvion Wicks | 2.4 |
-| Ryan Flournoy | FA | Mack Hollins | 2.3 |
-| Corey Kiner | FA | Jaylen Wright | 1.2 |
-| Roschon Johnson | FA | Jaylen Wright | 1.0 |
-| Rashod Bateman | FA | Dontayvion Wicks | 2.5 |
-| Rashod Bateman | FA | Mack Hollins | 2.3 |
-| Raheim Sanders | FA | Jaylen Wright | 4.9 |
-| Raheim Sanders | FA | Kendre Miller | 3.6 |
+| Mike Gesicki | FA | Kendre Miller | 6.6 |
+
+## Verified NFL opportunity metrics (where Yahoo IDs match)
+These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.
+
+| Player | Targets | Carries | Receptions | Target change | Carry change | Evidence |
+|---|---:|---:|---:|---:|---:|---|
+| Jacoby Brissett | 1.0 | 2.0 | 1.0 | 1.0 | -2.0 | nflverse Week 5 |
+| Jacoby Brissett | 1.0 | 2.0 | 1.0 | 1.0 | -2.0 | nflverse Week 5 |
+| Jacoby Brissett | 1.0 | 2.0 | 1.0 | 1.0 | -2.0 | nflverse Week 5 |
+| Jacoby Brissett | 1.0 | 2.0 | 1.0 | 1.0 | -2.0 | nflverse Week 5 |
+| Pat Freiermuth | 7.0 | 1.0 | 5.0 | 2.0 | 1.0 | nflverse Week 5 |
+| Pat Freiermuth | 7.0 | 1.0 | 5.0 | 2.0 | 1.0 | nflverse Week 5 |
+| Pat Freiermuth | 7.0 | 1.0 | 5.0 | 2.0 | 1.0 | nflverse Week 5 |
+| Pat Freiermuth | 7.0 | 1.0 | 5.0 | 2.0 | 1.0 | nflverse Week 5 |
+| Roman Wilson | 1.0 | 0.0 | 0.0 | -5.0 | 0.0 | nflverse Week 5 |
+| Roman Wilson | 1.0 | 0.0 | 0.0 | -5.0 | 0.0 | nflverse Week 5 |
+| Roman Wilson | 1.0 | 0.0 | 0.0 | -5.0 | 0.0 | nflverse Week 5 |
+| Roman Wilson | 1.0 | 0.0 | 0.0 | -5.0 | 0.0 | nflverse Week 5 |
+| DeMario Douglas | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | nflverse Week 5 |
+| DeMario Douglas | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | nflverse Week 5 |
+| DeMario Douglas | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | nflverse Week 5 |
+| DeMario Douglas | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | nflverse Week 5 |
+| Jameis Winston | 0.0 | 5.0 | 0.0 | 0.0 | 5.0 | nflverse Week 5 |
+| Jameis Winston | 0.0 | 5.0 | 0.0 | 0.0 | 5.0 | nflverse Week 5 |
+| Jameis Winston | 0.0 | 5.0 | 0.0 | 0.0 | 5.0 | nflverse Week 5 |
+| Jameis Winston | 0.0 | 5.0 | 0.0 | 0.0 | 5.0 | nflverse Week 5 |
+| Mike Gesicki | 2.0 | 0.0 | 1.0 | -3.0 | 0.0 | nflverse Week 5 |
+| Mike Gesicki | 2.0 | 0.0 | 1.0 | -3.0 | 0.0 | nflverse Week 5 |
+| Mike Gesicki | 2.0 | 0.0 | 1.0 | -3.0 | 0.0 | nflverse Week 5 |
+| Mike Gesicki | 2.0 | 0.0 | 1.0 | -3.0 | 0.0 | nflverse Week 5 |
+| Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 2.0 | nflverse Week 5 |
 
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
