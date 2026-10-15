@@ -57,14 +57,16 @@ const rows=stats.players.map(p=>{
  rank_score:Number(score.toFixed(2)),signals,latest_week_points:recent,latest_week_change:diff};
 });
 const rostered=rows.filter(x=>!available.has(x.player_id));
-assert(rostered.length===195,"Expected all 195 manager rostered players; got "+rostered.length);
+assert(rostered.length>=180 && rostered.length<=240,"Implausible current rostered-player count: "+rostered.length);
 const free=rows.filter(x=>available.has(x.player_id)).sort((a,b)=>b.rank_score-a.rank_score||a.player_id.localeCompare(b.player_id));
-const selection=[...rostered,...free.slice(0,205)];
+const availableSlots=400-rostered.length;
+assert(availableSlots>=160,"Insufficient available-player monitoring capacity");
+const selection=[...rostered,...free.slice(0,availableSlots)];
 assert(selection.length===400,"Expected 400 monitored players");
-const overflow=free.slice(205).filter(p=>p.signals.length);
+const overflow=free.slice(availableSlots).filter(p=>p.signals.length);
 const out={schema:"shivagpt-monitoring-400-v1",read_only:true,generated_at:new Date().toISOString(),
  league_id:"721343",stats_through_week:newest,source_timestamps:{stats:stats.generated_at,availability:avail.retrieved_at,popularity:pop.source_retrieved_at,injury:inj.source_retrieved_at},
- rostered_count:rostered.length,available_count:205,overflow_signal_count:overflow.length,offensive_participation_count:offenseEligible.length,offensive_by_position:offenseCounts,
+ rostered_count:rostered.length,available_count:availableSlots,overflow_signal_count:overflow.length,offensive_participation_count:offenseEligible.length,offensive_by_position:offenseCounts,
  monitored:selection,overflow_watch:overflow.map(p=>({player_id:p.player_id,name:p.name,signals:p.signals,availability_status:p.availability_status})),
  limitations:["Scoring and Yahoo statistical categories do not measure routes or snaps; requires current NFL news analysis.","Return eligibility/expected dates unverified until credible dated sources are retrieved.","The 400 places are a detailed-monitoring priority, not an exclusion from full-pool availability and popularity screening."]};
 await fs.mkdir("reports",{recursive:true});
