@@ -1,6 +1,9 @@
 name: Validate ShivaGPT player statistics collector
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 2"
+      timezone: "America/New_York"
   push:
     branches: [main]
     paths:
@@ -8,6 +11,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: shivagpt-player-stats-publication
+  cancel-in-progress: false
 
 jobs:
   validate:
