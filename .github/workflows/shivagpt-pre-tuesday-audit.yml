@@ -1,0 +1,37 @@
+name: ShivaGPT Pre-Tuesday Production Audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit-pre-tuesday-readiness.mjs"
+      - ".github/workflows/shivagpt-pre-tuesday-audit.yml"
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Audit reports and configured schedules
+        run: |
+          node --check scripts/audit-pre-tuesday-readiness.mjs
+          node scripts/audit-pre-tuesday-readiness.mjs
+      - name: Publish audit result
+        if: success()
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-pre-tuesday-readiness.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish verified pre-Tuesday readiness audit"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
