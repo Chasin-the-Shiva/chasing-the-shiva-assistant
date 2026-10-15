@@ -1,8 +1,13 @@
-name: Validate ShivaGPT monitoring pool
+name: ShivaGPT 400-Player Monitor
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "55 * * * *"
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: shivagpt-monitoring-400
+  cancel-in-progress: false
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -13,3 +18,12 @@ jobs:
           node-version: '22'
       - name: Verify monitoring pool
         run: node scripts/build-monitoring-400.mjs
+      - name: Publish complete monitoring pool
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-monitoring-400.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh ShivaGPT 400-player monitoring pool"
+          git pull --rebase origin main
+          git push origin HEAD:main
