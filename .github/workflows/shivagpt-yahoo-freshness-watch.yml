@@ -1,6 +1,11 @@
 name: ShivaGPT Yahoo Freshness Watch
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/watch-yahoo-freshness.mjs"
+      - ".github/workflows/shivagpt-yahoo-freshness-watch.yml"
   schedule:
     - cron: "47 * * * *"
 permissions:
