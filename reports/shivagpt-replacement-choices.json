@@ -1,8 +1,9 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:39:48.919Z",
+  "generated_at": "2026-10-15T18:42:43.277Z",
   "source_queue_at": "2026-10-15T18:01:32.849Z",
+  "completed_through_week": 5,
   "league_id": "721343",
   "player_count": 17,
   "candidates": 15,
@@ -60,11 +61,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 10,
-          "three_week_touch_delta": 4.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.37,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 7.27,
@@ -134,11 +135,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 8,
-          "three_week_touch_delta": -1.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1.47,
@@ -419,11 +420,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 3.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -524,11 +525,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -6.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -638,11 +639,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 8,
-          "three_week_touch_delta": 3.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.38,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -689,7 +690,7 @@
             "touches": 0
           }
         ],
-        "three_week_average_touches": 5.67,
+        "three_week_average_touches": null,
         "three_week_snap_share": 0.167
       },
       "role_classification": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
@@ -718,11 +719,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 6,
-          "three_week_touch_delta": 1.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.25,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1,
@@ -755,11 +756,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 4,
-          "three_week_touch_delta": -4.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.21,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -796,7 +797,7 @@
             "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": 2,
-          "three_week_touch_delta": -3,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.08,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -857,7 +858,7 @@
             "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 8,
-          "three_week_touch_delta": 2.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.13,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -896,7 +897,7 @@
             "three_week_snap_share": 0.973
           },
           "latest_week_touch_delta": 10,
-          "three_week_touch_delta": 2,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.61,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -936,7 +937,7 @@
             "three_week_snap_share": 0.663
           },
           "latest_week_touch_delta": 5,
-          "three_week_touch_delta": -0.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.36,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -975,7 +976,7 @@
             "three_week_snap_share": 0.88
           },
           "latest_week_touch_delta": 4,
-          "three_week_touch_delta": -0.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.45,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1042,7 +1043,7 @@
             "three_week_snap_share": 0.867
           },
           "latest_week_touch_delta": 7,
-          "three_week_touch_delta": -1.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.5,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1077,11 +1078,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 0.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1147,7 +1148,7 @@
             "three_week_snap_share": 0.697
           },
           "latest_week_touch_delta": -5,
-          "three_week_touch_delta": -11.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.21,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -1182,11 +1183,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -9.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -1226,7 +1227,7 @@
             "three_week_snap_share": 0.87
           },
           "latest_week_touch_delta": 6,
-          "three_week_touch_delta": -4.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.52,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1296,11 +1297,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 4,
-          "three_week_touch_delta": 0.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.5,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1376,11 +1377,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 1,
-          "three_week_touch_delta": -2,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.24,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.24,
@@ -1450,11 +1451,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -1,
-          "three_week_touch_delta": -7.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.22,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -1735,11 +1736,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -2.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1840,11 +1841,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -13,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -1954,11 +1955,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -1,
-          "three_week_touch_delta": -3,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.51,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -2136,11 +2137,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -1.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -2175,11 +2176,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": -0.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.66,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -2292,11 +2293,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -6.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.2,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -2534,11 +2535,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -1.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -2613,11 +2614,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -11.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -2694,11 +2695,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 2,
-          "three_week_touch_delta": 1.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.32,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 6.2,
@@ -2768,11 +2769,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": -4.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.14,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.4,
@@ -3053,11 +3054,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 0.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -3158,11 +3159,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -9.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -3272,11 +3273,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": 0.34,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.43,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -3352,11 +3353,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -7.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.41,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -3450,11 +3451,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": -1.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.05,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -3711,11 +3712,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -2.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -3816,11 +3817,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -12.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -3930,11 +3931,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -2.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.7,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -4010,11 +4011,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -8.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.46,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -4108,11 +4109,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -3,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -4369,11 +4370,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -3.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -4474,11 +4475,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -14,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -4588,11 +4589,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -4,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.75,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -4770,11 +4771,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -3,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -4809,11 +4810,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -2.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -4926,11 +4927,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -8,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5168,11 +5169,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -3.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.4,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -5247,11 +5248,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -13.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5402,11 +5403,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": 0.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.69,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5480,11 +5481,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -5,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.23,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5691,11 +5692,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 0,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5831,11 +5832,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -0.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.06,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -5911,11 +5912,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -10.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6066,11 +6067,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 2,
-          "three_week_touch_delta": 1.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.54,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6144,11 +6145,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": -4,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.08,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6355,11 +6356,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 1,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6495,11 +6496,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": 0.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.21,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6575,11 +6576,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -9.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -6656,11 +6657,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -0.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.08,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 8.74,
@@ -6730,11 +6731,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -6.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.38,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.94,
@@ -7015,11 +7016,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -1.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -7120,11 +7121,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -11.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -7234,11 +7235,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -4,
-          "three_week_touch_delta": -1.66,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.67,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -7306,8 +7307,8 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 1,
           "three_week_touch_delta": null,
@@ -7404,8 +7405,8 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 3,
           "three_week_touch_delta": null,
@@ -7665,8 +7666,8 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
           "three_week_touch_delta": null,
@@ -7770,8 +7771,8 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
           "three_week_touch_delta": null,
@@ -7884,8 +7885,8 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 1,
           "three_week_touch_delta": null,
@@ -8066,11 +8067,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -0.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -8105,11 +8106,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -1,
-          "three_week_touch_delta": 0,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -8222,11 +8223,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -3,
-          "three_week_touch_delta": -5.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -8464,11 +8465,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -3,
-          "three_week_touch_delta": -1,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.4,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -8543,11 +8544,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -11,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -8663,11 +8664,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 2,
-          "three_week_touch_delta": 2,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.86,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -8780,11 +8781,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": -3.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.4,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -8990,11 +8991,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 1.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -9130,11 +9131,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": 1,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -9210,11 +9211,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -9,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -9291,11 +9292,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 4.33,
-            "three_week_snap_share": 0.167
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": 0,
-          "three_week_touch_delta": 3.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.04,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.54,
@@ -9328,11 +9329,11 @@
                 "touches": 13
               }
             ],
-            "three_week_average_touches": 10,
-            "three_week_snap_share": 0.517
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": -2,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.42,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -9650,11 +9651,11 @@
                 "touches": 2
               }
             ],
-            "three_week_average_touches": 5,
-            "three_week_snap_share": 0.627
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": 3,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -9755,11 +9756,11 @@
                 "touches": 16
               }
             ],
-            "three_week_average_touches": 15.33,
-            "three_week_snap_share": 0.557
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": null,
-          "three_week_touch_delta": -7.33,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
@@ -9869,11 +9870,11 @@
                 "touches": 6
               }
             ],
-            "three_week_average_touches": 5.33,
-            "three_week_snap_share": 0.67
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
           "latest_week_touch_delta": -2,
-          "three_week_touch_delta": 2.67,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.71,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
