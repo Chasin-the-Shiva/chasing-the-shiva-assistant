@@ -1,0 +1,46 @@
+{
+  "schema": "shivagpt-breakout-threshold-comparison-v1",
+  "generated_at": "2026-10-15T19:14:16.721Z",
+  "read_only": true,
+  "league_id": "721343",
+  "weeks": [
+    3,
+    4
+  ],
+  "evaluated_player_weeks": 376,
+  "success_definition": "Next week's carries plus targets >=10 and at least 80% of signal week's volume",
+  "variants": {
+    "raw": {
+      "signals": 62,
+      "hits": 18,
+      "precision": 0.29,
+      "recall": 0.286
+    },
+    "meaningful": {
+      "signals": 55,
+      "hits": 17,
+      "precision": 0.309,
+      "recall": 0.27
+    },
+    "sustained": {
+      "signals": 54,
+      "hits": 23,
+      "precision": 0.426,
+      "recall": 0.365
+    },
+    "snaps_and_volume": {
+      "signals": 29,
+      "hits": 13,
+      "precision": 0.448,
+      "recall": 0.206
+    },
+    "meaningful_snaps": {
+      "signals": 24,
+      "hits": 14,
+      "precision": 0.583,
+      "recall": 0.222
+    }
+  },
+  "interpretation": "Exploratory in-sample threshold comparison. Selection of a winner here would overfit; retain prospective forecasting for validation.",
+  "no_yahoo_availability_reconstruction": true
+}
