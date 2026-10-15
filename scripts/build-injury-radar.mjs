@@ -41,9 +41,18 @@ for(const p of tracked){let o=older.get(p.player_id);if(!o)continue;if(o.injury_
 changes.push({player_id:p.player_id,name:p.name,position:p.position,availability_status:p.availability_status,previous_status:o.injury_status,current_status:p.injury_status,signal:"injury_designation_change",research_required:true,return_date:null,return_confidence:"unverified"});}
 }
 const injuries=tracked.filter(p=>isMeaningful(p.injury_status));
+const returnList=new Set(["IR","PUP","NFI","SUS","SUSP"]);
+const returnQueue=injuries.filter(p=>returnList.has(String(p.injury_status).toUpperCase())).map(p=>({
+  player_id:p.player_id,name:p.name,position:p.position,availability_status:p.availability_status,
+  designation:p.injury_status,earliest_eligible_return:null,expected_return:null,
+  return_window_days:null,practice_window_open:null,
+  last_verified_news_at:null,source_url:null,source_verified:false,
+  advance_acquisition_window:false,needs_nfl_news_research:true,
+  action:"Research IR placement, four-game eligibility where applicable, practice window, coach comments, projected snaps and whether an FA pickup improves Joe's roster"
+}));
 const state={schema:"shivagpt-injury-state-v1",read_only:true,retrieved_at:avail.retrieved_at,generated_at:now,league_id:"721343",players:tracked};
-const report={schema:"shivagpt-injury-radar-v1",read_only:true,generated_at:now,league_id:"721343",source_retrieved_at:avail.retrieved_at,baseline_available:!!previous,designation_filter:[...meaningful],player_count:tracked.length,injured_player_count:injuries.length,changes,active_injury_watch:injuries.map(x=>({...x,return_date:null,earliest_eligible_date:null,practice_window:null,source_verified:false,research_required:true})),limitations:["Yahoo injury code does not establish IR entry date, return eligibility, practice-window status or medically expected return. Validate via team/NFL reporting.","This is a designation-change radar, not an independently verified injury-news feed. Do not recommend adds based only on this file.","IR/PUP eligibility, practice windows, injury timeline and early return candidates require dated official NFL or credible reporter evidence."]};
+const report={schema:"shivagpt-injury-radar-v1",read_only:true,generated_at:now,league_id:"721343",source_retrieved_at:avail.retrieved_at,baseline_available:!!previous,designation_filter:[...meaningful],player_count:tracked.length,injured_player_count:injuries.length,changes,early_return_research_queue:returnQueue,early_return_candidates_verified:0,active_injury_watch:injuries.map(x=>({...x,return_date:null,earliest_eligible_date:null,practice_window:null,source_verified:false,research_required:true})),limitations:["Yahoo injury code does not establish IR entry date, return eligibility, practice-window status or medically expected return. Validate via team/NFL reporting.","This is a designation-change radar, not an independently verified injury-news feed. Do not recommend adds based only on this file.","IR/PUP eligibility, practice windows, injury timeline and early return candidates require dated official NFL or credible reporter evidence."]};
 await fs.writeFile("public/shivagpt-injury-state.json",JSON.stringify(state));
 await fs.mkdir("reports",{recursive:true});
 await fs.writeFile("reports/shivagpt-injury-radar.json",JSON.stringify(report));
-console.log(JSON.stringify({players:tracked.length,injured:injuries.length,changes:changes.length,baseline:!!previous}));
+console.log(JSON.stringify({players:tracked.length,injured:injuries.length,return_research:returnQueue.length,changes:changes.length,baseline:!!previous}));
