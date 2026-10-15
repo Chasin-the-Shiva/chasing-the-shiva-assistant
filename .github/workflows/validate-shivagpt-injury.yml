@@ -1,6 +1,11 @@
 name: ShivaGPT Injury & Return Radar
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-injury-radar.mjs"
+      - ".github/workflows/validate-shivagpt-injury.yml"
   schedule:
     - cron: "30 * * * *"
 permissions:
