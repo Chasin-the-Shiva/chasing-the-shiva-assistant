@@ -37,5 +37,10 @@ jobs:
           git add public/shivagpt-player-stats.json
           git diff --cached --quiet && exit 0
           git commit -m "Publish validated ShivaGPT player statistics"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "Safe publishing failed after four attempts" >&2
+          exit 1
