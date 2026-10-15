@@ -1,0 +1,346 @@
+{
+  "schema": "shivagpt-weekly-executive-decisions-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T18:46:55.849Z",
+  "league_id": "721343",
+  "verified_inputs_fresh": true,
+  "remaining_faab": 30,
+  "decision": "HOLD_FAAB_NO_MOVE",
+  "automatic_transactions_enabled": false,
+  "approved_moves": [],
+  "ranked_research": [
+    {
+      "player": "Samaje Perine",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
+      "observed_three_week_touches": 8.67,
+      "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Roschon Johnson",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
+      "observed_three_week_touches": null,
+      "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Dylan Laube",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 2.33,
+      "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 3.67,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Tre Tucker",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 15,
+        "winning_bid_p75": 20
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Justice Hill",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 5.67,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 2.67,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Rachaad White",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Isaiah Davis",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 1.33,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Rachaad White",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Bo Melton",
+      "position": "WR",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 2,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Tre Tucker",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 15,
+        "winning_bid_p75": 20
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 5,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Dalton Schultz",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 1,
+        "winning_bid_p75": 11
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 6,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Dalton Schultz",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 1,
+        "winning_bid_p75": 11
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Ty Johnson",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 3.67,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Pierre Strong Jr.",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Rachaad White",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "DeMario Douglas",
+      "position": "WR",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 4.33,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Tre Tucker",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 15,
+        "winning_bid_p75": 20
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Malik Willis",
+      "position": "QB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 6.33,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jalen Hurts",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 2,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Najee Harris",
+      "position": "RB",
+      "status": "FA",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 8,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    }
+  ],
+  "faab_policy": {
+    "low_value": "$0-$3 only after real upgrade verified",
+    "medium_value": "$4-$19 only after role/competition verification",
+    "difference_maker": "$20+ only with unusually high expected return, scarcity and verified current FAAB",
+    "hard_spend_cap": 30,
+    "source": "League historical winning bids, not recommended individual prices"
+  },
+  "caveats": [
+    "No current depth-chart or medical-status verification is established by internal metrics alone.",
+    "Return yards alone do not count as sustainable trade appeal.",
+    "No automated Yahoo transactions, bids, roster changes or keeper decisions."
+  ]
+}
