@@ -1,0 +1,885 @@
+{
+  "schema": "shivagpt-replacement-choices-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T18:36:39.025Z",
+  "source_queue_at": "2026-10-15T18:01:32.849Z",
+  "league_id": "721343",
+  "player_count": 17,
+  "candidates": 15,
+  "decisions": [
+    {
+      "player_id": "30227",
+      "player": "Samaje Perine",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 7.27,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 6,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 1.47,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "40162",
+      "player": "Roschon Johnson",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 1,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "41054",
+      "player": "Dylan Laube",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 2.24,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 0.97,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "33415",
+      "player": "Rashod Bateman",
+      "position": "WR",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "31945",
+      "player": "Justice Hill",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 6.2,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 4.93,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 0.4,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "41048",
+      "player": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "41031",
+      "player": "Isaiah Davis",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "34185",
+      "player": "Bo Melton",
+      "position": "WR",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "34085",
+      "player": "Jake Ferguson",
+      "position": "TE",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 0.26,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "33443",
+      "player": "Pat Freiermuth",
+      "position": "TE",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 10.93,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "32018",
+      "player": "Ty Johnson",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 8.74,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 7.47,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 2.94,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "34083",
+      "player": "Pierre Strong Jr.",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "40222",
+      "player": "DeMario Douglas",
+      "position": "WR",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "34042",
+      "player": "Malik Willis",
+      "position": "QB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 14.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
+      "player_id": "33412",
+      "player": "Najee Harris",
+      "position": "RB",
+      "availability": "FA",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 0.54,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.27,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    }
+  ],
+  "limitations": [
+    "Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
+    "The same-position average point gap is historical, not a projection of future performance.",
+    "No roster move, FAAB bid, or actionable drop is approved without a full weekly starter/FLEX review."
+  ]
+}
