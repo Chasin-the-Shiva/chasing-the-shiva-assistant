@@ -1,0 +1,97 @@
+{
+  "schema": "shivagpt-pre-tuesday-readiness-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:17:40.125Z",
+  "league_id": "721343",
+  "checks": [
+    {
+      "name": "Yahoo league",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:18:47.660Z"
+    },
+    {
+      "name": "Availability",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:18:47.660Z"
+    },
+    {
+      "name": "Monitoring",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:01:32.653Z"
+    },
+    {
+      "name": "Waiver queue",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:01:32.849Z"
+    },
+    {
+      "name": "Executive decision",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:48:43.592Z"
+    },
+    {
+      "name": "Wednesday contingencies",
+      "status": "PASS",
+      "timestamp": "2026-10-15T16:40:20.831Z"
+    },
+    {
+      "name": "Prospective tracker",
+      "status": "PASS",
+      "timestamp": "2026-10-15T18:56:51.346Z"
+    },
+    {
+      "name": "Lineup safety",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:02:25.455Z"
+    },
+    {
+      "name": "Lineup alternatives",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:16:26.585Z"
+    },
+    {
+      "name": "Keeper research",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:15:33.131Z"
+    },
+    {
+      "name": "Breakout backtest",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:14:16.721Z"
+    },
+    {
+      "name": "refresh-yahoo-snapshot.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "shivagpt-tuesday-brief.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "shivagpt-wednesday-fa.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "shivagpt-yahoo-freshness-watch.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "shivagpt-executive-waiver-decision.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "shivagpt-prospective-breakout.yml",
+      "status": "PASS"
+    }
+  ],
+  "pass_count": 17,
+  "fail_count": 0,
+  "status": "CONFIGURATION_PASS_SCHEDULED_RUNTIME_PENDING",
+  "limitations": [
+    "Report presence and workflow syntax do not prove future cron delivery.",
+    "Roster/availability freshness must be checked again Tuesday morning.",
+    "No automated ChatGPT message delivery or Yahoo roster transactions are provided by this audit.",
+    "Trade/keeper research list does not constitute reliable player valuation.",
+    "Breakout thresholds were compared in-sample, not proven prospectively."
+  ]
+}
