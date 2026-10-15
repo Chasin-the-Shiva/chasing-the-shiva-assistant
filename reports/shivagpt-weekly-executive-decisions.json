@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:46:55.849Z",
+  "generated_at": "2026-10-15T18:48:43.592Z",
   "league_id": "721343",
   "verified_inputs_fresh": true,
   "remaining_faab": 30,
@@ -21,7 +21,12 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "EXTERNAL_ROLE_NOT_CONFIRMED"
+      ],
+      "external_role_status": "COMMITTEE_INCREASING_ROLE_UNCONFIRMED",
+      "evidence_links": [
+        "https://www.cincyjungle.com/cincinnati-bengals-analysis/202160/samaje-perine-rb1-chase-brown-snaps"
       ],
       "individual_bid": null,
       "pricing_reference": {
@@ -42,7 +47,13 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "EXTERNAL_ROLE_NOT_CONFIRMED"
+      ],
+      "external_role_status": "THIRD_BACK_CONDITIONAL",
+      "evidence_links": [
+        "https://secure.ourlads.com/nfldepthcharts/depthchart/CHI",
+        "https://www.windycitygridiron.com/chicago-bears-injuries/125295/chicagobears-vs-falcons-injury-report-swift-and-monangai-dnp-ol-injuries"
       ],
       "individual_bid": null,
       "pricing_reference": {
@@ -65,6 +76,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -86,6 +99,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 15,
@@ -107,6 +122,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -129,6 +146,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -151,6 +170,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -173,6 +194,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 15,
@@ -194,6 +217,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 1,
@@ -215,6 +240,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 1,
@@ -237,6 +264,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -258,6 +287,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
@@ -280,6 +311,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 15,
@@ -301,6 +334,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 2,
@@ -323,6 +358,8 @@
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
       ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 7,
