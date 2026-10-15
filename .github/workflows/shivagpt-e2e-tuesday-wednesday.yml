@@ -27,6 +27,11 @@ jobs:
           node scripts/build-weekly-acquisition-decision.mjs
           node scripts/build-weekly-executive-decisions.mjs
           node scripts/build-tuesday-brief.mjs
+      - name: Verify current lineup safety and internal replacement research
+        run: |
+          node scripts/build-lineup-safety.mjs
+          node scripts/build-legal-lineup-options.mjs
+          node scripts/build-weekly-lineup-action-review.mjs
       - name: Build Wednesday FA contingency from the same checked snapshot
         run: node scripts/build-wednesday-fa.mjs
       - name: Validate read-only report consistency without making claims
@@ -38,10 +43,18 @@ jobs:
           const e=load("reports/shivagpt-weekly-executive-decisions.json");
           const w=load("reports/shivagpt-wednesday-fa.json");
           const m=load("reports/shivagpt-monitoring-400.json");
+          const l=load("reports/shivagpt-lineup-safety.json");
+          const legal=load("reports/shivagpt-legal-lineup-options.json");
+          const action=load("reports/shivagpt-weekly-lineup-action-review.json");
           const ok=m.monitored.length===400&&q.read_only&&e.read_only&&w.read_only&&
             e.automatic_transactions_enabled===false&&e.approved_moves.length===0&&
             e.remaining_faab===q.verified_faab&&
-            w.fa_candidates.every(p=>p.action==="REVERIFY_LIVE_FA_AND_COMPARE_DROP");
+            w.fa_candidates.every(p=>p.action==="REVERIFY_LIVE_FA_AND_COMPARE_DROP")&&
+            l.read_only===true&&legal.read_only===true&&action.read_only===true&&
+            legal.week===Number(l.lineup_week)&&action.season_week===l.lineup_week&&
+            action.lineup_changed===false&&action.trade_or_waiver_orders_placed===0&&
+            legal.automatic_lineup_changes.length===0&&
+            action.starter_warnings.every(p=>Array.isArray(p.internal_options));
           if(!ok)throw Error("Simulated Tuesday/Wednesday report invariants failed");
           console.log(JSON.stringify({status:"PASS",monitored:m.monitored.length,reviewed:e.ranked_research.length,
             faab:e.remaining_faab,wednesday_fa_candidates:w.fa_candidates.length,
