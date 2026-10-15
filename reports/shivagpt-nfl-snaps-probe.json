@@ -1,0 +1,39 @@
+{
+  "schema": "shivagpt-nfl-snaps-probe-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T17:27:13.569702+00:00",
+  "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
+  "last_modified": "Tue, 13 Oct 2026 11:01:32 GMT",
+  "rows": 7370,
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "columns": [
+    "game_id",
+    "pfr_game_id",
+    "season",
+    "game_type",
+    "week",
+    "player",
+    "pfr_player_id",
+    "position",
+    "team",
+    "opponent",
+    "offense_snaps",
+    "offense_pct",
+    "defense_snaps",
+    "defense_pct",
+    "st_snaps",
+    "st_pct"
+  ],
+  "example_identifiers": {
+    "game_id": "2026_01_ARI_LAC",
+    "pfr_game_id": "202609130sdg",
+    "pfr_player_id": "StraCo01"
+  },
+  "integration_status": "PROBE_ONLY"
+}
