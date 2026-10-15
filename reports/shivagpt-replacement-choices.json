@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:42:43.277Z",
+  "generated_at": "2026-10-15T19:44:30.744Z",
   "source_queue_at": "2026-10-15T18:01:32.849Z",
   "completed_through_week": 5,
   "league_id": "721343",
@@ -32,6 +32,8 @@
             "touches": 6
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 8.67,
         "three_week_snap_share": 0.397
       },
@@ -61,6 +63,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -98,6 +102,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -135,6 +141,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -159,6 +167,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -196,6 +206,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -235,6 +247,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -275,6 +289,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -314,6 +330,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -341,6 +359,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -381,6 +401,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -420,6 +442,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -447,6 +471,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -486,6 +512,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -525,6 +553,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -565,6 +595,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -598,6 +630,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -639,6 +673,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -690,10 +726,12 @@
             "touches": 0
           }
         ],
+        "three_week_data_complete": false,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": null,
         "three_week_snap_share": 0.167
       },
-      "role_classification": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -719,6 +757,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -756,6 +796,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -793,6 +835,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -817,6 +861,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -854,6 +900,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -893,6 +941,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -933,6 +983,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -972,6 +1024,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -999,6 +1053,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1039,6 +1095,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -1078,6 +1136,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1105,6 +1165,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1144,6 +1206,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -1183,6 +1247,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1223,6 +1289,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -1256,6 +1324,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1297,6 +1367,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1348,6 +1420,8 @@
             "touches": 0
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 2.33,
         "three_week_snap_share": 0.173
       },
@@ -1377,6 +1451,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1414,6 +1490,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -1451,6 +1529,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1475,6 +1555,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1512,6 +1594,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -1551,6 +1635,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -1591,6 +1677,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -1630,6 +1718,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -1657,6 +1747,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1697,6 +1789,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -1736,6 +1830,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1763,6 +1859,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1802,6 +1900,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -1841,6 +1941,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1881,6 +1983,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -1914,6 +2018,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -1955,6 +2061,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2006,6 +2114,8 @@
             "touches": 3
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 3.67,
         "three_week_snap_share": 0.717
       },
@@ -2035,6 +2145,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -2072,6 +2184,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -2098,6 +2212,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2137,6 +2253,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2176,6 +2294,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2215,6 +2335,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -2254,6 +2376,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -2293,6 +2417,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2332,6 +2458,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -2372,6 +2500,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -2398,6 +2528,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2424,6 +2556,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2463,6 +2597,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -2495,6 +2631,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2535,6 +2673,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2574,6 +2714,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -2614,6 +2756,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2666,6 +2810,8 @@
             "touches": 5
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 5.67,
         "three_week_snap_share": 0.39
       },
@@ -2695,6 +2841,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2732,6 +2880,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -2769,6 +2919,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2793,6 +2945,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -2830,6 +2984,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -2869,6 +3025,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -2909,6 +3067,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -2948,6 +3108,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -2975,6 +3137,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3015,6 +3179,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -3054,6 +3220,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3081,6 +3249,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3120,6 +3290,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -3159,6 +3331,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3199,6 +3373,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -3232,6 +3408,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3273,6 +3451,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3324,6 +3504,8 @@
             "touches": 1
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 2.67,
         "three_week_snap_share": 0.13
       },
@@ -3353,6 +3535,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3390,6 +3574,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -3414,6 +3600,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3451,6 +3639,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3488,6 +3678,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -3527,6 +3719,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -3567,6 +3761,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -3606,6 +3802,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -3633,6 +3831,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3673,6 +3873,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -3712,6 +3914,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3739,6 +3943,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3778,6 +3984,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -3817,6 +4025,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3857,6 +4067,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -3890,6 +4102,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3931,6 +4145,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -3982,6 +4198,8 @@
             "touches": 0
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 1.33,
         "three_week_snap_share": 0.067
       },
@@ -4011,6 +4229,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4048,6 +4268,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -4072,6 +4294,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4109,6 +4333,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4146,6 +4372,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -4185,6 +4413,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -4225,6 +4455,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -4264,6 +4496,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -4291,6 +4525,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4331,6 +4567,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -4370,6 +4608,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4397,6 +4637,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4436,6 +4678,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -4475,6 +4719,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4515,6 +4761,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -4548,6 +4796,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4589,6 +4839,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4640,6 +4892,8 @@
             "touches": 1
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 2,
         "three_week_snap_share": 0.33
       },
@@ -4669,6 +4923,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -4706,6 +4962,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -4732,6 +4990,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4771,6 +5031,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4810,6 +5072,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4849,6 +5113,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -4888,6 +5154,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -4927,6 +5195,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -4966,6 +5236,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -5006,6 +5278,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -5032,6 +5306,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5058,6 +5334,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5097,6 +5375,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -5129,6 +5409,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5169,6 +5451,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5208,6 +5492,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -5248,6 +5534,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5300,6 +5588,8 @@
             "touches": 5
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 5,
         "three_week_snap_share": 0.743
       },
@@ -5329,6 +5619,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -5366,6 +5658,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -5403,6 +5697,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5442,6 +5738,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -5481,6 +5779,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5520,6 +5820,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -5560,6 +5862,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -5599,6 +5903,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -5626,6 +5932,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5653,6 +5961,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5692,6 +6002,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5719,6 +6031,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5758,6 +6072,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -5791,6 +6107,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5832,6 +6150,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5872,6 +6192,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -5912,6 +6234,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -5964,6 +6288,8 @@
             "touches": 5
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 6,
         "three_week_snap_share": 0.677
       },
@@ -5993,6 +6319,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -6030,6 +6358,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -6067,6 +6397,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6106,6 +6438,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -6145,6 +6479,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6184,6 +6520,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -6224,6 +6562,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -6263,6 +6603,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -6290,6 +6632,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6317,6 +6661,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6356,6 +6702,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6383,6 +6731,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6422,6 +6772,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -6455,6 +6807,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6496,6 +6850,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6536,6 +6892,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -6576,6 +6934,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6628,6 +6988,8 @@
             "touches": 4
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 3.67,
         "three_week_snap_share": 0.257
       },
@@ -6657,6 +7019,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6694,6 +7058,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -6731,6 +7097,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6755,6 +7123,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6792,6 +7162,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -6831,6 +7203,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -6871,6 +7245,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -6910,6 +7286,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -6937,6 +7315,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -6977,6 +7357,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -7016,6 +7398,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7043,6 +7427,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7082,6 +7468,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -7121,6 +7509,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7161,6 +7551,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -7194,6 +7586,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7235,6 +7629,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7278,6 +7674,8 @@
             "touches": 9
           }
         ],
+        "three_week_data_complete": false,
+        "three_week_snap_data_complete": false,
         "three_week_average_touches": null,
         "three_week_snap_share": null
       },
@@ -7307,6 +7705,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7344,6 +7744,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -7368,6 +7770,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7405,6 +7809,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7442,6 +7848,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -7481,6 +7889,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -7521,6 +7931,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -7560,6 +7972,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -7587,6 +8001,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7627,6 +8043,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -7666,6 +8084,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7693,6 +8113,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7732,6 +8154,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -7771,6 +8195,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7811,6 +8237,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -7844,6 +8272,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7885,6 +8315,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -7936,6 +8368,8 @@
             "touches": 5
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 4.33,
         "three_week_snap_share": 0.513
       },
@@ -7965,6 +8399,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -8002,6 +8438,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -8028,6 +8466,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8067,6 +8507,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8106,6 +8548,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8145,6 +8589,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -8184,6 +8630,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -8223,6 +8671,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8262,6 +8712,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -8302,6 +8754,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -8328,6 +8782,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8354,6 +8810,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8393,6 +8851,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -8425,6 +8885,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8465,6 +8927,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8504,6 +8968,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -8544,6 +9010,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8596,6 +9064,8 @@
             "touches": 9
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 6.33,
         "three_week_snap_share": 1
       },
@@ -8625,6 +9095,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -8664,6 +9136,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8703,6 +9177,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -8742,6 +9218,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -8781,6 +9259,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8820,6 +9300,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -8859,6 +9341,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -8886,6 +9370,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8926,6 +9412,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -8952,6 +9440,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -8991,6 +9481,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9018,6 +9510,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9057,6 +9551,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -9090,6 +9586,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9131,6 +9629,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9171,6 +9671,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -9211,6 +9713,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9263,6 +9767,8 @@
             "touches": 9
           }
         ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
         "three_week_average_touches": 8,
         "three_week_snap_share": 0.193
       },
@@ -9292,6 +9798,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9329,6 +9837,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9366,6 +9876,8 @@
                 "touches": 7
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 8.67,
             "three_week_snap_share": 0.253
           },
@@ -9390,6 +9902,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9427,6 +9941,8 @@
                 "touches": 3
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3,
             "three_week_snap_share": 0.567
           },
@@ -9466,6 +9982,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 3.67,
             "three_week_snap_share": 0.973
           },
@@ -9506,6 +10024,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6.33,
             "three_week_snap_share": 0.663
           },
@@ -9545,6 +10065,8 @@
                 "touches": 5
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 6,
             "three_week_snap_share": 0.88
           },
@@ -9572,6 +10094,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9612,6 +10136,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.867
           },
@@ -9651,6 +10177,8 @@
                 "touches": 2
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9678,6 +10206,8 @@
             "offensive_snap_share": null,
             "snap_week": null,
             "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9717,6 +10247,8 @@
                 "touches": 15
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 17.33,
             "three_week_snap_share": 0.697
           },
@@ -9756,6 +10288,8 @@
                 "touches": 16
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9796,6 +10330,8 @@
                 "touches": 13
               }
             ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
             "three_week_average_touches": 10.33,
             "three_week_snap_share": 0.87
           },
@@ -9829,6 +10365,8 @@
                 "touches": 4
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9870,6 +10408,8 @@
                 "touches": 6
               }
             ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
@@ -9902,7 +10442,7 @@
     "Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
     "The same-position average point gap is historical, not a projection of future performance.",
     "Touches combine rushing attempts and targets, not return yards; workload comparisons require matching weeks.",
-    "Three-week averages are null unless all three weekly data points exist; these are role signals, not projections.",
+    "Three-week averages require consecutive completed weeks and sustained role requires corresponding snap-share evidence; these are role signals, not projections.",
     "No roster move, FAAB bid, or actionable drop is approved without a full weekly starter/FLEX review."
   ]
 }
