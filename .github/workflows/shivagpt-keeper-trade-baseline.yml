@@ -1,0 +1,39 @@
+name: ShivaGPT League Keeper and Trade Baseline
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-trade-keeper-baseline.mjs"
+      - ".github/workflows/shivagpt-keeper-trade-baseline.yml"
+  schedule:
+    - cron: "5 8 * * 2"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+jobs:
+  assess:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Inventory all twelve teams without inferring keeper selections
+        run: |
+          node --check scripts/build-trade-keeper-baseline.mjs
+          node scripts/build-trade-keeper-baseline.mjs
+      - name: Publish read-only keeper and trade baseline
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-trade-keeper-baseline.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish complete league keeper/trade inventory"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
