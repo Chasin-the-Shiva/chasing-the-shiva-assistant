@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:37:36.183Z",
+  "generated_at": "2026-10-15T18:38:24.354Z",
   "source_queue_at": "2026-10-15T18:01:32.849Z",
   "league_id": "721343",
   "player_count": 17,
@@ -16,7 +16,23 @@
         "week": 5,
         "touches": 16,
         "offensive_snap_share": 0.51,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 16
+          },
+          {
+            "week": 4,
+            "touches": 4
+          },
+          {
+            "week": 3,
+            "touches": 6
+          }
+        ],
+        "three_week_average_touches": 8.67,
+        "three_week_snap_share": 0.397
       },
       "drop_alternatives": [
         {
@@ -28,9 +44,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 10,
+          "three_week_touch_delta": 4.34,
           "latest_week_snap_share_delta": 0.37,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 7.27,
@@ -48,9 +81,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": 6,
+          "three_week_touch_delta": 0,
           "latest_week_snap_share_delta": 0.2,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 6,
@@ -68,9 +118,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": 8,
+          "three_week_touch_delta": -1.33,
           "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1.47,
@@ -88,9 +155,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 12,
+          "three_week_touch_delta": 5.67,
           "latest_week_snap_share_delta": -0.01,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -121,7 +205,23 @@
         "week": 5,
         "touches": 12,
         "offensive_snap_share": 0.39,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 12
+          },
+          {
+            "week": 4,
+            "touches": 5
+          },
+          {
+            "week": 1,
+            "touches": 0
+          }
+        ],
+        "three_week_average_touches": 5.67,
+        "three_week_snap_share": 0.167
       },
       "drop_alternatives": [
         {
@@ -133,9 +233,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 6,
+          "three_week_touch_delta": 1.34,
           "latest_week_snap_share_delta": 0.25,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1,
@@ -153,9 +270,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 8,
+          "three_week_touch_delta": 2.67,
           "latest_week_snap_share_delta": -0.13,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -186,7 +320,23 @@
         "week": 5,
         "touches": 7,
         "offensive_snap_share": 0.38,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 7
+          },
+          {
+            "week": 4,
+            "touches": 0
+          },
+          {
+            "week": 3,
+            "touches": 0
+          }
+        ],
+        "three_week_average_touches": 2.33,
+        "three_week_snap_share": 0.173
       },
       "drop_alternatives": [
         {
@@ -198,9 +348,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 1,
+          "three_week_touch_delta": -2,
           "latest_week_snap_share_delta": 0.24,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.24,
@@ -218,9 +385,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -3,
+          "three_week_touch_delta": -6.34,
           "latest_week_snap_share_delta": 0.07,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.97,
@@ -238,9 +422,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 3,
+          "three_week_touch_delta": -0.67,
           "latest_week_snap_share_delta": -0.14,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -271,7 +472,23 @@
         "week": 5,
         "touches": 6,
         "offensive_snap_share": 0.8,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 6
+          },
+          {
+            "week": 4,
+            "touches": 2
+          },
+          {
+            "week": 3,
+            "touches": 3
+          }
+        ],
+        "three_week_average_touches": 3.67,
+        "three_week_snap_share": 0.717
       },
       "drop_alternatives": [
         {
@@ -283,9 +500,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -0.66,
           "latest_week_snap_share_delta": 0.66,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -305,9 +539,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 0.67,
           "latest_week_snap_share_delta": 0.28,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -327,9 +578,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -4,
+          "three_week_touch_delta": -5,
           "latest_week_snap_share_delta": 0.49,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -349,9 +617,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -6.33,
           "latest_week_snap_share_delta": 0.2,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -382,7 +667,23 @@
         "week": 5,
         "touches": 8,
         "offensive_snap_share": 0.46,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 8
+          },
+          {
+            "week": 4,
+            "touches": 4
+          },
+          {
+            "week": 3,
+            "touches": 5
+          }
+        ],
+        "three_week_average_touches": 5.67,
+        "three_week_snap_share": 0.39
       },
       "drop_alternatives": [
         {
@@ -394,9 +695,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 1.34,
           "latest_week_snap_share_delta": 0.32,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 6.2,
@@ -414,9 +732,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -3,
           "latest_week_snap_share_delta": 0.15,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 4.93,
@@ -434,9 +769,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -4.33,
           "latest_week_snap_share_delta": -0.14,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.4,
@@ -454,9 +806,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 4,
+          "three_week_touch_delta": 2.67,
           "latest_week_snap_share_delta": -0.06,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -487,7 +856,23 @@
         "week": 5,
         "touches": 6,
         "offensive_snap_share": 0.19,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 6
+          },
+          {
+            "week": 4,
+            "touches": 1
+          },
+          {
+            "week": 3,
+            "touches": 1
+          }
+        ],
+        "three_week_average_touches": 2.67,
+        "three_week_snap_share": 0.13
       },
       "drop_alternatives": [
         {
@@ -499,9 +884,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": -0.33,
           "latest_week_snap_share_delta": -0.33,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -532,7 +934,23 @@
         "week": 5,
         "touches": 4,
         "offensive_snap_share": 0.14,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 4
+          },
+          {
+            "week": 4,
+            "touches": 0
+          },
+          {
+            "week": 3,
+            "touches": 0
+          }
+        ],
+        "three_week_average_touches": 1.33,
+        "three_week_snap_share": 0.067
       },
       "drop_alternatives": [
         {
@@ -544,9 +962,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -1.67,
           "latest_week_snap_share_delta": -0.38,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -577,7 +1012,23 @@
         "week": 5,
         "touches": 4,
         "offensive_snap_share": 0.49,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 4
+          },
+          {
+            "week": 4,
+            "touches": 1
+          },
+          {
+            "week": 3,
+            "touches": 1
+          }
+        ],
+        "three_week_average_touches": 2,
+        "three_week_snap_share": 0.33
       },
       "drop_alternatives": [
         {
@@ -589,9 +1040,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -2.33,
           "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -611,9 +1079,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -1,
           "latest_week_snap_share_delta": -0.03,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -633,9 +1118,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -6,
+          "three_week_touch_delta": -6.67,
           "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -655,9 +1157,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": -4,
+          "three_week_touch_delta": -8,
           "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -688,7 +1207,23 @@
         "week": 5,
         "touches": 6,
         "offensive_snap_share": 0.83,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 6
+          },
+          {
+            "week": 4,
+            "touches": 4
+          },
+          {
+            "week": 3,
+            "touches": 5
+          }
+        ],
+        "three_week_average_touches": 5,
+        "three_week_snap_share": 0.743
       },
       "drop_alternatives": [
         {
@@ -700,9 +1235,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 2,
           "latest_week_snap_share_delta": 0.31,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.26,
@@ -720,9 +1272,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": 0.67,
           "latest_week_snap_share_delta": 0.69,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -742,9 +1311,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -4,
+          "three_week_touch_delta": -3.67,
           "latest_week_snap_share_delta": 0.52,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -764,9 +1350,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -5,
           "latest_week_snap_share_delta": 0.23,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -797,7 +1400,23 @@
         "week": 5,
         "touches": 8,
         "offensive_snap_share": 0.68,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 8
+          },
+          {
+            "week": 4,
+            "touches": 5
+          },
+          {
+            "week": 3,
+            "touches": 5
+          }
+        ],
+        "three_week_average_touches": 6,
+        "three_week_snap_share": 0.677
       },
       "drop_alternatives": [
         {
@@ -809,9 +1428,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 4,
+          "three_week_touch_delta": 3,
           "latest_week_snap_share_delta": 0.16,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 10.93,
@@ -829,9 +1465,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 1.67,
           "latest_week_snap_share_delta": 0.54,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -851,9 +1504,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -2.67,
           "latest_week_snap_share_delta": 0.37,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -873,9 +1543,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -4,
           "latest_week_snap_share_delta": 0.08,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -906,7 +1593,23 @@
         "week": 5,
         "touches": 4,
         "offensive_snap_share": 0.22,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 4
+          },
+          {
+            "week": 4,
+            "touches": 3
+          },
+          {
+            "week": 3,
+            "touches": 4
+          }
+        ],
+        "three_week_average_touches": 3.67,
+        "three_week_snap_share": 0.257
       },
       "drop_alternatives": [
         {
@@ -918,9 +1621,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -0.66,
           "latest_week_snap_share_delta": 0.08,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 8.74,
@@ -938,9 +1658,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -6,
+          "three_week_touch_delta": -5,
           "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 7.47,
@@ -958,9 +1695,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": -4,
+          "three_week_touch_delta": -6.33,
           "latest_week_snap_share_delta": -0.38,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.94,
@@ -978,9 +1732,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": 0.67,
           "latest_week_snap_share_delta": -0.3,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1011,7 +1782,15 @@
         "week": 5,
         "touches": 9,
         "offensive_snap_share": 0.41,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 9
+          }
+        ],
+        "three_week_average_touches": null,
+        "three_week_snap_share": null
       },
       "drop_alternatives": [
         {
@@ -1023,9 +1802,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 5,
+          "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1056,7 +1852,23 @@
         "week": 5,
         "touches": 5,
         "offensive_snap_share": 0.49,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 5
+          },
+          {
+            "week": 4,
+            "touches": 3
+          },
+          {
+            "week": 3,
+            "touches": 5
+          }
+        ],
+        "three_week_average_touches": 4.33,
+        "three_week_snap_share": 0.513
       },
       "drop_alternatives": [
         {
@@ -1068,9 +1880,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": -1,
+          "three_week_touch_delta": 0,
           "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1090,9 +1919,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 1,
+          "three_week_touch_delta": 1.33,
           "latest_week_snap_share_delta": -0.03,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1112,9 +1958,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -5,
+          "three_week_touch_delta": -4.34,
           "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1134,9 +1997,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": -3,
+          "three_week_touch_delta": -5.67,
           "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1167,7 +2047,23 @@
         "week": 5,
         "touches": 8,
         "offensive_snap_share": 1,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 8
+          },
+          {
+            "week": 4,
+            "touches": 2
+          },
+          {
+            "week": 3,
+            "touches": 9
+          }
+        ],
+        "three_week_average_touches": 6.33,
+        "three_week_snap_share": 1
       },
       "drop_alternatives": [
         {
@@ -1179,9 +2075,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 2,
           "latest_week_snap_share_delta": 0.86,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1201,9 +2114,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 4,
+          "three_week_touch_delta": 3.33,
           "latest_week_snap_share_delta": 0.48,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1223,9 +2153,26 @@
             "week": 5,
             "touches": 10,
             "offensive_snap_share": 0.31,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              },
+              {
+                "week": 3,
+                "touches": 7
+              }
+            ],
+            "three_week_average_touches": 8.67,
+            "three_week_snap_share": 0.253
           },
           "latest_week_touch_delta": -2,
+          "three_week_touch_delta": -2.34,
           "latest_week_snap_share_delta": 0.69,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1245,9 +2192,26 @@
             "week": 5,
             "touches": 8,
             "offensive_snap_share": 0.6,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              },
+              {
+                "week": 2,
+                "touches": 13
+              }
+            ],
+            "three_week_average_touches": 10,
+            "three_week_snap_share": 0.517
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": -3.67,
           "latest_week_snap_share_delta": 0.4,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1278,7 +2242,23 @@
         "week": 5,
         "touches": 6,
         "offensive_snap_share": 0.18,
-        "snap_week": 5
+        "snap_week": 5,
+        "last_three_weeks": [
+          {
+            "week": 5,
+            "touches": 6
+          },
+          {
+            "week": 4,
+            "touches": 9
+          },
+          {
+            "week": 3,
+            "touches": 9
+          }
+        ],
+        "three_week_average_touches": 8,
+        "three_week_snap_share": 0.193
       },
       "drop_alternatives": [
         {
@@ -1290,9 +2270,26 @@
             "week": 5,
             "touches": 6,
             "offensive_snap_share": 0.14,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_average_touches": 4.33,
+            "three_week_snap_share": 0.167
           },
           "latest_week_touch_delta": 0,
+          "three_week_touch_delta": 3.67,
           "latest_week_snap_share_delta": 0.04,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.54,
@@ -1310,9 +2307,26 @@
             "week": 5,
             "touches": 4,
             "offensive_snap_share": 0.52,
-            "snap_week": 5
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              },
+              {
+                "week": 3,
+                "touches": 3
+              }
+            ],
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 0.567
           },
           "latest_week_touch_delta": 2,
+          "three_week_touch_delta": 5,
           "latest_week_snap_share_delta": -0.34,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
@@ -1339,6 +2353,7 @@
     "Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
     "The same-position average point gap is historical, not a projection of future performance.",
     "Touches combine rushing attempts and targets, not return yards; workload comparisons require matching weeks.",
+    "Three-week averages are null unless all three weekly data points exist; these are role signals, not projections.",
     "No roster move, FAAB bid, or actionable drop is approved without a full weekly starter/FLEX review."
   ]
 }
