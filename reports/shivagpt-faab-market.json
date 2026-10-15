@@ -1,0 +1,76 @@
+{
+  "schema": "shivagpt-faab-market-v1",
+  "read_only": true,
+  "league_id": "721343",
+  "generated_at": "2026-10-15T17:57:29.838Z",
+  "league_snapshot_at": "2026-10-15T17:39:16.692Z",
+  "total_successful_waiver_bids": 31,
+  "all_positions": {
+    "count": 31,
+    "minimum": 0,
+    "median": 7,
+    "p75": 15,
+    "p90": 30,
+    "maximum": 47,
+    "over_20": 5,
+    "over_40": 1
+  },
+  "by_position": {
+    "DEF": {
+      "count": 5,
+      "minimum": 0,
+      "median": 1,
+      "p75": 1,
+      "p90": 1,
+      "maximum": 1,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "QB": {
+      "count": 5,
+      "minimum": 0,
+      "median": 2,
+      "p75": 15,
+      "p90": 15,
+      "maximum": 15,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "RB": {
+      "count": 9,
+      "minimum": 0,
+      "median": 7,
+      "p75": 15,
+      "p90": 47,
+      "maximum": 47,
+      "over_20": 2,
+      "over_40": 1
+    },
+    "WR": {
+      "count": 9,
+      "minimum": 5,
+      "median": 15,
+      "p75": 20,
+      "p90": 31,
+      "maximum": 31,
+      "over_20": 3,
+      "over_40": 0
+    },
+    "TE": {
+      "count": 3,
+      "minimum": 0,
+      "median": 1,
+      "p75": 11,
+      "p90": 11,
+      "maximum": 11,
+      "over_20": 0,
+      "over_40": 0
+    }
+  },
+  "limitations": [
+    "Only visible successful FAAB transactions included; losing bids are unavailable.",
+    "Historical bid distributions do not establish a player's future value or recommended bid.",
+    "Market data must be combined with current remaining FAAB, genuine roster improvement, position scarcity and competition."
+  ],
+  "recommended_bids": []
+}
