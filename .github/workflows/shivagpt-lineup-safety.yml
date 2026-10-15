@@ -1,0 +1,39 @@
+name: ShivaGPT Lineup Safety Audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-lineup-safety.mjs"
+      - ".github/workflows/shivagpt-lineup-safety.yml"
+  schedule:
+    - cron: "40 8 * * 4,5,6,0"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Audit starter injuries and byes without changing Yahoo
+        run: |
+          node --check scripts/build-lineup-safety.mjs
+          node scripts/build-lineup-safety.mjs
+      - name: Publish read-only lineup audit
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-lineup-safety.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish read-only lineup safety audit"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
