@@ -1,9 +1,10 @@
 import fs from "node:fs/promises";
 const read=async p=>JSON.parse(await fs.readFile(p,"utf8"));
-const [decisions,market,replacements]=await Promise.all([
+const [decisions,market,replacements,external]=await Promise.all([
  read("reports/shivagpt-weekly-acquisition-decision.json"),
  read("reports/shivagpt-faab-market.json"),
- read("reports/shivagpt-replacement-choices.json")
+ read("reports/shivagpt-replacement-choices.json"),
+ read("reports/shivagpt-external-role-evidence.json")
 ]);
 if(decisions.schema!=="shivagpt-weekly-acquisition-decision-v1"||market.schema!=="shivagpt-faab-market-v1"||replacements.schema!=="shivagpt-replacement-choices-v1")throw Error("Invalid review input");
 const hours=t=>(Date.now()-Date.parse(t))/3600000;
@@ -11,9 +12,11 @@ const validTimes=[decisions.generated_at,market.generated_at,replacements.genera
 const fresh=decisions.source_fresh&&validTimes&&hours(decisions.generated_at)<4;
 const reserve=Number(decisions.candidate_reviews[0]?.remaining_faab??0);
 const byName=new Map(replacements.decisions.map(x=>[x.player,x]));
+const roles=new Map((external.schema==="shivagpt-external-role-evidence-v1"?external.players:[]).map(p=>[p.name,p]));
 const rows=[];
 for(const x of decisions.candidate_reviews){
  const value=byName.get(x.name);
+ const externalRole=roles.get(x.name);
  const consistent=value?.role_classification==="SUSTAINED_USAGE";
  const spike=value?.role_classification==="RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION";
  const historical=value?.incoming_workload?.three_week_average_touches??null;
@@ -24,7 +27,7 @@ for(const x of decisions.candidate_reviews){
  let tier="PASS_OR_WATCH";
  if(avail&&spike&&value?.incoming_workload?.touches>=10)tier="INVESTIGATE_BEFORE_WAIVERS";
  if(avail&&supporting)tier="ROLE_BACKED_ACQUISITION_REVIEW";
- const blockers=[...new Set([...x.risk_blockers, ...(!fresh?["STALE_OR_INCONSISTENT_INPUTS"]:[])])];
+ const blockers=[...new Set([...x.risk_blockers, ...(!fresh?["STALE_OR_INCONSISTENT_INPUTS"]:[]),...(externalRole&&!externalRole.independent_verification?["EXTERNAL_ROLE_NOT_CONFIRMED"]:[])])];
  const actionable=fresh&&supporting&&blockers.length===0;
  // Market reference only, no blind bids. Must have individually verified opportunity,
  // depth, injury news, positional replacement, opponent FAAB and trade value.
@@ -32,7 +35,8 @@ for(const x of decisions.candidate_reviews){
   observed_three_week_touches:historical,role:value?.role_classification,
   better_three_week_replacement_candidates:meaningful.map(d=>d.name),
   first_look_drop:x.candidates_to_drop[0]?.name??null,
-  blocked_reasons:blockers,individual_bid:null,
+  blocked_reasons:blockers,external_role_status:externalRole?.depth_status??"NOT_RESEARCHED",
+  evidence_links:externalRole?.source_urls??[],individual_bid:null,
   pricing_reference:market.by_position[x.position]?{winning_bid_median:market.by_position[x.position].median,winning_bid_p75:market.by_position[x.position].p75}:null,
   action:actionable?"REQUIRES_ANALYST_SIGNOFF":"NO_TRANSACTION_RECOMMENDED"});
 }
