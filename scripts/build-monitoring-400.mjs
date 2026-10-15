@@ -20,11 +20,17 @@ const changed=new Map(inj.changes.map(p=>[String(p.player_id),p]));
 const returning=new Set((inj.early_return_research_queue||[]).map(p=>String(p.player_id)));
 const priorities={RB:5,WR:4,TE:3,QB:2,DEF:1};
 const newest=stats.completed_through_week;
-// Explicit offensive participation only. Yards, touchdowns and return stats do not qualify.
-const offensiveOpportunity=s=>/(rush(ing)? attempts?|carries|receptions|receiving targets?|pass(ing)? attempts?)/i.test(String(s.name||"")) &&
- !/(return|kick|punt|interception|defen[sc]e)/i.test(String(s.name||"")) && Number(s.value)>0;
+// Yahoo's verified league categories: 11 = Receptions, 2 = Completions.
+// Other participation fields qualify only when their supplied name explicitly indicates attempts, carries or targets.
+// Yardage, touchdowns and all return categories are NOT evidence of an offensive touch.
+const participationNames=/^(rushing attempts?|rush attempts?|carries|targets|receiving targets?|passing attempts?|pass attempts?)$/i;
 const meaningfulOffense=p=>(p.weeks||[]).some(w=>Number(w.week)===newest &&
- (w.statistical_categories||[]).some(offensiveOpportunity));
+ (w.statistical_categories||[]).some(s=>{
+   const id=String(s.stat_id), name=String(s.name||"").trim();
+   const verifiedById=id==="11"||id==="2";
+   return (verifiedById||participationNames.test(name))&&
+     !/return|punt|kickoff|defen[sc]e/i.test(name)&&Number(s.value)>0;
+ }));
 const rows=stats.players.map(p=>{
  const id=String(p.player_id),a=available.get(id),w=p.weeks?.find(w=>Number(w.week)===newest);
  const recent=typeof w?.yahoo_fantasy_points==="number"?w.yahoo_fantasy_points:null;
