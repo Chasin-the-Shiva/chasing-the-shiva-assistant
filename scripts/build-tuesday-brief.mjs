@@ -9,6 +9,16 @@ function check(ok,msg){if(!ok)throw new Error(msg)}
 check(stats.schema==="shivagpt-player-stats-snapshot-v1" && stats.read_only && stats.collection?.complete===true,"Player statistics incomplete");
 check(String(stats.league_id)==="721343" && String(live.league_id)==="721343" && String(available.league_id)==="721343","League mismatch");
 check(live.read_only===true && available.read_only===true,"Invalid league snapshots");
+const snapshotAgeHours=(value,label)=>{
+  const timestamp=Date.parse(value);
+  check(Number.isFinite(timestamp),label+" retrieved_at is missing or invalid");
+  const hours=(Date.now()-timestamp)/3600000;
+  check(hours>=-0.2 && hours<=3,label+" is stale ("+hours.toFixed(1)+" hours old); refresh Yahoo before publishing Tuesday report");
+  return timestamp;
+};
+const liveTime=snapshotAgeHours(live.retrieved_at,"League snapshot");
+const availableTime=snapshotAgeHours(available.retrieved_at,"Availability snapshot");
+check(Math.abs(liveTime-availableTime)<=60*60*1000,"League and availability snapshots are more than one hour apart; do not publish inconsistent roster/FAAB research");
 const expected=Number(live.settings?.fantasy_content?.league?.[0]?.current_week)-1;
 check(Number.isInteger(expected)&&expected>=1&&expected<=17,"Current league week not available");
 check(stats.completed_through_week>=expected,`Stats stale: through Week ${stats.completed_through_week}, expected Week ${expected}`);
