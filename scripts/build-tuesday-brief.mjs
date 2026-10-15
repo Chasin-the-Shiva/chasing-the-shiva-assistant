@@ -49,6 +49,10 @@ const monitoringValid=monitor?.schema==="shivagpt-monitoring-400-v1"&&monitor.re
  monitor.monitored?.length===400&&monitor.rostered_count===195&&monitor.available_count===205&&
  Number.isFinite(Date.parse(monitor.generated_at)) &&
  Date.now()-Date.parse(monitor.generated_at)<6*3600000;
+const decision=await read("reports/shivagpt-waiver-decision-queue.json");
+check(decision.schema==="shivagpt-waiver-decision-queue-v1"&&decision.read_only===true&&
+ String(decision.league_id)==="721343"&&decision.comparisons?.length>0,
+ "Missing or invalid ADD/DROP queue");
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -87,6 +91,15 @@ const lines=[
  ...(monitoringValid?monitor.monitored.filter(p=>p.availability_status!=="rostered").slice(0,35).map(p=>`| ${String(p.name||"Unknown").replaceAll("|","/")} | ${p.position} | ${p.availability_status} | ${p.signals.join(", ")||"score opportunity screen"} |`):[]),
  "",
  "Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.",
+ "",
+ "## ADD/DROP research comparisons (not approved moves)",
+ `- Verified snapshot FAAB: ${decision.verified_faab}. ${decision.comparisons.length} candidate comparisons awaiting NFL-role and trade-value research.`,
+ "",
+ "| Add candidate | Yahoo status | Potential drop | Recent scoring difference |",
+ "|---|---|---|---:|",
+ ...decision.comparisons.slice(0,30).map(x=>`| ${x.add.name} | ${x.add.status} | ${x.drop.name} | ${fmt(x.net_recent_points)} |`),
+ "",
+ "No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
