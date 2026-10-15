@@ -22,13 +22,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Refresh monitoring priorities from latest validated data
+        run: node scripts/build-monitoring-400.mjs
       - name: Check prerequisites and generate factual waiver brief
         run: node scripts/build-tuesday-brief.mjs
       - name: Publish only validated generated brief
         run: |
           git config user.name "ShivaGPT Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/shivagpt-tuesday-latest.md
+          git add reports/shivagpt-tuesday-latest.md reports/shivagpt-monitoring-400.json
           git diff --cached --quiet && exit 0
           git commit -m "Publish Tuesday ShivaGPT scouting brief"
           git pull --rebase origin main
