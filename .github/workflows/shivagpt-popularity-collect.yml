@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Preserve previous validated snapshot for comparison
+        run: |
+          if test -f public/shivagpt-popularity-source.json; then cp public/shivagpt-popularity-source.json /tmp/shivagpt-popularity-previous.json; fi
       - name: Collect full popularity pool with safe retries
         run: node scripts/collect-popularity.mjs
       - name: Generate research triggers
