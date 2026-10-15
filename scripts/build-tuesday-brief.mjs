@@ -30,6 +30,19 @@ const entries=stats.players.filter(p=>p.position && !["K","DEF"].includes(p.posi
 });
 const fa=entries.filter(p=>byId.has(p.id)).sort((a,b)=>(b.change??-999)-(a.change??-999)|| (b.latest??-999)-(a.latest??-999));
 const rostered=entries.filter(p=>!byId.has(p.id)).length;
+const radar=await read("reports/shivagpt-popularity-radar.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+let radarState="unavailable", radarCandidates=[];
+if(radar?.schema==="shivagpt-popularity-radar-v1" && radar.read_only===true &&
+   String(radar.league_id)==="721343" && radar.source_status==="connected" &&
+   Array.isArray(radar.spikes) && radar.spikes.length<=radar.candidate_count) {
+  const hours=(Date.now()-Date.parse(radar.source_retrieved_at))/3600000;
+  if(Number.isFinite(hours)&&hours>=-0.1&&hours<=6) {
+    radarState="verified";
+    radarCandidates=radar.spikes.filter(x=>byId.has(String(x.player_id))).map(x=>({
+      ...x,current_status:byId.get(String(x.player_id))?.availability_status||"unverified"
+    }));
+  }else radarState="stale";
+}else if(radar) radarState="invalid_or_not_connected";
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -47,6 +60,16 @@ const lines=[
  "| Player | Position | Recent week | Previous week | Change vs prior two | Yahoo status (snapshot) |",
  "|---|---|---:|---:|---:|---|",
  ...fa.slice(0,40).map(p=>`| ${p.name.replaceAll("|","/")} | ${p.position} | ${fmt(p.latest)} | ${fmt(p.previous)} | ${fmt(p.change)} | ${p.status} |`),
+ "",
+ "## Yahoo-wide popularity research triggers",
+ `- Radar status: ${radarState}; ${radarCandidates.length} available-player signals (not acquisition recommendations).`,
+ "- Yahoo's ownership delta represents a fantasy-week change, not verified 24-hour add counts. Observed between-snapshot movement is a separate percentage-point measure.",
+ "",
+ "| Player | FA/W | Yahoo weekly ownership change (pp) | Observed snapshot change (pp) |",
+ "|---|---|---:|---:|",
+ ...radarCandidates.slice(0,35).map(x=>`| ${String(x.name||"Unknown").replaceAll("|","/")} | ${x.current_status} | ${fmt(x.percent_owned_delta)} | ${fmt(x.observed_ownership_change_pp)} |`),
+ "",
+ "Every popularity trigger requires NFL role and injury research, exact Shiva scoring and comparison with Joe's drop candidate before an ADD recommendation.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
