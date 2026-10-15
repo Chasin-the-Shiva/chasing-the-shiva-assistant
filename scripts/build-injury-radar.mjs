@@ -32,13 +32,17 @@ const tracked=[...players.values()].sort((a,b)=>a.player_id.localeCompare(b.play
 const rosteredCount=tracked.filter(x=>x.availability_status==="rostered").length;
 console.log(JSON.stringify({rostered:rosteredCount,available:avail.available_players.length,total:tracked.length}));
 if(tracked.length<1100 || rosteredCount<190)throw Error("Incomplete injury player coverage");
+const meaningful=new Set(["IR","PUP","NFI","O","D","Q","SUS","SUSP","OUT","DNR"]);
+const isMeaningful=s=>meaningful.has(String(s||"").toUpperCase());
+const ageHours=(Date.now()-Date.parse(avail.retrieved_at))/3600000;
+if(!Number.isFinite(ageHours)||ageHours<-.1||ageHours>3)throw Error("Injury source snapshot stale; preserving last valid baseline");
 const changes=[];
-for(const p of tracked){let o=older.get(p.player_id);if(!o)continue;if(o.injury_status!==p.injury_status){
+for(const p of tracked){let o=older.get(p.player_id);if(!o)continue;if(o.injury_status!==p.injury_status && (isMeaningful(o.injury_status)||isMeaningful(p.injury_status))){
 changes.push({player_id:p.player_id,name:p.name,position:p.position,availability_status:p.availability_status,previous_status:o.injury_status,current_status:p.injury_status,signal:"injury_designation_change",research_required:true,return_date:null,return_confidence:"unverified"});}
 }
-const injuries=tracked.filter(p=>p.injury_status);
+const injuries=tracked.filter(p=>isMeaningful(p.injury_status));
 const state={schema:"shivagpt-injury-state-v1",read_only:true,retrieved_at:avail.retrieved_at,generated_at:now,league_id:"721343",players:tracked};
-const report={schema:"shivagpt-injury-radar-v1",read_only:true,generated_at:now,league_id:"721343",source_retrieved_at:avail.retrieved_at,baseline_available:!!previous,player_count:tracked.length,injured_player_count:injuries.length,changes,active_injury_watch:injuries.map(x=>({...x,return_date:null,earliest_eligible_date:null,practice_window:null,source_verified:false,research_required:true})),limitations:["Yahoo injury code does not establish IR entry date, return eligibility, practice-window status or medically expected return. Validate via team/NFL reporting.","This is a designation-change radar, not an independently verified injury-news feed. Do not recommend adds based only on this file."]};
+const report={schema:"shivagpt-injury-radar-v1",read_only:true,generated_at:now,league_id:"721343",source_retrieved_at:avail.retrieved_at,baseline_available:!!previous,designation_filter:[...meaningful],player_count:tracked.length,injured_player_count:injuries.length,changes,active_injury_watch:injuries.map(x=>({...x,return_date:null,earliest_eligible_date:null,practice_window:null,source_verified:false,research_required:true})),limitations:["Yahoo injury code does not establish IR entry date, return eligibility, practice-window status or medically expected return. Validate via team/NFL reporting.","This is a designation-change radar, not an independently verified injury-news feed. Do not recommend adds based only on this file.","IR/PUP eligibility, practice windows, injury timeline and early return candidates require dated official NFL or credible reporter evidence."]};
 await fs.writeFile("public/shivagpt-injury-state.json",JSON.stringify(state));
 await fs.mkdir("reports",{recursive:true});
 await fs.writeFile("reports/shivagpt-injury-radar.json",JSON.stringify(report));
