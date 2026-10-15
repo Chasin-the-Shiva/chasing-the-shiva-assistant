@@ -1,0 +1,24 @@
+name: ShivaGPT Yahoo Freshness Watch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 * * * *"
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: shivagpt-yahoo-freshness-watch
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify snapshot age and request recovery only if stale
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/watch-yahoo-freshness.mjs
