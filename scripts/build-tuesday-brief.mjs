@@ -99,6 +99,16 @@ const lines=[
  "|---|---|---|---:|",
  ...decision.comparisons.slice(0,30).map(x=>`| ${x.add.name} | ${x.add.status} | ${x.drop.name} | ${fmt(x.net_recent_points)} |`),
  "",
+ "## Verified NFL opportunity metrics (where Yahoo IDs match)",
+ "These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.",
+ "",
+ "| Player | Targets | Carries | Receptions | Target change | Carry change | Evidence |",
+ "|---|---:|---:|---:|---:|---:|---|",
+ ...decision.comparisons.filter(x=>x.nfl_opportunity?.status==="MATCHED").slice(0,25).map(x=>{
+   const m=x.nfl_opportunity.latest,delta=x.nfl_opportunity.change_vs_previous;
+   return `| ${x.add.name} | ${fmt(m.targets)} | ${fmt(m.carries)} | ${fmt(m.receptions)} | ${fmt(delta.targets)} | ${fmt(delta.carries)} | nflverse Week ${x.nfl_opportunity.latest_week} |`;
+ }),
+ "",
  "No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.",
  "",
  "## Required analyst review",
