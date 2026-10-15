@@ -2,16 +2,20 @@ import fs from "node:fs/promises";
 const read=async p=>JSON.parse(await fs.readFile(p,"utf8"));
 const [queue,gates,nfl,snaps]=await Promise.all([read("reports/shivagpt-waiver-decision-queue.json"),read("reports/shivagpt-acquisition-gates.json"),read("public/shivagpt-nfl-opportunity.json"),read("public/shivagpt-nfl-snaps.json")]);
 if(nfl.schema!=="shivagpt-nfl-opportunity-v1"||snaps.schema!=="shivagpt-nfl-snaps-v1")throw Error("Invalid NFL data");
+const completedWeek=Number(queue.completed_through_week);
+if(!Number.isInteger(completedWeek)||completedWeek<1||completedWeek>18)throw Error('Unverified completed scoring week');
 const work=new Map(),snapMap=new Map(),workHistory=new Map(),snapHistory=new Map();
 for(const x of nfl.players){const key=String(x.yahoo_player_id);if(!workHistory.has(key))workHistory.set(key,[]);workHistory.get(key).push(x);if(!work.has(key)||x.week>work.get(key).week)work.set(key,x);}
 for(const x of snaps.rows){const key=String(x.yahoo_player_id);if(!snapHistory.has(key))snapHistory.set(key,[]);snapHistory.get(key).push(x);if(!snapMap.has(key)||x.week>snapMap.get(key).week)snapMap.set(key,x);}
 const workload=id=>{
  const key=String(id),w=work.get(key),s=snapMap.get(key);
- const recent=(workHistory.get(key)||[]).filter(x=>x.week<=5).sort((a,b)=>b.week-a.week).slice(0,3);
- const recentSnaps=(snapHistory.get(key)||[]).filter(x=>x.week<=5).sort((a,b)=>b.week-a.week).slice(0,3);
+ const recent=(workHistory.get(key)||[]).filter(x=>x.week<=completedWeek).sort((a,b)=>b.week-a.week).slice(0,3);
+ const recentSnaps=(snapHistory.get(key)||[]).filter(x=>x.week<=completedWeek).sort((a,b)=>b.week-a.week).slice(0,3);
  const weekly=recent.map(x=>({week:x.week,touches:Number(x.metrics.carries||0)+Number(x.metrics.targets||0)}));
- const avg=weekly.length===3?Number((weekly.reduce((sum,x)=>sum+x.touches,0)/3).toFixed(2)):null;
- const snapAvg=recentSnaps.length===3?Number((recentSnaps.reduce((sum,x)=>sum+x.offense_pct,0)/3).toFixed(3)):null;
+ const consecutive=weekly.length===3&&weekly.every((x,i)=>x.week===completedWeek-i);
+ const consecutiveSnaps=recentSnaps.length===3&&recentSnaps.every((x,i)=>x.week===completedWeek-i);
+ const avg=consecutive?Number((weekly.reduce((sum,x)=>sum+x.touches,0)/3).toFixed(2)):null;
+ const snapAvg=consecutiveSnaps?Number((recentSnaps.reduce((sum,x)=>sum+x.offense_pct,0)/3).toFixed(3)):null;
  return {week:w?.week??null,touches:w?Number(w.metrics.carries||0)+Number(w.metrics.targets||0):null,
   offensive_snap_share:s?.offense_pct??null,snap_week:s?.week??null,
   last_three_weeks:weekly,three_week_average_touches:avg,three_week_snap_share:snapAvg};
@@ -63,7 +67,7 @@ for(const target of gates.watchlist){
   unanswered:["Current weekly starter/FLEX impact","Opportunity and depth-chart sustainability","Best realistic trade alternative","Future bye-week/keeper utility"]});
 }
 const out={schema:"shivagpt-replacement-choices-v1",read_only:true,
- generated_at:new Date().toISOString(),source_queue_at:queue.generated_at,league_id:"721343",
+ generated_at:new Date().toISOString(),source_queue_at:queue.generated_at,completed_through_week:completedWeek,league_id:"721343",
  player_count:roster.length,candidates:output.length,decisions:output,
  limitations:["Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
  "The same-position average point gap is historical, not a projection of future performance.",
