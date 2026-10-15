@@ -17,6 +17,7 @@ const report = {schema:"shivagpt-popularity-radar-v1",read_only:true,generated_a
 if(source) {
   check(source.schema==="shivagpt-popularity-source-v1" && source.read_only===true,"Popularity source schema invalid");
   check(String(source.league_id)==="721343" && Array.isArray(source.players),"Popularity source league/players invalid");
+  check(source.collection?.complete===true && ["rostered","FA","W"].every(s=>source.collection.scopes?.[s]?.complete_for_scope===true),"Popularity full-pool collection incomplete");
   const age=Date.now()-Date.parse(source.retrieved_at);
   check(Number.isFinite(age)&&age>=-300000&&age<=6*3600000,"Popularity data stale");
   const entries=source.players.map(p=>{
@@ -28,7 +29,7 @@ if(source) {
     check(delta===null||Number.isFinite(delta),"Invalid ownership delta");
     check(adds===null||(Number.isInteger(adds)&&adds>=0),"Invalid add count");
     check(drops===null||(Number.isInteger(drops)&&drops>=0),"Invalid drop count");
-    return {player_id:id,name:p.name||current.get(id)?.name||null,availability_status:current.get(id)?.availability_status||"rostered_or_unknown",
+    return {player_id:id,name:p.name||current.get(id)?.name||null,availability_status:current.get(id)?.availability_status||p.availability_status||"unverified",
       percent_owned:typeof p.percent_owned==="number"?p.percent_owned:null,
       percent_owned_delta:delta,adds_24h:adds,drops_24h:drops};
   });
