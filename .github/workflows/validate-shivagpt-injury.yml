@@ -2,7 +2,7 @@ name: Validate ShivaGPT Injury Radar
 on:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -17,3 +17,12 @@ jobs:
       - name: Display safe coverage only
         run: |
           node -e 'const d=require("./reports/shivagpt-injury-radar.json");console.log(JSON.stringify({players:d.player_count,injured:d.injured_player_count,changes:d.changes.length,baseline:d.baseline_available,limitations:d.limitations.length}))'
+      - name: Publish validated injury baseline and radar
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/shivagpt-injury-state.json reports/shivagpt-injury-radar.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish validated ShivaGPT injury radar"
+          git pull --rebase origin main
+          git push origin HEAD:main
