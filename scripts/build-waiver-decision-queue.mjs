@@ -49,6 +49,26 @@ function nflTrend(id){
  Number((latest.metrics[k]-prior.metrics[k]).toFixed(2)):null]));
  return {status:"MATCHED",latest_week:latest.week,latest:latestMetrics,change_vs_previous:changes,source:"nflverse weekly player statistics"};
 }
+const snaps=await read("public/shivagpt-nfl-snaps.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const snapsUsable=snaps?.schema==="shivagpt-nfl-snaps-v1"&&snaps.read_only===true&&
+ String(snaps.league_id)==="721343"&&snaps.weeks?.includes(stats.completed_through_week);
+const snapMap=new Map();
+if(snapsUsable)for(const p of snaps.rows){
+ const id=String(p.yahoo_player_id);
+ if(!snapMap.has(id))snapMap.set(id,[]);
+ snapMap.get(id).push(p);
+}
+function snapTrend(id){
+ if(!snapsUsable)return {status:"UNAVAILABLE"};
+ const records=(snapMap.get(String(id))||[]).sort((a,b)=>a.week-b.week);
+ const latest=records.findLast(x=>x.week===stats.completed_through_week);
+ if(!latest)return {status:"UNMATCHED_OR_NO_CURRENT_WEEK"};
+ const before=records.findLast(x=>x.week<latest.week);
+ return {status:"MATCHED",week:latest.week,offense_snaps:latest.offense_snaps,
+  offense_pct:latest.offense_pct,previous_offense_pct:before?.offense_pct??null,
+  change_percentage_points:before?.offense_pct!=null?Number(((latest.offense_pct-before.offense_pct)*100).toFixed(1)):null,
+  source:"nflverse weekly snap counts"};
+}
 const protectedNames=new Set(["Justin Jefferson","Chris Olave","De'Von Achane","Chase Brown","A.J. Brown"]);
 const candidates=monitor.monitored.filter(x=>pool.has(String(x.player_id))).slice().sort((a,b)=>b.rank_score-a.rank_score);
 const comparisons=[];
@@ -66,7 +86,7 @@ for(const target of candidates.slice(0,60)){
   if(targetAverage===null || dropAverage===null)continue;
   if(target.position===drop.position && targetAverage<=dropAverage)continue;
   const crossPosition=target.position!==drop.position;
-  comparisons.push({add:{id:target.player_id,name:target.name,position:target.position,status:pool.get(String(target.player_id))?.availability_status||"unverified",recent_avg:avg(target.player_id)},drop:{id:drop.player_id,name:drop.name,recent_avg:avg(drop.player_id)},signals:target.signals,nfl_opportunity:nflTrend(target.player_id),net_recent_points:Number((targetAverage-dropAverage).toFixed(2)),cross_position:crossPosition,comparison_validity:crossPosition?"NOT_COMPARABLE_ACROSS_POSITIONS":"RECENT_POINTS_ONLY",action:"RESEARCH_ONLY",recommended_faab:null,max_faab:null,approval_required:true,evidence_status:"NFL_ROLE_NOT_VERIFIED",research_requirements:["snap_share","routes_or_carries","targets_or_receiving_work","injury_and_teammate_competition","sustainability","trade_market","exact_scoring","current_FA_W_status"],suggested_move:false});
+  comparisons.push({add:{id:target.player_id,name:target.name,position:target.position,status:pool.get(String(target.player_id))?.availability_status||"unverified",recent_avg:avg(target.player_id)},drop:{id:drop.player_id,name:drop.name,recent_avg:avg(drop.player_id)},signals:target.signals,nfl_opportunity:nflTrend(target.player_id),nfl_snaps:snapTrend(target.player_id),net_recent_points:Number((targetAverage-dropAverage).toFixed(2)),cross_position:crossPosition,comparison_validity:crossPosition?"NOT_COMPARABLE_ACROSS_POSITIONS":"RECENT_POINTS_ONLY",action:"RESEARCH_ONLY",recommended_faab:null,max_faab:null,approval_required:true,evidence_status:"NFL_ROLE_NOT_VERIFIED",research_requirements:["snap_share","routes_or_carries","targets_or_receiving_work","injury_and_teammate_competition","sustainability","trade_market","exact_scoring","current_FA_W_status"],suggested_move:false});
  }
 }
 must(comparisons.every(x=>(x.cross_position || x.net_recent_points>0) && x.add.status!=="unverified"),"Unsafe comparison detected");
@@ -93,6 +113,6 @@ for(const x of prioritized){
   nfl_opportunity:x.nfl_opportunity,research_priority:x.research_priority});
  if(distinct.length>=25)break;
 }
-const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at,nfl:nflUsable?nfl.generated_at:null},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",priority_research_targets:distinct,comparisons:scoredComparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","NFL carries, targets and receptions are integrated where ID matched; snaps, routes, injuries, competition and trade appeal still require dated research before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
+const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at,nfl:nflUsable?nfl.generated_at:null,snaps:snapsUsable?snaps.generated_at:null},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",priority_research_targets:distinct,comparisons:scoredComparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","NFL carries, targets and receptions are integrated where ID matched; snaps, routes, injuries, competition and trade appeal still require dated research before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
 await fs.mkdir("reports",{recursive:true});await fs.writeFile("reports/shivagpt-waiver-decision-queue.json",JSON.stringify(result));
 console.log(JSON.stringify({roster:roster.length,faab,comparisons:comparisons.length,week:stats.completed_through_week}));
