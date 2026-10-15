@@ -1,0 +1,35 @@
+name: Collect ShivaGPT NFL News Research Headlines
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/collect-nfl-news.py"
+      - ".github/workflows/collect-shivagpt-nfl-news.yml"
+  schedule:
+    - cron: "22 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-nfl-news
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect dated sourced NFL headline research signals
+        run: python scripts/collect-nfl-news.py
+      - name: Publish validated headlines and attribution
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-nfl-news-headlines.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish dated NFL headline research triggers"
+          git pull --rebase origin main
+          git push origin HEAD:main
