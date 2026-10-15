@@ -26,6 +26,29 @@ const pool=new Map(avail.available_players.map(p=>[String(p.player_id),p]));
 const score=(p,w)=>{const v=p?.weeks?.find(x=>Number(x.week)===w)?.yahoo_fantasy_points;return typeof v==="number"?v:null};
 const weeks=[stats.completed_through_week-2,stats.completed_through_week-1,stats.completed_through_week].filter(x=>x>0);
 const avg=id=>{const s=statMap.get(String(id));const pts=weeks.map(w=>score(s,w)).filter(v=>v!==null);return pts.length?Number((pts.reduce((a,b)=>a+b,0)/pts.length).toFixed(2)):null};
+const nfl=await read("public/shivagpt-nfl-opportunity.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const nflUsable=nfl?.schema==="shivagpt-nfl-opportunity-v1"&&nfl.read_only===true&&
+ String(nfl.league_id)==="721343"&&nfl.season===2026&&
+ Array.isArray(nfl.players)&&nfl.weeks?.includes(stats.completed_through_week);
+const opportunity=new Map();
+if(nflUsable)for(const p of nfl.players){
+ const id=String(p.yahoo_player_id);
+ if(!opportunity.has(id))opportunity.set(id,[]);
+ opportunity.get(id).push(p);
+}
+function nflTrend(id){
+ if(!nflUsable)return {status:"UNAVAILABLE",reason:"NFL source missing or wrong completed week"};
+ const rows=(opportunity.get(String(id))||[]).filter(r=>Number.isInteger(r.week)).sort((a,b)=>a.week-b.week);
+ if(!rows.length)return {status:"UNMATCHED",reason:"No verified Yahoo-to-NFL player ID mapping"};
+ const latest=rows.findLast(r=>r.week===stats.completed_through_week);
+ if(!latest)return {status:"INCOMPLETE",reason:"No record in latest completed NFL week"};
+ const prior=rows.findLast(r=>r.week<latest.week);
+ const fields=["carries","targets","receptions","attempts","rushing_first_downs","receiving_first_downs","target_share","receiving_air_yards"];
+ const latestMetrics=Object.fromEntries(fields.map(k=>[k,latest.metrics?.[k]??null]));
+ const changes=Object.fromEntries(fields.map(k=>[k,prior?.metrics?.[k]!=null&&latest.metrics?.[k]!=null?
+ Number((latest.metrics[k]-prior.metrics[k]).toFixed(2)):null]));
+ return {status:"MATCHED",latest_week:latest.week,latest:latestMetrics,change_vs_previous:changes,source:"nflverse weekly player statistics"};
+}
 const protectedNames=new Set(["Justin Jefferson","Chris Olave","De'Von Achane","Chase Brown","A.J. Brown"]);
 const candidates=monitor.monitored.filter(x=>pool.has(String(x.player_id))).slice().sort((a,b)=>b.rank_score-a.rank_score);
 const comparisons=[];
@@ -43,10 +66,10 @@ for(const target of candidates.slice(0,60)){
   if(targetAverage===null || dropAverage===null)continue;
   if(target.position===drop.position && targetAverage<=dropAverage)continue;
   const crossPosition=target.position!==drop.position;
-  comparisons.push({add:{id:target.player_id,name:target.name,position:target.position,status:pool.get(String(target.player_id))?.availability_status||"unverified",recent_avg:avg(target.player_id)},drop:{id:drop.player_id,name:drop.name,recent_avg:avg(drop.player_id)},signals:target.signals,net_recent_points:Number((targetAverage-dropAverage).toFixed(2)),cross_position:crossPosition,comparison_validity:crossPosition?"NOT_COMPARABLE_ACROSS_POSITIONS":"RECENT_POINTS_ONLY",action:"RESEARCH_ONLY",recommended_faab:null,max_faab:null,approval_required:true,evidence_status:"NFL_ROLE_NOT_VERIFIED",research_requirements:["snap_share","routes_or_carries","targets_or_receiving_work","injury_and_teammate_competition","sustainability","trade_market","exact_scoring","current_FA_W_status"],suggested_move:false});
+  comparisons.push({add:{id:target.player_id,name:target.name,position:target.position,status:pool.get(String(target.player_id))?.availability_status||"unverified",recent_avg:avg(target.player_id)},drop:{id:drop.player_id,name:drop.name,recent_avg:avg(drop.player_id)},signals:target.signals,nfl_opportunity:nflTrend(target.player_id),net_recent_points:Number((targetAverage-dropAverage).toFixed(2)),cross_position:crossPosition,comparison_validity:crossPosition?"NOT_COMPARABLE_ACROSS_POSITIONS":"RECENT_POINTS_ONLY",action:"RESEARCH_ONLY",recommended_faab:null,max_faab:null,approval_required:true,evidence_status:"NFL_ROLE_NOT_VERIFIED",research_requirements:["snap_share","routes_or_carries","targets_or_receiving_work","injury_and_teammate_competition","sustainability","trade_market","exact_scoring","current_FA_W_status"],suggested_move:false});
  }
 }
 must(comparisons.every(x=>(x.cross_position || x.net_recent_points>0) && x.add.status!=="unverified"),"Unsafe comparison detected");
-const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",comparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","Targets require verified current NFL injury, snaps, routes, targets, carries, competition, trade appeal and roster context before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
+const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at,nfl:nflUsable?nfl.generated_at:null},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",comparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","NFL carries, targets and receptions are integrated where ID matched; snaps, routes, injuries, competition and trade appeal still require dated research before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
 await fs.mkdir("reports",{recursive:true});await fs.writeFile("reports/shivagpt-waiver-decision-queue.json",JSON.stringify(result));
 console.log(JSON.stringify({roster:roster.length,faab,comparisons:comparisons.length,week:stats.completed_through_week}));
