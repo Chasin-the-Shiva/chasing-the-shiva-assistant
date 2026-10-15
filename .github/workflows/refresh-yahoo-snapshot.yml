@@ -55,7 +55,13 @@ jobs:
           git add public/shivagpt-live.json public/shivagpt-available.json public/shivagpt-scoring.json public/shivagpt-manager-history.json
           git diff --cached --quiet && exit 0
           git commit -m "Refresh sanitized Yahoo snapshots"
-          git push
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "Safe publishing failed after four attempts" >&2
+          exit 1
 
 # Render dispatches this workflow hourly at :30 UTC. GitHub's native schedule is a six-hour fallback at :10 UTC.
 # Routine scheduled and dispatched runs refresh only current-season data. Manager history v3 is rebuilt only
