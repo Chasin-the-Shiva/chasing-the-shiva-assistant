@@ -1,0 +1,21 @@
+name: Validate Yahoo Fan Pts Against Game Logs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/validate-yahoo-fan-points-reference.mjs"
+      - ".github/workflows/validate-yahoo-fan-points-reference.yml"
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Compare stored Yahoo fantasy points to confirmed in-league game logs
+        run: node scripts/validate-yahoo-fan-points-reference.mjs
