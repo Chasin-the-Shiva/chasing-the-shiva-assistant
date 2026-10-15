@@ -61,6 +61,10 @@ const articleSignals=newsFresh?news.matched_articles:[];
 const market=await read("reports/shivagpt-faab-market.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
 const marketGood=market?.schema==="shivagpt-faab-market-v1"&&market.read_only===true&&String(market.league_id)==="721343"&&
  Number.isFinite(Date.parse(market.league_snapshot_at))&&market.total_successful_waiver_bids>=8;
+const returnNews=await read("reports/shivagpt-return-news-priority.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const returnNewsFresh=returnNews?.schema==="shivagpt-return-news-priority-v1"&&returnNews.read_only===true&&
+ Array.isArray(returnNews.queue)&&Date.now()-Date.parse(returnNews.generated_at)<6*3600000;
+const returnNewsList=returnNewsFresh?returnNews.queue.filter(p=>p.news_signal==="RETURN_NEWS_RESEARCH"):[];
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -150,6 +154,15 @@ const lines=[
  ...(marketGood?Object.entries(market.by_position).map(([k,v])=>`| ${k} | ${v.count} | ${v.median} | ${v.p75} | ${v.maximum} |`):[]),
  "",
  "Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.",
+ "",
+ "## Injury and early-return news research",
+ `- Injury return feed: ${returnNewsFresh?"verified":"unavailable or stale"}; ${returnNewsList.length} players matched to dated injury/return headlines.`,
+ "",
+ "| Player | Injury status | Yahoo status | News research headline |",
+ "|---|---|---|---|",
+ ...returnNewsList.slice(0,10).map(p=>`| ${p.name} | ${p.injury_status} | ${p.availability_status} | ${p.related_articles?.[0]?.headline||"No attributed article"} |`),
+ "",
+ "No inferred activation date or pickup recommendation without reading the attributed article, verifying team status, workload and exact Yahoo FA/W designation.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
