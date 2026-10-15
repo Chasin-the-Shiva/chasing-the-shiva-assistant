@@ -1,0 +1,350 @@
+{
+  "schema": "shivagpt-legal-lineup-options-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:16:26.585Z",
+  "league_id": "721343",
+  "week": 6,
+  "yahoo_snapshot_at": "2026-10-15T18:18:47.660Z",
+  "starter_count": 10,
+  "bench_eligible_count": 0,
+  "unavailable_starters": 3,
+  "remedies": [
+    {
+      "starter": "Jalen Hurts",
+      "slot": "QB",
+      "status": "O",
+      "bye": false,
+      "internal_options": [],
+      "external_research": [
+        {
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "player_id": "30125"
+        },
+        {
+          "name": "Geno Smith",
+          "position": "QB",
+          "player_id": "26662"
+        },
+        {
+          "name": "Daniel Jones",
+          "position": "QB",
+          "player_id": "31838"
+        },
+        {
+          "name": "Cam Ward",
+          "position": "QB",
+          "player_id": "41786"
+        },
+        {
+          "name": "Malik Willis",
+          "position": "QB",
+          "player_id": "34042"
+        },
+        {
+          "name": "Jameis Winston",
+          "position": "QB",
+          "player_id": "28389"
+        },
+        {
+          "name": "Kyler Murray",
+          "position": "QB",
+          "player_id": "31833"
+        },
+        {
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "player_id": "40889"
+        },
+        {
+          "name": "Jalon Daniels",
+          "position": "QB",
+          "player_id": "42919"
+        },
+        {
+          "name": "Drew Lock",
+          "position": "QB",
+          "player_id": "31874"
+        },
+        {
+          "name": "Case Keenum",
+          "position": "QB",
+          "player_id": "26483"
+        },
+        {
+          "name": "Tyson Bagent",
+          "position": "QB",
+          "player_id": "40504"
+        },
+        {
+          "name": "Tyler Huntley",
+          "position": "QB",
+          "player_id": "32993"
+        },
+        {
+          "name": "Carson Wentz",
+          "position": "QB",
+          "player_id": "29236"
+        },
+        {
+          "name": "Athan Kaliakmanis",
+          "position": "QB",
+          "player_id": "42845"
+        },
+        {
+          "name": "Cooper Rush",
+          "position": "QB",
+          "player_id": "30788"
+        },
+        {
+          "name": "Fernando Mendoza",
+          "position": "QB",
+          "player_id": "42623"
+        },
+        {
+          "name": "Jack Strand",
+          "position": "QB",
+          "player_id": "42898"
+        },
+        {
+          "name": "Tommy DeVito",
+          "position": "QB",
+          "player_id": "40533"
+        },
+        {
+          "name": "Stetson Bennett IV",
+          "position": "QB",
+          "player_id": "40153"
+        }
+      ],
+      "action": "REVIEW_ONLY"
+    },
+    {
+      "starter": "Tre' Harris",
+      "slot": "W/R/T",
+      "status": "D",
+      "bye": false,
+      "internal_options": [],
+      "external_research": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "player_id": "42616"
+        },
+        {
+          "name": "Myles Price",
+          "position": "WR",
+          "player_id": "42389"
+        },
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "player_id": "33443"
+        },
+        {
+          "name": "Kyle Williams",
+          "position": "WR",
+          "player_id": "41864"
+        },
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "player_id": "31012"
+        },
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "player_id": "40065"
+        },
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "player_id": "40232"
+        },
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "player_id": "42859"
+        },
+        {
+          "name": "Cade Otton",
+          "position": "TE",
+          "player_id": "34062"
+        },
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "player_id": "41087"
+        },
+        {
+          "name": "Greg Dortch",
+          "position": "WR",
+          "player_id": "32523"
+        },
+        {
+          "name": "Josh Cameron",
+          "position": "WR",
+          "player_id": "42813"
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "player_id": "30227"
+        },
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "player_id": "40222"
+        },
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "player_id": "42464"
+        },
+        {
+          "name": "Kaden Wetjen",
+          "position": "WR",
+          "player_id": "42743"
+        },
+        {
+          "name": "Isaac TeSlaa",
+          "position": "WR",
+          "player_id": "41865"
+        },
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "player_id": "42693"
+        },
+        {
+          "name": "Cody White",
+          "position": "WR",
+          "player_id": "32948"
+        },
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "player_id": "34085"
+        }
+      ],
+      "action": "REVIEW_ONLY"
+    },
+    {
+      "starter": "A.J. Brown",
+      "slot": "W/R/T",
+      "status": "IR-R",
+      "bye": false,
+      "internal_options": [],
+      "external_research": [
+        {
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "player_id": "42616"
+        },
+        {
+          "name": "Myles Price",
+          "position": "WR",
+          "player_id": "42389"
+        },
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "player_id": "33443"
+        },
+        {
+          "name": "Kyle Williams",
+          "position": "WR",
+          "player_id": "41864"
+        },
+        {
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "player_id": "31012"
+        },
+        {
+          "name": "Michael Mayer",
+          "position": "TE",
+          "player_id": "40065"
+        },
+        {
+          "name": "Xavier Hutchinson",
+          "position": "WR",
+          "player_id": "40232"
+        },
+        {
+          "name": "Seth McGowan",
+          "position": "RB",
+          "player_id": "42859"
+        },
+        {
+          "name": "Cade Otton",
+          "position": "TE",
+          "player_id": "34062"
+        },
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "player_id": "41087"
+        },
+        {
+          "name": "Greg Dortch",
+          "position": "WR",
+          "player_id": "32523"
+        },
+        {
+          "name": "Josh Cameron",
+          "position": "WR",
+          "player_id": "42813"
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "player_id": "30227"
+        },
+        {
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "player_id": "40222"
+        },
+        {
+          "name": "Darius Cooper",
+          "position": "WR",
+          "player_id": "42464"
+        },
+        {
+          "name": "Kaden Wetjen",
+          "position": "WR",
+          "player_id": "42743"
+        },
+        {
+          "name": "Isaac TeSlaa",
+          "position": "WR",
+          "player_id": "41865"
+        },
+        {
+          "name": "Antonio Williams",
+          "position": "WR",
+          "player_id": "42693"
+        },
+        {
+          "name": "Cody White",
+          "position": "WR",
+          "player_id": "32948"
+        },
+        {
+          "name": "Jake Ferguson",
+          "position": "TE",
+          "player_id": "34085"
+        }
+      ],
+      "action": "REVIEW_ONLY"
+    }
+  ],
+  "automatic_lineup_changes": [],
+  "complete_optimal_lineup": null,
+  "missing_inputs": [
+    "Projected game-by-game points under exact Yahoo scoring and remaining game schedule",
+    "External player add/drop cost and remaining roster slot limits"
+  ],
+  "note": "Only players actually on roster can be an internal substitution. FA choices are research leads requiring an add/drop. Doubtful and designated-to-return players treated as unavailable until cleared."
+}
