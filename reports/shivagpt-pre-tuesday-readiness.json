@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-pre-tuesday-readiness-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T19:17:40.125Z",
+  "generated_at": "2026-10-15T19:19:58.880Z",
   "league_id": "721343",
   "checks": [
     {
@@ -60,6 +60,21 @@
       "timestamp": "2026-10-15T19:14:16.721Z"
     },
     {
+      "name": "Trade research",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:15:33.131Z"
+    },
+    {
+      "name": "Keeper scoring",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:19:15.741Z"
+    },
+    {
+      "name": "Prospective lineup options",
+      "status": "PASS",
+      "timestamp": "2026-10-15T19:16:26.585Z"
+    },
+    {
       "name": "refresh-yahoo-snapshot.yml",
       "status": "PASS"
     },
@@ -84,7 +99,7 @@
       "status": "PASS"
     }
   ],
-  "pass_count": 17,
+  "pass_count": 20,
   "fail_count": 0,
   "status": "CONFIGURATION_PASS_SCHEDULED_RUNTIME_PENDING",
   "limitations": [
