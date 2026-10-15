@@ -8,8 +8,8 @@ def read(p):return json.loads(Path(p).read_text())
 monitor=read("reports/shivagpt-monitoring-400.json")
 injury=read("reports/shivagpt-injury-radar.json")
 if monitor.get("schema")!="shivagpt-monitoring-400-v1" or injury.get("schema")!="shivagpt-injury-radar-v1":raise ValueError("Missing research priorities")
-names={p.get("name","").lower():str(p["player_id"]) for p in monitor.get("monitored",[]) if p.get("name")}
-names.update({p.get("name","").lower():str(p["player_id"]) for p in injury.get("early_return_research_queue",[]) if p.get("name")})
+names={p.get("name","").lower():str(p["player_id"]) for p in monitor.get("monitored",[]) if p.get("name") and len(p.get("name","").split())>=2}
+names.update({p.get("name","").lower():str(p["player_id"]) for p in injury.get("early_return_research_queue",[]) if p.get("name") and len(p.get("name","").split())>=2})
 items=[];sources=[];cutoff=datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=4)
 for publisher,url in feeds:
  try:
@@ -23,6 +23,7 @@ for publisher,url in feeds:
    link=(node.findtext("link") or "").strip()
    date=node.findtext("pubDate") or ""
    if not title or not link.startswith("https://"):continue
+   if re.search(r"promo code|bonus bets|sportsbook|betting odds",title,re.I):continue
    try:published=email.utils.parsedate_to_datetime(date).astimezone(datetime.timezone.utc)
    except Exception:continue
    if published<cutoff:continue
