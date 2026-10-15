@@ -1,0 +1,36 @@
+name: Collect ShivaGPT NFL Offensive Snaps
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/collect-nfl-snaps.py"
+      - ".github/workflows/collect-shivagpt-nfl-snaps.yml"
+  schedule:
+    - cron: "11 6 * * *"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-nfl-snaps
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and validate Yahoo-matched NFL snap shares
+        run: python scripts/collect-nfl-snaps.py
+      - name: Publish verified snap share data
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/shivagpt-nfl-snaps.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish validated NFL snap shares"
+          git pull --rebase origin main
+          git push origin HEAD:main
