@@ -1,0 +1,49 @@
+name: ShivaGPT Tuesday Wednesday End-to-End Test
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-e2e-tuesday-wednesday.yml"
+permissions:
+  contents: read
+jobs:
+  simulation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify source freshness before simulated Tuesday and Wednesday
+        run: node scripts/shivagpt-preflight.mjs
+      - name: Build Tuesday monitoring, ADD DROP and decision chain
+        run: |
+          node scripts/build-monitoring-400.mjs
+          node scripts/build-waiver-decision-queue.mjs
+          node scripts/build-acquisition-gates.mjs
+          node scripts/build-replacement-choices.mjs
+          node scripts/build-weekly-acquisition-decision.mjs
+          node scripts/build-weekly-executive-decisions.mjs
+          node scripts/build-tuesday-brief.mjs
+      - name: Build Wednesday FA contingency from the same checked snapshot
+        run: node scripts/build-wednesday-fa.mjs
+      - name: Validate read-only report consistency without making claims
+        run: |
+          node --input-type=module -e '
+          import fs from "node:fs";
+          const load=p=>JSON.parse(fs.readFileSync(p,"utf8"));
+          const q=load("reports/shivagpt-waiver-decision-queue.json");
+          const e=load("reports/shivagpt-weekly-executive-decisions.json");
+          const w=load("reports/shivagpt-wednesday-fa.json");
+          const m=load("reports/shivagpt-monitoring-400.json");
+          const ok=m.monitored.length===400&&q.read_only&&e.read_only&&w.read_only&&
+            e.automatic_transactions_enabled===false&&e.approved_moves.length===0&&
+            e.remaining_faab===q.verified_faab&&
+            w.fa_candidates.every(p=>p.action==="REVERIFY_LIVE_FA_AND_COMPARE_DROP");
+          if(!ok)throw Error("Simulated Tuesday/Wednesday report invariants failed");
+          console.log(JSON.stringify({status:"PASS",monitored:m.monitored.length,reviewed:e.ranked_research.length,
+            faab:e.remaining_faab,wednesday_fa_candidates:w.fa_candidates.length,
+            note:"Snapshot simulation, not proof of Tuesday waiver processing or Wednesday live FA state"}));
+          '
