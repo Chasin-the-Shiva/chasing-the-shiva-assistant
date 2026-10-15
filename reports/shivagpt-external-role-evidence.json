@@ -1,0 +1,38 @@
+{
+  "schema": "shivagpt-external-role-evidence-v1",
+  "read_only": true,
+  "reviewed_at": "2026-10-15T18:50:00Z",
+  "league_id": "721343",
+  "players": [
+    {
+      "name": "Samaje Perine",
+      "player_id": "30227",
+      "team": "CIN",
+      "depth_status": "COMMITTEE_INCREASING_ROLE_UNCONFIRMED",
+      "opportunity_outlook": "MATERIAL_COMMITTEE_RISK_AND_POTENTIAL_HANDCUFF",
+      "independent_verification": false,
+      "source_urls": [
+        "https://www.cincyjungle.com/cincinnati-bengals-analysis/202160/samaje-perine-rb1-chase-brown-snaps"
+      ],
+      "reason": "Coaching usage review after Week 5; no confirmed future starter status; upcoming Week 6 bye."
+    },
+    {
+      "name": "Roschon Johnson",
+      "player_id": "40162",
+      "team": "CHI",
+      "depth_status": "THIRD_BACK_CONDITIONAL",
+      "opportunity_outlook": "TEMPORARY_OPPORTUNITY_IF_MONANGAI_UNAVAILABLE",
+      "independent_verification": false,
+      "source_urls": [
+        "https://secure.ourlads.com/nfldepthcharts/depthchart/CHI",
+        "https://www.windycitygridiron.com/chicago-bears-injuries/125295/chicagobears-vs-falcons-injury-report-swift-and-monangai-dnp-ol-injuries"
+      ],
+      "reason": "Behind Swift and Monangai on Oct 13 depth chart; teammate Monangai has current injury uncertainty."
+    }
+  ],
+  "limitations": [
+    "Dated source summaries, not a live roster or official transaction confirmation.",
+    "independent_verification=false means future projection and FAAB price remain unapproved.",
+    "Recheck current injury/depth charts before any submitted waiver claim."
+  ]
+}
