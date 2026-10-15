@@ -1,0 +1,35 @@
+name: ShivaGPT Data Readiness Diagnostics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/shivagpt-preflight.mjs"
+      - ".github/workflows/shivagpt-data-readiness.yml"
+  schedule:
+    - cron: "12 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-data-readiness
+  cancel-in-progress: false
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Diagnose source timestamps and report blockers
+        run: node scripts/shivagpt-preflight.mjs
+      - name: Publish diagnostic status without masking failures
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-pipeline-preflight.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish ShivaGPT data readiness status"
+          git pull --rebase origin main
+          git push origin HEAD:main
