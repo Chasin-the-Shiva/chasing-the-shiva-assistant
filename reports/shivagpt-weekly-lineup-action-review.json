@@ -1,63 +1,53 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T19:01:38.746Z",
+  "generated_at": "2026-10-15T19:48:05.380Z",
   "league_id": "721343",
   "season_week": 6,
   "roster_source_at": "2026-10-15T18:18:47.660Z",
-  "availability_source_at": "2026-10-15T18:18:47.660Z",
+  "availability_source_at": "2026-10-15T19:43:10.042Z",
+  "source_fresh": false,
   "starter_warnings": [
     {
       "name": "Jalen Hurts",
       "status": "O",
       "slot": "QB",
-      "severity": "HIGH"
+      "bye": false,
+      "severity": "HIGH",
+      "internal_options": []
     },
     {
       "name": "Tre' Harris",
       "status": "D",
       "slot": "W/R/T",
-      "severity": "REVIEW"
+      "bye": false,
+      "severity": "REVIEW",
+      "internal_options": []
+    },
+    {
+      "name": "A.J. Brown",
+      "status": "IR-R",
+      "slot": "W/R/T",
+      "bye": false,
+      "severity": "HIGH",
+      "internal_options": []
     }
   ],
-  "verified_available_qb_options": [
-    {
-      "name": "Jameis Winston",
-      "player_id": "28389",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Geno Smith",
-      "player_id": "26662",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Michael Penix Jr.",
-      "player_id": "40889",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kyler Murray",
-      "player_id": "31833",
-      "status": "FA",
-      "injury_status": null
-    }
-  ],
-  "preferred_short_term_qb_research": "Jameis Winston",
+  "verified_available_qb_options": [],
+  "preferred_short_term_qb_research": null,
   "priority_actions": [
-    "URGENT: replace QB Jalen Hurts (Out) if a viable starter can be obtained without sacrificing core assets.",
-    "Review Tre Harris (Doubtful) and A.J. Brown (IR-R) in the two FLEX slots before lock.",
-    "Verify Chris Olave and Dontayvion Wicks questionable status close to their games.",
-    "Avoid spending substantial FAAB on a lost bye-week matchup unless player has value past Week 6."
+    "SOURCE STALE OR MISMATCHED: verify Yahoo roster and available pool before acting.",
+    "REVIEW Jalen Hurts (QB; O): no verified eligible bench replacement. Confirm official status and lineup eligibility before lock.",
+    "REVIEW Tre' Harris (W/R/T; D): no verified eligible bench replacement. Confirm official status and lineup eligibility before lock.",
+    "REVIEW A.J. Brown (W/R/T; IR-R): no verified eligible bench replacement. Confirm official status and lineup eligibility before lock.",
+    "QB external research available; compare role, game status, exact roster drop and future value before any add.",
+    "Avoid meaningful FAAB spending solely to rescue a short-term matchup unless the pickup improves the roster beyond this week."
   ],
   "trade_or_waiver_orders_placed": 0,
   "lineup_changed": false,
   "limits": [
-    "Yahoo may change after the source snapshot; check status before claims.",
-    "No replacement is approved without current eligibility, roster slot, potential drop and meaningful future value.",
-    "This is a safety/priority report, not a projected optimal lineup."
+    "No fixed player recommendations: every warning is generated from the current Yahoo snapshot.",
+    "Availability is a research lead, not evidence of a startable NFL role or a justified drop.",
+    "Do not treat this report as a mathematically optimal lineup or execute any Yahoo change."
   ]
 }
