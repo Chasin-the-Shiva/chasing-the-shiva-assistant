@@ -24,15 +24,25 @@ jobs:
           node-version: "22"
       - name: Refresh monitoring priorities from latest validated data
         run: node scripts/build-monitoring-400.mjs
-      - name: Build read-only ADD DROP research comparisons
-        run: node scripts/build-waiver-decision-queue.mjs
+      - name: Build full read-only waiver and executive decision chain
+        run: |
+          node scripts/build-waiver-decision-queue.mjs
+          node scripts/build-acquisition-gates.mjs
+          node scripts/build-replacement-choices.mjs
+          node scripts/build-weekly-acquisition-decision.mjs
+          node scripts/build-weekly-executive-decisions.mjs
+      - name: Verify lineup safety using the same checked roster
+        run: |
+          node scripts/build-lineup-safety.mjs
+          node scripts/build-legal-lineup-options.mjs
+          node scripts/build-weekly-lineup-action-review.mjs
       - name: Check prerequisites and generate factual waiver brief
         run: node scripts/build-tuesday-brief.mjs
       - name: Publish only validated generated brief
         run: |
           git config user.name "ShivaGPT Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/shivagpt-tuesday-latest.md reports/shivagpt-monitoring-400.json reports/shivagpt-waiver-decision-queue.json
+          git add reports/shivagpt-tuesday-latest.md reports/shivagpt-monitoring-400.json reports/shivagpt-waiver-decision-queue.json reports/shivagpt-acquisition-gates.json reports/shivagpt-replacement-choices.json reports/shivagpt-weekly-acquisition-decision.json reports/shivagpt-weekly-executive-decisions.json reports/shivagpt-lineup-safety.json reports/shivagpt-legal-lineup-options.json reports/shivagpt-weekly-lineup-action-review.json
           git diff --cached --quiet && exit 0
           git commit -m "Publish Tuesday ShivaGPT scouting brief"
           for attempt in 1 2 3 4; do
