@@ -1,0 +1,36 @@
+name: ShivaGPT Keeper Scoring Screen
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-keeper-production-screen.mjs"
+      - ".github/workflows/shivagpt-keeper-production-screen.yml"
+permissions:
+  contents: write
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Score recent keeper production using actual league scoring
+        run: |
+          node --check scripts/build-keeper-production-screen.mjs
+          node scripts/build-keeper-production-screen.mjs
+      - name: Publish research-only screen
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-keeper-production-screen.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish actual Yahoo scoring keeper research screen"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
