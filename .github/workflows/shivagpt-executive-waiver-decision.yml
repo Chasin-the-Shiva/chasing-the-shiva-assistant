@@ -1,0 +1,42 @@
+name: ShivaGPT Executive Waiver Decision
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-weekly-executive-decisions.mjs"
+      - ".github/workflows/shivagpt-executive-waiver-decision.yml"
+  schedule:
+    - cron: "42 7 * * 2"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-executive-waiver-decision
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify code and generate final acquisition disposition
+        run: |
+          node --check scripts/build-weekly-executive-decisions.mjs
+          node scripts/build-weekly-executive-decisions.mjs
+      - name: Publish read-only decision summary
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-weekly-executive-decisions.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish disciplined ShivaGPT weekly executive acquisition assessment"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
