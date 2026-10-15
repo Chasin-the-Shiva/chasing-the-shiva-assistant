@@ -53,6 +53,11 @@ const decision=await read("reports/shivagpt-waiver-decision-queue.json");
 check(decision.schema==="shivagpt-waiver-decision-queue-v1"&&decision.read_only===true&&
  String(decision.league_id)==="721343"&&decision.comparisons?.length>0,
  "Missing or invalid ADD/DROP queue");
+const news=await read("reports/shivagpt-nfl-news-headlines.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const newsFresh=news?.schema==="shivagpt-nfl-news-headlines-v1"&&news.read_only===true&&
+ Array.isArray(news.matched_articles)&&Number.isFinite(Date.parse(news.generated_at))&&
+ Date.now()-Date.parse(news.generated_at)<6*3600000;
+const articleSignals=newsFresh?news.matched_articles:[];
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -118,6 +123,12 @@ const lines=[
    `| ${x.add.name} | ${x.nfl_snaps.offense_snaps} | ${fmt(x.nfl_snaps.offense_pct*100)}% | ${fmt(x.nfl_snaps.change_percentage_points)} |`),
  "",
  "No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.",
+ "",
+ "## Current sourced NFL headline research",
+ `- News feed: ${newsFresh?"available":"missing or stale"}; ${articleSignals.length} matched player headlines in the latest four-day window.`,
+ "- Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.",
+ "",
+ ...articleSignals.slice(0,20).map(x=>`- ${x.published_at} — ${x.publisher}: [${x.title.replaceAll("[","(").replaceAll("]",")")}](${x.url})`),
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
