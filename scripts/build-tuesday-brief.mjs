@@ -43,6 +43,12 @@ if(radar?.schema==="shivagpt-popularity-radar-v1" && radar.read_only===true &&
     }));
   }else radarState="stale";
 }else if(radar) radarState="invalid_or_not_connected";
+const monitor=await read("reports/shivagpt-monitoring-400.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const monitoringValid=monitor?.schema==="shivagpt-monitoring-400-v1"&&monitor.read_only===true&&
+ String(monitor.league_id)==="721343"&&monitor.stats_through_week===recentWeek&&
+ monitor.monitored?.length===400&&monitor.rostered_count===195&&monitor.available_count===205&&
+ Number.isFinite(Date.parse(monitor.generated_at)) &&
+ Date.now()-Date.parse(monitor.generated_at)<6*3600000;
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -70,6 +76,17 @@ const lines=[
  ...radarCandidates.slice(0,35).map(x=>`| ${String(x.name||"Unknown").replaceAll("|","/")} | ${x.current_status} | ${fmt(x.percent_owned_delta)} | ${fmt(x.observed_ownership_change_pp)} |`),
  "",
  "Every popularity trigger requires NFL role and injury research, exact Shiva scoring and comparison with Joe's drop candidate before an ADD recommendation.",
+ "",
+ "## Rolling 400-player research priorities",
+ `- Monitor status: ${monitoringValid?"verified":"missing or stale — do not infer complete monitoring"}.`,
+ `- Monitoring pool: ${monitoringValid?monitor.rostered_count+" rostered + "+monitor.available_count+" available":"unverified"}.`,
+ `- Overflow opportunity signals: ${monitoringValid?monitor.overflow_signal_count:"unverified"}.`,
+ "",
+ "| Player | Position | FA/W | Screening triggers |",
+ "|---|---|---|---|",
+ ...(monitoringValid?monitor.monitored.filter(p=>p.availability_status!=="rostered").slice(0,35).map(p=>`| ${String(p.name||"Unknown").replaceAll("|","/")} | ${p.position} | ${p.availability_status} | ${p.signals.join(", ")||"score opportunity screen"} |`):[]),
+ "",
+ "Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
