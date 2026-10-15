@@ -25,6 +25,11 @@ for(const target of gates.watchlist){
  const variants=queue.comparisons.filter(x=>String(x.add.id)===String(target.player_id));
  const drops=[];
  const incomingWorkload=workload(target.player_id);
+ const priorWeeks=incomingWorkload.last_three_weeks.slice(1);
+ const priorAvg=priorWeeks.length===2?(priorWeeks[0].touches+priorWeeks[1].touches)/2:null;
+ const emerging=priorAvg!==null&&incomingWorkload.touches>=priorAvg+5&&incomingWorkload.offensive_snap_share>=0.3;
+ const stable=incomingWorkload.last_three_weeks.length===3&&incomingWorkload.last_three_weeks.every(x=>x.touches>=8);
+ const roleClass=stable?"SUSTAINED_USAGE":emerging?"RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION":"LOW_OR_UNVERIFIED_OPPORTUNITY";
  for(const row of variants){
   const drop=byId.get(String(row.drop.id));
   if(!drop)continue;
@@ -53,7 +58,7 @@ for(const target of gates.watchlist){
   Number(!a.same_position)-Number(!b.same_position)||
   (a.recent_yahoo_points_avg??Infinity)-(b.recent_yahoo_points_avg??Infinity));
  output.push({player_id:String(target.player_id),player:target.name,position:target.position,
-  availability:target.availability,incoming_workload:incomingWorkload,drop_alternatives:drops,
+  availability:target.availability,incoming_workload:incomingWorkload,role_classification:roleClass,drop_alternatives:drops,
   approved_drop:null,transaction_authorized:false,
   recommendation:"RESEARCH_ONLY",
   unanswered:["Current weekly starter/FLEX impact","Opportunity and depth-chart sustainability","Best realistic trade alternative","Future bye-week/keeper utility"]});
