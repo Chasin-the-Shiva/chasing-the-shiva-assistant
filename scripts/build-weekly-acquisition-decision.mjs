@@ -3,7 +3,7 @@ const read=async p=>JSON.parse(await fs.readFile(p,"utf8"));
 const [r,g,m]=await Promise.all([read("reports/shivagpt-replacement-choices.json"),read("reports/shivagpt-acquisition-gates.json"),read("reports/shivagpt-faab-market.json")]);
 if(r.schema!=="shivagpt-replacement-choices-v1"||g.schema!=="shivagpt-acquisition-gates-v1"||m.schema!=="shivagpt-faab-market-v1")throw Error("Invalid source schema");
 const sourceAge=(Date.now()-Date.parse(g.generated_at))/3600000;
-const sourceLag=(Date.parse(g.generated_at)-Date.parse(r.generated_at))/60000;
+const sourceLag=(Date.parse(r.generated_at)-Date.parse(g.generated_at))/60000;
 const sourcesFresh=g.source_ready&&sourceAge>=0&&sourceAge<=3&&Number.isFinite(sourceLag)&&sourceLag>=0&&sourceLag<=180;
 const gateMap=new Map(g.watchlist.map(x=>[String(x.player_id),x]));
 const out=[];
