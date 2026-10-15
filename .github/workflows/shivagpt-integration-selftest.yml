@@ -1,0 +1,44 @@
+name: ShivaGPT Integration Self-Test
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-integration-selftest.yml"
+      - "scripts/build-tuesday-brief.mjs"
+      - "scripts/build-waiver-decision-queue.mjs"
+      - "scripts/build-monitoring-400.mjs"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-integration-selftest
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check program syntax
+        run: |
+          node --check scripts/build-monitoring-400.mjs
+          node --check scripts/build-waiver-decision-queue.mjs
+          node --check scripts/build-tuesday-brief.mjs
+      - name: Run full scouting pipeline with current verified data
+        run: |
+          node scripts/build-monitoring-400.mjs
+          node scripts/build-waiver-decision-queue.mjs
+          node scripts/build-tuesday-brief.mjs
+      - name: Publish safe integrity results
+        run: |
+          node -e 'const fs=require("fs"),m=JSON.parse(fs.readFileSync("reports/shivagpt-monitoring-400.json")),d=JSON.parse(fs.readFileSync("reports/shivagpt-waiver-decision-queue.json"));if(m.monitored.length!==400||!d.comparisons.length)process.exit(1);fs.writeFileSync("reports/shivagpt-integration-health.json",JSON.stringify({schema:"shivagpt-integration-health-v1",generated_at:new Date().toISOString(),scoring_week:d.completed_through_week,monitored:m.monitored.length,offensive_participation:m.offensive_participation_count,comparisons:d.comparisons.length,nfl_matched:d.comparisons.filter(x=>x.nfl_opportunity?.status==="MATCHED").length,snap_matched:d.comparisons.filter(x=>x.nfl_snaps?.status==="MATCHED").length,report_sections:fs.readFileSync("reports/shivagpt-tuesday-latest.md","utf8").match(/^## .+$/gm)||[],read_only:true}))'
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-integration-health.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish ShivaGPT end-to-end validation results"
+          git pull --rebase origin main
+          git push origin HEAD:main
