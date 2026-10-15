@@ -2,6 +2,12 @@ name: Prepare ShivaGPT Tuesday Waiver Brief
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-tuesday-brief.mjs"
+      - "scripts/build-waiver-decision-queue.mjs"
+      - ".github/workflows/shivagpt-tuesday-brief.yml"
   schedule:
     - cron: "0 7 * * 2"
       timezone: "America/New_York"
