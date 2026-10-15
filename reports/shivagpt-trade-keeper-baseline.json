@@ -1,0 +1,1534 @@
+{
+  "schema": "shivagpt-league-keeper-trade-baseline-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:03:21.202Z",
+  "league_id": "721343",
+  "source_at": "2026-10-15T18:18:47.660Z",
+  "teams": 12,
+  "keep_limit": 3,
+  "managers": [
+    {
+      "team_id": "1",
+      "team_name": "Bismo Funions",
+      "roster_count": 16,
+      "players": [
+        {
+          "id": "25812",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40993",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40971",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40899",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40168",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "34088",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40878",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "32725",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41821",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29235",
+          "name": "Jared Goff",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41058",
+          "name": "Malik Washington",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32703",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31840",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33100",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31856",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "status": "CEL",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100001",
+          "name": "Falcons",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "2",
+      "team_name": "Eastboro Elites",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "40896",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32705",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33996",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "33963",
+          "name": "Drake London",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41793",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41421",
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41795",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41845",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30551",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42646",
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42638",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42025",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42630",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33389",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42730",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100011",
+          "name": "Colts",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100020",
+          "name": "Jets",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "3",
+      "team_name": "To infinity and Bijon",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "40030",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30121",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "29279",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40039",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "27535",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34709",
+          "name": "KaVontae Turpin",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34010",
+          "name": "Trey McBride",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "33514",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41903",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29631",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33967",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31002",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40980",
+          "name": "Ray Davis",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "28592",
+          "name": "Darren Waller",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34320",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100026",
+          "name": "Seahawks",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100016",
+          "name": "Vikings",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "4",
+      "team_name": "Team StudMonkey",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "41825",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40055",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "42625",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40911",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "26699",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42669",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29344",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40707",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41824",
+          "name": "Luther Burden III",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31010",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33393",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "34107",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29399",
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "status": "NA",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41052",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34063",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34008",
+          "name": "Alec Pierce",
+          "position": "WR",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100012",
+          "name": "Chiefs",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "5",
+      "team_name": "Diggs in a blanket",
+      "roster_count": 16,
+      "players": [
+        {
+          "id": "30977",
+          "name": "Josh Allen",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "34019",
+          "name": "James Cook III",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "30180",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33394",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "27581",
+          "name": "Davante Adams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34104",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40048",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40126",
+          "name": "Josh Downs",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31056",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40042",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34009",
+          "name": "Skyy Moore",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40883",
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34218",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41952",
+          "name": "Tory Horton",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42654",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100034",
+          "name": "Texans",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "6",
+      "team_name": "The 'Cant Finish on Top' Turds",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "29369",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32711",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40981",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40041",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "42626",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42661",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30259",
+          "name": "George Kittle",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41902",
+          "name": "Woody Marks",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40084",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33991",
+          "name": "Breece Hall",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "33113",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33538",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42796",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30197",
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40893",
+          "name": "Marvin Harrison Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40097",
+          "name": "Tank Dell",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100007",
+          "name": "Broncos",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "7",
+      "team_name": "Chase'n The Shiva",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "32723",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "status": "O",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34047",
+          "name": "Rachaad White",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40108",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40114",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33966",
+          "name": "Chris Olave",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40201",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31107",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41840",
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "D",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31883",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40064",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41969",
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32692",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40196",
+          "name": "Chase Brown",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41010",
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30231",
+          "name": "Mack Hollins",
+          "position": "WR",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40118",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "100033",
+          "name": "Ravens",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "8",
+      "team_name": "Les Screaming Eagles",
+      "roster_count": 16,
+      "players": [
+        {
+          "id": "40029",
+          "name": "Bryce Young",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41807",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41791",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "33989",
+          "name": "Christian Watson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33965",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41293",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41799",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41097",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41900",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41823",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33500",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "31905",
+          "name": "David Montgomery",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40900",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40075",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "PUP-R",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100003",
+          "name": "Bears",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100004",
+          "name": "Bengals",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "9",
+      "team_name": "ACP",
+      "roster_count": 14,
+      "players": [
+        {
+          "id": "34447",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40119",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41804",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31896",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40901",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "26686",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41877",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32231",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31868",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "status": "O",
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "32671",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "30972",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41002",
+          "name": "Will Shipley",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100023",
+          "name": "Steelers",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100006",
+          "name": "Cowboys",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "10",
+      "team_name": "Balls Deep",
+      "roster_count": 16,
+      "players": [
+        {
+          "id": "9265",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33423",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33508",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30994",
+          "name": "DJ Moore",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34659",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32687",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "33392",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33398",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "34120",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "30295",
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40078",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40224",
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30123",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40915",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "status": "D",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "32696",
+          "name": "Jordan Love",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100017",
+          "name": "Patriots",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "11",
+      "team_name": "Roadrunner",
+      "roster_count": 17,
+      "players": [
+        {
+          "id": "40881",
+          "name": "Drake Maye",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41922",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40641",
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34007",
+          "name": "George Pickens",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33477",
+          "name": "Nico Collins",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40877",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34095",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40962",
+          "name": "Blake Corum",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29269",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41885",
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40059",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40908",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41344",
+          "name": "George Holani",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "7200",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40926",
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100005",
+          "name": "Browns",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100014",
+          "name": "Rams",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    },
+    {
+      "team_id": "12",
+      "team_name": "Will da real Bijon pls Stand ⬆️",
+      "roster_count": 16,
+      "players": [
+        {
+          "id": "30973",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31960",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34054",
+          "name": "Brian Robinson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40234",
+          "name": "Parker Washington",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40121",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33998",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40102",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "41808",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40231",
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "28534",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42010",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31908",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31019",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42706",
+          "name": "Ted Hurst III",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33413",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "100002",
+          "name": "Bills",
+          "position": "DEF",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        }
+      ],
+      "keeper_limit": 3,
+      "projected_keepers": [],
+      "keeper_projection_status": "UNVERIFIED_REQUIRES_LEAGUE_SCORING_AND_LONG_TERM_VALUE",
+      "trade_surplus_candidates": [],
+      "note": "Three best keepers are not automatically current high-scoring players; trade and future draft pick prices need manager assessment."
+    }
+  ],
+  "trade_recommendations": [],
+  "draft_pick_recommendations": [],
+  "warnings": [
+    "No manager keeper forecasts are approved; this is a complete 12-team candidate roster inventory.",
+    "Historical weekly Yahoo points do not establish 2027 keeper value.",
+    "Never infer every nonkeeper player will be available; contracts, trades and league rules may alter next year's draft pool."
+  ]
+}
