@@ -1,0 +1,385 @@
+{
+  "schema": "shivagpt-historical-opportunity-backtest-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T18:55:02.704Z",
+  "league_id": "721343",
+  "weeks_tested": [
+    3,
+    4
+  ],
+  "definition": "An early signal has >=6 current rushing attempts plus targets and an increase of >=4 over previous week. A follow-on expansion has >=10 next-week attempts plus targets and >=3 greater than signal week.",
+  "early_signals": 62,
+  "signals_confirmed_next_week": 4,
+  "signals_not_confirmed_next_week": 58,
+  "next_week_expansions_without_signal": 32,
+  "unflagged_existing_opportunities": 39,
+  "precision_on_definition": 0.065,
+  "research_examples": [
+    {
+      "player_id": "34218",
+      "signal_week": 3,
+      "previous_touches": 3,
+      "signal_touches": 2,
+      "next_week_touches": 10,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "34218",
+      "signal_week": 4,
+      "previous_touches": 2,
+      "signal_touches": 10,
+      "next_week_touches": 5,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "31840",
+      "signal_week": 3,
+      "previous_touches": 4,
+      "signal_touches": 4,
+      "next_week_touches": 13,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "31840",
+      "signal_week": 4,
+      "previous_touches": 4,
+      "signal_touches": 13,
+      "next_week_touches": 1,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "30994",
+      "signal_week": 3,
+      "previous_touches": 1,
+      "signal_touches": 10,
+      "next_week_touches": 3,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "30125",
+      "signal_week": 3,
+      "previous_touches": 7,
+      "signal_touches": 11,
+      "next_week_touches": 7,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "33508",
+      "signal_week": 3,
+      "previous_touches": 8,
+      "signal_touches": 10,
+      "next_week_touches": 18,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "33508",
+      "signal_week": 4,
+      "previous_touches": 10,
+      "signal_touches": 18,
+      "next_week_touches": 16,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "33423",
+      "signal_week": 3,
+      "previous_touches": 16,
+      "signal_touches": 22,
+      "next_week_touches": 24,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "34054",
+      "signal_week": 3,
+      "previous_touches": 13,
+      "signal_touches": 10,
+      "next_week_touches": 15,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "34054",
+      "signal_week": 4,
+      "previous_touches": 10,
+      "signal_touches": 15,
+      "next_week_touches": 8,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "34095",
+      "signal_week": 3,
+      "previous_touches": 10,
+      "signal_touches": 5,
+      "next_week_touches": 12,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "34095",
+      "signal_week": 4,
+      "previous_touches": 5,
+      "signal_touches": 12,
+      "next_week_touches": 13,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "32725",
+      "signal_week": 3,
+      "previous_touches": 10,
+      "signal_touches": 19,
+      "next_week_touches": 13,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "32725",
+      "signal_week": 4,
+      "previous_touches": 19,
+      "signal_touches": 13,
+      "next_week_touches": 20,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "33393",
+      "signal_week": 4,
+      "previous_touches": 12,
+      "signal_touches": 3,
+      "next_week_touches": 10,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "34088",
+      "signal_week": 4,
+      "previous_touches": 4,
+      "signal_touches": 9,
+      "next_week_touches": 3,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "31896",
+      "signal_week": 4,
+      "previous_touches": 5,
+      "signal_touches": 9,
+      "next_week_touches": 5,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "40993",
+      "signal_week": 4,
+      "previous_touches": 19,
+      "signal_touches": 16,
+      "next_week_touches": 24,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40971",
+      "signal_week": 3,
+      "previous_touches": 8,
+      "signal_touches": 7,
+      "next_week_touches": 12,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40971",
+      "signal_week": 4,
+      "previous_touches": 7,
+      "signal_touches": 12,
+      "next_week_touches": 12,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "40641",
+      "signal_week": 3,
+      "previous_touches": 6,
+      "signal_touches": 11,
+      "next_week_touches": 16,
+      "signaled_early": true,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40641",
+      "signal_week": 4,
+      "previous_touches": 11,
+      "signal_touches": 16,
+      "next_week_touches": 10,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "33996",
+      "signal_week": 3,
+      "previous_touches": 34,
+      "signal_touches": 20,
+      "next_week_touches": 23,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "28592",
+      "signal_week": 3,
+      "previous_touches": 3,
+      "signal_touches": 8,
+      "next_week_touches": 6,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "40707",
+      "signal_week": 3,
+      "previous_touches": 22,
+      "signal_touches": 9,
+      "next_week_touches": 25,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40707",
+      "signal_week": 4,
+      "previous_touches": 9,
+      "signal_touches": 25,
+      "next_week_touches": 22,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "41002",
+      "signal_week": 4,
+      "previous_touches": 2,
+      "signal_touches": 7,
+      "next_week_touches": 7,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "29257",
+      "signal_week": 4,
+      "previous_touches": 1,
+      "signal_touches": 6,
+      "next_week_touches": 8,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "33113",
+      "signal_week": 3,
+      "previous_touches": 4,
+      "signal_touches": 8,
+      "next_week_touches": 8,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "34019",
+      "signal_week": 4,
+      "previous_touches": 25,
+      "signal_touches": 14,
+      "next_week_touches": 26,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "30231",
+      "signal_week": 3,
+      "previous_touches": 2,
+      "signal_touches": 9,
+      "next_week_touches": 4,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "30227",
+      "signal_week": 4,
+      "previous_touches": 6,
+      "signal_touches": 4,
+      "next_week_touches": 16,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "30977",
+      "signal_week": 4,
+      "previous_touches": 9,
+      "signal_touches": 5,
+      "next_week_touches": 10,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40981",
+      "signal_week": 3,
+      "previous_touches": 6,
+      "signal_touches": 7,
+      "next_week_touches": 16,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40981",
+      "signal_week": 4,
+      "previous_touches": 7,
+      "signal_touches": 16,
+      "next_week_touches": 28,
+      "signaled_early": true,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "40911",
+      "signal_week": 4,
+      "previous_touches": 2,
+      "signal_touches": 7,
+      "next_week_touches": 2,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "34447",
+      "signal_week": 3,
+      "previous_touches": 15,
+      "signal_touches": 21,
+      "next_week_touches": 23,
+      "signaled_early": true,
+      "next_week_expanded": false
+    },
+    {
+      "player_id": "32687",
+      "signal_week": 3,
+      "previous_touches": 9,
+      "signal_touches": 8,
+      "next_week_touches": 22,
+      "signaled_early": false,
+      "next_week_expanded": true
+    },
+    {
+      "player_id": "32687",
+      "signal_week": 4,
+      "previous_touches": 8,
+      "signal_touches": 22,
+      "next_week_touches": 5,
+      "signaled_early": true,
+      "next_week_expanded": false
+    }
+  ],
+  "warnings": [
+    "This is a proof-of-pipeline backtest, not validated predictive performance or Yahoo scoring return.",
+    "No historical FA/W ownership status, competing waivers, injuries, or keeper eligibility was reconstructed.",
+    "Single NFL role metric alone cannot establish future trade value or a justified FAAB bid.",
+    "Only players with complete records for three consecutive weeks are evaluated."
+  ]
+}
