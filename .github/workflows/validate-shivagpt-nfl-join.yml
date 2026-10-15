@@ -1,6 +1,9 @@
 name: Validate ShivaGPT NFL-Yahoo Opportunity Join
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "8 6 * * *"
+      timezone: "America/New_York"
   push:
     branches: [main]
     paths:
