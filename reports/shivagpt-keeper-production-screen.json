@@ -1,0 +1,1963 @@
+{
+  "schema": "shivagpt-keeper-production-screen-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:19:15.741Z",
+  "league_id": "721343",
+  "completed_week": 5,
+  "teams": [
+    {
+      "team_id": "1",
+      "team_name": "Bismo Funions",
+      "ranked_player_research": [
+        {
+          "id": "29235",
+          "name": "Jared Goff",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 84.9,
+          "three_week_rush_plus_targets": 1.7,
+          "candidate_research_score": 85.24
+        },
+        {
+          "id": "25812",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 73.4,
+          "three_week_rush_plus_targets": 1,
+          "candidate_research_score": 73.6
+        },
+        {
+          "id": "40878",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 65.1,
+          "three_week_rush_plus_targets": 11.3,
+          "candidate_research_score": 67.36
+        },
+        {
+          "id": "40168",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 61.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 61.6
+        },
+        {
+          "id": "40899",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 57.3,
+          "three_week_rush_plus_targets": 11,
+          "candidate_research_score": 59.5
+        },
+        {
+          "id": "40993",
+          "name": "Bucky Irving",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 44.6,
+          "three_week_rush_plus_targets": 19.7,
+          "candidate_research_score": 48.54
+        },
+        {
+          "id": "32703",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 44.9,
+          "three_week_rush_plus_targets": 9,
+          "candidate_research_score": 46.7
+        },
+        {
+          "id": "31840",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 30.5,
+          "three_week_rush_plus_targets": 6,
+          "candidate_research_score": 31.7
+        },
+        {
+          "id": "41058",
+          "name": "Malik Washington",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 27.1,
+          "three_week_rush_plus_targets": 9.3,
+          "candidate_research_score": 28.96
+        },
+        {
+          "id": "41821",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 28,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 28
+        },
+        {
+          "id": "32725",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.6,
+          "three_week_rush_plus_targets": 17.3,
+          "candidate_research_score": 24.06
+        },
+        {
+          "id": "34088",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.9,
+          "three_week_rush_plus_targets": 5.3,
+          "candidate_research_score": 21.96
+        },
+        {
+          "id": "40971",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 18.6,
+          "three_week_rush_plus_targets": 10.3,
+          "candidate_research_score": 20.66
+        },
+        {
+          "id": "33100",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        },
+        {
+          "id": "31856",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "status": "CEL",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Jared Goff",
+        "Kirk Cousins",
+        "Brock Bowers"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "2",
+      "team_name": "Eastboro Elites",
+      "ranked_player_research": [
+        {
+          "id": "33963",
+          "name": "Drake London",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 67.5,
+          "three_week_rush_plus_targets": 9,
+          "candidate_research_score": 69.3
+        },
+        {
+          "id": "33389",
+          "name": "Trevor Lawrence",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 67.7,
+          "three_week_rush_plus_targets": 3.3,
+          "candidate_research_score": 68.36
+        },
+        {
+          "id": "33996",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 44.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 44.8
+        },
+        {
+          "id": "41793",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 38.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 38.9
+        },
+        {
+          "id": "40896",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 38.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 38.5
+        },
+        {
+          "id": "42025",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 33.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 33.7
+        },
+        {
+          "id": "32705",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 26,
+          "three_week_rush_plus_targets": 18,
+          "candidate_research_score": 29.6
+        },
+        {
+          "id": "41421",
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 24.5,
+          "three_week_rush_plus_targets": 2.7,
+          "candidate_research_score": 25.04
+        },
+        {
+          "id": "42638",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 24.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 24.9
+        },
+        {
+          "id": "41845",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 20.3
+        },
+        {
+          "id": "41795",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 16.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 16.5
+        },
+        {
+          "id": "30551",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.5
+        },
+        {
+          "id": "42646",
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.2,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.2
+        },
+        {
+          "id": "42630",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        },
+        {
+          "id": "42730",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Drake London",
+        "Trevor Lawrence",
+        "Kenneth Walker III"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "3",
+      "team_name": "To infinity and Bijon",
+      "ranked_player_research": [
+        {
+          "id": "40030",
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 71.3,
+          "three_week_rush_plus_targets": 3.3,
+          "candidate_research_score": 71.96
+        },
+        {
+          "id": "29279",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 49.2,
+          "three_week_rush_plus_targets": 26,
+          "candidate_research_score": 53.2
+        },
+        {
+          "id": "40039",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 48.2,
+          "three_week_rush_plus_targets": 9,
+          "candidate_research_score": 50
+        },
+        {
+          "id": "27535",
+          "name": "Mike Evans",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 43.2,
+          "three_week_rush_plus_targets": 8,
+          "candidate_research_score": 44.8
+        },
+        {
+          "id": "31002",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 43.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 43.3
+        },
+        {
+          "id": "33514",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 40.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 40.3
+        },
+        {
+          "id": "30121",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 36.6,
+          "three_week_rush_plus_targets": 18,
+          "candidate_research_score": 40.2
+        },
+        {
+          "id": "33967",
+          "name": "Jameson Williams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 38.9,
+          "three_week_rush_plus_targets": 5.3,
+          "candidate_research_score": 39.96
+        },
+        {
+          "id": "34010",
+          "name": "Trey McBride",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 26.5,
+          "three_week_rush_plus_targets": 11,
+          "candidate_research_score": 28.7
+        },
+        {
+          "id": "34709",
+          "name": "KaVontae Turpin",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.9,
+          "three_week_rush_plus_targets": 2.3,
+          "candidate_research_score": 24.36
+        },
+        {
+          "id": "41903",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 21.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 21.7
+        },
+        {
+          "id": "29631",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.3,
+          "three_week_rush_plus_targets": 4.7,
+          "candidate_research_score": 18.24
+        },
+        {
+          "id": "28592",
+          "name": "Darren Waller",
+          "position": "TE",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 12.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 12.5
+        },
+        {
+          "id": "40980",
+          "name": "Ray Davis",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.4,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.4
+        },
+        {
+          "id": "34320",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "C.J. Stroud",
+        "Derrick Henry",
+        "Zay Flowers"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "4",
+      "team_name": "Team StudMonkey",
+      "ranked_player_research": [
+        {
+          "id": "40055",
+          "name": "Bijan Robinson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 81.2,
+          "three_week_rush_plus_targets": 25.3,
+          "candidate_research_score": 85.2
+        },
+        {
+          "id": "41825",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 66.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 66.3
+        },
+        {
+          "id": "29344",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 31.5,
+          "three_week_rush_plus_targets": 7.7,
+          "candidate_research_score": 33.04
+        },
+        {
+          "id": "33393",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 31.1,
+          "three_week_rush_plus_targets": 8.3,
+          "candidate_research_score": 32.76
+        },
+        {
+          "id": "40911",
+          "name": "Keon Coleman",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 32,
+          "three_week_rush_plus_targets": 3.7,
+          "candidate_research_score": 32.74
+        },
+        {
+          "id": "40707",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 26.1,
+          "three_week_rush_plus_targets": 18.7,
+          "candidate_research_score": 29.84
+        },
+        {
+          "id": "41824",
+          "name": "Luther Burden III",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 26.4,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 26.4
+        },
+        {
+          "id": "41052",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.9,
+          "three_week_rush_plus_targets": 7.3,
+          "candidate_research_score": 25.36
+        },
+        {
+          "id": "42625",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 21.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 21.7
+        },
+        {
+          "id": "26699",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 16.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 16.9
+        },
+        {
+          "id": "31010",
+          "name": "Courtland Sutton",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 12.5,
+          "three_week_rush_plus_targets": 5.3,
+          "candidate_research_score": 13.56
+        },
+        {
+          "id": "34107",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11.6,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 13
+        },
+        {
+          "id": "42669",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 12.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 12.9
+        },
+        {
+          "id": "34063",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 2.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 2.3
+        },
+        {
+          "id": "29399",
+          "name": "Tyreek Hill",
+          "position": "WR",
+          "status": "NA",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        },
+        {
+          "id": "34008",
+          "name": "Alec Pierce",
+          "position": "WR",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Bijan Robinson",
+        "Tyler Shough",
+        "Tyler Higbee"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "5",
+      "team_name": "Diggs in a blanket",
+      "ranked_player_research": [
+        {
+          "id": "30977",
+          "name": "Josh Allen",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 86.8,
+          "three_week_rush_plus_targets": 8,
+          "candidate_research_score": 88.4
+        },
+        {
+          "id": "34218",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 72.1,
+          "three_week_rush_plus_targets": 5.7,
+          "candidate_research_score": 73.24
+        },
+        {
+          "id": "34019",
+          "name": "James Cook III",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 63,
+          "three_week_rush_plus_targets": 21.7,
+          "candidate_research_score": 67
+        },
+        {
+          "id": "27581",
+          "name": "Davante Adams",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 41.7,
+          "three_week_rush_plus_targets": 9.7,
+          "candidate_research_score": 43.64
+        },
+        {
+          "id": "34104",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 19.2,
+          "three_week_rush_plus_targets": 4.7,
+          "candidate_research_score": 20.14
+        },
+        {
+          "id": "30180",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.7,
+          "three_week_rush_plus_targets": 9.7,
+          "candidate_research_score": 19.64
+        },
+        {
+          "id": "40042",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 19.4,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 19.4
+        },
+        {
+          "id": "40126",
+          "name": "Josh Downs",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.3,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 18.7
+        },
+        {
+          "id": "33394",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 14.1,
+          "three_week_rush_plus_targets": 6.7,
+          "candidate_research_score": 15.44
+        },
+        {
+          "id": "31056",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.6,
+          "three_week_rush_plus_targets": 5.7,
+          "candidate_research_score": 14.74
+        },
+        {
+          "id": "34009",
+          "name": "Skyy Moore",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.4,
+          "three_week_rush_plus_targets": 3.3,
+          "candidate_research_score": 14.06
+        },
+        {
+          "id": "41952",
+          "name": "Tory Horton",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.6
+        },
+        {
+          "id": "40883",
+          "name": "Brian Thomas Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 5.3,
+          "three_week_rush_plus_targets": 2,
+          "candidate_research_score": 5.7
+        },
+        {
+          "id": "40048",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 5.1,
+          "three_week_rush_plus_targets": 2.3,
+          "candidate_research_score": 5.56
+        },
+        {
+          "id": "42654",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 2.1,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 2.1
+        }
+      ],
+      "top_three_production_only": [
+        "Josh Allen",
+        "Brock Purdy",
+        "James Cook III"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "6",
+      "team_name": "The 'Cant Finish on Top' Turds",
+      "ranked_player_research": [
+        {
+          "id": "29369",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 81.3,
+          "three_week_rush_plus_targets": 2,
+          "candidate_research_score": 81.7
+        },
+        {
+          "id": "40041",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 65.9,
+          "three_week_rush_plus_targets": 9.7,
+          "candidate_research_score": 67.84
+        },
+        {
+          "id": "40981",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 33,
+          "three_week_rush_plus_targets": 17,
+          "candidate_research_score": 36.4
+        },
+        {
+          "id": "32711",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 30.7,
+          "three_week_rush_plus_targets": 23,
+          "candidate_research_score": 34.7
+        },
+        {
+          "id": "42626",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 33.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 33.9
+        },
+        {
+          "id": "30259",
+          "name": "George Kittle",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 29.1,
+          "three_week_rush_plus_targets": 6.3,
+          "candidate_research_score": 30.36
+        },
+        {
+          "id": "33113",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.5,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 24.9
+        },
+        {
+          "id": "42661",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 23.5
+        },
+        {
+          "id": "41902",
+          "name": "Woody Marks",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 21.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 21.3
+        },
+        {
+          "id": "33538",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.7,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 19.1
+        },
+        {
+          "id": "30197",
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.1,
+          "three_week_rush_plus_targets": 5,
+          "candidate_research_score": 14.1
+        },
+        {
+          "id": "40084",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 9.5
+        },
+        {
+          "id": "40893",
+          "name": "Marvin Harrison Jr.",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 9.5
+        },
+        {
+          "id": "33991",
+          "name": "Breece Hall",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 8
+        },
+        {
+          "id": "42796",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 6.1,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 6.1
+        },
+        {
+          "id": "40097",
+          "name": "Tank Dell",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Dak Prescott",
+        "Jaxon Smith-Njigba",
+        "Braelon Allen"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "7",
+      "team_name": "Chase'n The Shiva",
+      "ranked_player_research": [
+        {
+          "id": "33966",
+          "name": "Chris Olave",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 56.6,
+          "three_week_rush_plus_targets": 10.3,
+          "candidate_research_score": 58.66
+        },
+        {
+          "id": "32723",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "status": "O",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 48.2,
+          "three_week_rush_plus_targets": 3.7,
+          "candidate_research_score": 48.94
+        },
+        {
+          "id": "41969",
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 45.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 45.5
+        },
+        {
+          "id": "40064",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 29.7,
+          "three_week_rush_plus_targets": 7.3,
+          "candidate_research_score": 31.16
+        },
+        {
+          "id": "40196",
+          "name": "Chase Brown",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 23.7,
+          "three_week_rush_plus_targets": 17.3,
+          "candidate_research_score": 27.16
+        },
+        {
+          "id": "41840",
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "D",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 18.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 18.5
+        },
+        {
+          "id": "40114",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 16.1,
+          "three_week_rush_plus_targets": 6.3,
+          "candidate_research_score": 17.36
+        },
+        {
+          "id": "40201",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 15.5,
+          "three_week_rush_plus_targets": 6,
+          "candidate_research_score": 16.7
+        },
+        {
+          "id": "30231",
+          "name": "Mack Hollins",
+          "position": "WR",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 15.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 15.7
+        },
+        {
+          "id": "34047",
+          "name": "Rachaad White",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 14.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 14.3
+        },
+        {
+          "id": "32692",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 13.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 13.7
+        },
+        {
+          "id": "40108",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9.8,
+          "three_week_rush_plus_targets": 8.7,
+          "candidate_research_score": 11.54
+        },
+        {
+          "id": "31107",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9.3,
+          "three_week_rush_plus_targets": 3,
+          "candidate_research_score": 9.9
+        },
+        {
+          "id": "41010",
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 8.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 8.5
+        },
+        {
+          "id": "40118",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 1.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 1.8
+        },
+        {
+          "id": "31883",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "status": "IR-R",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Chris Olave",
+        "Jalen Hurts",
+        "Ollie Gordon II"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "8",
+      "team_name": "Les Screaming Eagles",
+      "ranked_player_research": [
+        {
+          "id": "33965",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 53.9,
+          "three_week_rush_plus_targets": 9.3,
+          "candidate_research_score": 55.76
+        },
+        {
+          "id": "40029",
+          "name": "Bryce Young",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 52.9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 52.9
+        },
+        {
+          "id": "33989",
+          "name": "Christian Watson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 49.1,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 50.5
+        },
+        {
+          "id": "41900",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 31.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 31.8
+        },
+        {
+          "id": "41791",
+          "name": "Ashton Jeanty",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 31.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 31.7
+        },
+        {
+          "id": "33500",
+          "name": "Amon-Ra St. Brown",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 26.1,
+          "three_week_rush_plus_targets": 10,
+          "candidate_research_score": 28.1
+        },
+        {
+          "id": "41799",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 27.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 27.8
+        },
+        {
+          "id": "41097",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 19.6,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 21
+        },
+        {
+          "id": "41807",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 17.5
+        },
+        {
+          "id": "31905",
+          "name": "David Montgomery",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 8.8,
+          "three_week_rush_plus_targets": 9.3,
+          "candidate_research_score": 10.66
+        },
+        {
+          "id": "41823",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.6
+        },
+        {
+          "id": "41293",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 2.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 2.5
+        },
+        {
+          "id": "40900",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        },
+        {
+          "id": "40075",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "status": "PUP-R",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Garrett Wilson",
+        "Bryce Young",
+        "Christian Watson"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "9",
+      "team_name": "ACP",
+      "ranked_player_research": [
+        {
+          "id": "32671",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 91.9,
+          "three_week_rush_plus_targets": 3,
+          "candidate_research_score": 92.5
+        },
+        {
+          "id": "34447",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 77.7,
+          "three_week_rush_plus_targets": 21.7,
+          "candidate_research_score": 81.7
+        },
+        {
+          "id": "31896",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 34.3,
+          "three_week_rush_plus_targets": 6.3,
+          "candidate_research_score": 35.56
+        },
+        {
+          "id": "31868",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "status": "O",
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 26.2,
+          "three_week_rush_plus_targets": 5.3,
+          "candidate_research_score": 27.26
+        },
+        {
+          "id": "32231",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.9,
+          "three_week_rush_plus_targets": 5,
+          "candidate_research_score": 21.9
+        },
+        {
+          "id": "40901",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 20.2,
+          "three_week_rush_plus_targets": 7.3,
+          "candidate_research_score": 21.66
+        },
+        {
+          "id": "41804",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 18.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 18.8
+        },
+        {
+          "id": "41877",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 18.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 18.5
+        },
+        {
+          "id": "41002",
+          "name": "Will Shipley",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.8,
+          "three_week_rush_plus_targets": 5.3,
+          "candidate_research_score": 11.86
+        },
+        {
+          "id": "26686",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 11.3
+        },
+        {
+          "id": "30972",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 9
+        },
+        {
+          "id": "40119",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 6.3,
+          "three_week_rush_plus_targets": 5.7,
+          "candidate_research_score": 7.44
+        }
+      ],
+      "top_three_production_only": [
+        "Joe Burrow",
+        "Jaylen Warren",
+        "DK Metcalf"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "10",
+      "team_name": "Balls Deep",
+      "ranked_player_research": [
+        {
+          "id": "9265",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 96.9,
+          "three_week_rush_plus_targets": 1.7,
+          "candidate_research_score": 97.24
+        },
+        {
+          "id": "32696",
+          "name": "Jordan Love",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 78.7,
+          "three_week_rush_plus_targets": 2,
+          "candidate_research_score": 79.1
+        },
+        {
+          "id": "32687",
+          "name": "CeeDee Lamb",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 63.3,
+          "three_week_rush_plus_targets": 11.7,
+          "candidate_research_score": 65.64
+        },
+        {
+          "id": "34120",
+          "name": "Kyren Williams",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 53.4,
+          "three_week_rush_plus_targets": 25,
+          "candidate_research_score": 57.4
+        },
+        {
+          "id": "30295",
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 47.8,
+          "three_week_rush_plus_targets": 26.3,
+          "candidate_research_score": 51.8
+        },
+        {
+          "id": "33423",
+          "name": "Javonte Williams",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 41.2,
+          "three_week_rush_plus_targets": 20.3,
+          "candidate_research_score": 45.2
+        },
+        {
+          "id": "30123",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 44.4,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 44.4
+        },
+        {
+          "id": "33508",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 27.5,
+          "three_week_rush_plus_targets": 14.7,
+          "candidate_research_score": 30.44
+        },
+        {
+          "id": "34659",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 25.4,
+          "three_week_rush_plus_targets": 4,
+          "candidate_research_score": 26.2
+        },
+        {
+          "id": "40078",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 24.3,
+          "three_week_rush_plus_targets": 7,
+          "candidate_research_score": 25.7
+        },
+        {
+          "id": "33392",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.9,
+          "three_week_rush_plus_targets": 3.7,
+          "candidate_research_score": 14.64
+        },
+        {
+          "id": "40224",
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11,
+          "three_week_rush_plus_targets": 3.7,
+          "candidate_research_score": 11.74
+        },
+        {
+          "id": "30994",
+          "name": "DJ Moore",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 11.3
+        },
+        {
+          "id": "33398",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 7.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 7.7
+        },
+        {
+          "id": "40915",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "status": "D",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Matthew Stafford",
+        "Jordan Love",
+        "CeeDee Lamb"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "11",
+      "team_name": "Roadrunner",
+      "ranked_player_research": [
+        {
+          "id": "40059",
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 83.9,
+          "three_week_rush_plus_targets": 27,
+          "candidate_research_score": 87.9
+        },
+        {
+          "id": "40881",
+          "name": "Drake Maye",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 80.2,
+          "three_week_rush_plus_targets": 6.3,
+          "candidate_research_score": 81.46
+        },
+        {
+          "id": "7200",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 75.6,
+          "three_week_rush_plus_targets": 1.3,
+          "candidate_research_score": 75.86
+        },
+        {
+          "id": "34007",
+          "name": "George Pickens",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 46.1,
+          "three_week_rush_plus_targets": 9,
+          "candidate_research_score": 47.9
+        },
+        {
+          "id": "33477",
+          "name": "Nico Collins",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 36.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 36.6
+        },
+        {
+          "id": "34095",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 28.9,
+          "three_week_rush_plus_targets": 10,
+          "candidate_research_score": 30.9
+        },
+        {
+          "id": "41885",
+          "name": "Jaylin Noel",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 29.8,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 29.8
+        },
+        {
+          "id": "40641",
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.6,
+          "three_week_rush_plus_targets": 12.3,
+          "candidate_research_score": 26.06
+        },
+        {
+          "id": "41922",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 24.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 24.5
+        },
+        {
+          "id": "29269",
+          "name": "Hunter Henry",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 17.1,
+          "three_week_rush_plus_targets": 3.7,
+          "candidate_research_score": 17.84
+        },
+        {
+          "id": "40962",
+          "name": "Blake Corum",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.9,
+          "three_week_rush_plus_targets": 8.7,
+          "candidate_research_score": 15.64
+        },
+        {
+          "id": "41344",
+          "name": "George Holani",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11.3,
+          "three_week_rush_plus_targets": 8,
+          "candidate_research_score": 12.9
+        },
+        {
+          "id": "40877",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 11,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 11
+        },
+        {
+          "id": "40908",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 7.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 7.7
+        },
+        {
+          "id": "40926",
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 0,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 0
+        }
+      ],
+      "top_three_production_only": [
+        "Jahmyr Gibbs",
+        "Drake Maye",
+        "Aaron Rodgers"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    },
+    {
+      "team_id": "12",
+      "team_name": "Will da real Bijon pls Stand ⬆️",
+      "ranked_player_research": [
+        {
+          "id": "30973",
+          "name": "Sam Darnold",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 64.1,
+          "three_week_rush_plus_targets": 1.7,
+          "candidate_research_score": 64.44
+        },
+        {
+          "id": "41808",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 55.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 55.6
+        },
+        {
+          "id": "40121",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 34.5,
+          "three_week_rush_plus_targets": 12.3,
+          "candidate_research_score": 36.96
+        },
+        {
+          "id": "40234",
+          "name": "Parker Washington",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 35.7,
+          "three_week_rush_plus_targets": 6,
+          "candidate_research_score": 36.9
+        },
+        {
+          "id": "34054",
+          "name": "Brian Robinson",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 28.4,
+          "three_week_rush_plus_targets": 11,
+          "candidate_research_score": 30.6
+        },
+        {
+          "id": "31960",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 23.9,
+          "three_week_rush_plus_targets": 18.7,
+          "candidate_research_score": 27.64
+        },
+        {
+          "id": "33998",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 24.7,
+          "three_week_rush_plus_targets": 8,
+          "candidate_research_score": 26.3
+        },
+        {
+          "id": "40102",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": true,
+          "three_week_yahoo_points": 23.1,
+          "three_week_rush_plus_targets": 7.3,
+          "candidate_research_score": 24.56
+        },
+        {
+          "id": "42010",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 20.7
+        },
+        {
+          "id": "31908",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 20.6,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 20.6
+        },
+        {
+          "id": "40231",
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 13.2,
+          "three_week_rush_plus_targets": 5.7,
+          "candidate_research_score": 14.34
+        },
+        {
+          "id": "42706",
+          "name": "Ted Hurst III",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 10.3,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 10.3
+        },
+        {
+          "id": "28534",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 9.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 9.5
+        },
+        {
+          "id": "33413",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 8.7,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 8.7
+        },
+        {
+          "id": "31019",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false,
+          "three_week_yahoo_points": 6.5,
+          "three_week_rush_plus_targets": null,
+          "candidate_research_score": 6.5
+        }
+      ],
+      "top_three_production_only": [
+        "Sam Darnold",
+        "Matthew Golden",
+        "Michael Wilson"
+      ],
+      "actual_projected_keepers": [],
+      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+    }
+  ],
+  "not_an_actual_keeper_forecast": true,
+  "trade_orders": [],
+  "pick_orders": [],
+  "limitations": [
+    "Top-three production screen is not projected keeper choice.",
+    "Actual keepers require future season expectations and league-specific draft position mapping.",
+    "A low recent three-week score does not imply a star is expendable."
+  ]
+}
