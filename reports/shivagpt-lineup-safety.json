@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:58:29.254Z",
+  "generated_at": "2026-10-15T19:02:25.455Z",
   "source_at": "2026-10-15T18:18:47.660Z",
   "league_id": "721343",
   "lineup_week": 6,
@@ -208,6 +208,16 @@
       "status_full": "Doubtful",
       "injury_note": "Hamstring",
       "bye_week": "7"
+    },
+    {
+      "id": "31883",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "status": "IR-R",
+      "status_full": "Injured Reserve - Designated for Return",
+      "injury_note": "Ankle",
+      "bye_week": "11"
     }
   ],
   "recommended_lineup_changes": [],
