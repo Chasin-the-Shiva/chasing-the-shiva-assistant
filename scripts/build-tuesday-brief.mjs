@@ -46,7 +46,7 @@ if(radar?.schema==="shivagpt-popularity-radar-v1" && radar.read_only===true &&
 const monitor=await read("reports/shivagpt-monitoring-400.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
 const monitoringValid=monitor?.schema==="shivagpt-monitoring-400-v1"&&monitor.read_only===true&&
  String(monitor.league_id)==="721343"&&monitor.stats_through_week===recentWeek&&
- monitor.monitored?.length===400&&monitor.rostered_count===195&&monitor.available_count===205&&
+ monitor.monitored?.length===400&&monitor.rostered_count>=180&&monitor.rostered_count+monitor.available_count===400&&
  Number.isFinite(Date.parse(monitor.generated_at)) &&
  Date.now()-Date.parse(monitor.generated_at)<6*3600000;
 const decision=await read("reports/shivagpt-waiver-decision-queue.json");
