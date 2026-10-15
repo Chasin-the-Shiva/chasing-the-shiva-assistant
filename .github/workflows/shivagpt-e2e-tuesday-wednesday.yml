@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/shivagpt-e2e-tuesday-wednesday.yml"
+      - ".github/workflows/shivagpt-tuesday-brief.yml"
 permissions:
   contents: read
 jobs:
