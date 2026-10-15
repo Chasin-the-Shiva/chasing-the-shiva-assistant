@@ -1,0 +1,755 @@
+{
+  "schema": "shivagpt-trade-keeper-research-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:15:33.131Z",
+  "league_id": "721343",
+  "teams": [
+    {
+      "team_id": "1",
+      "team_name": "Bismo Funions",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Malik Nabers",
+          "position": "WR"
+        },
+        {
+          "name": "Puka Nacua",
+          "position": "WR"
+        },
+        {
+          "name": "Brock Bowers",
+          "position": "TE"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Bucky Irving",
+          "position": "RB",
+          "role_score": 21.2,
+          "recent_three_week_offensive_volume": 19.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "role_score": 18.3,
+          "recent_three_week_offensive_volume": 17.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Malik Washington",
+          "position": "WR",
+          "role_score": 13.3,
+          "recent_three_week_offensive_volume": 9.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "role_score": 11.3,
+          "recent_three_week_offensive_volume": 10.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Tee Higgins",
+          "position": "WR",
+          "role_score": 11,
+          "recent_three_week_offensive_volume": 9,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "2",
+      "team_name": "Eastboro Elites",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Kenneth Walker III",
+          "position": "RB"
+        },
+        {
+          "name": "Drake London",
+          "position": "WR"
+        },
+        {
+          "name": "Tetairoa McMillan",
+          "position": "WR"
+        },
+        {
+          "name": "Colston Loveland",
+          "position": "TE"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "role_score": 20.5,
+          "recent_three_week_offensive_volume": 18,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "role_score": 8.7,
+          "recent_three_week_offensive_volume": 4.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "3",
+      "team_name": "To infinity and Bijon",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Christian McCaffrey",
+          "position": "RB"
+        },
+        {
+          "name": "Derrick Henry",
+          "position": "RB"
+        },
+        {
+          "name": "Zay Flowers",
+          "position": "WR"
+        },
+        {
+          "name": "Trey McBride",
+          "position": "TE"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "role_score": 20.7,
+          "recent_three_week_offensive_volume": 19.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Mike Evans",
+          "position": "WR",
+          "role_score": 13,
+          "recent_three_week_offensive_volume": 8,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Darren Waller",
+          "position": "TE",
+          "role_score": 8.7,
+          "recent_three_week_offensive_volume": 5.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "4",
+      "team_name": "Team StudMonkey",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Bijan Robinson",
+          "position": "RB"
+        },
+        {
+          "name": "Ja'Marr Chase",
+          "position": "WR"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "role_score": 19.7,
+          "recent_three_week_offensive_volume": 18.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Keenan Allen",
+          "position": "WR",
+          "role_score": 12.2,
+          "recent_three_week_offensive_volume": 7.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "role_score": 10.7,
+          "recent_three_week_offensive_volume": 7.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "role_score": 8.3,
+          "recent_three_week_offensive_volume": 7.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "role_score": 8,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "5",
+      "team_name": "Diggs in a blanket",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Josh Allen",
+          "position": "QB"
+        },
+        {
+          "name": "James Cook III",
+          "position": "RB"
+        },
+        {
+          "name": "Dalton Kincaid",
+          "position": "TE"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Davante Adams",
+          "position": "WR",
+          "role_score": 13.2,
+          "recent_three_week_offensive_volume": 9.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "role_score": 10.7,
+          "recent_three_week_offensive_volume": 9.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Josh Downs",
+          "position": "WR",
+          "role_score": 10,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Jordan Addison",
+          "position": "WR",
+          "role_score": 10,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "role_score": 9.2,
+          "recent_three_week_offensive_volume": 6.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Mark Andrews",
+          "position": "TE",
+          "role_score": 8.7,
+          "recent_three_week_offensive_volume": 5.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "6",
+      "team_name": "The 'Cant Finish on Top' Turds",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Jonathan Taylor",
+          "position": "RB"
+        },
+        {
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR"
+        },
+        {
+          "name": "Breece Hall",
+          "position": "RB"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Braelon Allen",
+          "position": "RB",
+          "role_score": 19,
+          "recent_three_week_offensive_volume": 17,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Rashee Rice",
+          "position": "WR",
+          "role_score": 10.2,
+          "recent_three_week_offensive_volume": 5.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "role_score": 9.5,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "George Kittle",
+          "position": "TE",
+          "role_score": 9.3,
+          "recent_three_week_offensive_volume": 6.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "role_score": 9,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "7",
+      "team_name": "Chase'n The Shiva",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Justin Jefferson",
+          "position": "WR"
+        },
+        {
+          "name": "Chase Brown",
+          "position": "RB"
+        },
+        {
+          "name": "De'Von Achane",
+          "position": "RB"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Chris Olave",
+          "position": "WR",
+          "role_score": 13.3,
+          "recent_three_week_offensive_volume": 10.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "role_score": 10.5,
+          "recent_three_week_offensive_volume": 10,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "role_score": 10,
+          "recent_three_week_offensive_volume": 6,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "role_score": 9.8,
+          "recent_three_week_offensive_volume": 7.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Tre Tucker",
+          "position": "WR",
+          "role_score": 8.8,
+          "recent_three_week_offensive_volume": 6.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "role_score": 8.7,
+          "recent_three_week_offensive_volume": 8.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "8",
+      "team_name": "Les Screaming Eagles",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Ashton Jeanty",
+          "position": "RB"
+        },
+        {
+          "name": "Garrett Wilson",
+          "position": "WR"
+        },
+        {
+          "name": "Amon-Ra St. Brown",
+          "position": "WR"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Christian Watson",
+          "position": "WR",
+          "role_score": 11,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "role_score": 10,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Jalen Coker",
+          "position": "WR",
+          "role_score": 9.3,
+          "recent_three_week_offensive_volume": 7.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "David Montgomery",
+          "position": "RB",
+          "role_score": 9.3,
+          "recent_three_week_offensive_volume": 9.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "9",
+      "team_name": "ACP",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Rome Odunze",
+          "position": "WR"
+        },
+        {
+          "name": "Deebo Samuel Sr.",
+          "position": "WR"
+        },
+        {
+          "name": "Joe Burrow",
+          "position": "QB"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "role_score": 24.7,
+          "recent_three_week_offensive_volume": 21.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "role_score": 10.2,
+          "recent_three_week_offensive_volume": 5.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "role_score": 9.2,
+          "recent_three_week_offensive_volume": 8.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "DK Metcalf",
+          "position": "WR",
+          "role_score": 8.3,
+          "recent_three_week_offensive_volume": 6.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "10",
+      "team_name": "Balls Deep",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "CeeDee Lamb",
+          "position": "WR"
+        },
+        {
+          "name": "DeVonta Smith",
+          "position": "WR"
+        },
+        {
+          "name": "Kyren Williams",
+          "position": "RB"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "role_score": 27.8,
+          "recent_three_week_offensive_volume": 26.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Javonte Williams",
+          "position": "RB",
+          "role_score": 21.8,
+          "recent_three_week_offensive_volume": 20.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "role_score": 16.2,
+          "recent_three_week_offensive_volume": 14.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "role_score": 11,
+          "recent_three_week_offensive_volume": 7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "11",
+      "team_name": "Roadrunner",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Nico Collins",
+          "position": "WR"
+        },
+        {
+          "name": "Jahmyr Gibbs",
+          "position": "RB"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "role_score": 15,
+          "recent_three_week_offensive_volume": 10,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "role_score": 14.3,
+          "recent_three_week_offensive_volume": 12.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "George Pickens",
+          "position": "WR",
+          "role_score": 14,
+          "recent_three_week_offensive_volume": 9,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Blake Corum",
+          "position": "RB",
+          "role_score": 10.7,
+          "recent_three_week_offensive_volume": 8.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "George Holani",
+          "position": "RB",
+          "role_score": 10,
+          "recent_three_week_offensive_volume": 8,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "role_score": 8.8,
+          "recent_three_week_offensive_volume": 5.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    },
+    {
+      "team_id": "12",
+      "team_name": "Will da real Bijon pls Stand ⬆️",
+      "keeper_limit": 3,
+      "prior_or_current_keeper_markers": [
+        {
+          "name": "Wan'Dale Robinson",
+          "position": "WR"
+        },
+        {
+          "name": "Tucker Kraft",
+          "position": "TE"
+        },
+        {
+          "name": "Matthew Golden",
+          "position": "WR"
+        }
+      ],
+      "projected_2027_keepers": [],
+      "surplus_research": [
+        {
+          "name": "Tony Pollard",
+          "position": "RB",
+          "role_score": 19.2,
+          "recent_three_week_offensive_volume": 18.7,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Michael Wilson",
+          "position": "WR",
+          "role_score": 15.8,
+          "recent_three_week_offensive_volume": 12.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "role_score": 15.3,
+          "recent_three_week_offensive_volume": 14.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "role_score": 11.8,
+          "recent_three_week_offensive_volume": 7.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Brian Robinson",
+          "position": "RB",
+          "role_score": 11.5,
+          "recent_three_week_offensive_volume": 11,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Parker Washington",
+          "position": "WR",
+          "role_score": 10.5,
+          "recent_three_week_offensive_volume": 6,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "role_score": 9.8,
+          "recent_three_week_offensive_volume": 5.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        },
+        {
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "role_score": 9.3,
+          "recent_three_week_offensive_volume": 7.3,
+          "market_value_verified": false,
+          "potential_trade": "DISCUSSION_CANDIDATE_ONLY"
+        }
+      ],
+      "interpretation": "Prior keeper markers are not proof of the upcoming keeper selection; role score is not a keeper valuation."
+    }
+  ],
+  "keeper_forecasts_finalized": false,
+  "draft_pick_valuations_finalized": false,
+  "risks": [
+    "Future keeper values require age, role projections, injury history and comparable league trade evidence.",
+    "Three-week touches alone do not determine keeper rankings.",
+    "No trades or pick valuations are authorized."
+  ]
+}
