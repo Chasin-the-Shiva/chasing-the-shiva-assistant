@@ -1,0 +1,35 @@
+name: ShivaGPT Early Return News Priority
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-return-news-priority.mjs"
+      - ".github/workflows/shivagpt-return-news-priority.yml"
+  schedule:
+    - cron: "39 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-return-news-priority
+  cancel-in-progress: false
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Match IR return candidates to dated NFL headlines
+        run: node scripts/build-return-news-priority.mjs
+      - name: Publish attributed research triggers
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-return-news-priority.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish dated early-return research priorities"
+          git pull --rebase origin main
+          git push origin HEAD:main
