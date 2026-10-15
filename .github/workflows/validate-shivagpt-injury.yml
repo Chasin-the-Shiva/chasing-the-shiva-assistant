@@ -1,0 +1,19 @@
+name: Validate ShivaGPT Injury Radar
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate designation-change radar
+        run: node scripts/build-injury-radar.mjs
+      - name: Display safe coverage only
+        run: |
+          node -e 'const d=require("./reports/shivagpt-injury-radar.json");console.log(JSON.stringify({players:d.player_count,injured:d.injured_player_count,changes:d.changes.length,baseline:d.baseline_available,limitations:d.limitations.length}))'
