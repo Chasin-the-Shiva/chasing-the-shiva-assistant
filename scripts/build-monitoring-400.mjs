@@ -20,8 +20,11 @@ const changed=new Map(inj.changes.map(p=>[String(p.player_id),p]));
 const returning=new Set((inj.early_return_research_queue||[]).map(p=>String(p.player_id)));
 const priorities={RB:5,WR:4,TE:3,QB:2,DEF:1};
 const newest=stats.completed_through_week;
-const touchIds=new Set(["8","9","10","11","12","13","78"]); // attempts, yards, TD, receptions, targets: qualifying signal; check category separately
-const meaningfulOffense=p=>(p.weeks||[]).some(w=>Number(w.week)===newest&&(w.statistical_categories||[]).some(s=>touchIds.has(String(s.stat_id))&&Number(s.value)>0));
+// Explicit offensive participation only. Yards, touchdowns and return stats do not qualify.
+const offensiveOpportunity=s=>/(rush(ing)? attempts?|carries|receptions|receiving targets?|pass(ing)? attempts?)/i.test(String(s.name||"")) &&
+ !/(return|kick|punt|interception|defen[sc]e)/i.test(String(s.name||"")) && Number(s.value)>0;
+const meaningfulOffense=p=>(p.weeks||[]).some(w=>Number(w.week)===newest &&
+ (w.statistical_categories||[]).some(offensiveOpportunity));
 const rows=stats.players.map(p=>{
  const id=String(p.player_id),a=available.get(id),w=p.weeks?.find(w=>Number(w.week)===newest);
  const recent=typeof w?.yahoo_fantasy_points==="number"?w.yahoo_fantasy_points:null;
@@ -33,7 +36,7 @@ const rows=stats.players.map(p=>{
  if(changed.has(id))signals.push("injury_designation_change");
  if(returning.has(id))signals.push("IR_return_research_unverified");
  const ranked=!!a;
- let score=(priorities[p.position]||0)*3+(recent||0)*.12+Math.max(0,diff||0)*.4;
+ let score=(priorities[p.position]||0)*3+(recent||0)*.06+Math.max(0,diff||0)*.12;
  if(signals.includes("offensive_activity"))score+=25;
  if(spike.has(id))score+=14+Math.min(15,Math.abs(spike.get(id).observed_ownership_change_pp||spike.get(id).percent_owned_delta||0));
  if(changed.has(id))score+=20;
