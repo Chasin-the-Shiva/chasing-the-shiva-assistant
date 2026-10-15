@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:38:24.354Z",
+  "generated_at": "2026-10-15T18:39:12.022Z",
   "source_queue_at": "2026-10-15T18:01:32.849Z",
   "league_id": "721343",
   "player_count": 17,
@@ -34,6 +34,7 @@
         "three_week_average_touches": 8.67,
         "three_week_snap_share": 0.397
       },
+      "role_classification": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -223,6 +224,7 @@
         "three_week_average_touches": 5.67,
         "three_week_snap_share": 0.167
       },
+      "role_classification": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -338,6 +340,7 @@
         "three_week_average_touches": 2.33,
         "three_week_snap_share": 0.173
       },
+      "role_classification": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -490,6 +493,7 @@
         "three_week_average_touches": 3.67,
         "three_week_snap_share": 0.717
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -685,6 +689,7 @@
         "three_week_average_touches": 5.67,
         "three_week_snap_share": 0.39
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -874,6 +879,7 @@
         "three_week_average_touches": 2.67,
         "three_week_snap_share": 0.13
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
@@ -952,6 +958,7 @@
         "three_week_average_touches": 1.33,
         "three_week_snap_share": 0.067
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
@@ -1030,6 +1037,7 @@
         "three_week_average_touches": 2,
         "three_week_snap_share": 0.33
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -1225,6 +1233,7 @@
         "three_week_average_touches": 5,
         "three_week_snap_share": 0.743
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
@@ -1418,6 +1427,7 @@
         "three_week_average_touches": 6,
         "three_week_snap_share": 0.677
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
@@ -1611,6 +1621,7 @@
         "three_week_average_touches": 3.67,
         "three_week_snap_share": 0.257
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -1792,6 +1803,7 @@
         "three_week_average_touches": null,
         "three_week_snap_share": null
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
@@ -1870,6 +1882,7 @@
         "three_week_average_touches": 4.33,
         "three_week_snap_share": 0.513
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -2065,6 +2078,7 @@
         "three_week_average_touches": 6.33,
         "three_week_snap_share": 1
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
@@ -2260,6 +2274,7 @@
         "three_week_average_touches": 8,
         "three_week_snap_share": 0.193
       },
+      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
