@@ -20,6 +20,16 @@ if(source) {
   check(source.collection?.complete===true && ["rostered","FA","W"].every(s=>source.collection.scopes?.[s]?.complete_for_scope===true),"Popularity full-pool collection incomplete");
   const age=Date.now()-Date.parse(source.retrieved_at);
   check(Number.isFinite(age)&&age>=-300000&&age<=6*3600000,"Popularity data stale");
+  let previous=null;
+  try { previous=await read(process.argv[4]||"/tmp/shivagpt-popularity-previous.json"); }
+  catch(e){if(e.code!=="ENOENT")throw e}
+  const previousValid=previous?.schema==="shivagpt-popularity-source-v1" &&
+    previous?.collection?.complete===true && String(previous?.league_id)==="721343" &&
+    Array.isArray(previous?.players) &&
+    Date.parse(previous?.retrieved_at)<Date.parse(source.retrieved_at);
+  const previousById=new Map(previousValid?previous.players.map(p=>[String(p.player_id),p]):[]);
+  report.comparison={available:!!previousValid,previous_retrieved_at:previousValid?previous.retrieved_at:null,
+    elapsed_hours:previousValid?Number(((Date.parse(source.retrieved_at)-Date.parse(previous.retrieved_at))/3600000).toFixed(2)):null};
   const entries=source.players.map(p=>{
     const id=String(p.player_id||"");
     check(/^\d+$/.test(id),"Invalid player ID");
@@ -29,7 +39,12 @@ if(source) {
     check(delta===null||Number.isFinite(delta),"Invalid ownership delta");
     check(adds===null||(Number.isInteger(adds)&&adds>=0),"Invalid add count");
     check(drops===null||(Number.isInteger(drops)&&drops>=0),"Invalid drop count");
-    return {player_id:id,name:p.name||current.get(id)?.name||null,availability_status:current.get(id)?.availability_status||p.availability_status||"unverified",
+    const older=previousById.get(id);
+    const priorOwned=typeof older?.percent_owned==="number"?older.percent_owned:null;
+    const currentOwned=typeof p.percent_owned==="number"?p.percent_owned:null;
+    const observedChange=priorOwned!==null&&currentOwned!==null?
+      Number((currentOwned-priorOwned).toFixed(2)):null;
+    return {player_id:id,observed_ownership_change_pp:observedChange,name:p.name||current.get(id)?.name||null,availability_status:current.get(id)?.availability_status||p.availability_status||"unverified",
       percent_owned:typeof p.percent_owned==="number"?p.percent_owned:null,
       percent_owned_delta:delta,adds_24h:adds,drops_24h:drops};
   });
@@ -40,10 +55,12 @@ if(source) {
   report.candidate_count=entries.length;
   report.spikes=entries.filter(x=>
     (x.adds_24h!==null && baseline!==null && x.adds_24h>=Math.max(100,baseline*10)) ||
-    (x.percent_owned_delta!==null && x.percent_owned_delta>=5) ||
+    (x.percent_owned_delta!==null && Math.abs(x.percent_owned_delta)>=5) ||
+    (x.observed_ownership_change_pp!==null && Math.abs(x.observed_ownership_change_pp)>=2) ||
     (x.drops_24h!==null && baseline!==null && x.drops_24h>=Math.max(100,baseline*10))
-  ).sort((a,b)=>(b.adds_24h||0)-(a.adds_24h||0)|| (b.percent_owned_delta||0)-(a.percent_owned_delta||0));
-  report.message="Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.";
+  ).sort((a,b)=>Math.max(Math.abs(b.observed_ownership_change_pp||0),Math.abs(b.percent_owned_delta||0))-
+    Math.max(Math.abs(a.observed_ownership_change_pp||0),Math.abs(a.percent_owned_delta||0)));
+  report.message="Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.";
 }
 await fs.mkdir("reports",{recursive:true});
 await fs.writeFile(outputPath,JSON.stringify(report,null,2)+"\n");
