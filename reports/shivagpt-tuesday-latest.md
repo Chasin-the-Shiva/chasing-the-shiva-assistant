@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:58:15.700Z | Yahoo stats through Week 5
+Generated: 2026-10-15T18:01:33.060Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T17:39:16.692Z | Availability snapshot: 2026-10-15T17:39:16.692Z
 
 ## Data coverage
@@ -260,6 +260,16 @@ No FAAB bids are generated without external NFL research and a defensible improv
 | TE | 3 | 1 | 11 | 11 |
 
 Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
+
+## Injury and early-return news research
+- Injury return feed: verified; 2 players matched to dated injury/return headlines.
+
+| Player | Injury status | Yahoo status | News research headline |
+|---|---|---|---|
+| Lamar Jackson | Q | rostered | Lamar Jackson has 'realistic chance' to return vs. Browns in Week 6 |
+| Caleb Williams | Q | rostered | Super Bowl stock report for NFL Week 6: 49ers emerge as new favorites, Bears await Caleb Williams' return |
+
+No inferred activation date or pickup recommendation without reading the attributed article, verifying team status, workload and exact Yahoo FA/W designation.
 
 ## Required analyst review
 - Validate exact Joe roster and remaining FAAB from the current league snapshot.
