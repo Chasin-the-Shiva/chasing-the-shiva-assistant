@@ -1,0 +1,36 @@
+name: ShivaGPT FAAB Market Validation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-faab-market.mjs"
+      - ".github/workflows/shivagpt-faab-market.yml"
+  schedule:
+    - cron: "40 6 * * 2"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-faab-market
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Calculate anonymized successful Yahoo waiver bids
+        run: node scripts/build-faab-market.mjs
+      - name: Publish sanitized FAAB market benchmarks
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-faab-market.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish verified ShivaGPT FAAB price history"
+          git pull --rebase origin main
+          git push origin HEAD:main
