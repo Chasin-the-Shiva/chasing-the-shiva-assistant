@@ -1,0 +1,63 @@
+{
+  "schema": "shivagpt-weekly-lineup-action-review-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T19:01:38.746Z",
+  "league_id": "721343",
+  "season_week": 6,
+  "roster_source_at": "2026-10-15T18:18:47.660Z",
+  "availability_source_at": "2026-10-15T18:18:47.660Z",
+  "starter_warnings": [
+    {
+      "name": "Jalen Hurts",
+      "status": "O",
+      "slot": "QB",
+      "severity": "HIGH"
+    },
+    {
+      "name": "Tre' Harris",
+      "status": "D",
+      "slot": "W/R/T",
+      "severity": "REVIEW"
+    }
+  ],
+  "verified_available_qb_options": [
+    {
+      "name": "Jameis Winston",
+      "player_id": "28389",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Geno Smith",
+      "player_id": "26662",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "player_id": "40889",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Kyler Murray",
+      "player_id": "31833",
+      "status": "FA",
+      "injury_status": null
+    }
+  ],
+  "preferred_short_term_qb_research": "Jameis Winston",
+  "priority_actions": [
+    "URGENT: replace QB Jalen Hurts (Out) if a viable starter can be obtained without sacrificing core assets.",
+    "Review Tre Harris (Doubtful) and A.J. Brown (IR-R) in the two FLEX slots before lock.",
+    "Verify Chris Olave and Dontayvion Wicks questionable status close to their games.",
+    "Avoid spending substantial FAAB on a lost bye-week matchup unless player has value past Week 6."
+  ],
+  "trade_or_waiver_orders_placed": 0,
+  "lineup_changed": false,
+  "limits": [
+    "Yahoo may change after the source snapshot; check status before claims.",
+    "No replacement is approved without current eligibility, roster slot, potential drop and meaningful future value.",
+    "This is a safety/priority report, not a projected optimal lineup."
+  ]
+}
