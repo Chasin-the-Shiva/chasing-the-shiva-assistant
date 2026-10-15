@@ -16,7 +16,7 @@ const faab=Number(meta.faab_balance);
 must(Number.isFinite(faab)&&faab>=0,"FAAB not verified");
 const playerNodes=Object.values(root[1]?.roster?.[0]?.players||{});
 const roster=playerNodes.map(n=>{
- const p=Object.assign({},...(n.player?.[0]||[]).filter(x=>x&&typeof x==="object"&&!Array.isArray(x)));
+ const p=Object.assign({},...(n.player?.[0]||[]).flat(2).filter(x=>x&&typeof x==="object"&&!Array.isArray(x)));
  return {player_id:String(p.player_id),name:p.name?.full||null,position:p.primary_position||null,injury_status:p.status||null,
  selected_position:n.player?.[1]?.selected_position?.[1]?.position||null};
 });
