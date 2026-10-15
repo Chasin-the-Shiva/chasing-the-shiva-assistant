@@ -63,6 +63,7 @@ jobs:
           echo "Safe publishing failed after four attempts" >&2
           exit 1
 
-# Render dispatches this workflow hourly at :30 UTC. GitHub's native schedule is a six-hour fallback at :10 UTC.
+# GitHub Actions is the primary scheduler: :17 every hour (UTC), per the schedule above.
+# The legacy Render cron dispatcher is currently user-suspended; do not assume it is active.
 # Routine scheduled and dispatched runs refresh only current-season data. Manager history v3 is rebuilt only
 # by an explicit manual run with rebuild_history=true.
