@@ -1,0 +1,36 @@
+name: ShivaGPT Historical Breakout Backtest
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/backtest-breakout-signals.mjs"
+      - ".github/workflows/shivagpt-historical-breakout-test.yml"
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run no-lookahead opportunity signal backtest
+        run: |
+          node --check scripts/backtest-breakout-signals.mjs
+          node scripts/backtest-breakout-signals.mjs
+      - name: Publish backtest as research only
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-historical-breakout-test.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish historical breakout research evaluation"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
