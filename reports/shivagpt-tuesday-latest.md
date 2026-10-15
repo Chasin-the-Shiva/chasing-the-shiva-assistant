@@ -1,10 +1,10 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:25:57.125Z | Yahoo stats through Week 5
-League snapshot: 2026-10-15T13:26:54.472Z | Availability snapshot: 2026-10-15T13:26:54.472Z
+Generated: 2026-10-15T17:50:55.042Z | Yahoo stats through Week 5
+League snapshot: 2026-10-15T17:39:16.692Z | Availability snapshot: 2026-10-15T17:39:16.692Z
 
 ## Data coverage
-- Player-statistics entries: 1140; available entries in current snapshot: 945; other player entries: 178.
+- Player-statistics entries: 1140; available entries in current snapshot: 944; other player entries: 179.
 - Complete scopes: rostered 195, FA 939, W 6.
 
 ## Potential offensive breakout screening — available players
@@ -83,7 +83,7 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 
 ## Rolling 400-player research priorities
 - Monitor status: verified.
-- Monitoring pool: 195 rostered + 205 available.
+- Monitoring pool: 196 rostered + 204 available.
 - Overflow opportunity signals: 47.
 
 | Player | Position | FA/W | Screening triggers |
@@ -193,7 +193,52 @@ These are week-over-week NFL workload observations, not Yahoo fantasy point calc
 | Mike Gesicki | 2.0 | 0.0 | 1.0 | -3.0 | 0.0 | nflverse Week 5 |
 | Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 2.0 | nflverse Week 5 |
 
+## Verified NFL snap participation
+Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.
+
+| Player | Offensive snaps | Snap share | Change vs prior week (pp) |
+|---|---:|---:|---:|
+| Jacoby Brissett | 73 | 100.0% | 0.0 |
+| Jacoby Brissett | 73 | 100.0% | 0.0 |
+| Jacoby Brissett | 73 | 100.0% | 0.0 |
+| Jacoby Brissett | 73 | 100.0% | 0.0 |
+| Pat Freiermuth | 41 | 68.0% | -7.0 |
+| Pat Freiermuth | 41 | 68.0% | -7.0 |
+| Pat Freiermuth | 41 | 68.0% | -7.0 |
+| Pat Freiermuth | 41 | 68.0% | -7.0 |
+| Roman Wilson | 20 | 33.0% | 2.0 |
+| Roman Wilson | 20 | 33.0% | 2.0 |
+| Roman Wilson | 20 | 33.0% | 2.0 |
+| Roman Wilson | 20 | 33.0% | 2.0 |
+| DeMario Douglas | 37 | 49.0% | 3.0 |
+| DeMario Douglas | 37 | 49.0% | 3.0 |
+| DeMario Douglas | 37 | 49.0% | 3.0 |
+| DeMario Douglas | 37 | 49.0% | 3.0 |
+| Jameis Winston | 84 | 94.0% | -6.0 |
+| Jameis Winston | 84 | 94.0% | -6.0 |
+| Jameis Winston | 84 | 94.0% | -6.0 |
+| Jameis Winston | 84 | 94.0% | -6.0 |
+| Mike Gesicki | 29 | 45.0% | -17.0 |
+| Mike Gesicki | 29 | 45.0% | -17.0 |
+| Mike Gesicki | 29 | 45.0% | -17.0 |
+| Mike Gesicki | 29 | 45.0% | -17.0 |
+| Bo Nix | 62 | 100.0% | 2.0 |
+
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
+
+## Current sourced NFL headline research
+- News feed: available; 9 matched player headlines in the latest four-day window.
+- Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
+
+- 2026-10-15T17:02:44+00:00 — CBS NFL: [Tyreek Hill rumors: Do Chiefs even have room for WR after reworking record-breaking offense?](https://www.cbssports.com/nfl/news/tyreek-hill-rumors-do-chiefs-have-room-for-wr/)
+- 2026-10-15T14:45:46+00:00 — CBS NFL: [Broncos vs. Seahawks: Bo Nix hopes to rejuvenate offense but has tough task vs. Seattle D on 'TNF'](https://www.cbssports.com/nfl/news/broncos-vs-seahawks-how-to-watch-preview-prediction/)
+- 2026-10-15T11:22:54+00:00 — CBS NFL: [Super Bowl stock report for NFL Week 6: 49ers emerge as new favorites, Bears await Caleb Williams' return](https://www.cbssports.com/nfl/news/super-bowl-stock-report-for-nfl-week-6/)
+- 2026-10-15T15:06:01+00:00 — CBS NFL: [It wouldn't shock me IF ... NFL Week 6: Trevor Lawrence melts down at Wembley, Giants extend lead in NFC East](https://www.cbssports.com/nfl/news/it-wouldnt-shock-me-if-nfl-week-6-trevor-lawrence-giants/)
+- 2026-10-14T17:58:01+00:00 — CBS NFL: [A.J. Brown injury update: Patriots opening up WR's practice window with return imminent](https://www.cbssports.com/nfl/news/a-j-brown-injury-update-new-england-patriots/)
+- 2026-10-14T16:30:02+00:00 — CBS NFL: [Tyreek Hill wants an NFL return, but these three obstacles could keep him off the field](https://www.cbssports.com/nfl/news/tyreek-hill-civil-trial-verdict-nfl-suspension-chiefs/)
+- 2026-10-14T17:42:56+00:00 — CBS NFL: [Michael Penix Jr. injury update: Falcons QB likely to start this week vs. Bears, but status could change](https://www.cbssports.com/nfl/news/michael-penix-jr-injury-update-falcons-vs-bears/)
+- 2026-10-14T17:56:31+00:00 — CBS NFL: [Here come the Patriots: What's changed for Drake Maye, New England as they look all the way back](https://www.cbssports.com/nfl/news/whats-changed-drake-maye-new-england-patriots-resurgence/)
+- 2026-10-14T14:53:52+00:00 — CBS NFL: [Lamar Jackson has 'realistic chance' to return vs. Browns in Week 6](https://www.cbssports.com/nfl/news/lamar-jackson-injury-update-ravens-browns-week-6/)
 
 ## Required analyst review
 - Validate exact Joe roster and remaining FAAB from the current league snapshot.
