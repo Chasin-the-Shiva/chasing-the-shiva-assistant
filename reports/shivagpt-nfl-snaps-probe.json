@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-nfl-snaps-probe-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T17:27:13.569702+00:00",
+  "generated_at": "2026-10-15T18:15:16.008664+00:00",
   "source_url": "https://github.com/nflverse/nflverse-data/releases/download/snap_counts/snap_counts_2026.csv",
   "last_modified": "Tue, 13 Oct 2026 11:01:32 GMT",
   "rows": 7370,
