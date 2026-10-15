@@ -1,6 +1,8 @@
-name: ShivaGPT Yahoo Popularity Full-Pool Test
+name: ShivaGPT Yahoo Popularity Radar
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "45 * * * *"
 permissions:
   contents: write
 concurrency:
