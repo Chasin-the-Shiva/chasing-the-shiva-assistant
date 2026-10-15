@@ -1,13 +1,6 @@
 name: ShivaGPT Integration Self-Test
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/shivagpt-integration-selftest.yml"
-      - "scripts/build-tuesday-brief.mjs"
-      - "scripts/build-waiver-decision-queue.mjs"
-      - "scripts/build-monitoring-400.mjs"
 permissions:
   contents: write
 concurrency:
