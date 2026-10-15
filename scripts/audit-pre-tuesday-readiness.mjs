@@ -12,6 +12,9 @@ const checks=[
  ["Lineup alternatives","reports/shivagpt-legal-lineup-options.json","shivagpt-legal-lineup-options-v1"],
  ["Keeper research","reports/shivagpt-trade-keeper-research.json","shivagpt-trade-keeper-research-v1"],
  ["Breakout backtest","reports/shivagpt-breakout-threshold-comparison.json","shivagpt-breakout-threshold-comparison-v1"],
+ ["Trade research","reports/shivagpt-trade-keeper-research.json","shivagpt-trade-keeper-research-v1"],
+ ["Keeper scoring","reports/shivagpt-keeper-production-screen.json","shivagpt-keeper-production-screen-v1"],
+ ["Prospective lineup options","reports/shivagpt-legal-lineup-options.json","shivagpt-legal-lineup-options-v1"],
 ];
 const report=[];
 for(const [name,path,schema] of checks){
