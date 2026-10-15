@@ -29,6 +29,6 @@ const out={schema:"shivagpt-prospective-signal-log-v1",read_only:true,league_id:
  warning:"Research predictions only, not fantasy point projections or authorized acquisitions"};
 await fs.mkdir("reports/prospective",{recursive:true});
 const dest=`reports/prospective/shivagpt-week-${String(week).padStart(2,"0")}-signals.json`;
-try{await fs.access(dest);throw Error("Forecast already exists; never overwrite retrospective targets")}catch(e){if(e.code!=="ENOENT")throw e}
+try{await fs.access(dest);console.log(JSON.stringify({week,status:"ALREADY_RECORDED_NO_OVERWRITE",output:dest}));process.exit(0)}catch(e){if(e.code!=="ENOENT")throw e}
 await fs.writeFile(dest,JSON.stringify(out,null,2)+"\n");
 console.log(JSON.stringify({week,forecast_count:candidates.length,output:dest}));
