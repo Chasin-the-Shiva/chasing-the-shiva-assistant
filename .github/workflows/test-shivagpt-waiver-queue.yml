@@ -1,5 +1,11 @@
 name: Test ShivaGPT Waiver Decision Queue
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-waiver-decision-queue.mjs"
+      - "scripts/build-monitoring-400.mjs"
+      - ".github/workflows/test-shivagpt-waiver-queue.yml"
   workflow_dispatch:
 permissions:
   contents: read
