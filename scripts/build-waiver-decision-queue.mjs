@@ -70,6 +70,29 @@ for(const target of candidates.slice(0,60)){
  }
 }
 must(comparisons.every(x=>(x.cross_position || x.net_recent_points>0) && x.add.status!=="unverified"),"Unsafe comparison detected");
-const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at,nfl:nflUsable?nfl.generated_at:null},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",comparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","NFL carries, targets and receptions are integrated where ID matched; snaps, routes, injuries, competition and trade appeal still require dated research before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
+const scoredComparisons=comparisons.map(x=>{
+ const o=x.nfl_opportunity;
+ const latest=o?.status==="MATCHED"?o.latest:null;
+ const delta=o?.status==="MATCHED"?o.change_vs_previous:null;
+ const rushGrowth=Math.max(0,delta?.carries||0),targetGrowth=Math.max(0,delta?.targets||0);
+ const snapOpportunity=(latest?.carries||0)+(latest?.targets||0);
+ const priority=(x.add.position==="RB"?8:0)+rushGrowth*3+targetGrowth*3+
+   Math.min(25,snapOpportunity)*.7+Math.min(15,Math.max(0,x.net_recent_points))*0.1;
+ return {...x,research_priority:Number(priority.toFixed(2)),
+  priority_basis:o?.status==="MATCHED"?"VERIFIED_OPPORTUNITY_AND_RB_SCARCITY":"YAHOO_SCORING_ONLY_NO_NFL_JOIN",
+  role_research_complete:false};
+});
+const prioritized=[...scoredComparisons].sort((a,b)=>b.research_priority-a.research_priority);
+const distinct=[],used=new Set();
+for(const x of prioritized){
+ if(used.has(x.add.id))continue;
+ used.add(x.add.id);
+ distinct.push({player_id:x.add.id,name:x.add.name,position:x.add.position,
+  recommended_drop_research:x.drop.name,current_yahoo_status:x.add.status,
+  role_evidence_status:x.nfl_opportunity?.status||"UNAVAILABLE",
+  nfl_opportunity:x.nfl_opportunity,research_priority:x.research_priority});
+ if(distinct.length>=25)break;
+}
+const result={schema:"shivagpt-waiver-decision-queue-v1",read_only:true,generated_at:new Date().toISOString(),league_id:"721343",team_name:"Chase'n The Shiva",verified_faab:faab,current_roster:roster,source_timestamps:{live:live.retrieved_at,available:avail.retrieved_at,stats:stats.generated_at,monitor:monitor.generated_at,nfl:nflUsable?nfl.generated_at:null},completed_through_week:stats.completed_through_week,decision_status:"NO_AUTOMATED_ACQUISITION_RECOMMENDATIONS",recommended_moves:[],default_decision:"NO_MOVE_PENDING_EVIDENCE",priority_research_targets:distinct,comparisons:scoredComparisons,limitations:["Cross-position point averages are not direct upgrade evidence; positional requirements and FLEX lineup strength need analysis.","NFL carries, targets and receptions are integrated where ID matched; snaps, routes, injuries, competition and trade appeal still require dated research before any bid.","No automatic claims, roster changes, FAAB recommendations or lineup changes.","Wednesday FA contingencies must be reverified as FA after waiver processing."]};
 await fs.mkdir("reports",{recursive:true});await fs.writeFile("reports/shivagpt-waiver-decision-queue.json",JSON.stringify(result));
 console.log(JSON.stringify({roster:roster.length,faab,comparisons:comparisons.length,week:stats.completed_through_week}));
