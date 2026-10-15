@@ -1,0 +1,39 @@
+name: ShivaGPT Weekly Lineup Action Review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-weekly-lineup-action-review.mjs"
+      - ".github/workflows/shivagpt-weekly-lineup-action-review.yml"
+  schedule:
+    - cron: "50 8 * * 4,5,6,0"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Prioritize verified Yahoo injury and QB roster warnings
+        run: |
+          node --check scripts/build-weekly-lineup-action-review.mjs
+          node scripts/build-weekly-lineup-action-review.mjs
+      - name: Publish priority review, no lineup changes
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-weekly-lineup-action-review.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish urgent ShivaGPT lineup actions for review"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
