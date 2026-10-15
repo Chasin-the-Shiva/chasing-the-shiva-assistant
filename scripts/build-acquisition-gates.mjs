@@ -8,6 +8,7 @@ const sourceFresh=age(q.source_timestamps.live)<=3&&age(q.source_timestamps.avai
 const money=Number(q.verified_faab);
 if(!Number.isFinite(money)||money<0||money>100)throw Error("Invalid remaining FAAB");
 const injuryById=new Map((injury.active_injury_watch||[]).map(p=>[String(p.player_id),p]));
+const protectedPlayers=new Set(["Justin Jefferson","Chris Olave","Chase Brown","De'Von Achane","A.J. Brown"]);
 const seen=new Set(),watch=[];
 for(const row of [...q.comparisons].sort((a,b)=>b.research_priority-a.research_priority)){
  const id=String(row.add.id);if(seen.has(id))continue;seen.add(id);
@@ -21,13 +22,15 @@ for(const row of [...q.comparisons].sort((a,b)=>b.research_priority-a.research_p
  const exactFA=row.add.status==="FA";
  const statusGood=exactFA||row.add.status==="W";
  const dropSamePosition=!row.cross_position;
+ const dropUnprotected=!protectedPlayers.has(row.drop.name);
  const injuryFlag=injuryById.has(id);
- const sufficient=sourceFresh&&roleConfirmed&&statusGood&&dropSamePosition&&!injuryFlag&&money>0;
+ const sufficient=sourceFresh&&roleConfirmed&&statusGood&&dropSamePosition&&dropUnprotected&&!injuryFlag&&money>0;
  const gaps=[];
  if(!sourceFresh)gaps.push("SOURCE_STALE");
  if(!statusGood)gaps.push("AVAILABILITY_NOT_CONFIRMED");
  if(!roleConfirmed)gaps.push("NFL_ROLE_NOT_CONFIRMED");
  if(!dropSamePosition)gaps.push("CROSS_POSITION_REPLACEMENT_NOT_EVALUATED");
+ if(!dropUnprotected)gaps.push("PROTECTED_KEEPER_CANNOT_BE_AUTO_DROPPED");
  if(injuryFlag)gaps.push("INJURY_STATUS_NEEDS_VERIFICATION");
  gaps.push("TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED","TRADE_MARKET_UNVERIFIED");
  // Source data alone is insufficient to recommend a paid transaction.
@@ -35,7 +38,7 @@ for(const row of [...q.comparisons].sort((a,b)=>b.research_priority-a.research_p
   potential_drop:row.drop.name,research_score:row.research_priority,
   recent_carries:usage.carries??null,recent_targets:usage.targets??null,
   opportunity_growth:growth,offensive_snap_pct:Number.isFinite(snapPct)?snapPct:null,
-  role_evidence_met:roleConfirmed,possible_same_position_swap:dropSamePosition,
+  role_evidence_met:roleConfirmed,possible_same_position_swap:dropSamePosition,protected_drop:!dropUnprotected,
   needs_review:gaps,analyst_candidate:sufficient,
   recommendation:"RESEARCH_ONLY",faab_bid:null,approval_required:true});
  if(watch.length>=15)break;
@@ -46,6 +49,7 @@ const out={schema:"shivagpt-acquisition-gates-v1",read_only:true,generated_at:ne
  recommended_transactions:[],watchlist:watch,
  safety_rules:["Source timestamps and exact Yahoo FA/W status required","NFL usage and snap evidence required",
  "Cross-position drop cannot be compared by raw fantasy point averages",
+ "Protected keeper-quality roster assets cannot be proposed as automatic drops",
  "No FAAB bid without dated depth-chart, injury, competition and replacement-value review",
  "Historical winning FAAB bids exclude losing bids; they cannot set a player's bid automatically",
  "No writes to Yahoo"]};
