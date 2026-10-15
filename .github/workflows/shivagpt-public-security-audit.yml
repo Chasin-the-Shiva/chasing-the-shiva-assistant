@@ -1,0 +1,51 @@
+name: ShivaGPT Public Repository Security Audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-public-security-audit.yml"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan public tracked files and full commit history for contact information and secret-shaped values
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import subprocess,re,sys
+          def call(args):
+              return subprocess.run(args,stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True).stdout
+          paths=call(['git','ls-files','-z']).split(b'\0')
+          mail=re.compile(rb'(?i)[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}')
+          assignment=re.compile(rb'(?i)(?:client_secret|refresh_token|access_token|api_key|private_key|password)\s*["\x27]?\s*[:=]\s*["\x27]([A-Za-z0-9_\-./+=]{12,})')
+          sample=set()
+          violations=0
+          for raw in paths:
+              if not raw:continue
+              try:
+                  b=open(raw,'rb').read()
+              except (OSError,IsADirectoryError):continue
+              for m in mail.finditer(b):
+                  val=m.group(0).lower()
+                  if val.endswith(b'@users.noreply.github.com') or val.endswith(b'@example.com'):continue
+                  violations+=1;sample.add('current_email:'+raw.decode(errors='replace'))
+              if assignment.search(b):violations+=1;sample.add('current_secret_pattern:'+raw.decode(errors='replace'))
+          # Examine *added* lines in every historical commit, excluding commit author metadata.
+          # Use only names of implicated paths, never log secret contents.
+          history=call(['git','log','--all','--format=','--no-ext-diff','--unified=0','--pretty=format:','-p','--','public','reports','scripts','.github'])
+          flagged_hist_email=bool(re.search(rb'^\+(?!\+).*?(?<![\w])(?:[A-Z0-9._%+\-]+@(?!users\.noreply\.github\.com|example\.com)[A-Z0-9.\-]+\.[A-Z]{2,})',history,re.I|re.M))
+          flagged_hist_secret=bool(re.search(rb'^\+(?!\+).*?(?:client_secret|refresh_token|access_token|api_key|private_key|password)\s*["\x27]?\s*[:=]\s*["\x27][A-Za-z0-9_\-./+=]{12,}',history,re.I|re.M))
+          print('Tracked paths scanned:',len(paths)-1)
+          print('Current files with findings:',len(sample))
+          print('Historical added-line email pattern detected:',flagged_hist_email)
+          print('Historical added-line secret assignment pattern detected:',flagged_hist_secret)
+          if sample: print('Finding file paths:',', '.join(sorted(sample)[:12]))
+          if violations or flagged_hist_email or flagged_hist_secret:sys.exit(1)
+          PY
