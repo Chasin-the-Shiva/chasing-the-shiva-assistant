@@ -30,9 +30,8 @@ for(const target of gates.watchlist){
  const emerging=priorAvg!==null&&incomingWorkload.touches>=priorAvg+5&&incomingWorkload.offensive_snap_share>=0.3;
  const stable=incomingWorkload.last_three_weeks.length===3&&incomingWorkload.last_three_weeks.every(x=>x.touches>=8);
  const roleClass=stable?"SUSTAINED_USAGE":emerging?"RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION":"LOW_OR_UNVERIFIED_OPPORTUNITY";
- for(const row of variants){
-  const drop=byId.get(String(row.drop.id));
-  if(!drop)continue;
+ for(const drop of roster){
+  const row=variants.find(x=>String(x.drop.id)===String(drop.player_id));
   const remainingAtPosition=roster.filter(x=>x.position===drop.position).length-1+(target.position===drop.position?1:0);
   const protectedAsset=protectedNames.has(drop.name);
   const outgoingWorkload=workload(drop.player_id);
@@ -43,10 +42,10 @@ for(const target of gates.watchlist){
   const snapDelta=comparableSnaps&&incomingWorkload.offensive_snap_share!==null&&outgoingWorkload.offensive_snap_share!==null?Number((incomingWorkload.offensive_snap_share-outgoingWorkload.offensive_snap_share).toFixed(3)):null;
   const viable=remainingAtPosition>=(min[drop.position]||0)&&!protectedAsset;
   drops.push({name:drop.name,position:drop.position,injury_status:drop.injury_status||null,
-   recent_yahoo_points_avg:row.drop.recent_avg,
+   recent_yahoo_points_avg:row?.drop?.recent_avg??null,
    outgoing_workload:outgoingWorkload,latest_week_touch_delta:touchDelta,three_week_touch_delta:threeWeekDelta,latest_week_snap_share_delta:snapDelta,
    same_position:drop.position===target.position,
-   recent_yahoo_points_delta_same_position:row.cross_position?null:row.net_recent_points,
+   recent_yahoo_points_delta_same_position:row&&!row.cross_position?row.net_recent_points:null,
    roster_minimum_satisfied:remainingAtPosition>=(min[drop.position]||0),protected_asset:protectedAsset,
    viability:viable?"NEEDS_REPLACEMENT_VALUE_REVIEW":"DO_NOT_DROP",
    warnings:[...(protectedAsset?["KEEPER_ASSET_PROTECTED"]:[]),
