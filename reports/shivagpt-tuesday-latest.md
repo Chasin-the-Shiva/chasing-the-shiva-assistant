@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:53:42.935Z | Yahoo stats through Week 5
+Generated: 2026-10-15T17:55:06.603Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T17:39:16.692Z | Availability snapshot: 2026-10-15T17:39:16.692Z
 
 ## Data coverage
@@ -134,13 +134,13 @@ Ranked by verified offensive opportunity trends where available. These are not a
 | 1 | Samaje Perine | RB | FA | Jaylen Wright | MATCHED |
 | 2 | Roschon Johnson | RB | FA | Jaylen Wright | MATCHED |
 | 3 | Dylan Laube | RB | FA | Jaylen Wright | MATCHED |
-| 4 | Tyrone Tracy Jr. | RB | FA | Dalton Schultz | MATCHED |
+| 4 | Rashod Bateman | WR | FA | Jaylen Wright | MATCHED |
 | 5 | Justice Hill | RB | FA | Jaylen Wright | MATCHED |
-| 6 | Malik Willis | QB | FA | Jaylen Wright | MATCHED |
+| 6 | Tyrone Tracy Jr. | RB | FA | Dalton Schultz | MATCHED |
 | 7 | Isaiah Davis | RB | FA | Dalton Schultz | MATCHED |
-| 8 | Kyler Murray | QB | FA | Jaylen Wright | MATCHED |
-| 9 | Jameis Winston | QB | FA | Jaylen Wright | MATCHED |
-| 10 | Ty Johnson | RB | FA | Jaylen Wright | MATCHED |
+| 8 | Bo Melton | WR | FA | Jaylen Wright | MATCHED |
+| 9 | Jake Ferguson | TE | FA | Jaylen Wright | MATCHED |
+| 10 | Pat Freiermuth | TE | FA | Jaylen Wright | MATCHED |
 
 Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
 
