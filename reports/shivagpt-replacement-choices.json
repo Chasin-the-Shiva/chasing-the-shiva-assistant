@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:36:39.025Z",
+  "generated_at": "2026-10-15T18:37:36.183Z",
   "source_queue_at": "2026-10-15T18:01:32.849Z",
   "league_id": "721343",
   "player_count": 17,
@@ -12,12 +12,26 @@
       "player": "Samaje Perine",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 16,
+        "offensive_snap_share": 0.51,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 10,
+          "latest_week_snap_share_delta": 0.37,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 7.27,
           "roster_minimum_satisfied": true,
@@ -30,6 +44,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 6,
+          "latest_week_snap_share_delta": 0.2,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 6,
           "roster_minimum_satisfied": true,
@@ -42,6 +64,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 8,
+          "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1.47,
           "roster_minimum_satisfied": true,
@@ -54,6 +84,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 12,
+          "latest_week_snap_share_delta": -0.01,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -79,12 +117,26 @@
       "player": "Roschon Johnson",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 12,
+        "offensive_snap_share": 0.39,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 6,
+          "latest_week_snap_share_delta": 0.25,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 1,
           "roster_minimum_satisfied": true,
@@ -97,6 +149,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 8,
+          "latest_week_snap_share_delta": -0.13,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -122,12 +182,26 @@
       "player": "Dylan Laube",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 7,
+        "offensive_snap_share": 0.38,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 1,
+          "latest_week_snap_share_delta": 0.24,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.24,
           "roster_minimum_satisfied": true,
@@ -140,6 +214,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -3,
+          "latest_week_snap_share_delta": 0.07,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.97,
           "roster_minimum_satisfied": true,
@@ -152,6 +234,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 3,
+          "latest_week_snap_share_delta": -0.14,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -177,12 +267,26 @@
       "player": "Rashod Bateman",
       "position": "WR",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 6,
+        "offensive_snap_share": 0.8,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": 0.66,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -197,6 +301,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": 0.28,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -211,6 +323,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -4,
+          "latest_week_snap_share_delta": 0.49,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -225,6 +345,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.2,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -250,12 +378,26 @@
       "player": "Justice Hill",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 8,
+        "offensive_snap_share": 0.46,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": 0.32,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 6.2,
           "roster_minimum_satisfied": true,
@@ -268,6 +410,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.15,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 4.93,
           "roster_minimum_satisfied": true,
@@ -280,6 +430,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": -0.14,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.4,
           "roster_minimum_satisfied": true,
@@ -292,6 +450,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 4,
+          "latest_week_snap_share_delta": -0.06,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -317,12 +483,26 @@
       "player": "Tyrone Tracy Jr.",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 6,
+        "offensive_snap_share": 0.19,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": -0.33,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -348,12 +528,26 @@
       "player": "Isaiah Davis",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 4,
+        "offensive_snap_share": 0.14,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": -0.38,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -379,12 +573,26 @@
       "player": "Bo Melton",
       "position": "WR",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 4,
+        "offensive_snap_share": 0.49,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -399,6 +607,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": -0.03,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -413,6 +629,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -6,
+          "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -427,6 +651,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -4,
+          "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -452,12 +684,26 @@
       "player": "Jake Ferguson",
       "position": "TE",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 6,
+        "offensive_snap_share": 0.83,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": 0.31,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.26,
           "roster_minimum_satisfied": true,
@@ -470,6 +716,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": 0.69,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -484,6 +738,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -4,
+          "latest_week_snap_share_delta": 0.52,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -498,6 +760,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.23,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -523,12 +793,26 @@
       "player": "Pat Freiermuth",
       "position": "TE",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 8,
+        "offensive_snap_share": 0.68,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 4,
+          "latest_week_snap_share_delta": 0.16,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 10.93,
           "roster_minimum_satisfied": true,
@@ -541,6 +825,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": 0.54,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -555,6 +847,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.37,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -569,6 +869,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": 0.08,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -594,12 +902,26 @@
       "player": "Ty Johnson",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 4,
+        "offensive_snap_share": 0.22,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.08,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 8.74,
           "roster_minimum_satisfied": true,
@@ -612,6 +934,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -6,
+          "latest_week_snap_share_delta": -0.09,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 7.47,
           "roster_minimum_satisfied": true,
@@ -624,6 +954,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -4,
+          "latest_week_snap_share_delta": -0.38,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 2.94,
           "roster_minimum_satisfied": true,
@@ -636,6 +974,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": -0.3,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -661,12 +1007,26 @@
       "player": "Pierre Strong Jr.",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 9,
+        "offensive_snap_share": 0.41,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Dalton Schultz",
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 5,
+          "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -692,12 +1052,26 @@
       "player": "DeMario Douglas",
       "position": "WR",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 5,
+        "offensive_snap_share": 0.49,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -1,
+          "latest_week_snap_share_delta": 0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -712,6 +1086,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 1,
+          "latest_week_snap_share_delta": -0.03,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -726,6 +1108,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -5,
+          "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -740,6 +1130,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -3,
+          "latest_week_snap_share_delta": -0.11,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -765,12 +1163,26 @@
       "player": "Malik Willis",
       "position": "QB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 8,
+        "offensive_snap_share": 1,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": 0.86,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -785,6 +1197,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 4,
+          "latest_week_snap_share_delta": 0.48,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -799,6 +1219,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 10,
+            "offensive_snap_share": 0.31,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": -2,
+          "latest_week_snap_share_delta": 0.69,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -813,6 +1241,14 @@
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 14.33,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": 0.4,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -838,12 +1274,26 @@
       "player": "Najee Harris",
       "position": "RB",
       "availability": "FA",
+      "incoming_workload": {
+        "week": 5,
+        "touches": 6,
+        "offensive_snap_share": 0.18,
+        "snap_week": 5
+      },
       "drop_alternatives": [
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 0,
+          "latest_week_snap_share_delta": 0.04,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": 0.54,
           "roster_minimum_satisfied": true,
@@ -856,6 +1306,14 @@
           "position": "TE",
           "injury_status": null,
           "recent_yahoo_points_avg": 9.27,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 4,
+            "offensive_snap_share": 0.52,
+            "snap_week": 5
+          },
+          "latest_week_touch_delta": 2,
+          "latest_week_snap_share_delta": -0.34,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -880,6 +1338,7 @@
   "limitations": [
     "Some possible drops were not evaluated by the upstream queue's top-four comparison cap.",
     "The same-position average point gap is historical, not a projection of future performance.",
+    "Touches combine rushing attempts and targets, not return yards; workload comparisons require matching weeks.",
     "No roster move, FAAB bid, or actionable drop is approved without a full weekly starter/FLEX review."
   ]
 }
