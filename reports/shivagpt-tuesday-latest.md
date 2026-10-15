@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:50:55.042Z | Yahoo stats through Week 5
+Generated: 2026-10-15T17:53:42.935Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T17:39:16.692Z | Availability snapshot: 2026-10-15T17:39:16.692Z
 
 ## Data coverage
@@ -126,41 +126,49 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 
 Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.
 
+## Priority acquisition research shortlist
+Ranked by verified offensive opportunity trends where available. These are not approved ADD/DROP moves.
+
+| Priority | Target | Position | Current FA/W | Potential drop to investigate | NFL opportunity |
+|---:|---|---|---|---|---|
+| 1 | Samaje Perine | RB | FA | Jaylen Wright | MATCHED |
+| 2 | Roschon Johnson | RB | FA | Jaylen Wright | MATCHED |
+| 3 | Dylan Laube | RB | FA | Jaylen Wright | MATCHED |
+| 4 | Tyrone Tracy Jr. | RB | FA | Dalton Schultz | MATCHED |
+| 5 | Justice Hill | RB | FA | Jaylen Wright | MATCHED |
+| 6 | Malik Willis | QB | FA | Jaylen Wright | MATCHED |
+| 7 | Isaiah Davis | RB | FA | Dalton Schultz | MATCHED |
+| 8 | Kyler Murray | QB | FA | Jaylen Wright | MATCHED |
+| 9 | Jameis Winston | QB | FA | Jaylen Wright | MATCHED |
+| 10 | Ty Johnson | RB | FA | Jaylen Wright | MATCHED |
+
+Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
+
 ## ADD/DROP research comparisons (not approved moves)
 - Verified snapshot FAAB: 30. 202 candidate comparisons awaiting NFL-role and trade-value research.
 
 | Add candidate | Yahoo status | Potential drop | Recent scoring difference |
 |---|---|---|---:|
-| Jacoby Brissett | W | Jaylen Wright | 74.3 |
-| Jacoby Brissett | W | Dalton Schultz | 73.5 |
-| Jacoby Brissett | W | Kendre Miller | 73.0 |
-| Jacoby Brissett | W | Rachaad White | 68.5 |
-| Pat Freiermuth | FA | Jaylen Wright | 11.7 |
 | Pat Freiermuth | FA | Dalton Schultz | 10.9 |
-| Pat Freiermuth | FA | Kendre Miller | 10.4 |
-| Pat Freiermuth | FA | Rachaad White | 5.9 |
-| Roman Wilson | FA | Jaylen Wright | 10.7 |
-| Roman Wilson | FA | Dalton Schultz | 10.0 |
-| Roman Wilson | FA | Kendre Miller | 9.5 |
-| Roman Wilson | FA | Rachaad White | 4.9 |
-| DeMario Douglas | FA | Jaylen Wright | 9.7 |
-| DeMario Douglas | FA | Dalton Schultz | 8.9 |
-| DeMario Douglas | FA | Kendre Miller | 8.4 |
-| DeMario Douglas | FA | Rachaad White | 3.9 |
-| Dohnte Meyers | FA | Jaylen Wright | 21.5 |
-| Dohnte Meyers | FA | Dalton Schultz | 20.7 |
-| Dohnte Meyers | FA | Kendre Miller | 20.2 |
-| Dohnte Meyers | FA | Rachaad White | 15.7 |
 | Mike Washington Jr. | FA | Jaylen Wright | 2.2 |
-| Mike Washington Jr. | FA | Dalton Schultz | 1.5 |
 | Mike Washington Jr. | FA | Kendre Miller | 0.9 |
-| Jameis Winston | FA | Jaylen Wright | 57.0 |
-| Jameis Winston | FA | Dalton Schultz | 56.3 |
-| Jameis Winston | FA | Kendre Miller | 55.7 |
-| Jameis Winston | FA | Rachaad White | 51.2 |
-| Mike Gesicki | FA | Jaylen Wright | 7.9 |
 | Mike Gesicki | FA | Dalton Schultz | 7.1 |
-| Mike Gesicki | FA | Kendre Miller | 6.6 |
+| Jake Ferguson | FA | Dalton Schultz | 0.3 |
+| Samaje Perine | FA | Jaylen Wright | 7.3 |
+| Samaje Perine | FA | Kendre Miller | 6.0 |
+| Samaje Perine | FA | Rachaad White | 1.5 |
+| Ty Johnson | FA | Jaylen Wright | 8.7 |
+| Ty Johnson | FA | Kendre Miller | 7.5 |
+| Ty Johnson | FA | Rachaad White | 2.9 |
+| Justice Hill | FA | Jaylen Wright | 6.2 |
+| Justice Hill | FA | Kendre Miller | 4.9 |
+| Justice Hill | FA | Rachaad White | 0.4 |
+| Dylan Laube | FA | Jaylen Wright | 2.2 |
+| Dylan Laube | FA | Kendre Miller | 1.0 |
+| Raheim Sanders | FA | Jaylen Wright | 4.9 |
+| Raheim Sanders | FA | Kendre Miller | 3.6 |
+| Roschon Johnson | FA | Jaylen Wright | 1.0 |
+| Corey Kiner | FA | Jaylen Wright | 1.2 |
 
 ## Verified NFL opportunity metrics (where Yahoo IDs match)
 These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.
