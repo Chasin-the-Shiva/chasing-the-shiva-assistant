@@ -9,7 +9,7 @@ function collect(v){
  if(!v||typeof v!=="object")return;
  if(Array.isArray(v)){for(const a of v)collect(a);return}
  if(Array.isArray(v.player)){
-   const metadata=Object.assign({},...v.player.filter(x=>x&&typeof x==="object"&&!Array.isArray(x)));
+   const metadata=Object.assign({},...v.player.flat(2).filter(x=>x&&typeof x==="object"&&!Array.isArray(x)));
    if(metadata.player_id&&metadata.name?.full){
      players.set(String(metadata.player_id),{
        player_id:String(metadata.player_id),name:metadata.name.full,
@@ -29,7 +29,9 @@ let previous=null;try{previous=await read(previousPath)}catch(e){if(e.code!=="EN
 if(previous && (previous.schema!=="shivagpt-injury-state-v1"||String(previous.league_id)!=="721343"))throw Error("Invalid prior injury baseline");
 const older=new Map((previous?.players||[]).map(x=>[x.player_id,x]));
 const tracked=[...players.values()].sort((a,b)=>a.player_id.localeCompare(b.player_id));
-if(tracked.length<1100 || tracked.filter(x=>x.availability_status==="rostered").length<190)throw Error("Incomplete injury player coverage");
+const rosteredCount=tracked.filter(x=>x.availability_status==="rostered").length;
+console.log(JSON.stringify({rostered:rosteredCount,available:avail.available_players.length,total:tracked.length}));
+if(tracked.length<1100 || rosteredCount<190)throw Error("Incomplete injury player coverage");
 const changes=[];
 for(const p of tracked){let o=older.get(p.player_id);if(!o)continue;if(o.injury_status!==p.injury_status){
 changes.push({player_id:p.player_id,name:p.name,position:p.position,availability_status:p.availability_status,previous_status:o.injury_status,current_status:p.injury_status,signal:"injury_designation_change",research_required:true,return_date:null,return_confidence:"unverified"});}
