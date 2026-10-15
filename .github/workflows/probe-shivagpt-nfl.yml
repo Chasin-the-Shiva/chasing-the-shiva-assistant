@@ -1,0 +1,30 @@
+name: Probe ShivaGPT NFL Opportunity Source
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/probe-nflverse.py"
+      - ".github/workflows/probe-shivagpt-nfl.yml"
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate 2026 nflverse weekly player stats
+        run: python scripts/probe-nflverse.py
+      - name: Publish source coverage metadata only
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-nfl-source-probe.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish NFL opportunity source validation"
+          git pull --rebase origin main
+          git push origin HEAD:main
