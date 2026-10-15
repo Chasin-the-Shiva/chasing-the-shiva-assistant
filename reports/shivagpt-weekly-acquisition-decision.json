@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:43:25.517Z",
+  "generated_at": "2026-10-15T18:43:39.494Z",
   "league_id": "721343",
-  "source_fresh": false,
+  "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
   "recommended_moves": [],
   "candidate_reviews": [
@@ -44,7 +44,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -90,7 +89,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -136,7 +134,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -182,7 +179,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -228,7 +224,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -274,7 +269,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -321,7 +315,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -368,7 +361,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -408,7 +400,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -447,7 +438,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -493,7 +483,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -540,7 +529,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -586,7 +574,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -619,7 +606,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -665,7 +651,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
