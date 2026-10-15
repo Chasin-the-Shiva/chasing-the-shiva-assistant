@@ -1,5 +1,10 @@
 name: ShivaGPT 400-Player Monitor
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-monitoring-400.mjs"
+      - ".github/workflows/validate-shivagpt-monitoring-400.yml"
   workflow_dispatch:
   schedule:
     - cron: "55 * * * *"
