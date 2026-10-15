@@ -1,0 +1,30 @@
+name: Probe ShivaGPT NFL Snap Counts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/probe-nfl-snaps.py"
+      - ".github/workflows/probe-shivagpt-snaps.yml"
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify current NFL snap counts and player identifiers
+        run: python scripts/probe-nfl-snaps.py
+      - name: Publish safe source metadata
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-nfl-snaps-probe.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish snap counts source verification"
+          git pull --rebase origin main
+          git push origin HEAD:main
