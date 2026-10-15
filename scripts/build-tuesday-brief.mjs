@@ -58,6 +58,9 @@ const newsFresh=news?.schema==="shivagpt-nfl-news-headlines-v1"&&news.read_only=
  Array.isArray(news.matched_articles)&&Number.isFinite(Date.parse(news.generated_at))&&
  Date.now()-Date.parse(news.generated_at)<6*3600000;
 const articleSignals=newsFresh?news.matched_articles:[];
+const market=await read("reports/shivagpt-faab-market.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const marketGood=market?.schema==="shivagpt-faab-market-v1"&&market.read_only===true&&String(market.league_id)==="721343"&&
+ Number.isFinite(Date.parse(market.league_snapshot_at))&&market.total_successful_waiver_bids>=8;
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -138,6 +141,15 @@ const lines=[
  "- Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.",
  "",
  ...articleSignals.slice(0,20).map(x=>`- ${x.published_at} — ${x.publisher}: [${x.title.replaceAll("[","(").replaceAll("]",")")}](${x.url})`),
+ "",
+ "## Actual Chasing the Shiva FAAB market",
+ `- Verified snapshot remaining FAAB: ${decision.verified_faab}. Historical winning bids: ${marketGood?market.total_successful_waiver_bids:"unavailable"}.`,
+ "",
+ "| Position | Winning bids | Median | 75th percentile | Maximum |",
+ "|---|---:|---:|---:|---:|",
+ ...(marketGood?Object.entries(market.by_position).map(([k,v])=>`| ${k} | ${v.count} | ${v.median} | ${v.p75} | ${v.maximum} |`):[]),
+ "",
+ "Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
