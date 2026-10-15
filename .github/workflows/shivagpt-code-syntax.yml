@@ -1,0 +1,24 @@
+name: ShivaGPT Code Syntax Check
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/*.mjs"
+      - ".github/workflows/shivagpt-code-syntax.yml"
+permissions:
+  contents: read
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate JavaScript without requiring live Yahoo data
+        run: |
+          for file in scripts/*.mjs; do
+            node --check "$file"
+          done
