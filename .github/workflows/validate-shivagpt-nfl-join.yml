@@ -1,0 +1,33 @@
+name: Validate ShivaGPT NFL-Yahoo Opportunity Join
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/collect-nfl-opportunity.py"
+      - ".github/workflows/validate-shivagpt-nfl-join.yml"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-nfl-join
+  cancel-in-progress: false
+jobs:
+  join:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate Yahoo player-ID crosswalk and NFL opportunities
+        run: python scripts/collect-nfl-opportunity.py
+      - name: Publish only validated joined data
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/shivagpt-nfl-opportunity.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish validated NFL opportunity evidence"
+          git pull --rebase origin main
+          git push origin HEAD:main
