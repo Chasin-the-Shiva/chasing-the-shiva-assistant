@@ -1,0 +1,219 @@
+{
+  "schema": "shivagpt-live-lineup-check-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T18:58:29.254Z",
+  "source_at": "2026-10-15T18:18:47.660Z",
+  "league_id": "721343",
+  "lineup_week": 6,
+  "verified_roster_count": 17,
+  "selected_starters": [
+    {
+      "id": "32723",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "selected_position": "QB",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Calf",
+      "bye_week": "10"
+    },
+    {
+      "id": "34047",
+      "name": "Rachaad White",
+      "position": "RB",
+      "selected_position": "RB",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "7"
+    },
+    {
+      "id": "40108",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "selected_position": "RB",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
+    {
+      "id": "40114",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "selected_position": "WR",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "13"
+    },
+    {
+      "id": "33966",
+      "name": "Chris Olave",
+      "position": "WR",
+      "selected_position": "WR",
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Illness",
+      "bye_week": "8"
+    },
+    {
+      "id": "40201",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "selected_position": "WR",
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Hamstring",
+      "bye_week": "10"
+    },
+    {
+      "id": "31107",
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "selected_position": "TE",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
+    {
+      "id": "41840",
+      "name": "Tre' Harris",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "status": "D",
+      "status_full": "Doubtful",
+      "injury_note": "Hamstring",
+      "bye_week": "7"
+    },
+    {
+      "id": "31883",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "status": "IR-R",
+      "status_full": "Injured Reserve - Designated for Return",
+      "injury_note": "Ankle",
+      "bye_week": "11"
+    },
+    {
+      "id": "100033",
+      "name": "Ravens",
+      "position": "DEF",
+      "selected_position": "DEF",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "13"
+    }
+  ],
+  "bench": [
+    {
+      "id": "40064",
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "41969",
+      "name": "Ollie Gordon II",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "32692",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "40196",
+      "name": "Chase Brown",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "41010",
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "30231",
+      "name": "Mack Hollins",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": "IR",
+      "status_full": "Injured Reserve",
+      "injury_note": "Calf",
+      "bye_week": "11"
+    },
+    {
+      "id": "40118",
+      "name": "De'Von Achane",
+      "position": "RB",
+      "selected_position": "IR",
+      "status": "IR",
+      "status_full": "Injured Reserve",
+      "injury_note": "Knee - ACL",
+      "bye_week": "6"
+    }
+  ],
+  "positions": {
+    "QB": 1,
+    "RB": 2,
+    "WR": 3,
+    "TE": 1,
+    "W/R/T": 2,
+    "DEF": 1
+  },
+  "starter_warnings": [
+    {
+      "id": "32723",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "selected_position": "QB",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Calf",
+      "bye_week": "10"
+    },
+    {
+      "id": "41840",
+      "name": "Tre' Harris",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "status": "D",
+      "status_full": "Doubtful",
+      "injury_note": "Hamstring",
+      "bye_week": "7"
+    }
+  ],
+  "recommended_lineup_changes": [],
+  "limits": [
+    "Injury flag is not a confirmed game designation until Yahoo is refreshed and official NFL status checked",
+    "No mathematical lineup optimization is inferred from positional counts alone",
+    "A starter on a bye or with Out/IR designation requires manual review, not automatic substitution"
+  ]
+}
