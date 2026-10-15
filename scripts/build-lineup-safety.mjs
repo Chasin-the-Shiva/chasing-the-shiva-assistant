@@ -11,7 +11,7 @@ const details=Object.values(team.roster["0"].players).filter(x=>x?.player).map(r
   injury_note:pieces.injury_note??null,bye_week:pieces.bye_weeks?.week??null};
 });
 const actual=details.filter(p=>!["BN","IR","IL","NA"].includes(p.selected_position));
-const flagged=actual.filter(p=>["O","IR","D","NA","SUSP","PUP"].includes(p.status||"") ||
+const flagged=actual.filter(p=>["O","IR","IR-R","D","NA","SUSP","PUP"].includes(p.status||"") ||
   String(p.bye_week)===String(data.settings?.fantasy_content?.league?.[0]?.current_week));
 const counts={};for(const p of actual)counts[p.selected_position]=(counts[p.selected_position]||0)+1;
 const out={schema:"shivagpt-live-lineup-check-v1",read_only:true,generated_at:new Date().toISOString(),source_at:data.retrieved_at,
