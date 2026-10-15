@@ -1,0 +1,42 @@
+name: ShivaGPT Roster Replacement Analysis
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-replacement-choices.mjs"
+      - ".github/workflows/shivagpt-replacement-choices.yml"
+  schedule:
+    - cron: "27 7 * * 2"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-replacement-choices
+  cancel-in-progress: false
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate source integrity and roster substitution choices
+        run: |
+          node --check scripts/build-replacement-choices.mjs
+          node scripts/build-replacement-choices.mjs
+      - name: Publish safe roster replacement research
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-replacement-choices.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish ShivaGPT safe replacement alternatives"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
