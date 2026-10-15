@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T18:29:51.218Z",
+  "generated_at": "2026-10-15T18:34:13.516Z",
   "league_id": "721343",
   "source_ready": true,
   "remaining_faab": 30,
@@ -73,6 +73,7 @@
       "offensive_snap_pct": 0.51,
       "role_evidence_met": true,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -95,6 +96,7 @@
       "offensive_snap_pct": 0.39,
       "role_evidence_met": true,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -117,6 +119,7 @@
       "offensive_snap_pct": 0.38,
       "role_evidence_met": true,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -139,6 +142,7 @@
       "offensive_snap_pct": 0.8,
       "role_evidence_met": true,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "INJURY_STATUS_NEEDS_VERIFICATION",
@@ -163,6 +167,7 @@
       "offensive_snap_pct": 0.46,
       "role_evidence_met": true,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -185,6 +190,7 @@
       "offensive_snap_pct": 0.19,
       "role_evidence_met": false,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
@@ -209,6 +215,7 @@
       "offensive_snap_pct": 0.14,
       "role_evidence_met": false,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
@@ -233,6 +240,7 @@
       "offensive_snap_pct": 0.49,
       "role_evidence_met": false,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
@@ -257,6 +265,7 @@
       "offensive_snap_pct": 0.83,
       "role_evidence_met": true,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -280,6 +289,7 @@
       "offensive_snap_pct": 0.68,
       "role_evidence_met": true,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -303,6 +313,7 @@
       "offensive_snap_pct": 0.22,
       "role_evidence_met": false,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "INJURY_STATUS_NEEDS_VERIFICATION",
@@ -327,6 +338,7 @@
       "offensive_snap_pct": 0.41,
       "role_evidence_met": true,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -350,6 +362,7 @@
       "offensive_snap_pct": 0.49,
       "role_evidence_met": false,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
@@ -374,6 +387,7 @@
       "offensive_snap_pct": 1,
       "role_evidence_met": true,
       "possible_same_position_swap": false,
+      "protected_drop": false,
       "needs_review": [
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -397,6 +411,7 @@
       "offensive_snap_pct": 0.18,
       "role_evidence_met": false,
       "possible_same_position_swap": true,
+      "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -412,6 +427,7 @@
     "Source timestamps and exact Yahoo FA/W status required",
     "NFL usage and snap evidence required",
     "Cross-position drop cannot be compared by raw fantasy point averages",
+    "Protected keeper-quality roster assets cannot be proposed as automatic drops",
     "No FAAB bid without dated depth-chart, injury, competition and replacement-value review",
     "Historical winning FAAB bids exclude losing bids; they cannot set a player's bid automatically",
     "No writes to Yahoo"
