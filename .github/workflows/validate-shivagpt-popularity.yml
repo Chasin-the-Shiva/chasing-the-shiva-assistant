@@ -1,0 +1,18 @@
+name: ShivaGPT Popularity Radar Validation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Analyze supplied Yahoo ownership trends without inventing missing data
+        run: node scripts/build-popularity-radar.mjs
+      - name: Show safe status
+        run: |
+          node -e 'const d=require("./reports/shivagpt-popularity-radar.json");console.log(JSON.stringify({source_status:d.source_status,candidate_count:d.candidate_count,spikes:d.spikes.length}))'
