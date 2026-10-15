@@ -1,0 +1,237 @@
+{
+  "schema": "shivagpt-popularity-radar-v1",
+  "read_only": true,
+  "generated_at": "2026-10-15T14:39:49.227Z",
+  "source_status": "connected",
+  "source_retrieved_at": "2026-10-15T14:38:47.388Z",
+  "league_id": "721343",
+  "candidate_count": 1140,
+  "spikes": [
+    {
+      "player_id": "100012",
+      "name": "Chiefs",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 79,
+      "percent_owned_delta": 57,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "42669",
+      "name": "Germie Bernard",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 40,
+      "percent_owned_delta": 39,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100011",
+      "name": "Colts",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 40,
+      "percent_owned_delta": 36,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "34063",
+      "name": "Dameon Pierce",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 38,
+      "percent_owned_delta": 36,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100017",
+      "name": "Patriots",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 86,
+      "percent_owned_delta": 35,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41902",
+      "name": "Woody Marks",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 81,
+      "percent_owned_delta": 28,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "33443",
+      "name": "Pat Freiermuth",
+      "availability_status": "FA",
+      "percent_owned": 42,
+      "percent_owned_delta": 27,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40971",
+      "name": "MarShawn Lloyd",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 82,
+      "percent_owned_delta": 22,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100025",
+      "name": "49ers",
+      "availability_status": "FA",
+      "percent_owned": 46,
+      "percent_owned_delta": 20,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40078",
+      "name": "Brenton Strange",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 51,
+      "percent_owned_delta": 19,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100033",
+      "name": "Ravens",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 78,
+      "percent_owned_delta": 19,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40108",
+      "name": "Kendre Miller",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 23,
+      "percent_owned_delta": 16,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "32696",
+      "name": "Jordan Love",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 88,
+      "percent_owned_delta": 13,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41052",
+      "name": "Kimani Vidal",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 15,
+      "percent_owned_delta": 13,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40877",
+      "name": "Xavier Worthy",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 69,
+      "percent_owned_delta": 11,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "30551",
+      "name": "Kendrick Bourne",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 16,
+      "percent_owned_delta": 10,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "25812",
+      "name": "Kirk Cousins",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 47,
+      "percent_owned_delta": 10,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "31019",
+      "name": "Dallas Goedert",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 83,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "26699",
+      "name": "Keenan Allen",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 39,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100023",
+      "name": "Steelers",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 84,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "29344",
+      "name": "Tyler Higbee",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 12,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "7200",
+      "name": "Aaron Rodgers",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 34,
+      "percent_owned_delta": 7,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100014",
+      "name": "Rams",
+      "availability_status": "rostered_or_unknown",
+      "percent_owned": 86,
+      "percent_owned_delta": 7,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "28389",
+      "name": "Jameis Winston",
+      "availability_status": "FA",
+      "percent_owned": 12,
+      "percent_owned_delta": 6,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40222",
+      "name": "DeMario Douglas",
+      "availability_status": "FA",
+      "percent_owned": 7,
+      "percent_owned_delta": 5,
+      "adds_24h": null,
+      "drops_24h": null
+    }
+  ],
+  "message": "Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action."
+}
