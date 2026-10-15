@@ -8,15 +8,28 @@ const players=new Map();
 function collect(v){
  if(!v||typeof v!=="object")return;
  if(Array.isArray(v)){for(const a of v)collect(a);return}
- if(v.player_id && v.name && typeof v.name==="object" && v.name.full)players.set(String(v.player_id),{player_id:String(v.player_id),name:v.name.full,position:v.primary_position||v.display_position||null,injury_status:v.status||v.injury_status||null,availability_status:"rostered"});
+ if(Array.isArray(v.player)){
+   const metadata=Object.assign({},...v.player.filter(x=>x&&typeof x==="object"&&!Array.isArray(x)));
+   if(metadata.player_id&&metadata.name?.full){
+     players.set(String(metadata.player_id),{
+       player_id:String(metadata.player_id),name:metadata.name.full,
+       position:metadata.primary_position||metadata.display_position||null,
+       injury_status:metadata.status||metadata.injury_status||null,
+       availability_status:"rostered"
+     });
+   }
+ }
  for(const x of Object.values(v))collect(x);
 }
-collect(live.roster);for(const t of live.team_rosters||[])collect(t.roster);
+collect(live.roster);
+for(const t of live.team_rosters||[])collect(t.roster);
 for(const p of avail.available_players||[])players.set(String(p.player_id),{player_id:String(p.player_id),name:p.name,position:p.position,injury_status:p.injury_status||null,availability_status:p.availability_status});
 const previousPath="public/shivagpt-injury-state.json";
 let previous=null;try{previous=await read(previousPath)}catch(e){if(e.code!=="ENOENT")throw e}
+if(previous && (previous.schema!=="shivagpt-injury-state-v1"||String(previous.league_id)!=="721343"))throw Error("Invalid prior injury baseline");
 const older=new Map((previous?.players||[]).map(x=>[x.player_id,x]));
 const tracked=[...players.values()].sort((a,b)=>a.player_id.localeCompare(b.player_id));
+if(tracked.length<1100 || tracked.filter(x=>x.availability_status==="rostered").length<190)throw Error("Incomplete injury player coverage");
 const changes=[];
 for(const p of tracked){let o=older.get(p.player_id);if(!o)continue;if(o.injury_status!==p.injury_status){
 changes.push({player_id:p.player_id,name:p.name,position:p.position,availability_status:p.availability_status,previous_status:o.injury_status,current_status:p.injury_status,signal:"injury_designation_change",research_required:true,return_date:null,return_confidence:"unverified"});}
