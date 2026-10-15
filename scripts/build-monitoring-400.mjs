@@ -31,6 +31,12 @@ const meaningfulOffense=p=>(p.weeks||[]).some(w=>Number(w.week)===newest &&
    return (verifiedById||participationNames.test(name))&&
      !/return|punt|kickoff|defen[sc]e/i.test(name)&&Number(s.value)>0;
  }));
+const offenseEligible=stats.players.filter(meaningfulOffense);
+const offenseCounts=Object.fromEntries(["QB","RB","WR","TE"].map(pos=>[pos,offenseEligible.filter(p=>p.position===pos).length]));
+const sampleCats=new Map();
+for(const p of stats.players){const w=p.weeks?.find(x=>Number(x.week)===newest);for(const s of w?.statistical_categories||[]){const k=String(s.stat_id);if(!sampleCats.has(k))sampleCats.set(k,s.name||"");}}
+console.log(JSON.stringify({offensive_activity_total:offenseEligible.length,offensive_by_position:offenseCounts,stat_categories:[...sampleCats].slice(0,35)}));
+assert(offenseEligible.length>15,"No meaningful offensive participation detected; do not publish invalid rankings");
 const rows=stats.players.map(p=>{
  const id=String(p.player_id),a=available.get(id),w=p.weeks?.find(w=>Number(w.week)===newest);
  const recent=typeof w?.yahoo_fantasy_points==="number"?w.yahoo_fantasy_points:null;
@@ -58,7 +64,7 @@ assert(selection.length===400,"Expected 400 monitored players");
 const overflow=free.slice(205).filter(p=>p.signals.length);
 const out={schema:"shivagpt-monitoring-400-v1",read_only:true,generated_at:new Date().toISOString(),
  league_id:"721343",stats_through_week:newest,source_timestamps:{stats:stats.generated_at,availability:avail.retrieved_at,popularity:pop.source_retrieved_at,injury:inj.source_retrieved_at},
- rostered_count:rostered.length,available_count:205,overflow_signal_count:overflow.length,
+ rostered_count:rostered.length,available_count:205,overflow_signal_count:overflow.length,offensive_participation_count:offenseEligible.length,offensive_by_position:offenseCounts,
  monitored:selection,overflow_watch:overflow.map(p=>({player_id:p.player_id,name:p.name,signals:p.signals,availability_status:p.availability_status})),
  limitations:["Scoring and Yahoo statistical categories do not measure routes or snaps; requires current NFL news analysis.","Return eligibility/expected dates unverified until credible dated sources are retrieved.","The 400 places are a detailed-monitoring priority, not an exclusion from full-pool availability and popularity screening."]};
 await fs.mkdir("reports",{recursive:true});
