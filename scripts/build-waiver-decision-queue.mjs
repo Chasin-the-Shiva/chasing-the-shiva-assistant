@@ -94,12 +94,20 @@ const scoredComparisons=comparisons.map(x=>{
  const o=x.nfl_opportunity;
  const latest=o?.status==="MATCHED"?o.latest:null;
  const delta=o?.status==="MATCHED"?o.change_vs_previous:null;
+ const sn=x.nfl_snaps?.status==="MATCHED"?x.nfl_snaps:null;
  const rushGrowth=Math.max(0,delta?.carries||0),targetGrowth=Math.max(0,delta?.targets||0);
- const snapOpportunity=(latest?.carries||0)+(latest?.targets||0);
- const priority=(x.add.position==="RB"?8:0)+rushGrowth*3+targetGrowth*3+
-   Math.min(25,snapOpportunity)*.7+Math.min(15,Math.max(0,x.net_recent_points))*0.1;
- return {...x,research_priority:Number(priority.toFixed(2)),
-  priority_basis:o?.status==="MATCHED"?"VERIFIED_OPPORTUNITY_AND_RB_SCARCITY":"YAHOO_SCORING_ONLY_NO_NFL_JOIN",
+ const touches=(latest?.carries||0)+(latest?.targets||0);
+ const recentSnap=sn?.offense_pct??null;
+ const increasingSnap=Math.max(0,sn?.change_percentage_points||0);
+ const positionBonus={RB:12,WR:5,TE:4,QB:0,DEF:0}[x.add.position]??0;
+ const lowOpportunityPenalty=touches<4?15:0;
+ const qbBackupPenalty=x.add.position==="QB"?15:0;
+ const score=positionBonus+3*rushGrowth+3*targetGrowth+
+   Math.min(20,touches)*.65+(recentSnap??0)*12+
+   Math.min(15,increasingSnap)*.6+
+   Math.min(12,Math.max(0,x.net_recent_points))*.08-lowOpportunityPenalty-qbBackupPenalty;
+ return {...x,research_priority:Number(score.toFixed(2)),
+  priority_basis:o?.status==="MATCHED"&&sn?"NFL_OPPORTUNITY_SNAPS_AND_SCARCITY":"INCOMPLETE_ROLE_EVIDENCE",
   role_research_complete:false};
 });
 const prioritized=[...scoredComparisons].sort((a,b)=>b.research_priority-a.research_priority);
