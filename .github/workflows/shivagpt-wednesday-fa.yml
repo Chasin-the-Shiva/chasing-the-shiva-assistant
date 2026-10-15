@@ -1,0 +1,31 @@
+name: ShivaGPT Wednesday Free Agent Contingencies
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 7 * * 3"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-wednesday-fa
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate current FA status and build candidate queue
+        run: node scripts/build-wednesday-fa.mjs
+      - name: Publish only validated queue
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-wednesday-fa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish Wednesday FA research queue"
+          git pull --rebase origin main
+          git push origin HEAD:main
