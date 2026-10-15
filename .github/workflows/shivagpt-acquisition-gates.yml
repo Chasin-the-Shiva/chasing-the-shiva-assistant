@@ -1,0 +1,42 @@
+name: ShivaGPT Acquisition Decision Gates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-acquisition-gates.mjs"
+      - ".github/workflows/shivagpt-acquisition-gates.yml"
+  schedule:
+    - cron: "20 7 * * 2"
+      timezone: "America/New_York"
+permissions:
+  contents: write
+concurrency:
+  group: shivagpt-acquisition-gates
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate decision gate syntax
+        run: node --check scripts/build-acquisition-gates.mjs
+      - name: Analyze acquisition and FAAB evidence gates
+        run: node scripts/build-acquisition-gates.mjs
+      - name: Publish gated read-only candidate assessments
+        run: |
+          git config user.name "ShivaGPT Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/shivagpt-acquisition-gates.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish ShivaGPT evidence-gated acquisition analysis"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          exit 1
