@@ -109,6 +109,14 @@ const lines=[
    return `| ${x.add.name} | ${fmt(m.targets)} | ${fmt(m.carries)} | ${fmt(m.receptions)} | ${fmt(delta.targets)} | ${fmt(delta.carries)} | nflverse Week ${x.nfl_opportunity.latest_week} |`;
  }),
  "",
+ "## Verified NFL snap participation",
+ "Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.",
+ "",
+ "| Player | Offensive snaps | Snap share | Change vs prior week (pp) |",
+ "|---|---:|---:|---:|",
+ ...decision.comparisons.filter(x=>x.nfl_snaps?.status==="MATCHED").slice(0,25).map(x=>
+   `| ${x.add.name} | ${x.nfl_snaps.offense_snaps} | ${fmt(x.nfl_snaps.offense_pct*100)}% | ${fmt(x.nfl_snaps.change_percentage_points)} |`),
+ "",
  "No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.",
  "",
  "## Required analyst review",
