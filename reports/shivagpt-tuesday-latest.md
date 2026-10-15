@@ -1,6 +1,6 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-15T17:55:06.603Z | Yahoo stats through Week 5
+Generated: 2026-10-15T17:58:15.700Z | Yahoo stats through Week 5
 League snapshot: 2026-10-15T17:39:16.692Z | Availability snapshot: 2026-10-15T17:39:16.692Z
 
 ## Data coverage
@@ -247,6 +247,19 @@ No FAAB bids are generated without external NFL research and a defensible improv
 - 2026-10-14T17:42:56+00:00 — CBS NFL: [Michael Penix Jr. injury update: Falcons QB likely to start this week vs. Bears, but status could change](https://www.cbssports.com/nfl/news/michael-penix-jr-injury-update-falcons-vs-bears/)
 - 2026-10-14T17:56:31+00:00 — CBS NFL: [Here come the Patriots: What's changed for Drake Maye, New England as they look all the way back](https://www.cbssports.com/nfl/news/whats-changed-drake-maye-new-england-patriots-resurgence/)
 - 2026-10-14T14:53:52+00:00 — CBS NFL: [Lamar Jackson has 'realistic chance' to return vs. Browns in Week 6](https://www.cbssports.com/nfl/news/lamar-jackson-injury-update-ravens-browns-week-6/)
+
+## Actual Chasing the Shiva FAAB market
+- Verified snapshot remaining FAAB: 30. Historical winning bids: 31.
+
+| Position | Winning bids | Median | 75th percentile | Maximum |
+|---|---:|---:|---:|---:|
+| DEF | 5 | 1 | 1 | 1 |
+| QB | 5 | 2 | 15 | 15 |
+| RB | 9 | 7 | 15 | 47 |
+| WR | 9 | 15 | 20 | 31 |
+| TE | 3 | 1 | 11 | 11 |
+
+Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
 
 ## Required analyst review
 - Validate exact Joe roster and remaining FAAB from the current league snapshot.
