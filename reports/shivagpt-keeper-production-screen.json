@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-keeper-production-screen-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T19:19:15.741Z",
+  "generated_at": "2026-10-16T13:00:51.978Z",
   "league_id": "721343",
   "completed_week": 5,
   "teams": [
@@ -15,9 +15,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 84.9,
+          "three_week_yahoo_points": 84.87,
+          "three_week_calendar_total": 254.6,
+          "three_week_calendar_average": 84.87,
+          "last_three_nonzero_game_average": 84.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 1.7,
-          "candidate_research_score": 85.24
+          "candidate_research_score": 85.21
         },
         {
           "id": "25812",
@@ -26,6 +34,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 73.4,
+          "three_week_calendar_total": 220.2,
+          "three_week_calendar_average": 73.4,
+          "last_three_nonzero_game_average": 73.4,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 1,
           "candidate_research_score": 73.6
         },
@@ -35,9 +51,17 @@
           "position": "TE",
           "status": "Q",
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 65.1,
+          "three_week_yahoo_points": 65.13,
+          "three_week_calendar_total": 195.4,
+          "three_week_calendar_average": 65.13,
+          "last_three_nonzero_game_average": 65.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 11.3,
-          "candidate_research_score": 67.36
+          "candidate_research_score": 67.39
         },
         {
           "id": "40168",
@@ -46,6 +70,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 61.6,
+          "three_week_calendar_total": 184.8,
+          "three_week_calendar_average": 61.6,
+          "last_three_nonzero_game_average": 70.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 61.6
         },
@@ -55,9 +87,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 57.3,
+          "three_week_yahoo_points": 57.27,
+          "three_week_calendar_total": 171.8,
+          "three_week_calendar_average": 57.27,
+          "last_three_nonzero_game_average": 57.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 11,
-          "candidate_research_score": 59.5
+          "candidate_research_score": 59.47
         },
         {
           "id": "40993",
@@ -66,6 +106,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 44.6,
+          "three_week_calendar_total": 133.8,
+          "three_week_calendar_average": 44.6,
+          "last_three_nonzero_game_average": 44.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 19.7,
           "candidate_research_score": 48.54
         },
@@ -75,9 +123,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 44.9,
+          "three_week_yahoo_points": 44.93,
+          "three_week_calendar_total": 134.8,
+          "three_week_calendar_average": 44.93,
+          "last_three_nonzero_game_average": 44.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9,
-          "candidate_research_score": 46.7
+          "candidate_research_score": 46.73
         },
         {
           "id": "31840",
@@ -85,9 +141,17 @@
           "position": "TE",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 30.5,
+          "three_week_yahoo_points": 30.47,
+          "three_week_calendar_total": 91.4,
+          "three_week_calendar_average": 30.47,
+          "last_three_nonzero_game_average": 30.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6,
-          "candidate_research_score": 31.7
+          "candidate_research_score": 31.67
         },
         {
           "id": "41058",
@@ -95,9 +159,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 27.1,
+          "three_week_yahoo_points": 27.07,
+          "three_week_calendar_total": 81.2,
+          "three_week_calendar_average": 27.07,
+          "last_three_nonzero_game_average": 27.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.3,
-          "candidate_research_score": 28.96
+          "candidate_research_score": 28.93
         },
         {
           "id": "41821",
@@ -106,6 +178,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 28,
+          "three_week_calendar_total": 84,
+          "three_week_calendar_average": 28,
+          "last_three_nonzero_game_average": 28,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 28
         },
@@ -116,6 +196,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 20.6,
+          "three_week_calendar_total": 61.8,
+          "three_week_calendar_average": 20.6,
+          "last_three_nonzero_game_average": 20.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 17.3,
           "candidate_research_score": 24.06
         },
@@ -125,9 +213,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 20.9,
+          "three_week_yahoo_points": 20.87,
+          "three_week_calendar_total": 62.6,
+          "three_week_calendar_average": 20.87,
+          "last_three_nonzero_game_average": 20.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.3,
-          "candidate_research_score": 21.96
+          "candidate_research_score": 21.93
         },
         {
           "id": "40971",
@@ -136,6 +232,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 18.6,
+          "three_week_calendar_total": 55.8,
+          "three_week_calendar_average": 18.6,
+          "last_three_nonzero_game_average": 18.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 10.3,
           "candidate_research_score": 20.66
         },
@@ -146,6 +250,13 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         },
@@ -156,6 +267,10 @@
           "status": "CEL",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -166,7 +281,7 @@
         "Brock Bowers"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "2",
@@ -178,9 +293,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 67.5,
+          "three_week_yahoo_points": 67.53,
+          "three_week_calendar_total": 202.6,
+          "three_week_calendar_average": 67.53,
+          "last_three_nonzero_game_average": 67.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9,
-          "candidate_research_score": 69.3
+          "candidate_research_score": 69.33
         },
         {
           "id": "33389",
@@ -188,9 +311,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 67.7,
+          "three_week_yahoo_points": 67.67,
+          "three_week_calendar_total": 203,
+          "three_week_calendar_average": 67.67,
+          "last_three_nonzero_game_average": 67.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.3,
-          "candidate_research_score": 68.36
+          "candidate_research_score": 68.33
         },
         {
           "id": "33996",
@@ -199,6 +330,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 44.8,
+          "three_week_calendar_total": 134.4,
+          "three_week_calendar_average": 44.8,
+          "last_three_nonzero_game_average": 74.67,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 44.8
         },
@@ -208,9 +347,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 38.9,
+          "three_week_yahoo_points": 38.93,
+          "three_week_calendar_total": 116.8,
+          "three_week_calendar_average": 38.93,
+          "last_three_nonzero_game_average": 60,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 38.9
+          "candidate_research_score": 38.93
         },
         {
           "id": "40896",
@@ -219,6 +366,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 38.5,
+          "three_week_calendar_total": 115.5,
+          "three_week_calendar_average": 38.5,
+          "last_three_nonzero_game_average": 75.5,
+          "last_three_game_weeks": [
+            5,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 38.5
         },
@@ -228,9 +383,17 @@
           "position": "RB",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 33.7,
+          "three_week_yahoo_points": 33.73,
+          "three_week_calendar_total": 101.2,
+          "three_week_calendar_average": 33.73,
+          "last_three_nonzero_game_average": 40.27,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 33.7
+          "candidate_research_score": 33.73
         },
         {
           "id": "32705",
@@ -239,6 +402,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 26,
+          "three_week_calendar_total": 78,
+          "three_week_calendar_average": 26,
+          "last_three_nonzero_game_average": 26,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 18,
           "candidate_research_score": 29.6
         },
@@ -248,9 +419,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 24.5,
+          "three_week_yahoo_points": 24.53,
+          "three_week_calendar_total": 73.6,
+          "three_week_calendar_average": 24.53,
+          "last_three_nonzero_game_average": 24.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 2.7,
-          "candidate_research_score": 25.04
+          "candidate_research_score": 25.07
         },
         {
           "id": "42638",
@@ -258,9 +437,17 @@
           "position": "TE",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 24.9,
+          "three_week_yahoo_points": 24.87,
+          "three_week_calendar_total": 74.6,
+          "three_week_calendar_average": 24.87,
+          "last_three_nonzero_game_average": 26.67,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 24.9
+          "candidate_research_score": 24.87
         },
         {
           "id": "41845",
@@ -268,9 +455,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 20.3,
+          "three_week_yahoo_points": 20.27,
+          "three_week_calendar_total": 60.8,
+          "three_week_calendar_average": 20.27,
+          "last_three_nonzero_game_average": 20.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 20.3
+          "candidate_research_score": 20.27
         },
         {
           "id": "41795",
@@ -278,9 +473,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 16.5,
+          "three_week_yahoo_points": 16.47,
+          "three_week_calendar_total": 49.4,
+          "three_week_calendar_average": 16.47,
+          "last_three_nonzero_game_average": 16.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 16.5
+          "candidate_research_score": 16.47
         },
         {
           "id": "30551",
@@ -288,9 +491,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.5,
+          "three_week_yahoo_points": 10.47,
+          "three_week_calendar_total": 31.4,
+          "three_week_calendar_average": 10.47,
+          "last_three_nonzero_game_average": 11.87,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 10.5
+          "candidate_research_score": 10.47
         },
         {
           "id": "42646",
@@ -298,9 +509,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.2,
+          "three_week_yahoo_points": 10.23,
+          "three_week_calendar_total": 30.7,
+          "three_week_calendar_average": 10.23,
+          "last_three_nonzero_game_average": 10.23,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 10.2
+          "candidate_research_score": 10.23
         },
         {
           "id": "42630",
@@ -309,6 +528,10 @@
           "status": "IR-R",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         },
@@ -319,6 +542,13 @@
           "status": "IR",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -329,7 +559,7 @@
         "Kenneth Walker III"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "3",
@@ -342,6 +572,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 71.3,
+          "three_week_calendar_total": 213.9,
+          "three_week_calendar_average": 71.3,
+          "last_three_nonzero_game_average": 71.3,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.3,
           "candidate_research_score": 71.96
         },
@@ -352,6 +590,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 49.2,
+          "three_week_calendar_total": 147.6,
+          "three_week_calendar_average": 49.2,
+          "last_three_nonzero_game_average": 49.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 26,
           "candidate_research_score": 53.2
         },
@@ -362,6 +608,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 48.2,
+          "three_week_calendar_total": 144.6,
+          "three_week_calendar_average": 48.2,
+          "last_three_nonzero_game_average": 48.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9,
           "candidate_research_score": 50
         },
@@ -372,6 +626,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 43.2,
+          "three_week_calendar_total": 129.6,
+          "three_week_calendar_average": 43.2,
+          "last_three_nonzero_game_average": 43.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8,
           "candidate_research_score": 44.8
         },
@@ -381,9 +643,17 @@
           "position": "QB",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 43.3,
+          "three_week_yahoo_points": 43.27,
+          "three_week_calendar_total": 129.8,
+          "three_week_calendar_average": 43.27,
+          "last_three_nonzero_game_average": 67.37,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 43.3
+          "candidate_research_score": 43.27
         },
         {
           "id": "33514",
@@ -391,9 +661,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 40.3,
+          "three_week_yahoo_points": 40.27,
+          "three_week_calendar_total": 120.8,
+          "three_week_calendar_average": 40.27,
+          "last_three_nonzero_game_average": 50.53,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 40.3
+          "candidate_research_score": 40.27
         },
         {
           "id": "30121",
@@ -402,6 +680,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 36.6,
+          "three_week_calendar_total": 109.8,
+          "three_week_calendar_average": 36.6,
+          "last_three_nonzero_game_average": 36.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 18,
           "candidate_research_score": 40.2
         },
@@ -411,9 +697,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 38.9,
+          "three_week_yahoo_points": 38.87,
+          "three_week_calendar_total": 116.6,
+          "three_week_calendar_average": 38.87,
+          "last_three_nonzero_game_average": 38.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.3,
-          "candidate_research_score": 39.96
+          "candidate_research_score": 39.93
         },
         {
           "id": "34010",
@@ -421,9 +715,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 26.5,
+          "three_week_yahoo_points": 26.47,
+          "three_week_calendar_total": 79.4,
+          "three_week_calendar_average": 26.47,
+          "last_three_nonzero_game_average": 26.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 11,
-          "candidate_research_score": 28.7
+          "candidate_research_score": 28.67
         },
         {
           "id": "34709",
@@ -431,9 +733,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 23.9,
+          "three_week_yahoo_points": 23.87,
+          "three_week_calendar_total": 71.6,
+          "three_week_calendar_average": 23.87,
+          "last_three_nonzero_game_average": 23.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 2.3,
-          "candidate_research_score": 24.36
+          "candidate_research_score": 24.33
         },
         {
           "id": "41903",
@@ -441,9 +751,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 21.7,
+          "three_week_yahoo_points": 21.73,
+          "three_week_calendar_total": 65.2,
+          "three_week_calendar_average": 21.73,
+          "last_three_nonzero_game_average": 21.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 21.7
+          "candidate_research_score": 21.73
         },
         {
           "id": "29631",
@@ -451,9 +769,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.3,
+          "three_week_yahoo_points": 17.33,
+          "three_week_calendar_total": 52,
+          "three_week_calendar_average": 17.33,
+          "last_three_nonzero_game_average": 17.33,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 4.7,
-          "candidate_research_score": 18.24
+          "candidate_research_score": 18.27
         },
         {
           "id": "28592",
@@ -461,9 +787,17 @@
           "position": "TE",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 12.5,
+          "three_week_yahoo_points": 12.47,
+          "three_week_calendar_total": 37.4,
+          "three_week_calendar_average": 12.47,
+          "last_three_nonzero_game_average": 21.67,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 12.5
+          "candidate_research_score": 12.47
         },
         {
           "id": "40980",
@@ -471,9 +805,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.4,
+          "three_week_yahoo_points": 10.43,
+          "three_week_calendar_total": 31.3,
+          "three_week_calendar_average": 10.43,
+          "last_three_nonzero_game_average": 11.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 10.4
+          "candidate_research_score": 10.43
         },
         {
           "id": "34320",
@@ -482,6 +824,12 @@
           "status": "IR",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -492,7 +840,7 @@
         "Zay Flowers"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "4",
@@ -505,6 +853,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 81.2,
+          "three_week_calendar_total": 243.6,
+          "three_week_calendar_average": 81.2,
+          "last_three_nonzero_game_average": 81.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 25.3,
           "candidate_research_score": 85.2
         },
@@ -515,6 +871,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 66.3,
+          "three_week_calendar_total": 198.9,
+          "three_week_calendar_average": 66.3,
+          "last_three_nonzero_game_average": 66.3,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 66.3
         },
@@ -524,9 +888,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 31.5,
+          "three_week_yahoo_points": 31.47,
+          "three_week_calendar_total": 94.4,
+          "three_week_calendar_average": 31.47,
+          "last_three_nonzero_game_average": 31.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7.7,
-          "candidate_research_score": 33.04
+          "candidate_research_score": 33.01
         },
         {
           "id": "33393",
@@ -534,9 +906,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 31.1,
+          "three_week_yahoo_points": 31.13,
+          "three_week_calendar_total": 93.4,
+          "three_week_calendar_average": 31.13,
+          "last_three_nonzero_game_average": 31.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8.3,
-          "candidate_research_score": 32.76
+          "candidate_research_score": 32.79
         },
         {
           "id": "40911",
@@ -545,6 +925,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 32,
+          "three_week_calendar_total": 96,
+          "three_week_calendar_average": 32,
+          "last_three_nonzero_game_average": 32,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.7,
           "candidate_research_score": 32.74
         },
@@ -554,9 +942,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 26.1,
+          "three_week_yahoo_points": 26.07,
+          "three_week_calendar_total": 78.2,
+          "three_week_calendar_average": 26.07,
+          "last_three_nonzero_game_average": 26.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 18.7,
-          "candidate_research_score": 29.84
+          "candidate_research_score": 29.81
         },
         {
           "id": "41824",
@@ -565,6 +961,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 26.4,
+          "three_week_calendar_total": 79.2,
+          "three_week_calendar_average": 26.4,
+          "last_three_nonzero_game_average": 26.4,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 26.4
         },
@@ -575,6 +979,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 23.9,
+          "three_week_calendar_total": 71.7,
+          "three_week_calendar_average": 23.9,
+          "last_three_nonzero_game_average": 23.9,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7.3,
           "candidate_research_score": 25.36
         },
@@ -584,9 +996,17 @@
           "position": "RB",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 21.7,
+          "three_week_yahoo_points": 21.73,
+          "three_week_calendar_total": 65.2,
+          "three_week_calendar_average": 21.73,
+          "last_three_nonzero_game_average": 21.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 21.7
+          "candidate_research_score": 21.73
         },
         {
           "id": "26699",
@@ -594,9 +1014,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 16.9,
+          "three_week_yahoo_points": 16.87,
+          "three_week_calendar_total": 50.6,
+          "three_week_calendar_average": 16.87,
+          "last_three_nonzero_game_average": 17.53,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 16.9
+          "candidate_research_score": 16.87
         },
         {
           "id": "31010",
@@ -604,9 +1032,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 12.5,
+          "three_week_yahoo_points": 12.53,
+          "three_week_calendar_total": 37.6,
+          "three_week_calendar_average": 12.53,
+          "last_three_nonzero_game_average": 12.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.3,
-          "candidate_research_score": 13.56
+          "candidate_research_score": 13.59
         },
         {
           "id": "34107",
@@ -615,6 +1051,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 11.6,
+          "three_week_calendar_total": 34.8,
+          "three_week_calendar_average": 11.6,
+          "last_three_nonzero_game_average": 11.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
           "candidate_research_score": 13
         },
@@ -624,9 +1068,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 12.9,
+          "three_week_yahoo_points": 12.93,
+          "three_week_calendar_total": 38.8,
+          "three_week_calendar_average": 12.93,
+          "last_three_nonzero_game_average": 12.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 12.9
+          "candidate_research_score": 12.93
         },
         {
           "id": "34063",
@@ -634,9 +1086,15 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 2.3,
+          "three_week_yahoo_points": 2.27,
+          "three_week_calendar_total": 6.8,
+          "three_week_calendar_average": 2.27,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            5
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 2.3
+          "candidate_research_score": 2.27
         },
         {
           "id": "29399",
@@ -645,6 +1103,10 @@
           "status": "NA",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         },
@@ -655,6 +1117,13 @@
           "status": "IR",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -665,7 +1134,7 @@
         "Tyler Higbee"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "5",
@@ -677,9 +1146,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 86.8,
+          "three_week_yahoo_points": 86.77,
+          "three_week_calendar_total": 260.3,
+          "three_week_calendar_average": 86.77,
+          "last_three_nonzero_game_average": 86.77,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8,
-          "candidate_research_score": 88.4
+          "candidate_research_score": 88.37
         },
         {
           "id": "34218",
@@ -687,9 +1164,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 72.1,
+          "three_week_yahoo_points": 72.07,
+          "three_week_calendar_total": 216.2,
+          "three_week_calendar_average": 72.07,
+          "last_three_nonzero_game_average": 72.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.7,
-          "candidate_research_score": 73.24
+          "candidate_research_score": 73.21
         },
         {
           "id": "34019",
@@ -698,6 +1183,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 63,
+          "three_week_calendar_total": 189,
+          "three_week_calendar_average": 63,
+          "last_three_nonzero_game_average": 63,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 21.7,
           "candidate_research_score": 67
         },
@@ -707,9 +1200,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 41.7,
+          "three_week_yahoo_points": 41.67,
+          "three_week_calendar_total": 125,
+          "three_week_calendar_average": 41.67,
+          "last_three_nonzero_game_average": 41.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.7,
-          "candidate_research_score": 43.64
+          "candidate_research_score": 43.61
         },
         {
           "id": "34104",
@@ -718,6 +1219,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 19.2,
+          "three_week_calendar_total": 57.6,
+          "three_week_calendar_average": 19.2,
+          "last_three_nonzero_game_average": 19.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 4.7,
           "candidate_research_score": 20.14
         },
@@ -727,9 +1236,17 @@
           "position": "RB",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.7,
+          "three_week_yahoo_points": 17.67,
+          "three_week_calendar_total": 53,
+          "three_week_calendar_average": 17.67,
+          "last_three_nonzero_game_average": 17.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.7,
-          "candidate_research_score": 19.64
+          "candidate_research_score": 19.61
         },
         {
           "id": "40042",
@@ -738,6 +1255,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 19.4,
+          "three_week_calendar_total": 58.2,
+          "three_week_calendar_average": 19.4,
+          "last_three_nonzero_game_average": 22.13,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 19.4
         },
@@ -747,9 +1272,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.3,
+          "three_week_yahoo_points": 17.33,
+          "three_week_calendar_total": 52,
+          "three_week_calendar_average": 17.33,
+          "last_three_nonzero_game_average": 17.33,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
-          "candidate_research_score": 18.7
+          "candidate_research_score": 18.73
         },
         {
           "id": "33394",
@@ -757,9 +1290,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 14.1,
+          "three_week_yahoo_points": 14.13,
+          "three_week_calendar_total": 42.4,
+          "three_week_calendar_average": 14.13,
+          "last_three_nonzero_game_average": 14.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6.7,
-          "candidate_research_score": 15.44
+          "candidate_research_score": 15.47
         },
         {
           "id": "31056",
@@ -768,6 +1309,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 13.6,
+          "three_week_calendar_total": 40.8,
+          "three_week_calendar_average": 13.6,
+          "last_three_nonzero_game_average": 13.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.7,
           "candidate_research_score": 14.74
         },
@@ -777,9 +1326,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 13.4,
+          "three_week_yahoo_points": 13.43,
+          "three_week_calendar_total": 40.3,
+          "three_week_calendar_average": 13.43,
+          "last_three_nonzero_game_average": 13.43,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.3,
-          "candidate_research_score": 14.06
+          "candidate_research_score": 14.09
         },
         {
           "id": "41952",
@@ -787,9 +1344,16 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.6,
+          "three_week_yahoo_points": 10.57,
+          "three_week_calendar_total": 31.7,
+          "three_week_calendar_average": 10.57,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 10.6
+          "candidate_research_score": 10.57
         },
         {
           "id": "40883",
@@ -797,9 +1361,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 5.3,
+          "three_week_yahoo_points": 5.33,
+          "three_week_calendar_total": 16,
+          "three_week_calendar_average": 5.33,
+          "last_three_nonzero_game_average": 11,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": 2,
-          "candidate_research_score": 5.7
+          "candidate_research_score": 5.73
         },
         {
           "id": "40048",
@@ -807,9 +1379,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 5.1,
+          "three_week_yahoo_points": 5.13,
+          "three_week_calendar_total": 15.4,
+          "three_week_calendar_average": 5.13,
+          "last_three_nonzero_game_average": 5.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 2.3,
-          "candidate_research_score": 5.56
+          "candidate_research_score": 5.59
         },
         {
           "id": "42654",
@@ -817,9 +1397,17 @@
           "position": "RB",
           "status": "IR",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 2.1,
+          "three_week_yahoo_points": 2.13,
+          "three_week_calendar_total": 6.4,
+          "three_week_calendar_average": 2.13,
+          "last_three_nonzero_game_average": 14.67,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 2.1
+          "candidate_research_score": 2.13
         }
       ],
       "top_three_production_only": [
@@ -828,7 +1416,7 @@
         "James Cook III"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "6",
@@ -841,6 +1429,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 81.3,
+          "three_week_calendar_total": 243.9,
+          "three_week_calendar_average": 81.3,
+          "last_three_nonzero_game_average": 81.3,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 2,
           "candidate_research_score": 81.7
         },
@@ -850,9 +1446,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 65.9,
+          "three_week_yahoo_points": 65.93,
+          "three_week_calendar_total": 197.8,
+          "three_week_calendar_average": 65.93,
+          "last_three_nonzero_game_average": 65.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.7,
-          "candidate_research_score": 67.84
+          "candidate_research_score": 67.87
         },
         {
           "id": "40981",
@@ -861,6 +1465,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 33,
+          "three_week_calendar_total": 99,
+          "three_week_calendar_average": 33,
+          "last_three_nonzero_game_average": 33,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 17,
           "candidate_research_score": 36.4
         },
@@ -870,9 +1482,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 30.7,
+          "three_week_yahoo_points": 30.73,
+          "three_week_calendar_total": 92.2,
+          "three_week_calendar_average": 30.73,
+          "last_three_nonzero_game_average": 30.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 23,
-          "candidate_research_score": 34.7
+          "candidate_research_score": 34.73
         },
         {
           "id": "42626",
@@ -880,9 +1500,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 33.9,
+          "three_week_yahoo_points": 33.93,
+          "three_week_calendar_total": 101.8,
+          "three_week_calendar_average": 33.93,
+          "last_three_nonzero_game_average": 33.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 33.9
+          "candidate_research_score": 33.93
         },
         {
           "id": "30259",
@@ -890,9 +1518,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 29.1,
+          "three_week_yahoo_points": 29.07,
+          "three_week_calendar_total": 87.2,
+          "three_week_calendar_average": 29.07,
+          "last_three_nonzero_game_average": 29.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6.3,
-          "candidate_research_score": 30.36
+          "candidate_research_score": 30.33
         },
         {
           "id": "33113",
@@ -900,9 +1536,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 23.5,
+          "three_week_yahoo_points": 23.53,
+          "three_week_calendar_total": 70.6,
+          "three_week_calendar_average": 23.53,
+          "last_three_nonzero_game_average": 23.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
-          "candidate_research_score": 24.9
+          "candidate_research_score": 24.93
         },
         {
           "id": "42661",
@@ -911,6 +1555,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 23.5,
+          "three_week_calendar_total": 70.5,
+          "three_week_calendar_average": 23.5,
+          "last_three_nonzero_game_average": 23.5,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 23.5
         },
@@ -920,9 +1572,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 21.3,
+          "three_week_yahoo_points": 21.27,
+          "three_week_calendar_total": 63.8,
+          "three_week_calendar_average": 21.27,
+          "last_three_nonzero_game_average": 21.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 21.3
+          "candidate_research_score": 21.27
         },
         {
           "id": "33538",
@@ -930,9 +1590,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.7,
+          "three_week_yahoo_points": 17.67,
+          "three_week_calendar_total": 53,
+          "three_week_calendar_average": 17.67,
+          "last_three_nonzero_game_average": 17.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
-          "candidate_research_score": 19.1
+          "candidate_research_score": 19.07
         },
         {
           "id": "30197",
@@ -940,9 +1608,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 13.1,
+          "three_week_yahoo_points": 13.07,
+          "three_week_calendar_total": 39.2,
+          "three_week_calendar_average": 13.07,
+          "last_three_nonzero_game_average": 13.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5,
-          "candidate_research_score": 14.1
+          "candidate_research_score": 14.07
         },
         {
           "id": "40084",
@@ -950,9 +1626,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 9.5,
+          "three_week_yahoo_points": 9.53,
+          "three_week_calendar_total": 28.6,
+          "three_week_calendar_average": 9.53,
+          "last_three_nonzero_game_average": 23,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 9.5
+          "candidate_research_score": 9.53
         },
         {
           "id": "40893",
@@ -960,9 +1644,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 9.5,
+          "three_week_yahoo_points": 9.47,
+          "three_week_calendar_total": 28.4,
+          "three_week_calendar_average": 9.47,
+          "last_three_nonzero_game_average": 12.67,
+          "last_three_game_weeks": [
+            4,
+            3,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 9.5
+          "candidate_research_score": 9.47
         },
         {
           "id": "33991",
@@ -971,6 +1663,14 @@
           "status": "D",
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 8,
+          "three_week_calendar_total": 24,
+          "three_week_calendar_average": 8,
+          "last_three_nonzero_game_average": 44.67,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 8
         },
@@ -980,9 +1680,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 6.1,
+          "three_week_yahoo_points": 6.13,
+          "three_week_calendar_total": 18.4,
+          "three_week_calendar_average": 6.13,
+          "last_three_nonzero_game_average": 11.6,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 6.1
+          "candidate_research_score": 6.13
         },
         {
           "id": "40097",
@@ -991,6 +1699,10 @@
           "status": "IR-R",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -1001,7 +1713,7 @@
         "Braelon Allen"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "7",
@@ -1014,6 +1726,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 56.6,
+          "three_week_calendar_total": 169.8,
+          "three_week_calendar_average": 56.6,
+          "last_three_nonzero_game_average": 56.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 10.3,
           "candidate_research_score": 58.66
         },
@@ -1024,6 +1744,14 @@
           "status": "O",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 48.2,
+          "three_week_calendar_total": 144.6,
+          "three_week_calendar_average": 48.2,
+          "last_three_nonzero_game_average": 48.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.7,
           "candidate_research_score": 48.94
         },
@@ -1033,9 +1761,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 45.5,
+          "three_week_yahoo_points": 45.53,
+          "three_week_calendar_total": 136.6,
+          "three_week_calendar_average": 45.53,
+          "last_three_nonzero_game_average": 45.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 45.5
+          "candidate_research_score": 45.53
         },
         {
           "id": "40064",
@@ -1043,9 +1779,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 29.7,
+          "three_week_yahoo_points": 29.73,
+          "three_week_calendar_total": 89.2,
+          "three_week_calendar_average": 29.73,
+          "last_three_nonzero_game_average": 29.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7.3,
-          "candidate_research_score": 31.16
+          "candidate_research_score": 31.19
         },
         {
           "id": "40196",
@@ -1053,9 +1797,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 23.7,
+          "three_week_yahoo_points": 23.67,
+          "three_week_calendar_total": 71,
+          "three_week_calendar_average": 23.67,
+          "last_three_nonzero_game_average": 23.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 17.3,
-          "candidate_research_score": 27.16
+          "candidate_research_score": 27.13
         },
         {
           "id": "41840",
@@ -1063,9 +1815,17 @@
           "position": "WR",
           "status": "D",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 18.5,
+          "three_week_yahoo_points": 18.47,
+          "three_week_calendar_total": 55.4,
+          "three_week_calendar_average": 18.47,
+          "last_three_nonzero_game_average": 18.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 18.5
+          "candidate_research_score": 18.47
         },
         {
           "id": "40114",
@@ -1073,9 +1833,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 16.1,
+          "three_week_yahoo_points": 16.13,
+          "three_week_calendar_total": 48.4,
+          "three_week_calendar_average": 16.13,
+          "last_three_nonzero_game_average": 16.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6.3,
-          "candidate_research_score": 17.36
+          "candidate_research_score": 17.39
         },
         {
           "id": "40201",
@@ -1083,9 +1851,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 15.5,
+          "three_week_yahoo_points": 15.53,
+          "three_week_calendar_total": 46.6,
+          "three_week_calendar_average": 15.53,
+          "last_three_nonzero_game_average": 15.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6,
-          "candidate_research_score": 16.7
+          "candidate_research_score": 16.73
         },
         {
           "id": "30231",
@@ -1093,9 +1869,17 @@
           "position": "WR",
           "status": "IR",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 15.7,
+          "three_week_yahoo_points": 15.67,
+          "three_week_calendar_total": 47,
+          "three_week_calendar_average": 15.67,
+          "last_three_nonzero_game_average": 18.2,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 15.7
+          "candidate_research_score": 15.67
         },
         {
           "id": "34047",
@@ -1103,9 +1887,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 14.3,
+          "three_week_yahoo_points": 14.33,
+          "three_week_calendar_total": 43,
+          "three_week_calendar_average": 14.33,
+          "last_three_nonzero_game_average": 25.2,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 14.3
+          "candidate_research_score": 14.33
         },
         {
           "id": "32692",
@@ -1113,9 +1905,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 13.7,
+          "three_week_yahoo_points": 13.67,
+          "three_week_calendar_total": 41,
+          "three_week_calendar_average": 13.67,
+          "last_three_nonzero_game_average": 19.67,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 13.7
+          "candidate_research_score": 13.67
         },
         {
           "id": "40108",
@@ -1124,6 +1924,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 9.8,
+          "three_week_calendar_total": 29.4,
+          "three_week_calendar_average": 9.8,
+          "last_three_nonzero_game_average": 9.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8.7,
           "candidate_research_score": 11.54
         },
@@ -1133,9 +1941,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 9.3,
+          "three_week_yahoo_points": 9.27,
+          "three_week_calendar_total": 27.8,
+          "three_week_calendar_average": 9.27,
+          "last_three_nonzero_game_average": 9.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3,
-          "candidate_research_score": 9.9
+          "candidate_research_score": 9.87
         },
         {
           "id": "41010",
@@ -1143,9 +1959,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 8.5,
+          "three_week_yahoo_points": 8.53,
+          "three_week_calendar_total": 25.6,
+          "three_week_calendar_average": 8.53,
+          "last_three_nonzero_game_average": 12.57,
+          "last_three_game_weeks": [
+            5,
+            4,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 8.5
+          "candidate_research_score": 8.53
         },
         {
           "id": "40118",
@@ -1154,6 +1978,14 @@
           "status": "IR",
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 1.8,
+          "three_week_calendar_total": 5.4,
+          "three_week_calendar_average": 1.8,
+          "last_three_nonzero_game_average": 18.73,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 1.8
         },
@@ -1164,6 +1996,12 @@
           "status": "IR-R",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -1174,7 +2012,7 @@
         "Ollie Gordon II"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "8",
@@ -1186,9 +2024,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 53.9,
+          "three_week_yahoo_points": 53.87,
+          "three_week_calendar_total": 161.6,
+          "three_week_calendar_average": 53.87,
+          "last_three_nonzero_game_average": 53.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.3,
-          "candidate_research_score": 55.76
+          "candidate_research_score": 55.73
         },
         {
           "id": "40029",
@@ -1196,9 +2042,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 52.9,
+          "three_week_yahoo_points": 52.87,
+          "three_week_calendar_total": 158.6,
+          "three_week_calendar_average": 52.87,
+          "last_three_nonzero_game_average": 79.83,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 52.9
+          "candidate_research_score": 52.87
         },
         {
           "id": "33989",
@@ -1206,9 +2060,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 49.1,
+          "three_week_yahoo_points": 49.07,
+          "three_week_calendar_total": 147.2,
+          "three_week_calendar_average": 49.07,
+          "last_three_nonzero_game_average": 49.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
-          "candidate_research_score": 50.5
+          "candidate_research_score": 50.47
         },
         {
           "id": "41900",
@@ -1217,6 +2079,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 31.8,
+          "three_week_calendar_total": 95.4,
+          "three_week_calendar_average": 31.8,
+          "last_three_nonzero_game_average": 31.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 31.8
         },
@@ -1226,9 +2096,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 31.7,
+          "three_week_yahoo_points": 31.73,
+          "three_week_calendar_total": 95.2,
+          "three_week_calendar_average": 31.73,
+          "last_three_nonzero_game_average": 31.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 31.7
+          "candidate_research_score": 31.73
         },
         {
           "id": "33500",
@@ -1236,9 +2114,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 26.1,
+          "three_week_yahoo_points": 26.07,
+          "three_week_calendar_total": 78.2,
+          "three_week_calendar_average": 26.07,
+          "last_three_nonzero_game_average": 26.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 10,
-          "candidate_research_score": 28.1
+          "candidate_research_score": 28.07
         },
         {
           "id": "41799",
@@ -1247,6 +2133,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 27.8,
+          "three_week_calendar_total": 83.4,
+          "three_week_calendar_average": 27.8,
+          "last_three_nonzero_game_average": 27.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 27.8
         },
@@ -1257,6 +2151,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 19.6,
+          "three_week_calendar_total": 58.8,
+          "three_week_calendar_average": 19.6,
+          "last_three_nonzero_game_average": 19.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
           "candidate_research_score": 21
         },
@@ -1266,9 +2168,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.5,
+          "three_week_yahoo_points": 17.53,
+          "three_week_calendar_total": 52.6,
+          "three_week_calendar_average": 17.53,
+          "last_three_nonzero_game_average": 17.53,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 17.5
+          "candidate_research_score": 17.53
         },
         {
           "id": "31905",
@@ -1277,6 +2187,14 @@
           "status": "D",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 8.8,
+          "three_week_calendar_total": 26.4,
+          "three_week_calendar_average": 8.8,
+          "last_three_nonzero_game_average": 8.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9.3,
           "candidate_research_score": 10.66
         },
@@ -1287,6 +2205,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 10.6,
+          "three_week_calendar_total": 31.8,
+          "three_week_calendar_average": 10.6,
+          "last_three_nonzero_game_average": 10.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 10.6
         },
@@ -1296,9 +2222,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 2.5,
+          "three_week_yahoo_points": 2.53,
+          "three_week_calendar_total": 7.6,
+          "three_week_calendar_average": 2.53,
+          "last_three_nonzero_game_average": 44.1,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 2.5
+          "candidate_research_score": 2.53
         },
         {
           "id": "40900",
@@ -1307,6 +2241,13 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         },
@@ -1317,6 +2258,10 @@
           "status": "PUP-R",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -1327,7 +2272,7 @@
         "Christian Watson"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "9",
@@ -1339,9 +2284,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 91.9,
+          "three_week_yahoo_points": 91.93,
+          "three_week_calendar_total": 275.8,
+          "three_week_calendar_average": 91.93,
+          "last_three_nonzero_game_average": 91.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3,
-          "candidate_research_score": 92.5
+          "candidate_research_score": 92.53
         },
         {
           "id": "34447",
@@ -1349,9 +2302,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 77.7,
+          "three_week_yahoo_points": 77.67,
+          "three_week_calendar_total": 233,
+          "three_week_calendar_average": 77.67,
+          "last_three_nonzero_game_average": 77.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 21.7,
-          "candidate_research_score": 81.7
+          "candidate_research_score": 81.67
         },
         {
           "id": "31896",
@@ -1359,9 +2320,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 34.3,
+          "three_week_yahoo_points": 34.27,
+          "three_week_calendar_total": 102.8,
+          "three_week_calendar_average": 34.27,
+          "last_three_nonzero_game_average": 34.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6.3,
-          "candidate_research_score": 35.56
+          "candidate_research_score": 35.53
         },
         {
           "id": "31868",
@@ -1370,6 +2339,14 @@
           "status": "O",
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 26.2,
+          "three_week_calendar_total": 78.6,
+          "three_week_calendar_average": 26.2,
+          "last_three_nonzero_game_average": 26.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.3,
           "candidate_research_score": 27.26
         },
@@ -1379,9 +2356,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 20.9,
+          "three_week_yahoo_points": 20.93,
+          "three_week_calendar_total": 62.8,
+          "three_week_calendar_average": 20.93,
+          "last_three_nonzero_game_average": 20.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5,
-          "candidate_research_score": 21.9
+          "candidate_research_score": 21.93
         },
         {
           "id": "40901",
@@ -1390,6 +2375,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 20.2,
+          "three_week_calendar_total": 60.6,
+          "three_week_calendar_average": 20.2,
+          "last_three_nonzero_game_average": 20.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7.3,
           "candidate_research_score": 21.66
         },
@@ -1400,6 +2393,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 18.8,
+          "three_week_calendar_total": 56.4,
+          "three_week_calendar_average": 18.8,
+          "last_three_nonzero_game_average": 18.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 18.8
         },
@@ -1409,9 +2410,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 18.5,
+          "three_week_yahoo_points": 18.47,
+          "three_week_calendar_total": 55.4,
+          "three_week_calendar_average": 18.47,
+          "last_three_nonzero_game_average": 18.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 18.5
+          "candidate_research_score": 18.47
         },
         {
           "id": "41002",
@@ -1419,9 +2428,17 @@
           "position": "RB",
           "status": "D",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.8,
+          "three_week_yahoo_points": 10.77,
+          "three_week_calendar_total": 32.3,
+          "three_week_calendar_average": 10.77,
+          "last_three_nonzero_game_average": 10.77,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.3,
-          "candidate_research_score": 11.86
+          "candidate_research_score": 11.83
         },
         {
           "id": "26686",
@@ -1429,9 +2446,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 11.3,
+          "three_week_yahoo_points": 11.27,
+          "three_week_calendar_total": 33.8,
+          "three_week_calendar_average": 11.27,
+          "last_three_nonzero_game_average": 37.67,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 11.3
+          "candidate_research_score": 11.27
         },
         {
           "id": "30972",
@@ -1440,6 +2465,14 @@
           "status": "Q",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 9,
+          "three_week_calendar_total": 27,
+          "three_week_calendar_average": 9,
+          "last_three_nonzero_game_average": 11.33,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 9
         },
@@ -1449,9 +2482,17 @@
           "position": "RB",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 6.3,
+          "three_week_yahoo_points": 6.27,
+          "three_week_calendar_total": 18.8,
+          "three_week_calendar_average": 6.27,
+          "last_three_nonzero_game_average": 6.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.7,
-          "candidate_research_score": 7.44
+          "candidate_research_score": 7.41
         }
       ],
       "top_three_production_only": [
@@ -1460,7 +2501,7 @@
         "DK Metcalf"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "10",
@@ -1472,9 +2513,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 96.9,
+          "three_week_yahoo_points": 96.87,
+          "three_week_calendar_total": 290.6,
+          "three_week_calendar_average": 96.87,
+          "last_three_nonzero_game_average": 96.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 1.7,
-          "candidate_research_score": 97.24
+          "candidate_research_score": 97.21
         },
         {
           "id": "32696",
@@ -1482,9 +2531,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 78.7,
+          "three_week_yahoo_points": 78.73,
+          "three_week_calendar_total": 236.2,
+          "three_week_calendar_average": 78.73,
+          "last_three_nonzero_game_average": 78.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 2,
-          "candidate_research_score": 79.1
+          "candidate_research_score": 79.13
         },
         {
           "id": "32687",
@@ -1492,9 +2549,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 63.3,
+          "three_week_yahoo_points": 63.27,
+          "three_week_calendar_total": 189.8,
+          "three_week_calendar_average": 63.27,
+          "last_three_nonzero_game_average": 63.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 11.7,
-          "candidate_research_score": 65.64
+          "candidate_research_score": 65.61
         },
         {
           "id": "34120",
@@ -1503,6 +2568,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 53.4,
+          "three_week_calendar_total": 160.2,
+          "three_week_calendar_average": 53.4,
+          "last_three_nonzero_game_average": 53.4,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 25,
           "candidate_research_score": 57.4
         },
@@ -1513,6 +2586,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 47.8,
+          "three_week_calendar_total": 143.4,
+          "three_week_calendar_average": 47.8,
+          "last_three_nonzero_game_average": 47.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 26.3,
           "candidate_research_score": 51.8
         },
@@ -1523,6 +2604,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 41.2,
+          "three_week_calendar_total": 123.6,
+          "three_week_calendar_average": 41.2,
+          "last_three_nonzero_game_average": 41.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 20.3,
           "candidate_research_score": 45.2
         },
@@ -1532,9 +2621,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 44.4,
+          "three_week_yahoo_points": 44.43,
+          "three_week_calendar_total": 133.3,
+          "three_week_calendar_average": 44.43,
+          "last_three_nonzero_game_average": 80.63,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 44.4
+          "candidate_research_score": 44.43
         },
         {
           "id": "33508",
@@ -1542,9 +2639,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 27.5,
+          "three_week_yahoo_points": 27.47,
+          "three_week_calendar_total": 82.4,
+          "three_week_calendar_average": 27.47,
+          "last_three_nonzero_game_average": 27.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 14.7,
-          "candidate_research_score": 30.44
+          "candidate_research_score": 30.41
         },
         {
           "id": "34659",
@@ -1552,9 +2657,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 25.4,
+          "three_week_yahoo_points": 25.43,
+          "three_week_calendar_total": 76.3,
+          "three_week_calendar_average": 25.43,
+          "last_three_nonzero_game_average": 25.43,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 4,
-          "candidate_research_score": 26.2
+          "candidate_research_score": 26.23
         },
         {
           "id": "40078",
@@ -1562,9 +2675,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 24.3,
+          "three_week_yahoo_points": 24.33,
+          "three_week_calendar_total": 73,
+          "three_week_calendar_average": 24.33,
+          "last_three_nonzero_game_average": 24.33,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7,
-          "candidate_research_score": 25.7
+          "candidate_research_score": 25.73
         },
         {
           "id": "33392",
@@ -1572,9 +2693,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 13.9,
+          "three_week_yahoo_points": 13.93,
+          "three_week_calendar_total": 41.8,
+          "three_week_calendar_average": 13.93,
+          "last_three_nonzero_game_average": 13.93,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.7,
-          "candidate_research_score": 14.64
+          "candidate_research_score": 14.67
         },
         {
           "id": "40224",
@@ -1583,6 +2712,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 11,
+          "three_week_calendar_total": 33,
+          "three_week_calendar_average": 11,
+          "last_three_nonzero_game_average": 11,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.7,
           "candidate_research_score": 11.74
         },
@@ -1592,9 +2729,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 11.3,
+          "three_week_yahoo_points": 11.27,
+          "three_week_calendar_total": 33.8,
+          "three_week_calendar_average": 11.27,
+          "last_three_nonzero_game_average": 11.2,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 11.3
+          "candidate_research_score": 11.27
         },
         {
           "id": "33398",
@@ -1602,9 +2747,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 7.7,
+          "three_week_yahoo_points": 7.67,
+          "three_week_calendar_total": 23,
+          "three_week_calendar_average": 7.67,
+          "last_three_nonzero_game_average": 40.67,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 7.7
+          "candidate_research_score": 7.67
         },
         {
           "id": "40915",
@@ -1613,6 +2766,13 @@
           "status": "D",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -1623,7 +2783,7 @@
         "CeeDee Lamb"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "11",
@@ -1635,9 +2795,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 83.9,
+          "three_week_yahoo_points": 83.87,
+          "three_week_calendar_total": 251.6,
+          "three_week_calendar_average": 83.87,
+          "last_three_nonzero_game_average": 83.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 27,
-          "candidate_research_score": 87.9
+          "candidate_research_score": 87.87
         },
         {
           "id": "40881",
@@ -1646,6 +2814,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 80.2,
+          "three_week_calendar_total": 240.6,
+          "three_week_calendar_average": 80.2,
+          "last_three_nonzero_game_average": 80.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6.3,
           "candidate_research_score": 81.46
         },
@@ -1656,6 +2832,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 75.6,
+          "three_week_calendar_total": 226.8,
+          "three_week_calendar_average": 75.6,
+          "last_three_nonzero_game_average": 75.6,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 1.3,
           "candidate_research_score": 75.86
         },
@@ -1665,9 +2849,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 46.1,
+          "three_week_yahoo_points": 46.13,
+          "three_week_calendar_total": 138.4,
+          "three_week_calendar_average": 46.13,
+          "last_three_nonzero_game_average": 46.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 9,
-          "candidate_research_score": 47.9
+          "candidate_research_score": 47.93
         },
         {
           "id": "33477",
@@ -1676,6 +2868,14 @@
           "status": null,
           "is_yahoo_keeper_marker": true,
           "three_week_yahoo_points": 36.6,
+          "three_week_calendar_total": 109.8,
+          "three_week_calendar_average": 36.6,
+          "last_three_nonzero_game_average": 49.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 36.6
         },
@@ -1685,9 +2885,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 28.9,
+          "three_week_yahoo_points": 28.87,
+          "three_week_calendar_total": 86.6,
+          "three_week_calendar_average": 28.87,
+          "last_three_nonzero_game_average": 28.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 10,
-          "candidate_research_score": 30.9
+          "candidate_research_score": 30.87
         },
         {
           "id": "41885",
@@ -1696,6 +2904,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 29.8,
+          "three_week_calendar_total": 89.4,
+          "three_week_calendar_average": 29.8,
+          "last_three_nonzero_game_average": 29.8,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 29.8
         },
@@ -1705,9 +2921,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 23.6,
+          "three_week_yahoo_points": 23.63,
+          "three_week_calendar_total": 70.9,
+          "three_week_calendar_average": 23.63,
+          "last_three_nonzero_game_average": 23.63,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 12.3,
-          "candidate_research_score": 26.06
+          "candidate_research_score": 26.09
         },
         {
           "id": "41922",
@@ -1715,9 +2939,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 24.5,
+          "three_week_yahoo_points": 24.47,
+          "three_week_calendar_total": 73.4,
+          "three_week_calendar_average": 24.47,
+          "last_three_nonzero_game_average": 24.47,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 24.5
+          "candidate_research_score": 24.47
         },
         {
           "id": "29269",
@@ -1725,9 +2957,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 17.1,
+          "three_week_yahoo_points": 17.07,
+          "three_week_calendar_total": 51.2,
+          "three_week_calendar_average": 17.07,
+          "last_three_nonzero_game_average": 17.07,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 3.7,
-          "candidate_research_score": 17.84
+          "candidate_research_score": 17.81
         },
         {
           "id": "40962",
@@ -1735,9 +2975,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 13.9,
+          "three_week_yahoo_points": 13.87,
+          "three_week_calendar_total": 41.6,
+          "three_week_calendar_average": 13.87,
+          "last_three_nonzero_game_average": 13.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8.7,
-          "candidate_research_score": 15.64
+          "candidate_research_score": 15.61
         },
         {
           "id": "41344",
@@ -1745,9 +2993,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 11.3,
+          "three_week_yahoo_points": 11.27,
+          "three_week_calendar_total": 33.8,
+          "three_week_calendar_average": 11.27,
+          "last_three_nonzero_game_average": 11.27,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8,
-          "candidate_research_score": 12.9
+          "candidate_research_score": 12.87
         },
         {
           "id": "40877",
@@ -1756,6 +3012,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 11,
+          "three_week_calendar_total": 33,
+          "three_week_calendar_average": 11,
+          "last_three_nonzero_game_average": 17.67,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 11
         },
@@ -1765,9 +3029,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 7.7,
+          "three_week_yahoo_points": 7.73,
+          "three_week_calendar_total": 23.2,
+          "three_week_calendar_average": 7.73,
+          "last_three_nonzero_game_average": 24.87,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 7.7
+          "candidate_research_score": 7.73
         },
         {
           "id": "40926",
@@ -1776,6 +3048,13 @@
           "status": "IR",
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 0,
+          "three_week_calendar_total": 0,
+          "three_week_calendar_average": 0,
+          "last_three_nonzero_game_average": null,
+          "last_three_game_weeks": [
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 0
         }
@@ -1786,7 +3065,7 @@
         "Aaron Rodgers"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     },
     {
       "team_id": "12",
@@ -1798,9 +3077,17 @@
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 64.1,
+          "three_week_yahoo_points": 64.13,
+          "three_week_calendar_total": 192.4,
+          "three_week_calendar_average": 64.13,
+          "last_three_nonzero_game_average": 64.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 1.7,
-          "candidate_research_score": 64.44
+          "candidate_research_score": 64.47
         },
         {
           "id": "41808",
@@ -1808,9 +3095,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 55.6,
+          "three_week_yahoo_points": 55.57,
+          "three_week_calendar_total": 166.7,
+          "three_week_calendar_average": 55.57,
+          "last_three_nonzero_game_average": 55.57,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 55.6
+          "candidate_research_score": 55.57
         },
         {
           "id": "40121",
@@ -1819,6 +3114,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 34.5,
+          "three_week_calendar_total": 103.5,
+          "three_week_calendar_average": 34.5,
+          "last_three_nonzero_game_average": 34.5,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 12.3,
           "candidate_research_score": 36.96
         },
@@ -1828,9 +3131,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 35.7,
+          "three_week_yahoo_points": 35.73,
+          "three_week_calendar_total": 107.2,
+          "three_week_calendar_average": 35.73,
+          "last_three_nonzero_game_average": 35.73,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 6,
-          "candidate_research_score": 36.9
+          "candidate_research_score": 36.93
         },
         {
           "id": "34054",
@@ -1838,9 +3149,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 28.4,
+          "three_week_yahoo_points": 28.37,
+          "three_week_calendar_total": 85.1,
+          "three_week_calendar_average": 28.37,
+          "last_three_nonzero_game_average": 28.37,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 11,
-          "candidate_research_score": 30.6
+          "candidate_research_score": 30.57
         },
         {
           "id": "31960",
@@ -1848,9 +3167,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 23.9,
+          "three_week_yahoo_points": 23.87,
+          "three_week_calendar_total": 71.6,
+          "three_week_calendar_average": 23.87,
+          "last_three_nonzero_game_average": 23.87,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 18.7,
-          "candidate_research_score": 27.64
+          "candidate_research_score": 27.61
         },
         {
           "id": "33998",
@@ -1858,9 +3185,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 24.7,
+          "three_week_yahoo_points": 24.67,
+          "three_week_calendar_total": 74,
+          "three_week_calendar_average": 24.67,
+          "last_three_nonzero_game_average": 24.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 8,
-          "candidate_research_score": 26.3
+          "candidate_research_score": 26.27
         },
         {
           "id": "40102",
@@ -1868,9 +3203,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": true,
-          "three_week_yahoo_points": 23.1,
+          "three_week_yahoo_points": 23.13,
+          "three_week_calendar_total": 69.4,
+          "three_week_calendar_average": 23.13,
+          "last_three_nonzero_game_average": 23.13,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 7.3,
-          "candidate_research_score": 24.56
+          "candidate_research_score": 24.59
         },
         {
           "id": "42010",
@@ -1878,9 +3221,17 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 20.7,
+          "three_week_yahoo_points": 20.67,
+          "three_week_calendar_total": 62,
+          "three_week_calendar_average": 20.67,
+          "last_three_nonzero_game_average": 20.67,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 20.7
+          "candidate_research_score": 20.67
         },
         {
           "id": "31908",
@@ -1889,6 +3240,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 20.6,
+          "three_week_calendar_total": 61.8,
+          "three_week_calendar_average": 20.6,
+          "last_three_nonzero_game_average": 25.93,
+          "last_three_game_weeks": [
+            5,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
           "candidate_research_score": 20.6
         },
@@ -1899,6 +3258,14 @@
           "status": null,
           "is_yahoo_keeper_marker": false,
           "three_week_yahoo_points": 13.2,
+          "three_week_calendar_total": 39.6,
+          "three_week_calendar_average": 13.2,
+          "last_three_nonzero_game_average": 13.2,
+          "last_three_game_weeks": [
+            5,
+            4,
+            3
+          ],
           "three_week_rush_plus_targets": 5.7,
           "candidate_research_score": 14.34
         },
@@ -1908,9 +3275,17 @@
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 10.3,
+          "three_week_yahoo_points": 10.33,
+          "three_week_calendar_total": 31,
+          "three_week_calendar_average": 10.33,
+          "last_three_nonzero_game_average": 13.47,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 10.3
+          "candidate_research_score": 10.33
         },
         {
           "id": "28534",
@@ -1918,9 +3293,17 @@
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 9.5,
+          "three_week_yahoo_points": 9.53,
+          "three_week_calendar_total": 28.6,
+          "three_week_calendar_average": 9.53,
+          "last_three_nonzero_game_average": 21,
+          "last_three_game_weeks": [
+            4,
+            3,
+            2
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 9.5
+          "candidate_research_score": 9.53
         },
         {
           "id": "33413",
@@ -1928,9 +3311,17 @@
           "position": "RB",
           "status": "IR",
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 8.7,
+          "three_week_yahoo_points": 8.67,
+          "three_week_calendar_total": 26,
+          "three_week_calendar_average": 8.67,
+          "last_three_nonzero_game_average": 22.93,
+          "last_three_game_weeks": [
+            3,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 8.7
+          "candidate_research_score": 8.67
         },
         {
           "id": "31019",
@@ -1938,9 +3329,17 @@
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false,
-          "three_week_yahoo_points": 6.5,
+          "three_week_yahoo_points": 6.53,
+          "three_week_calendar_total": 19.6,
+          "three_week_calendar_average": 6.53,
+          "last_three_nonzero_game_average": 20.6,
+          "last_three_game_weeks": [
+            5,
+            2,
+            1
+          ],
           "three_week_rush_plus_targets": null,
-          "candidate_research_score": 6.5
+          "candidate_research_score": 6.53
         }
       ],
       "top_three_production_only": [
@@ -1949,7 +3348,7 @@
         "Michael Wilson"
       ],
       "actual_projected_keepers": [],
-      "keeper_scarcity_notes": "Yahoo three-week points and role only; future keeper value requires age, injuries, opportunity and market context."
+      "keeper_scarcity_notes": "Yahoo league-scored calendar-week average (byes count as zero) and role only; not a future keeper forecast."
     }
   ],
   "not_an_actual_keeper_forecast": true,
@@ -1958,6 +3357,9 @@
   "limitations": [
     "Top-three production screen is not projected keeper choice.",
     "Actual keepers require future season expectations and league-specific draft position mapping.",
+    "The field three_week_yahoo_points is a legacy calendar-week AVERAGE, not a three-week sum.",
+    "A zero score counts for the calendar-week average; no game or bye metadata is needed to infer games played.",
+    "Last-three-nonzero-game average is a research convenience, not a confirmed games-played metric: an actual played zero-point game would be excluded.",
     "A low recent three-week score does not imply a star is expendable."
   ]
 }
