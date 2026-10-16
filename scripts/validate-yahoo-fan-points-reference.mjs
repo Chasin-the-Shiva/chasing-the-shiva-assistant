@@ -18,6 +18,9 @@ for(const r of references){
  });
  const bye=p.weeks.find(x=>Number(x.week)===r.bye);
  const byeValue=bye?.yahoo_fantasy_points??null;
+ if(r.name==="Bryce Young"&&byeValue!==0){console.error("BYE_NOT_ZERO",byeValue);ok=false;}
+ const expectedSeason=Object.values(r.expected).reduce((a,b)=>a+b,0);
+ if(typeof p.season_yahoo_fantasy_points!=="number"||Math.abs(p.season_yahoo_fantasy_points-expectedSeason)>0.011){console.error("SEASON_TOTAL_MISMATCH",r.name);ok=false;}
  console.log(JSON.stringify({player:r.name,id:r.id,weeks:results,bye_week:r.bye,bye_value:byeValue,season_field:p.season_yahoo_fantasy_points,snapshot_completed_through:data.completed_through_week}));
 }
 if(!ok)throw Error("Yahoo snapshot mismatch with actual game log screenshots: do not trust downstream rankings until fixed");
