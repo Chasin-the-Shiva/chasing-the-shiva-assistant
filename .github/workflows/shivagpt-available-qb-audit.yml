@@ -1,0 +1,20 @@
+name: ShivaGPT Available QB Scoring Audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit-available-qbs.mjs"
+      - ".github/workflows/shivagpt-available-qb-audit.yml"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/audit-available-qbs.mjs
