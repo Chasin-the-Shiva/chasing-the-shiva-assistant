@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-15T19:02:25.455Z",
-  "source_at": "2026-10-15T18:18:47.660Z",
+  "generated_at": "2026-10-16T16:55:50.329Z",
+  "source_at": "2026-10-16T12:25:39.439Z",
   "league_id": "721343",
   "lineup_week": 6,
   "verified_roster_count": 17,
@@ -160,14 +160,14 @@
       "bye_week": "6"
     },
     {
-      "id": "30231",
-      "name": "Mack Hollins",
-      "position": "WR",
+      "id": "30227",
+      "name": "Samaje Perine",
+      "position": "RB",
       "selected_position": "BN",
-      "status": "IR",
-      "status_full": "Injured Reserve",
-      "injury_note": "Calf",
-      "bye_week": "11"
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
     },
     {
       "id": "40118",
