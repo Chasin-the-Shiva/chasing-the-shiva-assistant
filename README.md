@@ -52,3 +52,11 @@ This is a private personal project intended for a single primary user and a sing
 ## Data Use
 
 Yahoo Fantasy Sports data accessed by the application is used solely to provide fantasy football analytics and decision-support information to the authorized account holder.
+
+## Operational rule — Data freshness disclosure
+
+When answering with cached or potentially stale ShivaGPT research, use the most recent verified data rather than silently withholding all advice. Start the recommendation with:
+
+> Based on the information I was able to gather as of HH:MM Eastern (the most recent update attempt was at HH:MM Eastern and succeeded/failed), I think you should…
+
+The first time is the source data's verified retrieval timestamp; the second is the latest verified refresh-attempt time and its actual outcome. Never infer a successful attempt merely because an older report exists. If attempt status cannot be verified, state that it is unknown rather than inventing it. Display the date as well when the times could be ambiguous or data is from an earlier day. Do not imply stale availability, injury status, starting status, lineup, or FAAB is currently confirmed; mark any transaction advice conditional on re-verification. A failed refresh does not erase the last successfully collected evidence.
