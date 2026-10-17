@@ -1,15 +1,15 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-17T01:34:21.618Z",
+  "generated_at": "2026-10-17T06:12:24.660Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-17T01:33:09.442Z",
+  "source_retrieved_at": "2026-10-17T06:11:34.996Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100012",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Chiefs",
       "availability_status": "rostered",
       "percent_owned": 84,
@@ -32,8 +32,8 @@
       "observed_ownership_change_pp": 1,
       "name": "Dameon Pierce",
       "availability_status": "rostered",
-      "percent_owned": 53,
-      "percent_owned_delta": 51,
+      "percent_owned": 54,
+      "percent_owned_delta": 52,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -69,21 +69,21 @@
     },
     {
       "player_id": "41002",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": -1,
       "name": "Will Shipley",
       "availability_status": "rostered",
-      "percent_owned": 12,
-      "percent_owned_delta": -36,
+      "percent_owned": 11,
+      "percent_owned_delta": -37,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "33443",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": 1,
       "name": "Pat Freiermuth",
       "availability_status": "FA",
-      "percent_owned": 47,
-      "percent_owned_delta": 32,
+      "percent_owned": 48,
+      "percent_owned_delta": 33,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -104,6 +104,16 @@
       "availability_status": "rostered",
       "percent_owned": 17,
       "percent_owned_delta": -28,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40108",
+      "observed_ownership_change_pp": 1,
+      "name": "Kendre Miller",
+      "availability_status": "rostered",
+      "percent_owned": 31,
+      "percent_owned_delta": 24,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -138,22 +148,12 @@
       "drops_24h": null
     },
     {
-      "player_id": "40108",
-      "observed_ownership_change_pp": 0,
-      "name": "Kendre Miller",
-      "availability_status": "rostered",
-      "percent_owned": 30,
-      "percent_owned_delta": 23,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "100033",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": 1,
       "name": "Ravens",
       "availability_status": "rostered",
-      "percent_owned": 81,
-      "percent_owned_delta": 22,
+      "percent_owned": 82,
+      "percent_owned_delta": 23,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -199,7 +199,7 @@
     },
     {
       "player_id": "100029",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Panthers",
       "availability_status": "FA",
       "percent_owned": 20,
@@ -279,7 +279,7 @@
     },
     {
       "player_id": "7200",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Aaron Rodgers",
       "availability_status": "rostered",
       "percent_owned": 40,
@@ -299,7 +299,7 @@
     },
     {
       "player_id": "26699",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Keenan Allen",
       "availability_status": "rostered",
       "percent_owned": 44,
@@ -329,10 +329,20 @@
     },
     {
       "player_id": "30551",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Kendrick Bourne",
       "availability_status": "rostered",
       "percent_owned": 18,
+      "percent_owned_delta": 12,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "29344",
+      "observed_ownership_change_pp": 1,
+      "name": "Tyler Higbee",
+      "availability_status": "rostered",
+      "percent_owned": 16,
       "percent_owned_delta": 12,
       "adds_24h": null,
       "drops_24h": null
@@ -368,16 +378,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "29344",
-      "observed_ownership_change_pp": 0,
-      "name": "Tyler Higbee",
-      "availability_status": "rostered",
-      "percent_owned": 15,
-      "percent_owned_delta": 11,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "100013",
       "observed_ownership_change_pp": 0,
       "name": "Raiders",
@@ -399,7 +399,7 @@
     },
     {
       "player_id": "32676",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Justin Herbert",
       "availability_status": "FA",
       "percent_owned": 59,
@@ -429,11 +429,21 @@
     },
     {
       "player_id": "42744",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Mike Washington Jr.",
       "availability_status": "FA",
       "percent_owned": 32,
       "percent_owned_delta": -10,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "31019",
+      "observed_ownership_change_pp": 1,
+      "name": "Dallas Goedert",
+      "availability_status": "rostered",
+      "percent_owned": 84,
+      "percent_owned_delta": 9,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -469,7 +479,7 @@
     },
     {
       "player_id": "100014",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Rams",
       "availability_status": "rostered",
       "percent_owned": 88,
@@ -508,6 +518,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "34085",
+      "observed_ownership_change_pp": -1,
+      "name": "Jake Ferguson",
+      "availability_status": "FA",
+      "percent_owned": 62,
+      "percent_owned_delta": -9,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "40051",
       "observed_ownership_change_pp": 0,
       "name": "Quentin Johnston",
@@ -528,12 +548,12 @@
       "drops_24h": null
     },
     {
-      "player_id": "31019",
-      "observed_ownership_change_pp": 0,
-      "name": "Dallas Goedert",
+      "player_id": "40883",
+      "observed_ownership_change_pp": -1,
+      "name": "Brian Thomas Jr.",
       "availability_status": "rostered",
-      "percent_owned": 83,
-      "percent_owned_delta": 8,
+      "percent_owned": 57,
+      "percent_owned_delta": -8,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -543,6 +563,16 @@
       "name": "Daniel Jones",
       "availability_status": "rostered",
       "percent_owned": 27,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "31856",
+      "observed_ownership_change_pp": 1,
+      "name": "Josh Jacobs",
+      "availability_status": "rostered",
+      "percent_owned": 79,
       "percent_owned_delta": 8,
       "adds_24h": null,
       "drops_24h": null
@@ -598,26 +628,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "34085",
-      "observed_ownership_change_pp": 0,
-      "name": "Jake Ferguson",
-      "availability_status": "FA",
-      "percent_owned": 63,
-      "percent_owned_delta": -8,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "40883",
-      "observed_ownership_change_pp": 0,
-      "name": "Brian Thomas Jr.",
-      "availability_status": "rostered",
-      "percent_owned": 58,
-      "percent_owned_delta": -7,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "31010",
       "observed_ownership_change_pp": 0,
       "name": "Courtland Sutton",
@@ -654,16 +664,6 @@
       "availability_status": "rostered",
       "percent_owned": 6,
       "percent_owned_delta": -7,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "31856",
-      "observed_ownership_change_pp": 1,
-      "name": "Josh Jacobs",
-      "availability_status": "rostered",
-      "percent_owned": 78,
-      "percent_owned_delta": 7,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -848,6 +848,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "34107",
+      "observed_ownership_change_pp": 1,
+      "name": "Tyler Allgeier",
+      "availability_status": "rostered",
+      "percent_owned": 50,
+      "percent_owned_delta": 5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "30971",
       "observed_ownership_change_pp": 0,
       "name": "Baker Mayfield",
@@ -879,7 +889,7 @@
     },
     {
       "player_id": "40696",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jaleel McLaughlin",
       "availability_status": "FA",
       "percent_owned": 5,
@@ -891,7 +901,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-16T23:01:25.091Z",
-    "elapsed_hours": 2.53
+    "previous_retrieved_at": "2026-10-17T01:33:09.442Z",
+    "elapsed_hours": 4.64
   }
 }
