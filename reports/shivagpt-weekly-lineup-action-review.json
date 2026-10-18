@@ -1,24 +1,16 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-17T15:57:13.121Z",
+  "generated_at": "2026-10-18T16:09:04.109Z",
   "league_id": "721343",
   "season_week": 6,
-  "roster_source_at": "2026-10-17T13:43:34.790Z",
-  "availability_source_at": "2026-10-17T13:43:34.790Z",
+  "roster_source_at": "2026-10-18T14:35:04.901Z",
+  "availability_source_at": "2026-10-18T14:35:04.901Z",
   "source_fresh": true,
   "starter_warnings": [
     {
       "name": "Tre' Harris",
       "status": "O",
-      "slot": "W/R/T",
-      "bye": false,
-      "severity": "HIGH",
-      "internal_options": []
-    },
-    {
-      "name": "A.J. Brown",
-      "status": "IR-R",
       "slot": "W/R/T",
       "bye": false,
       "severity": "HIGH",
@@ -207,12 +199,6 @@
       "injury_status": null
     },
     {
-      "name": "Davis Mills",
-      "player_id": "33455",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Riley Leonard",
       "player_id": "41968",
       "status": "FA",
@@ -233,12 +219,6 @@
     {
       "name": "Kurtis Rourke",
       "player_id": "42009",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Quinn Ewers",
-      "player_id": "42037",
       "status": "FA",
       "injury_status": null
     },
@@ -269,6 +249,12 @@
     {
       "name": "Jake Haener",
       "player_id": "40144",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Easton Stick",
+      "player_id": "31998",
       "status": "FA",
       "injury_status": null
     },
@@ -387,6 +373,18 @@
       "injury_status": null
     },
     {
+      "name": "Davis Mills",
+      "player_id": "33455",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Quinn Ewers",
+      "player_id": "42037",
+      "status": "W",
+      "injury_status": null
+    },
+    {
       "name": "Jarrett Stidham",
       "player_id": "31965",
       "status": "W",
@@ -396,7 +394,6 @@
   "preferred_short_term_qb_research": null,
   "priority_actions": [
     "REVIEW Tre' Harris (W/R/T; O): no verified eligible bench replacement. Confirm official status and lineup eligibility before lock.",
-    "REVIEW A.J. Brown (W/R/T; IR-R): no verified eligible bench replacement. Confirm official status and lineup eligibility before lock.",
     "Avoid meaningful FAAB spending solely to rescue a short-term matchup unless the pickup improves the roster beyond this week."
   ],
   "trade_or_waiver_orders_placed": 0,
