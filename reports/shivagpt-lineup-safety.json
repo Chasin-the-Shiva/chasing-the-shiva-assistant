@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-17T15:55:07.039Z",
-  "source_at": "2026-10-17T13:43:34.790Z",
+  "generated_at": "2026-10-18T16:07:07.806Z",
+  "source_at": "2026-10-18T14:35:04.901Z",
   "league_id": "721343",
   "lineup_week": 6,
   "verified_roster_count": 17,
@@ -22,9 +22,9 @@
       "name": "Rachaad White",
       "position": "RB",
       "selected_position": "RB",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Shoulder",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "7"
     },
     {
@@ -92,8 +92,8 @@
       "name": "A.J. Brown",
       "position": "WR",
       "selected_position": "W/R/T",
-      "status": "IR-R",
-      "status_full": "Injured Reserve - Designated for Return",
+      "status": "Q",
+      "status_full": "Questionable",
       "injury_note": "Ankle",
       "bye_week": "11"
     },
@@ -198,16 +198,6 @@
       "status_full": "Out",
       "injury_note": "Hamstring",
       "bye_week": "7"
-    },
-    {
-      "id": "31883",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "status": "IR-R",
-      "status_full": "Injured Reserve - Designated for Return",
-      "injury_note": "Ankle",
-      "bye_week": "11"
     }
   ],
   "recommended_lineup_changes": [],
