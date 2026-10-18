@@ -14,6 +14,7 @@ on:
       - ".github/workflows/refresh-yahoo-snapshot.yml"
   schedule:
     - cron: "17 * * * *"
+    - cron: "47 * * * *"
 
 permissions:
   contents: write
@@ -27,6 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Synchronize with latest main before refreshing
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - name: Refresh current 2026 league data
         run: |
           mkdir -p public
@@ -63,7 +68,8 @@ jobs:
           echo "Safe publishing failed after four attempts" >&2
           exit 1
 
-# GitHub Actions is the primary scheduler: :17 every hour (UTC), per the schedule above.
+# GitHub Actions schedules two independent refresh opportunities per hour at :17 and :47 UTC.
+# The existing concurrency group prevents overlapping refresh runs.
 # The legacy Render cron dispatcher is currently user-suspended; do not assume it is active.
 # Routine scheduled and dispatched runs refresh only current-season data. Manager history v3 is rebuilt only
 # by an explicit manual run with rebuild_history=true.
