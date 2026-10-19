@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-18T21:54:08.824Z",
+  "generated_at": "2026-10-19T00:30:30.545Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-18T21:53:15.380Z",
+  "source_retrieved_at": "2026-10-19T00:29:35.685Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -128,6 +128,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "100025",
+      "observed_ownership_change_pp": 1,
+      "name": "49ers",
+      "availability_status": "FA",
+      "percent_owned": 53,
+      "percent_owned_delta": 27,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "40078",
       "observed_ownership_change_pp": 0,
       "name": "Brenton Strange",
@@ -143,16 +153,6 @@
       "name": "Kirk Cousins",
       "availability_status": "rostered",
       "percent_owned": 63,
-      "percent_owned_delta": 26,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "100025",
-      "observed_ownership_change_pp": 0,
-      "name": "49ers",
-      "availability_status": "FA",
-      "percent_owned": 52,
       "percent_owned_delta": 26,
       "adds_24h": null,
       "drops_24h": null
@@ -179,7 +179,7 @@
     },
     {
       "player_id": "29325",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jacoby Brissett",
       "availability_status": "rostered",
       "percent_owned": 36,
@@ -249,7 +249,7 @@
     },
     {
       "player_id": "32696",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jordan Love",
       "availability_status": "rostered",
       "percent_owned": 93,
@@ -848,18 +848,8 @@
       "drops_24h": null
     },
     {
-      "player_id": "33998",
-      "observed_ownership_change_pp": 0,
-      "name": "Wan'Dale Robinson",
-      "availability_status": "rostered",
-      "percent_owned": 58,
-      "percent_owned_delta": 6,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "41087",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Ryan Flournoy",
       "availability_status": "FA",
       "percent_owned": 14,
@@ -879,7 +869,7 @@
     },
     {
       "player_id": "34008",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Alec Pierce",
       "availability_status": "rostered",
       "percent_owned": 51,
@@ -978,21 +968,21 @@
       "drops_24h": null
     },
     {
+      "player_id": "33998",
+      "observed_ownership_change_pp": -1,
+      "name": "Wan'Dale Robinson",
+      "availability_status": "rostered",
+      "percent_owned": 57,
+      "percent_owned_delta": 5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "42712",
       "observed_ownership_change_pp": 0,
       "name": "Kaelon Black",
       "availability_status": "FA",
       "percent_owned": 28,
-      "percent_owned_delta": -5,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "40063",
-      "observed_ownership_change_pp": 0,
-      "name": "Jayden Reed",
-      "availability_status": "FA",
-      "percent_owned": 24,
       "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
@@ -1036,12 +1026,22 @@
       "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
+    },
+    {
+      "player_id": "40063",
+      "observed_ownership_change_pp": 0,
+      "name": "Jayden Reed",
+      "availability_status": "FA",
+      "percent_owned": 24,
+      "percent_owned_delta": -5,
+      "adds_24h": null,
+      "drops_24h": null
     }
   ],
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-18T19:41:18.749Z",
-    "elapsed_hours": 2.2
+    "previous_retrieved_at": "2026-10-18T21:53:15.380Z",
+    "elapsed_hours": 2.61
   }
 }
