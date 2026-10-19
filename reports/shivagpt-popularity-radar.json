@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-19T05:20:38.442Z",
+  "generated_at": "2026-10-19T11:16:43.529Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-19T05:19:39.715Z",
+  "source_retrieved_at": "2026-10-19T11:15:42.262Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -308,16 +308,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "100020",
-      "observed_ownership_change_pp": 0,
-      "name": "Jets",
-      "availability_status": "rostered",
-      "percent_owned": 13,
-      "percent_owned_delta": -15,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "100016",
       "observed_ownership_change_pp": 0,
       "name": "Vikings",
@@ -339,11 +329,21 @@
     },
     {
       "player_id": "32723",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jalen Hurts",
       "availability_status": "W",
       "percent_owned": 81,
       "percent_owned_delta": -15,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100020",
+      "observed_ownership_change_pp": 1,
+      "name": "Jets",
+      "availability_status": "rostered",
+      "percent_owned": 14,
+      "percent_owned_delta": -14,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -479,7 +479,7 @@
     },
     {
       "player_id": "41823",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "TreVeyon Henderson",
       "availability_status": "rostered",
       "percent_owned": 81,
@@ -769,7 +769,7 @@
     },
     {
       "player_id": "33412",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Najee Harris",
       "availability_status": "W",
       "percent_owned": 15,
@@ -829,7 +829,7 @@
     },
     {
       "player_id": "42654",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jadarian Price",
       "availability_status": "rostered",
       "percent_owned": 69,
@@ -859,20 +859,10 @@
     },
     {
       "player_id": "27548",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Brandin Cooks",
       "availability_status": "FA",
       "percent_owned": 6,
-      "percent_owned_delta": 6,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "41087",
-      "observed_ownership_change_pp": 0,
-      "name": "Ryan Flournoy",
-      "availability_status": "W",
-      "percent_owned": 14,
       "percent_owned_delta": 6,
       "adds_24h": null,
       "drops_24h": null
@@ -883,6 +873,16 @@
       "name": "DeMario Douglas",
       "availability_status": "W",
       "percent_owned": 8,
+      "percent_owned_delta": 6,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41087",
+      "observed_ownership_change_pp": 0,
+      "name": "Ryan Flournoy",
+      "availability_status": "W",
+      "percent_owned": 14,
       "percent_owned_delta": 6,
       "adds_24h": null,
       "drops_24h": null
@@ -1041,7 +1041,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-19T00:29:35.685Z",
-    "elapsed_hours": 4.83
+    "previous_retrieved_at": "2026-10-19T05:19:39.715Z",
+    "elapsed_hours": 5.93
   }
 }
