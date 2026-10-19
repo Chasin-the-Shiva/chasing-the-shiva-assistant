@@ -20,6 +20,19 @@ for(const [key,path,maxAge,field] of specs){
   const leagueOk=key==="nfl_headlines" ? d.schema==="shivagpt-nfl-news-headlines-v1" : String(d.league_id)==="721343";
   const valid=d.read_only===true&&leagueOk&&Number.isFinite(age);
   sources[key]={status:!valid?"INVALID":age>maxAge?"STALE":age<-.2?"FUTURE":"FRESH",age_hours:Number(age.toFixed(2)),timestamp};
+  // The Yahoo collector can report a fresh timestamp while silently truncating
+  // waiver players. Preserve the injury monitor's roughly 1,100-player coverage
+  // expectation (about 200 rostered plus at least 900 available).
+  if(key==="availability"){
+    const players=Array.isArray(d.available_players)?d.available_players:[];
+    const ids=new Set(players.map(p=>String(p?.player_id||"")).filter(Boolean));
+    sources[key].player_count=players.length;
+    sources[key].unique_player_count=ids.size;
+    if(sources[key].status==="FRESH" && (ids.size<900||ids.size!==players.length)){
+      sources[key].status="INCOMPLETE";
+      sources[key].reason="Yahoo availability does not contain at least 900 distinct players; possibly truncated pagination";
+    }
+  }
  }catch(e){sources[key]={status:"MISSING_OR_UNREADABLE"}}
 }
 const blocking=["live","availability","player_stats"].filter(k=>sources[k].status!=="FRESH");
