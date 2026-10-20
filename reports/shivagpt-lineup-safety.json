@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-18T16:07:07.806Z",
-  "source_at": "2026-10-18T14:35:04.901Z",
+  "generated_at": "2026-10-20T11:28:34.897Z",
+  "source_at": "2026-10-20T10:28:02.172Z",
   "league_id": "721343",
-  "lineup_week": 6,
+  "lineup_week": 7,
   "verified_roster_count": 17,
   "selected_starters": [
     {
@@ -18,84 +18,84 @@
       "bye_week": "14"
     },
     {
-      "id": "34047",
-      "name": "Rachaad White",
+      "id": "40196",
+      "name": "Chase Brown",
       "position": "RB",
       "selected_position": "RB",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "7"
+      "bye_week": "6"
     },
     {
-      "id": "40108",
-      "name": "Kendre Miller",
+      "id": "41969",
+      "name": "Ollie Gordon II",
       "position": "RB",
       "selected_position": "RB",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "8"
-    },
-    {
-      "id": "40114",
-      "name": "Tre Tucker",
-      "position": "WR",
-      "selected_position": "WR",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "13"
+      "bye_week": "6"
     },
     {
       "id": "33966",
       "name": "Chris Olave",
       "position": "WR",
       "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Illness",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "8"
     },
     {
-      "id": "40201",
-      "name": "Dontayvion Wicks",
+      "id": "32692",
+      "name": "Justin Jefferson",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "10"
-    },
-    {
-      "id": "31107",
-      "name": "Dalton Schultz",
-      "position": "TE",
-      "selected_position": "TE",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
-    },
-    {
-      "id": "41840",
-      "name": "Tre' Harris",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Hamstring",
-      "bye_week": "7"
+      "bye_week": "6"
     },
     {
       "id": "31883",
       "name": "A.J. Brown",
       "position": "WR",
-      "selected_position": "W/R/T",
+      "selected_position": "WR",
       "status": "Q",
       "status_full": "Questionable",
       "injury_note": "Ankle",
       "bye_week": "11"
+    },
+    {
+      "id": "40064",
+      "name": "Sam LaPorta",
+      "position": "TE",
+      "selected_position": "TE",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "40114",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "13"
+    },
+    {
+      "id": "40108",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
     },
     {
       "id": "100033",
@@ -110,44 +110,44 @@
   ],
   "bench": [
     {
-      "id": "40064",
-      "name": "Sam LaPorta",
-      "position": "TE",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
-    },
-    {
-      "id": "41969",
-      "name": "Ollie Gordon II",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
-    },
-    {
-      "id": "32692",
-      "name": "Justin Jefferson",
+      "id": "40201",
+      "name": "Dontayvion Wicks",
       "position": "WR",
       "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "6"
+      "bye_week": "10"
     },
     {
-      "id": "40196",
-      "name": "Chase Brown",
+      "id": "41840",
+      "name": "Tre' Harris",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Hamstring",
+      "bye_week": "7"
+    },
+    {
+      "id": "31107",
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
+    {
+      "id": "34047",
+      "name": "Rachaad White",
       "position": "RB",
       "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "6"
+      "bye_week": "7"
     },
     {
       "id": "41010",
@@ -188,18 +188,7 @@
     "W/R/T": 2,
     "DEF": 1
   },
-  "starter_warnings": [
-    {
-      "id": "41840",
-      "name": "Tre' Harris",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Hamstring",
-      "bye_week": "7"
-    }
-  ],
+  "starter_warnings": [],
   "recommended_lineup_changes": [],
   "limits": [
     "Injury flag is not a confirmed game designation until Yahoo is refreshed and official NFL status checked",
