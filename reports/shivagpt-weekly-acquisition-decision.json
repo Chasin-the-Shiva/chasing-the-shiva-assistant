@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T11:28:34.800Z",
+  "generated_at": "2026-10-20T15:33:11.639Z",
   "league_id": "721343",
   "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
@@ -383,9 +383,9 @@
         },
         {
           "name": "Rachaad White",
-          "latest_touch_delta": null,
+          "latest_touch_delta": -4,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
+          "latest_snap_share_delta": -0.56,
           "recommendation": "RESEARCH_ONLY"
         }
       ],
@@ -474,9 +474,9 @@
         },
         {
           "name": "Rachaad White",
-          "latest_touch_delta": null,
+          "latest_touch_delta": -7,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
+          "latest_snap_share_delta": -0.29,
           "recommendation": "RESEARCH_ONLY"
         }
       ],
@@ -590,24 +590,24 @@
       "approved_add_drop": false
     },
     {
-      "name": "Tommy Tremble",
+      "name": "Colby Parkinson",
       "position": "TE",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
         {
-          "name": "Dalton Schultz",
-          "latest_touch_delta": -2,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": 0.28,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
           "name": "Sam LaPorta",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Dalton Schultz",
+          "latest_touch_delta": 0,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": 0.22,
           "recommendation": "RESEARCH_ONLY"
         }
       ],
@@ -619,7 +619,6 @@
       },
       "remaining_faab": 30,
       "risk_blockers": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -629,28 +628,28 @@
       "approved_add_drop": false
     },
     {
-      "name": "Jawhar Jordan",
-      "position": "RB",
+      "name": "Jalen Nailor",
+      "position": "WR",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
         {
-          "name": "Ollie Gordon II",
-          "latest_touch_delta": null,
+          "name": "Tre Tucker",
+          "latest_touch_delta": -3,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
+          "latest_snap_share_delta": -0.06,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Kendre Miller",
-          "latest_touch_delta": -15,
+          "name": "Dontayvion Wicks",
+          "latest_touch_delta": 0,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.22,
+          "latest_snap_share_delta": 0.02,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Rachaad White",
+          "name": "Tre' Harris",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -659,9 +658,9 @@
       ],
       "market_context": {
         "winning_bid_count": 9,
-        "median": 7,
-        "p75": 15,
-        "max": 47
+        "median": 15,
+        "p75": 20,
+        "max": 31
       },
       "remaining_faab": 30,
       "risk_blockers": [

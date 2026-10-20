@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T11:28:34.836Z",
+  "generated_at": "2026-10-20T15:33:11.676Z",
   "league_id": "721343",
-  "verified_inputs_fresh": false,
+  "verified_inputs_fresh": true,
   "remaining_faab": 30,
   "decision": "HOLD_FAAB_NO_MOVE",
   "automatic_transactions_enabled": false,
@@ -21,8 +21,7 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -46,7 +45,6 @@
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS",
         "EXTERNAL_ROLE_NOT_CONFIRMED"
       ],
       "external_role_status": "THIRD_BACK_CONDITIONAL",
@@ -73,8 +71,7 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -97,8 +94,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -121,8 +117,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -145,8 +140,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -169,8 +163,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -193,8 +186,7 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -218,8 +210,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -242,8 +233,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -267,8 +257,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -292,8 +281,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -317,8 +305,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -330,20 +317,18 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
-      "player": "Tommy Tremble",
+      "player": "Colby Parkinson",
       "position": "TE",
       "status": "W",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dalton Schultz",
+      "first_look_drop": "Sam LaPorta",
       "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -355,27 +340,26 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
-      "player": "Jawhar Jordan",
-      "position": "RB",
+      "player": "Jalen Nailor",
+      "position": "WR",
       "status": "W",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
+      "first_look_drop": "Tre Tucker",
       "blocked_reasons": [
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
+        "winning_bid_median": 15,
+        "winning_bid_p75": 20
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     }

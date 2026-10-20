@@ -1,11 +1,11 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-20T11:28:35.175Z | Yahoo stats through Week 6
-League snapshot: 2026-10-20T10:28:02.172Z | Availability snapshot: 2026-10-20T10:28:02.172Z
+Generated: 2026-10-20T15:33:12.073Z | Yahoo stats through Week 6
+League snapshot: 2026-10-20T15:24:45.683Z | Availability snapshot: 2026-10-20T15:24:45.683Z
 
 ## Data coverage
-- Player-statistics entries: 1140; available entries in current snapshot: 943; other player entries: 182.
-- Complete scopes: rostered 197, FA 0, W 943.
+- Player-statistics entries: 1140; available entries in current snapshot: 944; other player entries: 181.
+- Complete scopes: rostered 196, FA 0, W 944.
 
 ## Potential offensive breakout screening — available players
 This is a statistical *screening list*, not a recommendation to add/drop or spend FAAB. Confirm current Yahoo status, offensive role, injury changes and trade value with reliable NFL evidence before proposing any claim.
@@ -54,74 +54,31 @@ This is a statistical *screening list*, not a recommendation to add/drop or spen
 | Jalen Royals | WR | 8.8 | 0.0 | 8.8 | W |
 
 ## Yahoo-wide popularity research triggers
-- Radar status: verified; 32 available-player signals (not acquisition recommendations).
+- Radar status: verified; 1 available-player signals (not acquisition recommendations).
 - Yahoo's ownership delta represents a fantasy-week change, not verified 24-hour add counts. Observed between-snapshot movement is a separate percentage-point measure.
 
 | Player | FA/W | Yahoo weekly ownership change (pp) | Observed snapshot change (pp) |
 |---|---|---:|---:|
-| Bengals | W | -59.0 | 0.0 |
-| Will Shipley | W | -40.0 | 0.0 |
-| Cowboys | W | -30.0 | 0.0 |
-| 49ers | W | 27.0 | 0.0 |
-| Jalen Hurts | W | -25.0 | -1.0 |
-| Panthers | W | 25.0 | 0.0 |
-| Roman Wilson | W | -19.0 | 0.0 |
-| Bo Nix | W | -15.0 | 0.0 |
-| Commanders | W | -14.0 | 0.0 |
-| Raiders | W | -13.0 | 0.0 |
-| Mike Gesicki | W | -13.0 | 0.0 |
-| Justin Herbert | W | -12.0 | 0.0 |
-| Mike Washington Jr. | W | -12.0 | 0.0 |
-| Dohnte Meyers | W | -11.0 | 0.0 |
-| Lions | W | -11.0 | 0.0 |
-| Jameis Winston | W | 10.0 | 0.0 |
-| Jake Ferguson | W | -10.0 | 0.0 |
-| Quentin Johnston | W | -10.0 | 0.0 |
-| Jaleel McLaughlin | W | 10.0 | 0.0 |
-| Jaguars | W | -9.0 | -1.0 |
-| Michael Pittman Jr. | W | -9.0 | 0.0 |
-| Makai Lemon | W | -8.0 | 0.0 |
-| Najee Harris | W | 8.0 | 0.0 |
-| Kyler Murray | W | -7.0 | 0.0 |
-| Brandin Cooks | W | 7.0 | 0.0 |
-| DeMario Douglas | W | 6.0 | 0.0 |
-| Ryan Flournoy | W | 6.0 | 0.0 |
-| Michael Penix Jr. | W | 5.0 | 0.0 |
-| Baker Mayfield | W | -5.0 | 0.0 |
-| Saints | W | 5.0 | 0.0 |
-| Eagles | W | -5.0 | 0.0 |
-| Jayden Reed | W | -5.0 | 0.0 |
+| Jalen Hurts | W | -11.0 | -1.0 |
 
 Every popularity trigger requires NFL role and injury research, exact Shiva scoring and comparison with Joe's drop candidate before an ADD recommendation.
 
 ## Rolling 400-player research priorities
 - Monitor status: verified.
-- Monitoring pool: 197 rostered + 203 available.
-- Overflow opportunity signals: 46.
+- Monitoring pool: 196 rostered + 204 available.
+- Overflow opportunity signals: 45.
 
 | Player | Position | FA/W | Screening triggers |
 |---|---|---|---|
-| Mike Washington Jr. | RB | W | offensive_activity, ownership_spike_research |
-| Jaleel McLaughlin | RB | W | offensive_activity, ownership_spike_research |
-| Quentin Johnston | WR | W | offensive_activity, ownership_spike_research |
-| Justin Herbert | QB | W | offensive_activity, ownership_spike_research |
-| Bo Nix | QB | W | offensive_activity, ownership_spike_research |
-| Makai Lemon | WR | W | offensive_activity, ownership_spike_research |
-| DeMario Douglas | WR | W | offensive_activity, ownership_spike_research |
-| Ryan Flournoy | WR | W | offensive_activity, ownership_spike_research |
-| Brandin Cooks | WR | W | offensive_activity, ownership_spike_research |
-| Jake Ferguson | TE | W | offensive_activity, ownership_spike_research |
-| Jameis Winston | QB | W | offensive_activity, ownership_spike_research |
-| Michael Penix Jr. | QB | W | offensive_activity, ownership_spike_research |
 | Omar Cooper Jr. | WR | W | offensive_activity |
-| Will Shipley | RB | W | ownership_spike_research, IR_return_research_unverified |
 | Bam Knight | RB | W | offensive_activity |
-| Roman Wilson | WR | W | ownership_spike_research, IR_return_research_unverified |
 | Tyrone Tracy Jr. | RB | W | offensive_activity |
 | Pierre Strong Jr. | RB | W | offensive_activity |
 | Tyler Goodson | RB | W | offensive_activity |
 | Jawhar Jordan | RB | W | offensive_activity |
 | Roschon Johnson | RB | W | offensive_activity |
+| Jaleel McLaughlin | RB | W | offensive_activity |
+| Mike Washington Jr. | RB | W | offensive_activity |
 | J.J. McCarthy | QB | W | offensive_activity |
 | Deion Burks | WR | W | offensive_activity |
 | Devin Singletary | RB | W | offensive_activity |
@@ -136,6 +93,18 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 | Hunter Luepke | RB | W | offensive_activity |
 | Michael Mayer | TE | W | offensive_activity |
 | Ja'Kobi Lane | WR | W | offensive_activity |
+| Jerry Jeudy | WR | W | offensive_activity |
+| Michael Burton | RB | W | offensive_activity |
+| Dylan Laube | RB | W | offensive_activity |
+| Bryce Lance | WR | W | offensive_activity |
+| Carson Steele | RB | W | offensive_activity |
+| Justice Hill | RB | W | offensive_activity |
+| Austin Ekeler | RB | W | offensive_activity |
+| Quentin Johnston | WR | W | offensive_activity |
+| Charlie Jones | WR | W | offensive_activity |
+| Cooper Kupp | WR | W | offensive_activity |
+| Barion Brown | WR | W | offensive_activity |
+| Savion Williams | WR | W | offensive_activity |
 
 Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.
 
@@ -158,99 +127,101 @@ Ranked by verified offensive opportunity trends where available. These are not a
 Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
 
 ## ADD/DROP research comparisons (not approved moves)
-- Verified snapshot FAAB: 30. 197 candidate comparisons awaiting NFL-role and trade-value research.
+- Verified snapshot FAAB: 30. 195 candidate comparisons awaiting NFL-role and trade-value research.
 
 | Add candidate | Yahoo status | Potential drop | Recent scoring difference |
 |---|---|---|---:|
-| Jaleel McLaughlin | W | Jaylen Wright | 1.0 |
-| Quentin Johnston | W | Tre' Harris | 1.1 |
-| Makai Lemon | W | Tre' Harris | 3.5 |
-| DeMario Douglas | W | Tre' Harris | 17.0 |
-| Ryan Flournoy | W | Tre' Harris | 14.7 |
 | Omar Cooper Jr. | W | Tre' Harris | 14.5 |
 | Bam Knight | W | Jaylen Wright | 2.2 |
-| Roman Wilson | W | Tre' Harris | 1.5 |
 | Tyrone Tracy Jr. | W | Jaylen Wright | 8.6 |
 | Tyrone Tracy Jr. | W | Samaje Perine | 4.2 |
 | Pierre Strong Jr. | W | Jaylen Wright | 3.1 |
 | Tyler Goodson | W | Jaylen Wright | 0.3 |
 | Roschon Johnson | W | Jaylen Wright | 11.0 |
 | Roschon Johnson | W | Samaje Perine | 6.5 |
+| Jaleel McLaughlin | W | Jaylen Wright | 1.0 |
 | Deion Burks | W | Tre' Harris | 0.9 |
 | Travis Hunter | W | Tre' Harris | 1.5 |
 | Jahan Dotson | W | Tre' Harris | 15.6 |
 | Ray Davis | W | Jaylen Wright | 8.0 |
 | Ray Davis | W | Samaje Perine | 3.5 |
 | Michael Mayer | W | Dalton Schultz | 14.8 |
+| Jerry Jeudy | W | Tre' Harris | 7.5 |
+| Dylan Laube | W | Jaylen Wright | 4.4 |
+| Justice Hill | W | Jaylen Wright | 4.9 |
+| Justice Hill | W | Samaje Perine | 0.5 |
+| Quentin Johnston | W | Tre' Harris | 1.1 |
 
 ## Verified NFL opportunity metrics (where Yahoo IDs match)
 These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.
 
 | Player | Targets | Carries | Receptions | Target change | Carry change | Evidence |
 |---|---:|---:|---:|---:|---:|---|
+| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
+| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
+| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
+| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
+| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
+| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
+| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
+| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
+| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
+| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
+| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
+| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
+| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
+| Jawhar Jordan | 1.0 | 6.0 | 1.0 | N/A | N/A | nflverse Week 6 |
+| Jawhar Jordan | 1.0 | 6.0 | 1.0 | N/A | N/A | nflverse Week 6 |
+| Roschon Johnson | 2.0 | 13.0 | 2.0 | -5.0 | 8.0 | nflverse Week 6 |
+| Roschon Johnson | 2.0 | 13.0 | 2.0 | -5.0 | 8.0 | nflverse Week 6 |
+| Roschon Johnson | 2.0 | 13.0 | 2.0 | -5.0 | 8.0 | nflverse Week 6 |
+| Roschon Johnson | 2.0 | 13.0 | 2.0 | -5.0 | 8.0 | nflverse Week 6 |
 | Jaleel McLaughlin | 4.0 | 9.0 | 4.0 | 3.0 | 9.0 | nflverse Week 6 |
 | Jaleel McLaughlin | 4.0 | 9.0 | 4.0 | 3.0 | 9.0 | nflverse Week 6 |
 | Jaleel McLaughlin | 4.0 | 9.0 | 4.0 | 3.0 | 9.0 | nflverse Week 6 |
-| Quentin Johnston | 3.0 | 0.0 | 1.0 | 1.0 | -1.0 | nflverse Week 6 |
-| Quentin Johnston | 3.0 | 0.0 | 1.0 | 1.0 | -1.0 | nflverse Week 6 |
-| Quentin Johnston | 3.0 | 0.0 | 1.0 | 1.0 | -1.0 | nflverse Week 6 |
-| Quentin Johnston | 3.0 | 0.0 | 1.0 | 1.0 | -1.0 | nflverse Week 6 |
-| Justin Herbert | 0.0 | 5.0 | 0.0 | 0.0 | -1.0 | nflverse Week 6 |
-| Justin Herbert | 0.0 | 5.0 | 0.0 | 0.0 | -1.0 | nflverse Week 6 |
-| Justin Herbert | 0.0 | 5.0 | 0.0 | 0.0 | -1.0 | nflverse Week 6 |
-| Justin Herbert | 0.0 | 5.0 | 0.0 | 0.0 | -1.0 | nflverse Week 6 |
-| Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
-| Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
-| Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
-| Bo Nix | 0.0 | 4.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| Ryan Flournoy | 9.0 | 0.0 | 7.0 | 5.0 | 0.0 | nflverse Week 6 |
-| Ryan Flournoy | 9.0 | 0.0 | 7.0 | 5.0 | 0.0 | nflverse Week 6 |
-| Ryan Flournoy | 9.0 | 0.0 | 7.0 | 5.0 | 0.0 | nflverse Week 6 |
-| Ryan Flournoy | 9.0 | 0.0 | 7.0 | 5.0 | 0.0 | nflverse Week 6 |
-| Jake Ferguson | 3.0 | 0.0 | 2.0 | -3.0 | 0.0 | nflverse Week 6 |
-| Jake Ferguson | 3.0 | 0.0 | 2.0 | -3.0 | 0.0 | nflverse Week 6 |
+| J.J. McCarthy | 0.0 | 2.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
+| J.J. McCarthy | 0.0 | 2.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
+| J.J. McCarthy | 0.0 | 2.0 | 0.0 | 0.0 | 0.0 | nflverse Week 6 |
 
 ## Verified NFL snap participation
 Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.
 
 | Player | Offensive snaps | Snap share | Change vs prior week (pp) |
 |---|---:|---:|---:|
+| Bam Knight | 32 | 44.0% | 36.0 |
+| Bam Knight | 32 | 44.0% | 36.0 |
+| Bam Knight | 32 | 44.0% | 36.0 |
+| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
+| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
+| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
+| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
+| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
+| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
+| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
+| Tyler Goodson | 11 | 14.0% | 9.0 |
+| Tyler Goodson | 11 | 14.0% | 9.0 |
+| Tyler Goodson | 11 | 14.0% | 9.0 |
+| Jawhar Jordan | 14 | 22.0% | N/A |
+| Jawhar Jordan | 14 | 22.0% | N/A |
+| Roschon Johnson | 31 | 40.0% | 1.0 |
+| Roschon Johnson | 31 | 40.0% | 1.0 |
+| Roschon Johnson | 31 | 40.0% | 1.0 |
+| Roschon Johnson | 31 | 40.0% | 1.0 |
 | Jaleel McLaughlin | 39 | 62.0% | 41.0 |
 | Jaleel McLaughlin | 39 | 62.0% | 41.0 |
 | Jaleel McLaughlin | 39 | 62.0% | 41.0 |
-| Quentin Johnston | 56 | 82.0% | 7.0 |
-| Quentin Johnston | 56 | 82.0% | 7.0 |
-| Quentin Johnston | 56 | 82.0% | 7.0 |
-| Quentin Johnston | 56 | 82.0% | 7.0 |
-| Justin Herbert | 68 | 100.0% | 0.0 |
-| Justin Herbert | 68 | 100.0% | 0.0 |
-| Justin Herbert | 68 | 100.0% | 0.0 |
-| Justin Herbert | 68 | 100.0% | 0.0 |
-| Bo Nix | 60 | 100.0% | 0.0 |
-| Bo Nix | 60 | 100.0% | 0.0 |
-| Bo Nix | 60 | 100.0% | 0.0 |
-| Bo Nix | 60 | 100.0% | 0.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| Ryan Flournoy | 68 | 87.0% | 19.0 |
-| Ryan Flournoy | 68 | 87.0% | 19.0 |
-| Ryan Flournoy | 68 | 87.0% | 19.0 |
-| Ryan Flournoy | 68 | 87.0% | 19.0 |
-| Jake Ferguson | 42 | 54.0% | -29.0 |
-| Jake Ferguson | 42 | 54.0% | -29.0 |
+| J.J. McCarthy | 31 | 40.0% | 34.0 |
+| J.J. McCarthy | 31 | 40.0% | 34.0 |
+| J.J. McCarthy | 31 | 40.0% | 34.0 |
 
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
 ## Current sourced NFL headline research
-- News feed: available; 16 matched player headlines in the latest four-day window.
+- News feed: available; 14 matched player headlines in the latest four-day window.
 - Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
 
+- 2026-10-20T12:39:16+00:00 — CBS NFL: [NFL trade deadline: Saquon Barkley to Seahawks among 10 moves that need to happen](https://www.cbssports.com/nfl/news/nfl-trade-deadline-10-moves-saquon-barkley-seahawks/)
+- 2026-10-20T10:01:01+00:00 — CBS NFL: [Jalen Hurts blood clots: Biggest unanswered questions for Eagles about star QB's health](https://www.cbssports.com/nfl/news/biggest-unanswered-questions-eagles-jalen-hurts/)
 - 2026-10-20T04:41:43+00:00 — CBS NFL: [Commanders' Terry McLaurin carted off after knee injury vs. 49ers: 'There's fear'](https://www.cbssports.com/nfl/news/commanders-terry-mclaurin-knee-injury-monday-night-football/)
 - 2026-10-20T02:16:13+00:00 — CBS NFL: [49ers' Mike Evans ruled out with Achilles injury after leaving game late in first half](https://www.cbssports.com/nfl/news/is-mike-evans-playing-monday-night-football/)
 - 2026-10-19T22:49:40+00:00 — CBS NFL: [Is Stefon Diggs playing Monday night? A look at the Commanders WR's status vs. 49ers on 'MNF'](https://www.cbssports.com/nfl/news/is-stefon-diggs-playing-tonight-injury-update-commanders-vs-49ers/)
@@ -263,10 +234,6 @@ No FAAB bids are generated without external NFL research and a defensible improv
 - 2026-10-19T16:45:09+00:00 — CBS NFL: [Pick Six: Jalen Hurts could be done for the year, plus Colts fire GM Chris Ballard and Commanders-49ers picks](https://www.cbssports.com/nfl/news/pick-six-jalen-hurts-plus-colts-fire-chris-ballard-commanders-49ers-picks/)
 - 2026-10-19T16:29:49+00:00 — CBS NFL: [Jalen Hurts expected to miss rest of season: Why Eagles should push forward in 2026, explore QB trades](https://www.cbssports.com/nfl/news/jalen-hurts-injury-why-eagles-need-stay-on-course-trade-options/)
 - 2026-10-19T16:28:24+00:00 — CBS NFL: [Jalen Hurts blood clot: Expert weighs in on Eagles' situation, and when QB could return to the field](https://www.cbssports.com/nfl/news/jalen-hurts-blood-clot-expert-weighs-in-eagles-qb/)
-- 2026-10-19T13:50:37+00:00 — CBS NFL: [Brian Thomas Jr. landing spots: Trade rumors hits fever pitch after WR did not play in second half vs. Texans](https://www.cbssports.com/nfl/news/brian-thomas-jr-trade-jaguars-chiefs-seahawks-2026/)
-- 2026-10-19T13:33:10+00:00 — CBS NFL: [Bills' C.J. Gardner-Johnson apologizes for spitting at Brock Bowers](https://www.cbssports.com/nfl/news/bills-c-j-gardner-johnson-ejected-raiders-spitting/)
-- 2026-10-19T20:45:32+00:00 — CBS NFL: [Rams' Kyren Williams questions playing time after offensive issues: 'Probably because I'm not out there'](https://www.cbssports.com/nfl/news/rams-rb-kyren-williams-questions-playing-time/)
-- 2026-10-19T12:38:00+00:00 — CBS NFL: [Cover 32: C.J. Stroud has flipped the script, is set to cash in; plus game balls, biggest gaffes from Week 6](https://www.cbssports.com/nfl/news/nfl-week-6-cover-32-c-j-stroud-game-balls-biggest-gaffes/)
 
 ## Actual Chasing the Shiva FAAB market
 - Verified snapshot remaining FAAB: 30. Historical winning bids: 31.

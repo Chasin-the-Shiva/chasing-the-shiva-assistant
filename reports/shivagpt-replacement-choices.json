@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T11:28:34.762Z",
-  "source_queue_at": "2026-10-20T11:28:34.679Z",
+  "generated_at": "2026-10-20T15:33:11.600Z",
+  "source_queue_at": "2026-10-20T15:33:11.491Z",
   "completed_through_week": 6,
   "league_id": "721343",
   "player_count": 17,
@@ -149,11 +149,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -161,10 +165,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -172,9 +172,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": 5,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.25,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -841,11 +841,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -853,10 +857,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -864,9 +864,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": 1,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.07,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -1529,11 +1529,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -1541,10 +1545,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -1552,9 +1552,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": 5,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.14,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -2498,11 +2498,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -2510,10 +2514,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -2521,9 +2521,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -3,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": 0.1,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -2960,11 +2960,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -2972,10 +2976,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -2983,9 +2983,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": 3,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.29,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -3889,11 +3889,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -3901,10 +3905,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -3912,9 +3912,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -3,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -4585,11 +4585,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -4597,10 +4601,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -4608,9 +4608,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -2,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": 0.16,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -5044,11 +5044,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -5056,10 +5060,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -5067,9 +5067,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -3,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.31,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -5658,11 +5658,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -5670,10 +5674,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -5681,9 +5681,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -4,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.56,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -6665,11 +6665,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -6677,10 +6681,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -6688,9 +6688,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -4,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.1,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -7046,11 +7046,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -7058,10 +7062,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -7069,9 +7069,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -7,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.29,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -8053,11 +8053,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -8065,10 +8069,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -8076,9 +8076,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -7,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": 0.16,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -8473,11 +8473,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -8485,10 +8489,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -8496,9 +8496,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -7,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.55,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9025,27 +9025,27 @@
       ]
     },
     {
-      "player_id": "33471",
-      "player": "Tommy Tremble",
+      "player_id": "32803",
+      "player": "Colby Parkinson",
       "position": "TE",
       "availability": "W",
       "incoming_workload": {
         "week": 6,
-        "touches": 4,
-        "offensive_snap_share": 0.68,
+        "touches": 6,
+        "offensive_snap_share": 0.62,
         "snap_week": 6,
         "last_three_weeks": [
           {
             "week": 6,
-            "touches": 4
+            "touches": 6
           },
           {
-            "week": 4,
-            "touches": 4
+            "week": 5,
+            "touches": 2
           },
           {
             "week": 3,
-            "touches": 4
+            "touches": 1
           }
         ],
         "three_week_data_complete": false,
@@ -9055,45 +9055,6 @@
       },
       "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
-        {
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "injury_status": null,
-          "recent_yahoo_points_avg": 9.8,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 6,
-            "offensive_snap_share": 0.4,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 6
-              },
-              {
-                "week": 5,
-                "touches": 4
-              },
-              {
-                "week": 4,
-                "touches": 2
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 4,
-            "three_week_snap_share": 0.52
-          },
-          "latest_week_touch_delta": -2,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.28,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": 2.07,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
         {
           "name": "Sam LaPorta",
           "position": "TE",
@@ -9126,6 +9087,45 @@
           "latest_week_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 6,
+            "offensive_snap_share": 0.4,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 6
+              },
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 4,
+            "three_week_snap_share": 0.52
+          },
+          "latest_week_touch_delta": 0,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": 0.22,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9273,9 +9273,9 @@
             "three_week_average_touches": 3,
             "three_week_snap_share": 1
           },
-          "latest_week_touch_delta": 2,
+          "latest_week_touch_delta": 4,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.32,
+          "latest_week_snap_share_delta": -0.38,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": false,
@@ -9342,9 +9342,9 @@
             "three_week_average_touches": 7.33,
             "three_week_snap_share": 0.707
           },
-          "latest_week_touch_delta": -3,
+          "latest_week_touch_delta": -1,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.02,
+          "latest_week_snap_share_delta": -0.08,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9383,9 +9383,9 @@
             "three_week_average_touches": 13.67,
             "three_week_snap_share": 0.337
           },
-          "latest_week_touch_delta": -18,
+          "latest_week_touch_delta": -16,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.24,
+          "latest_week_snap_share_delta": 0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9424,9 +9424,9 @@
             "three_week_average_touches": 5.67,
             "three_week_snap_share": 0.793
           },
-          "latest_week_touch_delta": 0,
+          "latest_week_touch_delta": 2,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.06,
+          "latest_week_snap_share_delta": 0,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9442,11 +9442,15 @@
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
             "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
               {
                 "week": 5,
                 "touches": 8
@@ -9454,10 +9458,6 @@
               {
                 "week": 3,
                 "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
               }
             ],
             "three_week_data_complete": false,
@@ -9465,9 +9465,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -6,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.07,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9576,9 +9576,9 @@
             "three_week_average_touches": 8.33,
             "three_week_snap_share": 0.783
           },
-          "latest_week_touch_delta": -3,
+          "latest_week_touch_delta": -1,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.1,
+          "latest_week_snap_share_delta": 0.04,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9656,9 +9656,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": -6,
+          "latest_week_touch_delta": -4,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.08,
+          "latest_week_snap_share_delta": -0.14,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9725,19 +9725,27 @@
       ]
     },
     {
-      "player_id": "41064",
-      "player": "Jawhar Jordan",
-      "position": "RB",
+      "player_id": "34147",
+      "player": "Jalen Nailor",
+      "position": "WR",
       "availability": "W",
       "incoming_workload": {
         "week": 6,
-        "touches": 7,
-        "offensive_snap_share": 0.22,
+        "touches": 4,
+        "offensive_snap_share": 0.64,
         "snap_week": 6,
         "last_three_weeks": [
           {
             "week": 6,
-            "touches": 7
+            "touches": 4
+          },
+          {
+            "week": 3,
+            "touches": 3
+          },
+          {
+            "week": 2,
+            "touches": 3
           }
         ],
         "three_week_data_complete": false,
@@ -9748,9 +9756,87 @@
       "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "drop_alternatives": [
         {
-          "name": "Ollie Gordon II",
-          "position": "RB",
+          "name": "Tre Tucker",
+          "position": "WR",
           "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 7,
+            "offensive_snap_share": 0.7,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 7
+              },
+              {
+                "week": 5,
+                "touches": 7
+              },
+              {
+                "week": 4,
+                "touches": 8
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 7.33,
+            "three_week_snap_share": 0.707
+          },
+          "latest_week_touch_delta": -3,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": -0.06,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 4,
+            "offensive_snap_share": 0.62,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 4
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 4,
+                "touches": 5
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 5.67,
+            "three_week_snap_share": 0.793
+          },
+          "latest_week_touch_delta": 0,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": 0.02,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "injury_status": "O",
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
             "week": null,
@@ -9771,91 +9857,15 @@
           "roster_minimum_satisfied": true,
           "protected_asset": false,
           "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Kendre Miller",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 22,
-            "offensive_snap_share": 0.44,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 5,
-                "touches": 10
-              },
-              {
-                "week": 4,
-                "touches": 9
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 13.67,
-            "three_week_snap_share": 0.337
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.22,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Rachaad White",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
-              },
-              {
-                "week": 2,
-                "touches": 13
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
+          "warnings": [
+            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+          ]
         },
         {
           "name": "Jaylen Wright",
           "position": "RB",
           "injury_status": null,
-          "recent_yahoo_points_avg": null,
+          "recent_yahoo_points_avg": 8.53,
           "outgoing_workload": {
             "week": 5,
             "touches": 6,
@@ -9883,79 +9893,13 @@
           "latest_week_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 16,
-            "offensive_snap_share": 0.51,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 16
-              },
-              {
-                "week": 4,
-                "touches": 4
-              },
-              {
-                "week": 3,
-                "touches": 6
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Tre' Harris",
-          "position": "WR",
-          "injury_status": "O",
-          "recent_yahoo_points_avg": 9.4,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
           "protected_asset": false,
           "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
           "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
-            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -9987,9 +9931,50 @@
             "three_week_average_touches": 4,
             "three_week_snap_share": 0.52
           },
-          "latest_week_touch_delta": 1,
+          "latest_week_touch_delta": -2,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.18,
+          "latest_week_snap_share_delta": 0.24,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 13,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 16,
+            "offensive_snap_share": 0.51,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 16
+              },
+              {
+                "week": 4,
+                "touches": 4
+              },
+              {
+                "week": 3,
+                "touches": 6
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -10028,14 +10013,42 @@
             "three_week_average_touches": 3,
             "three_week_snap_share": 1
           },
-          "latest_week_touch_delta": 5,
+          "latest_week_touch_delta": 2,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.78,
+          "latest_week_snap_share_delta": -0.36,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": false,
           "protected_asset": false,
           "viability": "DO_NOT_DROP",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
@@ -10082,37 +10095,37 @@
           ]
         },
         {
-          "name": "Tre Tucker",
-          "position": "WR",
+          "name": "Kendre Miller",
+          "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
             "week": 6,
-            "touches": 7,
-            "offensive_snap_share": 0.7,
+            "touches": 22,
+            "offensive_snap_share": 0.44,
             "snap_week": 6,
             "last_three_weeks": [
               {
                 "week": 6,
-                "touches": 7
+                "touches": 22
               },
               {
                 "week": 5,
-                "touches": 7
+                "touches": 10
               },
               {
                 "week": 4,
-                "touches": 8
+                "touches": 9
               }
             ],
             "three_week_data_complete": true,
             "three_week_snap_data_complete": true,
-            "three_week_average_touches": 7.33,
-            "three_week_snap_share": 0.707
+            "three_week_average_touches": 13.67,
+            "three_week_snap_share": 0.337
           },
-          "latest_week_touch_delta": 0,
+          "latest_week_touch_delta": -18,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.48,
+          "latest_week_snap_share_delta": 0.2,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -10123,37 +10136,37 @@
           ]
         },
         {
-          "name": "Dontayvion Wicks",
-          "position": "WR",
+          "name": "Rachaad White",
+          "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
             "week": 6,
-            "touches": 4,
-            "offensive_snap_share": 0.62,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
             "snap_week": 6,
             "last_three_weeks": [
               {
                 "week": 6,
-                "touches": 4
+                "touches": 12
               },
               {
                 "week": 5,
                 "touches": 8
               },
               {
-                "week": 4,
-                "touches": 5
+                "week": 3,
+                "touches": 9
               }
             ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 5.67,
-            "three_week_snap_share": 0.793
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
           },
-          "latest_week_touch_delta": 3,
+          "latest_week_touch_delta": -8,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.4,
+          "latest_week_snap_share_delta": -0.05,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -10192,89 +10205,6 @@
           ]
         },
         {
-          "name": "Chase Brown",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 17,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 17
-              },
-              {
-                "week": 4,
-                "touches": 20
-              },
-              {
-                "week": 3,
-                "touches": 15
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED"
-          ]
-        },
-        {
-          "name": "De'Von Achane",
-          "position": "RB",
-          "injury_status": "IR",
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 3,
-            "touches": 4,
-            "offensive_snap_share": 0.05,
-            "snap_week": 3,
-            "last_three_weeks": [
-              {
-                "week": 3,
-                "touches": 4
-              },
-              {
-                "week": 2,
-                "touches": 26
-              },
-              {
-                "week": 1,
-                "touches": 16
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
           "name": "Chris Olave",
           "position": "WR",
           "injury_status": null,
@@ -10303,17 +10233,16 @@
             "three_week_average_touches": 8.33,
             "three_week_snap_share": 0.783
           },
-          "latest_week_touch_delta": 0,
+          "latest_week_touch_delta": -3,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.36,
-          "same_position": false,
+          "latest_week_snap_share_delta": 0.06,
+          "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
           "protected_asset": true,
           "viability": "DO_NOT_DROP",
           "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+            "KEEPER_ASSET_PROTECTED"
           ]
         },
         {
@@ -10348,14 +10277,13 @@
           "latest_week_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": null,
-          "same_position": false,
+          "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
           "protected_asset": true,
           "viability": "DO_NOT_DROP",
           "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+            "KEEPER_ASSET_PROTECTED"
           ]
         },
         {
@@ -10383,9 +10311,93 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": -3,
+          "latest_week_touch_delta": -6,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.54,
+          "latest_week_snap_share_delta": -0.12,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+          ]
+        },
+        {
+          "name": "Chase Brown",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 17,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 17
+              },
+              {
+                "week": 4,
+                "touches": 20
+              },
+              {
+                "week": 3,
+                "touches": 15
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "De'Von Achane",
+          "position": "RB",
+          "injury_status": "IR",
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 3,
+            "touches": 4,
+            "offensive_snap_share": 0.05,
+            "snap_week": 3,
+            "last_three_weeks": [
+              {
+                "week": 3,
+                "touches": 4
+              },
+              {
+                "week": 2,
+                "touches": 26
+              },
+              {
+                "week": 1,
+                "touches": 16
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
