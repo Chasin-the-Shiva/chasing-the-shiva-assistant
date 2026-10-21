@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-legal-lineup-options-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T15:33:11.785Z",
+  "generated_at": "2026-10-21T12:53:33.003Z",
   "league_id": "721343",
   "week": 7,
-  "yahoo_snapshot_at": "2026-10-20T15:24:45.683Z",
+  "yahoo_snapshot_at": "2026-10-21T10:37:26.887Z",
   "starter_count": 10,
   "bench_eligible_count": 4,
   "unavailable_starters": 0,

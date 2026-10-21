@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T15:49:06.992Z",
+  "generated_at": "2026-10-21T12:53:32.889Z",
   "league_id": "721343",
   "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
@@ -10,7 +10,7 @@
     {
       "name": "Bam Knight",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
@@ -55,7 +55,7 @@
     {
       "name": "Jaleel McLaughlin",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "three_week_touches": 5,
       "candidates_to_drop": [
@@ -100,7 +100,7 @@
     {
       "name": "Pierre Strong Jr.",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
@@ -145,7 +145,7 @@
     {
       "name": "Michael Mayer",
       "position": "TE",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": 6.67,
       "candidates_to_drop": [
@@ -183,7 +183,7 @@
     {
       "name": "Roschon Johnson",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "three_week_touches": 10.67,
       "candidates_to_drop": [
@@ -226,54 +226,9 @@
       "approved_add_drop": false
     },
     {
-      "name": "Ryan Flournoy",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 6,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Tre Tucker",
-          "latest_touch_delta": 2,
-          "three_week_touch_delta": -1.33,
-          "latest_snap_share_delta": 0.17,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": 5,
-          "three_week_touch_delta": 0.33,
-          "latest_snap_share_delta": 0.25,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 9,
-        "median": 15,
-        "p75": 20,
-        "max": 31
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
       "name": "Cooper Kupp",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "three_week_touches": 5,
       "candidates_to_drop": [
@@ -318,7 +273,7 @@
     {
       "name": "Tyrone Tracy Jr.",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "three_week_touches": 5.33,
       "candidates_to_drop": [
@@ -363,7 +318,7 @@
     {
       "name": "Isaiah Davis",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": 4,
       "candidates_to_drop": [
@@ -409,7 +364,7 @@
     {
       "name": "DeMario Douglas",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": 5.33,
       "candidates_to_drop": [
@@ -454,7 +409,7 @@
     {
       "name": "Devin Singletary",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
@@ -500,7 +455,7 @@
     {
       "name": "Jahan Dotson",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": 4,
       "candidates_to_drop": [
@@ -544,9 +499,53 @@
       "approved_add_drop": false
     },
     {
-      "name": "Tyler Goodson",
+      "name": "Kimani Vidal",
       "position": "RB",
       "availability": "W",
+      "role": "SUSTAINED_USAGE",
+      "three_week_touches": 9.67,
+      "candidates_to_drop": [
+        {
+          "name": "Jaylen Wright",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 9,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 30,
+      "risk_blockers": [
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Tyler Goodson",
+      "position": "RB",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
@@ -592,7 +591,7 @@
     {
       "name": "Colby Parkinson",
       "position": "TE",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
@@ -630,7 +629,7 @@
     {
       "name": "Jalen Nailor",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [

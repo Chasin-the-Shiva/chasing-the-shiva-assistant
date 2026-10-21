@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T15:50:18.330Z",
+  "generated_at": "2026-10-21T12:53:32.915Z",
   "league_id": "721343",
   "verified_inputs_fresh": true,
   "remaining_faab": 30,
@@ -12,7 +12,7 @@
     {
       "player": "Jaleel McLaughlin",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
       "observed_three_week_touches": 5,
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
@@ -35,7 +35,7 @@
     {
       "player": "Roschon Johnson",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
       "observed_three_week_touches": 10.67,
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
@@ -62,7 +62,7 @@
     {
       "player": "Cooper Kupp",
       "position": "WR",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
       "observed_three_week_touches": 5,
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
@@ -85,7 +85,7 @@
     {
       "player": "Bam Knight",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -108,7 +108,7 @@
     {
       "player": "Pierre Strong Jr.",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -131,7 +131,7 @@
     {
       "player": "Michael Mayer",
       "position": "TE",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": 6.67,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -152,32 +152,9 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
-      "player": "Ryan Flournoy",
-      "position": "WR",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 6,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Tre' Harris",
-      "blocked_reasons": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 15,
-        "winning_bid_p75": 20
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
       "player": "Tyrone Tracy Jr.",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": 5.33,
       "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
@@ -200,7 +177,7 @@
     {
       "player": "Isaiah Davis",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": 4,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -224,7 +201,7 @@
     {
       "player": "DeMario Douglas",
       "position": "WR",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": 5.33,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -247,7 +224,7 @@
     {
       "player": "Devin Singletary",
       "position": "RB",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -271,7 +248,7 @@
     {
       "player": "Jahan Dotson",
       "position": "WR",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": 4,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -293,9 +270,31 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
-      "player": "Tyler Goodson",
+      "player": "Kimani Vidal",
       "position": "RB",
       "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 9.67,
+      "role": "SUSTAINED_USAGE",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Jaylen Wright",
+      "blocked_reasons": [
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Tyler Goodson",
+      "position": "RB",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -319,7 +318,7 @@
     {
       "player": "Colby Parkinson",
       "position": "TE",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -342,7 +341,7 @@
     {
       "player": "Jalen Nailor",
       "position": "WR",
-      "status": "W",
+      "status": "FA",
       "priority_tier": "PASS_OR_WATCH",
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",

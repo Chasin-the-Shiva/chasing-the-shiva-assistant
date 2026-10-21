@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T15:42:26.023Z",
-  "source_queue_at": "2026-10-20T15:33:11.491Z",
+  "generated_at": "2026-10-21T12:53:32.858Z",
+  "source_queue_at": "2026-10-21T12:53:32.790Z",
   "completed_through_week": 6,
   "league_id": "721343",
   "player_count": 17,
@@ -12,7 +12,7 @@
       "player_id": "34357",
       "player": "Bam Knight",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 17,
@@ -224,7 +224,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -704,7 +704,7 @@
       "player_id": "40696",
       "player": "Jaleel McLaughlin",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 13,
@@ -916,7 +916,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -1396,7 +1396,7 @@
       "player_id": "34083",
       "player": "Pierre Strong Jr.",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 17,
@@ -1604,7 +1604,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -2084,7 +2084,7 @@
       "player_id": "40065",
       "player": "Michael Mayer",
       "position": "TE",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 9,
@@ -2233,7 +2233,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -2784,7 +2784,7 @@
       "player_id": "40162",
       "player": "Roschon Johnson",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 15,
@@ -2996,7 +2996,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -3473,706 +3473,10 @@
       ]
     },
     {
-      "player_id": "41087",
-      "player": "Ryan Flournoy",
-      "position": "WR",
-      "availability": "W",
-      "incoming_workload": {
-        "week": 6,
-        "touches": 9,
-        "offensive_snap_share": 0.87,
-        "snap_week": 6,
-        "last_three_weeks": [
-          {
-            "week": 6,
-            "touches": 9
-          },
-          {
-            "week": 5,
-            "touches": 4
-          },
-          {
-            "week": 4,
-            "touches": 5
-          }
-        ],
-        "three_week_data_complete": true,
-        "three_week_snap_data_complete": true,
-        "three_week_average_touches": 6,
-        "three_week_snap_share": 0.763
-      },
-      "role_classification": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "drop_alternatives": [
-        {
-          "name": "Tre' Harris",
-          "position": "WR",
-          "injury_status": "O",
-          "recent_yahoo_points_avg": 9.4,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": 14.73,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Tre Tucker",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 7,
-            "offensive_snap_share": 0.7,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 7
-              },
-              {
-                "week": 5,
-                "touches": 7
-              },
-              {
-                "week": 4,
-                "touches": 8
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 7.33,
-            "three_week_snap_share": 0.707
-          },
-          "latest_week_touch_delta": 2,
-          "three_week_touch_delta": -1.33,
-          "latest_week_snap_share_delta": 0.17,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 4,
-            "offensive_snap_share": 0.62,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 4
-              },
-              {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 4,
-                "touches": 5
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 5.67,
-            "three_week_snap_share": 0.793
-          },
-          "latest_week_touch_delta": 5,
-          "three_week_touch_delta": 0.33,
-          "latest_week_snap_share_delta": 0.25,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
-        },
-        {
-          "name": "Jaylen Wright",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": 8.53,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 6,
-            "offensive_snap_share": 0.14,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 6
-              },
-              {
-                "week": 4,
-                "touches": 5
-              },
-              {
-                "week": 2,
-                "touches": 2
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "injury_status": null,
-          "recent_yahoo_points_avg": 9.8,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 6,
-            "offensive_snap_share": 0.4,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 6
-              },
-              {
-                "week": 5,
-                "touches": 4
-              },
-              {
-                "week": 4,
-                "touches": 2
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 4,
-            "three_week_snap_share": 0.52
-          },
-          "latest_week_touch_delta": 3,
-          "three_week_touch_delta": 2,
-          "latest_week_snap_share_delta": 0.47,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": 13,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 16,
-            "offensive_snap_share": 0.51,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 16
-              },
-              {
-                "week": 4,
-                "touches": 4
-              },
-              {
-                "week": 3,
-                "touches": 6
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Jacoby Brissett",
-          "position": "QB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 2,
-            "offensive_snap_share": 1,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 2
-              },
-              {
-                "week": 5,
-                "touches": 3
-              },
-              {
-                "week": 4,
-                "touches": 4
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 3,
-            "three_week_snap_share": 1
-          },
-          "latest_week_touch_delta": 7,
-          "three_week_touch_delta": 3,
-          "latest_week_snap_share_delta": -0.13,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": false,
-          "protected_asset": false,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Ollie Gordon II",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 5,
-            "offensive_snap_share": 0.89,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 5
-              },
-              {
-                "week": 4,
-                "touches": 13
-              },
-              {
-                "week": 3,
-                "touches": 4
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Kendre Miller",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 22,
-            "offensive_snap_share": 0.44,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 5,
-                "touches": 10
-              },
-              {
-                "week": 4,
-                "touches": 9
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 13.67,
-            "three_week_snap_share": 0.337
-          },
-          "latest_week_touch_delta": -13,
-          "three_week_touch_delta": -7.67,
-          "latest_week_snap_share_delta": 0.43,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Rachaad White",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 12
-              },
-              {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -3,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.18,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Ravens",
-          "position": "DEF",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": false,
-          "protected_asset": false,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "Chris Olave",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 7,
-            "offensive_snap_share": 0.58,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 7
-              },
-              {
-                "week": 5,
-                "touches": 6
-              },
-              {
-                "week": 4,
-                "touches": 12
-              }
-            ],
-            "three_week_data_complete": true,
-            "three_week_snap_data_complete": true,
-            "three_week_average_touches": 8.33,
-            "three_week_snap_share": 0.783
-          },
-          "latest_week_touch_delta": 2,
-          "three_week_touch_delta": -2.33,
-          "latest_week_snap_share_delta": 0.29,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED"
-          ]
-        },
-        {
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 8,
-            "offensive_snap_share": 0.89,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 2
-              },
-              {
-                "week": 2,
-                "touches": 6
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED"
-          ]
-        },
-        {
-          "name": "A.J. Brown",
-          "position": "WR",
-          "injury_status": "Q",
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 6,
-            "touches": 10,
-            "offensive_snap_share": 0.76,
-            "snap_week": 6,
-            "last_three_weeks": [
-              {
-                "week": 6,
-                "touches": 10
-              },
-              {
-                "week": 1,
-                "touches": 4
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -1,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.11,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Chase Brown",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 5,
-            "touches": 17,
-            "offensive_snap_share": 0.6,
-            "snap_week": 5,
-            "last_three_weeks": [
-              {
-                "week": 5,
-                "touches": 17
-              },
-              {
-                "week": 4,
-                "touches": 20
-              },
-              {
-                "week": 3,
-                "touches": 15
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
-          ]
-        },
-        {
-          "name": "De'Von Achane",
-          "position": "RB",
-          "injury_status": "IR",
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 3,
-            "touches": 4,
-            "offensive_snap_share": 0.05,
-            "snap_week": 3,
-            "last_three_weeks": [
-              {
-                "week": 3,
-                "touches": 4
-              },
-              {
-                "week": 2,
-                "touches": 26
-              },
-              {
-                "week": 1,
-                "touches": 16
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": true,
-          "viability": "DO_NOT_DROP",
-          "warnings": [
-            "KEEPER_ASSET_PROTECTED",
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
-            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        }
-      ],
-      "approved_drop": null,
-      "transaction_authorized": false,
-      "recommendation": "RESEARCH_ONLY",
-      "unanswered": [
-        "Current weekly starter/FLEX impact",
-        "Opportunity and depth-chart sustainability",
-        "Best realistic trade alternative",
-        "Future bye-week/keeper utility"
-      ]
-    },
-    {
       "player_id": "30182",
       "player": "Cooper Kupp",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 10,
@@ -4202,7 +3506,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -4868,7 +4172,7 @@
       "player_id": "41048",
       "player": "Tyrone Tracy Jr.",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 9,
@@ -5080,7 +4384,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -5560,7 +4864,7 @@
       "player_id": "41031",
       "player": "Isaiah Davis",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 8,
@@ -5772,7 +5076,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -6252,7 +5556,7 @@
       "player_id": "40222",
       "player": "DeMario Douglas",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 8,
@@ -6282,7 +5586,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -6948,7 +6252,7 @@
       "player_id": "31906",
       "player": "Devin Singletary",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 5,
@@ -7160,7 +6464,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -7640,7 +6944,7 @@
       "player_id": "33971",
       "player": "Jahan Dotson",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 5,
@@ -7670,7 +6974,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -8333,10 +7637,702 @@
       ]
     },
     {
+      "player_id": "41052",
+      "player": "Kimani Vidal",
+      "position": "RB",
+      "availability": "W",
+      "incoming_workload": {
+        "week": 6,
+        "touches": 11,
+        "offensive_snap_share": 0.37,
+        "snap_week": 6,
+        "last_three_weeks": [
+          {
+            "week": 6,
+            "touches": 11
+          },
+          {
+            "week": 5,
+            "touches": 10
+          },
+          {
+            "week": 4,
+            "touches": 8
+          }
+        ],
+        "three_week_data_complete": true,
+        "three_week_snap_data_complete": true,
+        "three_week_average_touches": 9.67,
+        "three_week_snap_share": 0.38
+      },
+      "role_classification": "SUSTAINED_USAGE",
+      "drop_alternatives": [
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 8.53,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 6,
+            "offensive_snap_share": 0.14,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 5
+              },
+              {
+                "week": 2,
+                "touches": 2
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 16.37,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 13,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 16,
+            "offensive_snap_share": 0.51,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 16
+              },
+              {
+                "week": 4,
+                "touches": 4
+              },
+              {
+                "week": 3,
+                "touches": 6
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": 11.9,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Ollie Gordon II",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Kendre Miller",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 22,
+            "offensive_snap_share": 0.44,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 22
+              },
+              {
+                "week": 5,
+                "touches": 10
+              },
+              {
+                "week": 4,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 13.67,
+            "three_week_snap_share": 0.337
+          },
+          "latest_week_touch_delta": -11,
+          "three_week_touch_delta": -4,
+          "latest_week_snap_share_delta": -0.07,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": -1,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": -0.32,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "injury_status": "Q",
+          "recent_yahoo_points_avg": 9.4,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
+            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+          ]
+        },
+        {
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": 9.8,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 6,
+            "offensive_snap_share": 0.4,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 6
+              },
+              {
+                "week": 5,
+                "touches": 4
+              },
+              {
+                "week": 4,
+                "touches": 2
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 4,
+            "three_week_snap_share": 0.52
+          },
+          "latest_week_touch_delta": 5,
+          "three_week_touch_delta": 5.67,
+          "latest_week_snap_share_delta": -0.03,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 2,
+            "offensive_snap_share": 1,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 2
+              },
+              {
+                "week": 5,
+                "touches": 3
+              },
+              {
+                "week": 4,
+                "touches": 4
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 3,
+            "three_week_snap_share": 1
+          },
+          "latest_week_touch_delta": 9,
+          "three_week_touch_delta": 6.67,
+          "latest_week_snap_share_delta": -0.63,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": false,
+          "protected_asset": false,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 5,
+            "offensive_snap_share": 0.89,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 5
+              },
+              {
+                "week": 4,
+                "touches": 13
+              },
+              {
+                "week": 3,
+                "touches": 4
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Tre Tucker",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 7,
+            "offensive_snap_share": 0.7,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 7
+              },
+              {
+                "week": 5,
+                "touches": 7
+              },
+              {
+                "week": 4,
+                "touches": 8
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 7.33,
+            "three_week_snap_share": 0.707
+          },
+          "latest_week_touch_delta": 4,
+          "three_week_touch_delta": 2.34,
+          "latest_week_snap_share_delta": -0.33,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 4,
+            "offensive_snap_share": 0.62,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 4
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 4,
+                "touches": 5
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 5.67,
+            "three_week_snap_share": 0.793
+          },
+          "latest_week_touch_delta": 7,
+          "three_week_touch_delta": 4,
+          "latest_week_snap_share_delta": -0.25,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Ravens",
+          "position": "DEF",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": false,
+          "protected_asset": false,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Chase Brown",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 17,
+            "offensive_snap_share": 0.6,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 17
+              },
+              {
+                "week": 4,
+                "touches": 20
+              },
+              {
+                "week": 3,
+                "touches": 15
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED"
+          ]
+        },
+        {
+          "name": "De'Von Achane",
+          "position": "RB",
+          "injury_status": "IR",
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 3,
+            "touches": 4,
+            "offensive_snap_share": 0.05,
+            "snap_week": 3,
+            "last_three_weeks": [
+              {
+                "week": 3,
+                "touches": 4
+              },
+              {
+                "week": 2,
+                "touches": 26
+              },
+              {
+                "week": 1,
+                "touches": 16
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+          ]
+        },
+        {
+          "name": "Chris Olave",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 7,
+            "offensive_snap_share": 0.58,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 7
+              },
+              {
+                "week": 5,
+                "touches": 6
+              },
+              {
+                "week": 4,
+                "touches": 12
+              }
+            ],
+            "three_week_data_complete": true,
+            "three_week_snap_data_complete": true,
+            "three_week_average_touches": 8.33,
+            "three_week_snap_share": 0.783
+          },
+          "latest_week_touch_delta": 4,
+          "three_week_touch_delta": 1.34,
+          "latest_week_snap_share_delta": -0.21,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 5,
+            "touches": 8,
+            "offensive_snap_share": 0.89,
+            "snap_week": 5,
+            "last_three_weeks": [
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 2
+              },
+              {
+                "week": 2,
+                "touches": 6
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
+          "name": "A.J. Brown",
+          "position": "WR",
+          "injury_status": "Q",
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 10,
+            "offensive_snap_share": 0.76,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 10
+              },
+              {
+                "week": 1,
+                "touches": 4
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": 1,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": -0.39,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": true,
+          "viability": "DO_NOT_DROP",
+          "warnings": [
+            "KEEPER_ASSET_PROTECTED",
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
+            "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
+          ]
+        }
+      ],
+      "approved_drop": null,
+      "transaction_authorized": false,
+      "recommendation": "RESEARCH_ONLY",
+      "unanswered": [
+        "Current weekly starter/FLEX impact",
+        "Opportunity and depth-chart sustainability",
+        "Best realistic trade alternative",
+        "Future bye-week/keeper utility"
+      ]
+    },
+    {
       "player_id": "34261",
       "player": "Tyler Goodson",
       "position": "RB",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 5,
@@ -8548,7 +8544,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -9028,7 +9024,7 @@
       "player_id": "32803",
       "player": "Colby Parkinson",
       "position": "TE",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 6,
@@ -9177,7 +9173,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": 9.4,
           "outgoing_workload": {
             "week": null,
@@ -9728,7 +9724,7 @@
       "player_id": "34147",
       "player": "Jalen Nailor",
       "position": "WR",
-      "availability": "W",
+      "availability": "FA",
       "incoming_workload": {
         "week": 6,
         "touches": 4,
@@ -9836,7 +9832,7 @@
         {
           "name": "Tre' Harris",
           "position": "WR",
-          "injury_status": "O",
+          "injury_status": "Q",
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
             "week": null,
