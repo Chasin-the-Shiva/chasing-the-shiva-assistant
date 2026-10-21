@@ -36,13 +36,13 @@ jobs:
           node scripts/build-lineup-safety.mjs
           node scripts/build-legal-lineup-options.mjs
           node scripts/build-weekly-lineup-action-review.mjs
-      - name: Check prerequisites and generate factual waiver brief
+      - name: Scout acquisitions by respected managers\n        run: node scripts/build-manager-acquisition-scouting.mjs\n      - name: Check prerequisites and generate factual waiver brief
         run: node scripts/build-tuesday-brief.mjs
       - name: Publish only validated generated brief
         run: |
           git config user.name "ShivaGPT Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add reports/shivagpt-tuesday-latest.md reports/shivagpt-monitoring-400.json reports/shivagpt-waiver-decision-queue.json reports/shivagpt-acquisition-gates.json reports/shivagpt-replacement-choices.json reports/shivagpt-weekly-acquisition-decision.json reports/shivagpt-weekly-executive-decisions.json reports/shivagpt-lineup-safety.json reports/shivagpt-legal-lineup-options.json reports/shivagpt-weekly-lineup-action-review.json
+          git add reports/shivagpt-manager-acquisition-scouting.json reports/shivagpt-tuesday-latest.md reports/shivagpt-monitoring-400.json reports/shivagpt-waiver-decision-queue.json reports/shivagpt-acquisition-gates.json reports/shivagpt-replacement-choices.json reports/shivagpt-weekly-acquisition-decision.json reports/shivagpt-weekly-executive-decisions.json reports/shivagpt-lineup-safety.json reports/shivagpt-legal-lineup-options.json reports/shivagpt-weekly-lineup-action-review.json
           git diff --cached --quiet && exit 0
           git commit -m "Publish Tuesday ShivaGPT scouting brief"
           for attempt in 1 2 3 4; do
