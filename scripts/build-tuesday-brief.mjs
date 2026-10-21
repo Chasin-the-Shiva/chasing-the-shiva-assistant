@@ -75,6 +75,10 @@ const returnNews=await read("reports/shivagpt-return-news-priority.json").catch(
 const returnNewsFresh=returnNews?.schema==="shivagpt-return-news-priority-v1"&&returnNews.read_only===true&&
  Array.isArray(returnNews.queue)&&Date.now()-Date.parse(returnNews.generated_at)<6*3600000;
 const returnNewsList=returnNewsFresh?returnNews.queue.filter(p=>p.news_signal==="RETURN_NEWS_RESEARCH"):[];
+const managerScout=await read("reports/shivagpt-manager-acquisition-scouting.json").catch(e=>{if(e.code==="ENOENT")return null;throw e});
+const managerScoutValid=managerScout?.schema==="shivagpt-manager-acquisition-scouting-v1"&&managerScout.read_only===true&&
+ Number.isFinite(Date.parse(managerScout.source_timestamps?.live))&&
+ Math.abs(Date.parse(managerScout.source_timestamps.live)-Date.parse(live.retrieved_at))<60000;
 const fmt=x=>typeof x==="number"?x.toFixed(1):"N/A";
 const lines=[
  "# ShivaGPT — Tuesday scouting data brief",
@@ -173,6 +177,16 @@ const lines=[
  ...returnNewsList.slice(0,10).map(p=>`| ${p.name} | ${p.injury_status} | ${p.availability_status} | ${p.related_articles?.[0]?.headline||"No attributed article"} |`),
  "",
  "No inferred activation date or pickup recommendation without reading the attributed article, verifying team status, workload and exact Yahoo FA/W designation.",
+ "",
+ "## Strong-manager acquisition scouting — research leads only",
+ `- John Fitzgerald and Dom acquisitions: ${managerScoutValid?"current Yahoo snapshot verified":"unavailable or snapshot mismatch"}; ${managerScoutValid?managerScout.acquisition_signals.length:0} recorded signals.`,
+ "- Acquisitions by respected managers are NOT independent evidence of projected production; evaluate their success using future snaps, fantasy points, role persistence and acquisition cost, not anecdotal hindsight.",
+ "",
+ "| Manager | Acquired | Position | FAAB | Acquisition time | Research decision |",
+ "|---|---|---|---:|---|---|",
+ ...(managerScoutValid?managerScout.acquisition_signals.slice(0,20).map(x=>`| ${x.manager_label} | ${x.player_name} | ${x.position||"?"} | ${x.faab_bid??"unknown"} | ${x.transaction_timestamp||"unknown"} | Verify injury return, offensive role, depth chart and trade upside |`):[]),
+ "",
+ "Study historic manager moves cautiously; the history archive may lack accurate player-level attribution and failed bids. Distinguish retrospective results from advance signals.",
  "",
  "## Required analyst review",
  "- Validate exact Joe roster and remaining FAAB from the current league snapshot.",
