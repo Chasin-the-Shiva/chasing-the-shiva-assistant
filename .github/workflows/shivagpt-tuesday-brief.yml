@@ -36,7 +36,9 @@ jobs:
           node scripts/build-lineup-safety.mjs
           node scripts/build-legal-lineup-options.mjs
           node scripts/build-weekly-lineup-action-review.mjs
-      - name: Scout acquisitions by respected managers\n        run: node scripts/build-manager-acquisition-scouting.mjs\n      - name: Check prerequisites and generate factual waiver brief
+      - name: Scout acquisitions by respected managers
+        run: node scripts/build-manager-acquisition-scouting.mjs
+      - name: Check prerequisites and generate factual waiver brief
         run: node scripts/build-tuesday-brief.mjs
       - name: Publish only validated generated brief
         run: |
