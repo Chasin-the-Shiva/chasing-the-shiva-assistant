@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-21T00:09:06.716Z",
+  "generated_at": "2026-10-21T05:20:22.626Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-21T00:08:03.712Z",
+  "source_retrieved_at": "2026-10-21T05:19:14.455Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -12,8 +12,8 @@
       "observed_ownership_change_pp": -1,
       "name": "Jalen Hurts",
       "availability_status": "W",
-      "percent_owned": 65,
-      "percent_owned_delta": -16,
+      "percent_owned": 64,
+      "percent_owned_delta": -17,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -22,17 +22,37 @@
       "observed_ownership_change_pp": -3,
       "name": "Terry McLaurin",
       "availability_status": "rostered",
-      "percent_owned": 83,
-      "percent_owned_delta": -11,
+      "percent_owned": 80,
+      "percent_owned_delta": -14,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "100011",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": -1,
       "name": "Colts",
       "availability_status": "rostered",
-      "percent_owned": 48,
+      "percent_owned": 47,
+      "percent_owned_delta": -6,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100012",
+      "observed_ownership_change_pp": -1,
+      "name": "Chiefs",
+      "availability_status": "rostered",
+      "percent_owned": 81,
+      "percent_owned_delta": -5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40971",
+      "observed_ownership_change_pp": -1,
+      "name": "MarShawn Lloyd",
+      "availability_status": "rostered",
+      "percent_owned": 80,
       "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
@@ -41,7 +61,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-20T20:53:15.466Z",
-    "elapsed_hours": 3.25
+    "previous_retrieved_at": "2026-10-21T00:08:03.712Z",
+    "elapsed_hours": 5.19
   }
 }
