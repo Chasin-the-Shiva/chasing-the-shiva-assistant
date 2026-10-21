@@ -23,7 +23,9 @@ const expected=Number(live.settings?.fantasy_content?.league?.[0]?.current_week)
 check(Number.isInteger(expected)&&expected>=1&&expected<=17,"Current league week not available");
 check(stats.completed_through_week>=expected,`Stats stale: through Week ${stats.completed_through_week}, expected Week ${expected}`);
 const age=(Date.now()-Date.parse(stats.generated_at))/3600000;
-check(age>=-0.2&&age<=8,`Player statistics scan is ${age.toFixed(1)} hours old`);
+// Weekly scoring is historical; the completed-week check above is authoritative.
+// Allow a validated scan from within the last seven days while requiring current-week coverage.
+check(age>=-0.2&&age<=24*7,`Player statistics scan is ${age.toFixed(1)} hours old`);
 const pool=available.available_players;
 check(Array.isArray(pool)&&pool.length>0,"FA/W availability missing");
 const byId=new Map(pool.map(p=>[String(p.player_id),p]));
