@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-20T20:54:33.977Z",
+  "generated_at": "2026-10-21T00:09:06.716Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-20T20:53:15.466Z",
+  "source_retrieved_at": "2026-10-21T00:08:03.712Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -12,24 +12,24 @@
       "observed_ownership_change_pp": -1,
       "name": "Jalen Hurts",
       "availability_status": "W",
-      "percent_owned": 66,
-      "percent_owned_delta": -15,
+      "percent_owned": 65,
+      "percent_owned_delta": -16,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "31908",
-      "observed_ownership_change_pp": -5,
+      "observed_ownership_change_pp": -3,
       "name": "Terry McLaurin",
       "availability_status": "rostered",
-      "percent_owned": 86,
-      "percent_owned_delta": -8,
+      "percent_owned": 83,
+      "percent_owned_delta": -11,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "100011",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Colts",
       "availability_status": "rostered",
       "percent_owned": 48,
@@ -41,7 +41,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-20T17:31:51.117Z",
-    "elapsed_hours": 3.36
+    "previous_retrieved_at": "2026-10-20T20:53:15.466Z",
+    "elapsed_hours": 3.25
   }
 }
