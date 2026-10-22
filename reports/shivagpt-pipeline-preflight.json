@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-22T10:07:57.554Z",
+  "checked_at": "2026-10-22T15:15:33.699Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 2.15,
-      "timestamp": "2026-10-22T07:59:06.010Z"
+      "age_hours": 1.13,
+      "timestamp": "2026-10-22T14:07:49.732Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 2.15,
-      "timestamp": "2026-10-22T07:59:06.010Z",
-      "player_count": 944,
-      "unique_player_count": 944
+      "age_hours": 1.13,
+      "timestamp": "2026-10-22T14:07:49.732Z",
+      "player_count": 942,
+      "unique_player_count": 942
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 2.15,
-      "timestamp": "2026-10-22T07:59:06.010Z"
+      "age_hours": 1.13,
+      "timestamp": "2026-10-22T14:07:49.732Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 44.93,
+      "age_hours": 50.06,
       "timestamp": "2026-10-20T13:12:11.333Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 19.08,
-      "timestamp": "2026-10-21T15:03:07.576089+00:00"
+      "age_hours": 0.21,
+      "timestamp": "2026-10-22T15:03:03.594411+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 19.03,
-      "timestamp": "2026-10-21T15:06:06.413305+00:00"
+      "age_hours": 0.14,
+      "timestamp": "2026-10-22T15:07:01.906524+00:00"
     },
     "popularity": {
       "status": "FRESH",
-      "age_hours": 3.55,
-      "timestamp": "2026-10-22T06:34:49.090Z"
+      "age_hours": 2.83,
+      "timestamp": "2026-10-22T12:25:45.751Z"
     },
     "injury": {
       "status": "STALE",
-      "age_hours": 5.36,
-      "timestamp": "2026-10-22T04:46:17.607Z"
+      "age_hours": 5.06,
+      "timestamp": "2026-10-22T10:11:45.824Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.37,
-      "timestamp": "2026-10-22T07:45:50.255699+00:00"
+      "age_hours": 1.32,
+      "timestamp": "2026-10-22T13:56:04.111291+00:00"
     }
   },
   "blocking_sources": [],
