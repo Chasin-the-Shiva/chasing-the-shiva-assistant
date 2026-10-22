@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-21T12:53:33.032Z",
+  "generated_at": "2026-10-22T17:39:09.476Z",
   "league_id": "721343",
   "season_week": 7,
-  "roster_source_at": "2026-10-21T10:37:26.887Z",
-  "availability_source_at": "2026-10-21T10:37:26.887Z",
+  "roster_source_at": "2026-10-22T15:17:26.280Z",
+  "availability_source_at": "2026-10-22T15:17:26.280Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -66,12 +66,6 @@
     {
       "name": "Tyler Huntley",
       "player_id": "32993",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Drew Lock",
-      "player_id": "31874",
       "status": "FA",
       "injury_status": null
     },
@@ -306,12 +300,6 @@
     {
       "name": "Ty Simpson",
       "player_id": "42635",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Carson Beck",
-      "player_id": "42687",
       "status": "FA",
       "injury_status": null
     },
