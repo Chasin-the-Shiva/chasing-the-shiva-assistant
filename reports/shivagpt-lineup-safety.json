@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-21T12:53:32.967Z",
-  "source_at": "2026-10-21T10:37:26.887Z",
+  "generated_at": "2026-10-22T17:36:50.240Z",
+  "source_at": "2026-10-22T15:17:26.280Z",
   "league_id": "721343",
   "lineup_week": 7,
   "verified_roster_count": 17,
@@ -52,9 +52,9 @@
       "name": "Justin Jefferson",
       "position": "WR",
       "selected_position": "WR",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Ankle",
       "bye_week": "6"
     },
     {
@@ -62,9 +62,9 @@
       "name": "A.J. Brown",
       "position": "WR",
       "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Ankle",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "11"
     },
     {
@@ -88,8 +88,8 @@
       "bye_week": "13"
     },
     {
-      "id": "40108",
-      "name": "Kendre Miller",
+      "id": "41048",
+      "name": "Tyrone Tracy Jr.",
       "position": "RB",
       "selected_position": "W/R/T",
       "status": null,
@@ -109,6 +109,16 @@
     }
   ],
   "bench": [
+    {
+      "id": "40108",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
     {
       "id": "40201",
       "name": "Dontayvion Wicks",
@@ -134,9 +144,9 @@
       "name": "Dalton Schultz",
       "position": "TE",
       "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Quadriceps",
       "bye_week": "8"
     },
     {
@@ -148,16 +158,6 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "7"
-    },
-    {
-      "id": "41010",
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
     },
     {
       "id": "30227",
