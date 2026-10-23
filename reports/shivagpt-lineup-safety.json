@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-22T17:36:50.240Z",
-  "source_at": "2026-10-22T15:17:26.280Z",
+  "generated_at": "2026-10-23T17:25:42.281Z",
+  "source_at": "2026-10-23T17:20:43.993Z",
   "league_id": "721343",
   "lineup_week": 7,
   "verified_roster_count": 17,
@@ -52,9 +52,9 @@
       "name": "Justin Jefferson",
       "position": "WR",
       "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Ankle",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "6"
     },
     {
@@ -124,9 +124,9 @@
       "name": "Dontayvion Wicks",
       "position": "WR",
       "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Ankle",
       "bye_week": "10"
     },
     {
