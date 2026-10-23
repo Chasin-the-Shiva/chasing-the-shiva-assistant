@@ -1,0 +1,18 @@
+name: ShivaGPT Defense Actual Scoring
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/audit-defense-scores.mjs"
+      - ".github/workflows/audit-defense-scores.yml"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/audit-defense-scores.mjs
