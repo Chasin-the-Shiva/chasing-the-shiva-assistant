@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-24T14:54:34.274Z",
+  "generated_at": "2026-10-24T18:22:34.393Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-24T14:53:30.424Z",
+  "source_retrieved_at": "2026-10-24T18:21:42.802Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -59,21 +59,31 @@
     },
     {
       "player_id": "32723",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": -1,
       "name": "Jalen Hurts",
       "availability_status": "FA",
-      "percent_owned": 44,
-      "percent_owned_delta": -37,
+      "percent_owned": 43,
+      "percent_owned_delta": -38,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "100011",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Colts",
       "availability_status": "W",
       "percent_owned": 16,
       "percent_owned_delta": -37,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "42669",
+      "observed_ownership_change_pp": 1,
+      "name": "Germie Bernard",
+      "availability_status": "rostered",
+      "percent_owned": 82,
+      "percent_owned_delta": 32,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -98,28 +108,18 @@
       "drops_24h": null
     },
     {
-      "player_id": "42669",
-      "observed_ownership_change_pp": 0,
-      "name": "Germie Bernard",
-      "availability_status": "rostered",
-      "percent_owned": 81,
-      "percent_owned_delta": 31,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "40971",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": -1,
       "name": "MarShawn Lloyd",
       "availability_status": "rostered",
-      "percent_owned": 55,
-      "percent_owned_delta": -30,
+      "percent_owned": 54,
+      "percent_owned_delta": -31,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "100030",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jaguars",
       "availability_status": "FA",
       "percent_owned": 42,
@@ -149,7 +149,7 @@
     },
     {
       "player_id": "100033",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Ravens",
       "availability_status": "W",
       "percent_owned": 61,
@@ -169,7 +169,7 @@
     },
     {
       "player_id": "41885",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jaylin Noel",
       "availability_status": "rostered",
       "percent_owned": 27,
@@ -184,6 +184,16 @@
       "availability_status": "rostered",
       "percent_owned": 71,
       "percent_owned_delta": 20,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "34357",
+      "observed_ownership_change_pp": 1,
+      "name": "Bam Knight",
+      "availability_status": "rostered",
+      "percent_owned": 18,
+      "percent_owned_delta": 18,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -209,20 +219,10 @@
     },
     {
       "player_id": "31840",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "T.J. Hockenson",
       "availability_status": "rostered",
       "percent_owned": 48,
-      "percent_owned_delta": 17,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "34357",
-      "observed_ownership_change_pp": 1,
-      "name": "Bam Knight",
-      "availability_status": "FA",
-      "percent_owned": 17,
       "percent_owned_delta": 17,
       "adds_24h": null,
       "drops_24h": null
@@ -279,7 +279,7 @@
     },
     {
       "player_id": "40114",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Tre Tucker",
       "availability_status": "rostered",
       "percent_owned": 57,
@@ -319,7 +319,7 @@
     },
     {
       "player_id": "40108",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Kendre Miller",
       "availability_status": "rostered",
       "percent_owned": 45,
@@ -389,11 +389,21 @@
     },
     {
       "player_id": "34054",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Brian Robinson Jr.",
       "availability_status": "rostered",
       "percent_owned": 34,
       "percent_owned_delta": -9,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41058",
+      "observed_ownership_change_pp": 1,
+      "name": "Malik Washington",
+      "availability_status": "rostered",
+      "percent_owned": 50,
+      "percent_owned_delta": 9,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -404,6 +414,16 @@
       "availability_status": "FA",
       "percent_owned": 53,
       "percent_owned_delta": -9,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "42035",
+      "observed_ownership_change_pp": 1,
+      "name": "Konata Mumpfield",
+      "availability_status": "FA",
+      "percent_owned": 9,
+      "percent_owned_delta": 9,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -424,16 +444,6 @@
       "availability_status": "rostered",
       "percent_owned": 28,
       "percent_owned_delta": -8,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "41058",
-      "observed_ownership_change_pp": 0,
-      "name": "Malik Washington",
-      "availability_status": "rostered",
-      "percent_owned": 49,
-      "percent_owned_delta": 8,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -488,16 +498,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "42035",
-      "observed_ownership_change_pp": 0,
-      "name": "Konata Mumpfield",
-      "availability_status": "FA",
-      "percent_owned": 8,
-      "percent_owned_delta": 8,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "31017",
       "observed_ownership_change_pp": 0,
       "name": "Christian Kirk",
@@ -519,7 +519,7 @@
     },
     {
       "player_id": "34063",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Dameon Pierce",
       "availability_status": "rostered",
       "percent_owned": 57,
@@ -599,7 +599,7 @@
     },
     {
       "player_id": "30197",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Chris Godwin Jr.",
       "availability_status": "rostered",
       "percent_owned": 69,
@@ -619,7 +619,7 @@
     },
     {
       "player_id": "41087",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Ryan Flournoy",
       "availability_status": "rostered",
       "percent_owned": 20,
@@ -748,6 +748,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "26699",
+      "observed_ownership_change_pp": 1,
+      "name": "Keenan Allen",
+      "availability_status": "rostered",
+      "percent_owned": 52,
+      "percent_owned_delta": 5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "33538",
       "observed_ownership_change_pp": 0,
       "name": "Kenny Gainwell",
@@ -858,11 +868,11 @@
       "drops_24h": null
     },
     {
-      "player_id": "42642",
-      "observed_ownership_change_pp": 0,
-      "name": "Makai Lemon",
+      "player_id": "28592",
+      "observed_ownership_change_pp": -1,
+      "name": "Darren Waller",
       "availability_status": "FA",
-      "percent_owned": 29,
+      "percent_owned": 9,
       "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
@@ -891,7 +901,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-24T11:38:31.683Z",
-    "elapsed_hours": 3.25
+    "previous_retrieved_at": "2026-10-24T14:53:30.424Z",
+    "elapsed_hours": 3.47
   }
 }
