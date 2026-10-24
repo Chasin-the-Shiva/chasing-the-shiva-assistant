@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-24T19:28:33.172Z",
+  "checked_at": "2026-10-24T22:27:06.892Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 0.42,
-      "timestamp": "2026-10-24T19:03:31.101Z"
+      "age_hours": 0.51,
+      "timestamp": "2026-10-24T21:56:39.799Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 0.42,
-      "timestamp": "2026-10-24T19:03:31.101Z",
-      "player_count": 942,
-      "unique_player_count": 942
+      "age_hours": 0.51,
+      "timestamp": "2026-10-24T21:56:39.799Z",
+      "player_count": 943,
+      "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 0.42,
-      "timestamp": "2026-10-24T19:03:31.101Z"
+      "age_hours": 0.51,
+      "timestamp": "2026-10-24T21:56:39.799Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 102.27,
+      "age_hours": 105.25,
       "timestamp": "2026-10-20T13:12:11.333Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 5.53,
+      "age_hours": 8.51,
       "timestamp": "2026-10-24T13:56:30.647564+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 5.52,
+      "age_hours": 8.49,
       "timestamp": "2026-10-24T13:57:29.642867+00:00"
     },
     "popularity": {
-      "status": "FRESH",
-      "age_hours": 1.11,
+      "status": "STALE",
+      "age_hours": 4.09,
       "timestamp": "2026-10-24T18:21:42.802Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 1.31,
-      "timestamp": "2026-10-24T18:09:59.709Z"
+      "age_hours": 1.61,
+      "timestamp": "2026-10-24T20:50:18.648Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.75,
-      "timestamp": "2026-10-24T16:43:23.590319+00:00"
+      "age_hours": 2.87,
+      "timestamp": "2026-10-24T19:34:48.515941+00:00"
     }
   },
   "blocking_sources": [],
