@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-23T17:25:42.281Z",
-  "source_at": "2026-10-23T17:20:43.993Z",
+  "generated_at": "2026-10-24T16:13:34.118Z",
+  "source_at": "2026-10-24T14:33:33.977Z",
   "league_id": "721343",
   "lineup_week": 7,
   "verified_roster_count": 17,
@@ -88,8 +88,8 @@
       "bye_week": "13"
     },
     {
-      "id": "41048",
-      "name": "Tyrone Tracy Jr.",
+      "id": "40108",
+      "name": "Kendre Miller",
       "position": "RB",
       "selected_position": "W/R/T",
       "status": null,
@@ -98,20 +98,20 @@
       "bye_week": "8"
     },
     {
-      "id": "100033",
-      "name": "Ravens",
+      "id": "100010",
+      "name": "Titans",
       "position": "DEF",
       "selected_position": "DEF",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "13"
+      "bye_week": "9"
     }
   ],
   "bench": [
     {
-      "id": "40108",
-      "name": "Kendre Miller",
+      "id": "41048",
+      "name": "Tyrone Tracy Jr.",
       "position": "RB",
       "selected_position": "BN",
       "status": null,
@@ -144,9 +144,9 @@
       "name": "Dalton Schultz",
       "position": "TE",
       "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Quadriceps",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "8"
     },
     {
