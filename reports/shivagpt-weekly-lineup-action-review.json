@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-23T17:28:41.145Z",
+  "generated_at": "2026-10-24T16:15:50.642Z",
   "league_id": "721343",
   "season_week": 7,
-  "roster_source_at": "2026-10-23T17:20:43.993Z",
-  "availability_source_at": "2026-10-23T17:20:43.993Z",
+  "roster_source_at": "2026-10-24T14:33:33.977Z",
+  "availability_source_at": "2026-10-24T14:33:33.977Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
