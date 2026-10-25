@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-24T22:27:06.892Z",
+  "checked_at": "2026-10-25T01:06:56.284Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 0.51,
-      "timestamp": "2026-10-24T21:56:39.799Z"
+      "age_hours": 0.55,
+      "timestamp": "2026-10-25T00:33:46.571Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 0.51,
-      "timestamp": "2026-10-24T21:56:39.799Z",
+      "age_hours": 0.55,
+      "timestamp": "2026-10-25T00:33:46.571Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 0.51,
-      "timestamp": "2026-10-24T21:56:39.799Z"
+      "age_hours": 0.55,
+      "timestamp": "2026-10-25T00:33:46.571Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 105.25,
+      "age_hours": 107.91,
       "timestamp": "2026-10-20T13:12:11.333Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 8.51,
+      "age_hours": 11.17,
       "timestamp": "2026-10-24T13:56:30.647564+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 8.49,
+      "age_hours": 11.16,
       "timestamp": "2026-10-24T13:57:29.642867+00:00"
     },
     "popularity": {
-      "status": "STALE",
-      "age_hours": 4.09,
-      "timestamp": "2026-10-24T18:21:42.802Z"
+      "status": "FRESH",
+      "age_hours": 1.4,
+      "timestamp": "2026-10-24T23:43:07.633Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 1.61,
-      "timestamp": "2026-10-24T20:50:18.648Z"
+      "age_hours": 1.86,
+      "timestamp": "2026-10-24T23:15:04.695Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.87,
-      "timestamp": "2026-10-24T19:34:48.515941+00:00"
+      "age_hours": 2.53,
+      "timestamp": "2026-10-24T22:35:11.545065+00:00"
     }
   },
   "blocking_sources": [],
