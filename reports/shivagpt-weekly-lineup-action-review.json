@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-24T16:15:50.642Z",
+  "generated_at": "2026-10-25T16:49:49.075Z",
   "league_id": "721343",
   "season_week": 7,
-  "roster_source_at": "2026-10-24T14:33:33.977Z",
-  "availability_source_at": "2026-10-24T14:33:33.977Z",
+  "roster_source_at": "2026-10-25T16:19:52.897Z",
+  "availability_source_at": "2026-10-25T16:19:52.897Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -64,6 +64,12 @@
       "injury_status": null
     },
     {
+      "name": "Baker Mayfield",
+      "player_id": "30971",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
       "name": "Tyler Huntley",
       "player_id": "32993",
       "status": "FA",
@@ -100,12 +106,6 @@
       "injury_status": null
     },
     {
-      "name": "Jack Strand",
-      "player_id": "42898",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Stetson Bennett IV",
       "player_id": "40153",
       "status": "FA",
@@ -130,18 +130,6 @@
       "injury_status": null
     },
     {
-      "name": "Mason Rudolph",
-      "player_id": "31046",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Spencer Rattler",
-      "player_id": "41043",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Joe Milton",
       "player_id": "41060",
       "status": "FA",
@@ -156,12 +144,6 @@
     {
       "name": "Joe Flacco",
       "player_id": "8795",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Zach Wilson",
-      "player_id": "33390",
       "status": "FA",
       "injury_status": null
     },
@@ -190,38 +172,14 @@
       "injury_status": null
     },
     {
-      "name": "Riley Leonard",
-      "player_id": "41968",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Kyle McCord",
       "player_id": "41971",
       "status": "FA",
       "injury_status": null
     },
     {
-      "name": "Will Howard",
-      "player_id": "41989",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kurtis Rourke",
-      "player_id": "42009",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Quinn Ewers",
       "player_id": "42037",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Max Brosmer",
-      "player_id": "42075",
       "status": "FA",
       "injury_status": null
     },
@@ -240,12 +198,6 @@
     {
       "name": "Aidan O'Connell",
       "player_id": "40138",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jake Haener",
-      "player_id": "40144",
       "status": "FA",
       "injury_status": null
     },
@@ -286,12 +238,6 @@
       "injury_status": null
     },
     {
-      "name": "Drew Allar",
-      "player_id": "42698",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Cade Klubnik",
       "player_id": "42732",
       "status": "FA",
@@ -304,20 +250,8 @@
       "injury_status": null
     },
     {
-      "name": "Taylen Green",
-      "player_id": "42804",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Garrett Nussmeier",
       "player_id": "42871",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Haynes King",
-      "player_id": "42904",
       "status": "FA",
       "injury_status": null
     },
@@ -340,9 +274,15 @@
       "injury_status": null
     },
     {
-      "name": "Andy Dalton",
-      "player_id": "24822",
-      "status": "FA",
+      "name": "Bryce Young",
+      "player_id": "40029",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Daniel Jones",
+      "player_id": "31838",
+      "status": "W",
       "injury_status": null
     },
     {
@@ -354,6 +294,18 @@
     {
       "name": "Tommy DeVito",
       "player_id": "40533",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Mason Rudolph",
+      "player_id": "31046",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Spencer Rattler",
+      "player_id": "41043",
       "status": "W",
       "injury_status": null
     }
