@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-26T12:58:58.590Z",
+  "checked_at": "2026-10-26T19:15:19.752Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 0.7,
-      "timestamp": "2026-10-26T12:17:16.352Z"
+      "age_hours": 1.53,
+      "timestamp": "2026-10-26T17:43:24.699Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 0.7,
-      "timestamp": "2026-10-26T12:17:16.352Z",
+      "age_hours": 1.53,
+      "timestamp": "2026-10-26T17:43:24.699Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 0.7,
-      "timestamp": "2026-10-26T12:17:16.352Z"
+      "age_hours": 1.53,
+      "timestamp": "2026-10-26T17:43:24.699Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 143.78,
+      "age_hours": 150.05,
       "timestamp": "2026-10-20T13:12:11.333Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 22.72,
-      "timestamp": "2026-10-25T14:15:47.206389+00:00"
+      "age_hours": 2.53,
+      "timestamp": "2026-10-26T16:43:14.286161+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 22.69,
-      "timestamp": "2026-10-25T14:17:51.653819+00:00"
+      "age_hours": 2.51,
+      "timestamp": "2026-10-26T16:44:27.149865+00:00"
     },
     "popularity": {
       "status": "STALE",
-      "age_hours": 5.98,
-      "timestamp": "2026-10-26T07:00:27.937Z"
+      "age_hours": 4.69,
+      "timestamp": "2026-10-26T14:33:56.502Z"
     },
     "injury": {
       "status": "STALE",
-      "age_hours": 6.74,
-      "timestamp": "2026-10-26T06:14:26.498Z"
+      "age_hours": 6.1,
+      "timestamp": "2026-10-26T13:09:25.469Z"
     },
     "nfl_headlines": {
-      "status": "STALE",
-      "age_hours": 5.05,
-      "timestamp": "2026-10-26T07:55:49.718894+00:00"
+      "status": "FRESH",
+      "age_hours": 3.95,
+      "timestamp": "2026-10-26T15:18:18.244284+00:00"
     }
   },
   "blocking_sources": [],
