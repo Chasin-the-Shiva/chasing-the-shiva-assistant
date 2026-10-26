@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-26T01:44:00.947Z",
+  "generated_at": "2026-10-26T07:01:28.558Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-26T01:43:05.641Z",
+  "source_retrieved_at": "2026-10-26T07:00:27.937Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -29,7 +29,7 @@
     },
     {
       "player_id": "31908",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Terry McLaurin",
       "availability_status": "FA",
       "percent_owned": 46,
@@ -119,11 +119,11 @@
     },
     {
       "player_id": "100030",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": 1,
       "name": "Jaguars",
       "availability_status": "FA",
-      "percent_owned": 40,
-      "percent_owned_delta": -30,
+      "percent_owned": 41,
+      "percent_owned_delta": -29,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -269,7 +269,7 @@
     },
     {
       "player_id": "7200",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Aaron Rodgers",
       "availability_status": "rostered",
       "percent_owned": 55,
@@ -349,7 +349,7 @@
     },
     {
       "player_id": "31017",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Christian Kirk",
       "availability_status": "rostered",
       "percent_owned": 16,
@@ -398,16 +398,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "29344",
-      "observed_ownership_change_pp": 0,
-      "name": "Tyler Higbee",
-      "availability_status": "rostered",
-      "percent_owned": 46,
-      "percent_owned_delta": 11,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "33412",
       "observed_ownership_change_pp": 0,
       "name": "Najee Harris",
@@ -433,6 +423,16 @@
       "name": "Malik Washington",
       "availability_status": "rostered",
       "percent_owned": 51,
+      "percent_owned_delta": 10,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "29344",
+      "observed_ownership_change_pp": -1,
+      "name": "Tyler Higbee",
+      "availability_status": "rostered",
+      "percent_owned": 45,
       "percent_owned_delta": 10,
       "adds_24h": null,
       "drops_24h": null
@@ -469,7 +469,7 @@
     },
     {
       "player_id": "40108",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Kendre Miller",
       "availability_status": "rostered",
       "percent_owned": 43,
@@ -518,6 +518,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "41087",
+      "observed_ownership_change_pp": 1,
+      "name": "Ryan Flournoy",
+      "availability_status": "rostered",
+      "percent_owned": 22,
+      "percent_owned_delta": 8,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "100034",
       "observed_ownership_change_pp": 0,
       "name": "Texans",
@@ -549,7 +559,7 @@
     },
     {
       "player_id": "42035",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Konata Mumpfield",
       "availability_status": "W",
       "percent_owned": 8,
@@ -613,16 +623,6 @@
       "name": "Keenan Allen",
       "availability_status": "rostered",
       "percent_owned": 54,
-      "percent_owned_delta": 7,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "41087",
-      "observed_ownership_change_pp": 0,
-      "name": "Ryan Flournoy",
-      "availability_status": "rostered",
-      "percent_owned": 21,
       "percent_owned_delta": 7,
       "adds_24h": null,
       "drops_24h": null
@@ -819,7 +819,7 @@
     },
     {
       "player_id": "40048",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Dalton Kincaid",
       "availability_status": "rostered",
       "percent_owned": 90,
@@ -928,6 +928,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "40220",
+      "observed_ownership_change_pp": 1,
+      "name": "Tanner McKee",
+      "availability_status": "FA",
+      "percent_owned": 9,
+      "percent_owned_delta": 5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "100004",
       "observed_ownership_change_pp": 0,
       "name": "Bengals",
@@ -971,7 +981,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-25T22:48:28.599Z",
-    "elapsed_hours": 2.91
+    "previous_retrieved_at": "2026-10-26T01:43:05.641Z",
+    "elapsed_hours": 5.29
   }
 }
