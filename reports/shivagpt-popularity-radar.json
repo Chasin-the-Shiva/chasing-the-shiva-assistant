@@ -1,49 +1,19 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:52:41.569Z",
+  "generated_at": "2026-10-27T21:29:49.383Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-27T16:51:37.660Z",
+  "source_retrieved_at": "2026-10-27T21:28:54.200Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100020",
-      "observed_ownership_change_pp": -3,
+      "observed_ownership_change_pp": -1,
       "name": "Jets",
       "availability_status": "rostered",
-      "percent_owned": 62,
-      "percent_owned_delta": -5,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "100010",
-      "observed_ownership_change_pp": -2,
-      "name": "Titans",
-      "availability_status": "rostered",
-      "percent_owned": 47,
-      "percent_owned_delta": -3,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "29344",
-      "observed_ownership_change_pp": -2,
-      "name": "Tyler Higbee",
-      "availability_status": "rostered",
-      "percent_owned": 42,
-      "percent_owned_delta": -3,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "40108",
-      "observed_ownership_change_pp": -2,
-      "name": "Kendre Miller",
-      "availability_status": "rostered",
-      "percent_owned": 41,
-      "percent_owned_delta": -2,
+      "percent_owned": 61,
+      "percent_owned_delta": -6,
       "adds_24h": null,
       "drops_24h": null
     }
@@ -51,7 +21,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-27T10:59:34.844Z",
-    "elapsed_hours": 5.87
+    "previous_retrieved_at": "2026-10-27T16:51:37.660Z",
+    "elapsed_hours": 4.62
   }
 }
