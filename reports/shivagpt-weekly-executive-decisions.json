@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:17:53.299Z",
+  "generated_at": "2026-10-27T16:51:06.740Z",
   "league_id": "721343",
-  "verified_inputs_fresh": true,
+  "verified_inputs_fresh": false,
   "remaining_faab": 30,
   "decision": "HOLD_FAAB_NO_MOVE",
   "automatic_transactions_enabled": false,
@@ -19,9 +19,11 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -42,10 +44,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Sam LaPorta",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -66,10 +70,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -90,10 +96,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -114,9 +122,11 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -137,9 +147,11 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -160,9 +172,11 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Dalton Schultz",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -183,9 +197,11 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -206,10 +222,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -230,10 +248,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -254,10 +274,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -278,10 +300,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -302,10 +326,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -326,10 +352,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Dalton Schultz",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -350,10 +378,12 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Tre' Harris",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
