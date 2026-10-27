@@ -1,15 +1,15 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-26T20:10:00.834Z",
+  "generated_at": "2026-10-27T00:05:36.858Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-26T20:08:55.789Z",
+  "source_retrieved_at": "2026-10-27T00:04:41.175Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100020",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jets",
       "availability_status": "rostered",
       "percent_owned": 66,
@@ -119,11 +119,11 @@
     },
     {
       "player_id": "100030",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": 1,
       "name": "Jaguars",
       "availability_status": "FA",
-      "percent_owned": 41,
-      "percent_owned_delta": -29,
+      "percent_owned": 42,
+      "percent_owned_delta": -28,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -199,7 +199,7 @@
     },
     {
       "player_id": "41885",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jaylin Noel",
       "availability_status": "rostered",
       "percent_owned": 27,
@@ -269,7 +269,7 @@
     },
     {
       "player_id": "40114",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Tre Tucker",
       "availability_status": "rostered",
       "percent_owned": 59,
@@ -284,6 +284,16 @@
       "availability_status": "rostered",
       "percent_owned": 55,
       "percent_owned_delta": 13,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "34063",
+      "observed_ownership_change_pp": -1,
+      "name": "Dameon Pierce",
+      "availability_status": "rostered",
+      "percent_owned": 51,
+      "percent_owned_delta": -13,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -303,16 +313,6 @@
       "name": "Brenton Strange",
       "availability_status": "rostered",
       "percent_owned": 46,
-      "percent_owned_delta": -12,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "34063",
-      "observed_ownership_change_pp": 0,
-      "name": "Dameon Pierce",
-      "availability_status": "rostered",
-      "percent_owned": 52,
       "percent_owned_delta": -12,
       "adds_24h": null,
       "drops_24h": null
@@ -469,7 +469,7 @@
     },
     {
       "player_id": "33113",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Juwan Johnson",
       "availability_status": "rostered",
       "percent_owned": 77,
@@ -768,11 +768,11 @@
       "drops_24h": null
     },
     {
-      "player_id": "42706",
-      "observed_ownership_change_pp": 0,
-      "name": "Ted Hurst III",
+      "player_id": "42859",
+      "observed_ownership_change_pp": 1,
+      "name": "Seth McGowan",
       "availability_status": "rostered",
-      "percent_owned": 7,
+      "percent_owned": 8,
       "percent_owned_delta": 6,
       "adds_24h": null,
       "drops_24h": null
@@ -888,22 +888,22 @@
       "drops_24h": null
     },
     {
-      "player_id": "42859",
-      "observed_ownership_change_pp": 0,
-      "name": "Seth McGowan",
-      "availability_status": "rostered",
-      "percent_owned": 7,
-      "percent_owned_delta": 5,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "100023",
       "observed_ownership_change_pp": 0,
       "name": "Steelers",
       "availability_status": "rostered",
       "percent_owned": 82,
       "percent_owned_delta": -5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "42706",
+      "observed_ownership_change_pp": -1,
+      "name": "Ted Hurst III",
+      "availability_status": "rostered",
+      "percent_owned": 6,
+      "percent_owned_delta": 5,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -971,7 +971,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-26T14:33:56.502Z",
-    "elapsed_hours": 5.58
+    "previous_retrieved_at": "2026-10-26T20:08:55.789Z",
+    "elapsed_hours": 3.93
   }
 }
