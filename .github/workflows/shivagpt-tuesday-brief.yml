@@ -2,6 +2,10 @@ name: Prepare ShivaGPT Tuesday Waiver Brief
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-tuesday-brief.yml"
   schedule:
     - cron: "0 7 * * 2"
       timezone: "America/New_York"
