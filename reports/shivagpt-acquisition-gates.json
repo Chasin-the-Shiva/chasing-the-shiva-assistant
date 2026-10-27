@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:41:03.436Z",
+  "generated_at": "2026-10-27T18:34:21.472Z",
   "league_id": "721343",
-  "source_ready": false,
+  "source_ready": true,
   "remaining_faab": 30,
   "winning_bid_market": {
     "WR": {
@@ -75,11 +75,10 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],
-      "analyst_candidate": false,
+      "analyst_candidate": true,
       "recommendation": "RESEARCH_ONLY",
       "faab_bid": null,
       "approval_required": true
@@ -99,7 +98,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -125,7 +123,6 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -150,7 +147,6 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -175,11 +171,10 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],
-      "analyst_candidate": false,
+      "analyst_candidate": true,
       "recommendation": "RESEARCH_ONLY",
       "faab_bid": null,
       "approval_required": true
@@ -199,7 +194,6 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "INJURY_STATUS_NEEDS_VERIFICATION",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -224,7 +218,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -249,7 +242,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -274,7 +266,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -300,7 +291,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -326,7 +316,6 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -351,7 +340,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "INJURY_STATUS_NEEDS_VERIFICATION",
@@ -378,7 +366,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -404,7 +391,6 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
@@ -430,7 +416,6 @@
       "possible_same_position_swap": true,
       "protected_drop": false,
       "needs_review": [
-        "SOURCE_STALE",
         "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"

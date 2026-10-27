@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-replacement-choices-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:44:58.762Z",
-  "source_queue_at": "2026-10-27T16:17:53.123Z",
+  "generated_at": "2026-10-27T18:34:21.516Z",
+  "source_queue_at": "2026-10-27T18:34:21.427Z",
   "completed_through_week": 7,
   "league_id": "721343",
   "player_count": 17,
@@ -107,6 +107,32 @@
           "warnings": []
         },
         {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
           "name": "Dontayvion Wicks",
           "position": "WR",
           "injury_status": "Q",
@@ -146,32 +172,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Caleb Douglas",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Dalton Schultz",
@@ -284,27 +284,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -312,9 +312,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -13,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.35,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -407,6 +407,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -487,47 +528,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -13,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.35,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -972,27 +972,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -1000,9 +1000,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -14,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.05,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -1095,6 +1095,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -1175,47 +1216,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -14,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.05,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -1479,6 +1479,32 @@
           "warnings": []
         },
         {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
           "name": "Dontayvion Wicks",
           "position": "WR",
           "injury_status": "Q",
@@ -1518,32 +1544,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Caleb Douglas",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Dalton Schultz",
@@ -1656,27 +1656,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -1684,9 +1684,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -14,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.19,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -1779,6 +1779,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -1859,47 +1900,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -14,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.19,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -2342,27 +2342,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -2370,9 +2370,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -15,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.01,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -2465,6 +2465,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -2545,47 +2586,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.01,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -3028,27 +3028,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -3056,9 +3056,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -11,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.18,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -3151,6 +3151,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -3231,47 +3272,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -11,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.18,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -3714,27 +3714,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -3742,9 +3742,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -13,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.1,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -3837,6 +3837,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -3917,47 +3958,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -13,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.1,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -4402,27 +4402,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -4430,9 +4430,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -11,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": 0.06,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -4525,6 +4525,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -4605,47 +4646,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -11,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": 0.06,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -4872,27 +4872,27 @@
           "warnings": []
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -4900,9 +4900,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -11,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.45,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -4942,6 +4942,45 @@
           "latest_week_touch_delta": 4,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.06,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -5028,45 +5067,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -11,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.45,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Tre' Harris",
@@ -5554,27 +5554,27 @@
           "warnings": []
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -5582,9 +5582,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -15,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.52,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -5624,6 +5624,45 @@
           "latest_week_touch_delta": 0,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.01,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -5710,45 +5749,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.52,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Tre' Harris",
@@ -6228,27 +6228,27 @@
           "warnings": []
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -6256,9 +6256,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -15,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.49,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -6298,6 +6298,45 @@
           "latest_week_touch_delta": 0,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": 0.02,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -6384,45 +6423,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.49,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Tre' Harris",
@@ -6951,6 +6951,32 @@
           "warnings": []
         },
         {
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": null,
+            "touches": null,
+            "offensive_snap_share": null,
+            "snap_week": null,
+            "last_three_weeks": [],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
           "name": "Dontayvion Wicks",
           "position": "WR",
           "injury_status": "Q",
@@ -6990,32 +7016,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Caleb Douglas",
-          "position": "WR",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": null,
-            "touches": null,
-            "offensive_snap_share": null,
-            "snap_week": null,
-            "last_three_weeks": [],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Dalton Schultz",
@@ -7128,27 +7128,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -7156,9 +7156,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -15,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.28,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -7251,6 +7251,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -7331,47 +7372,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.28,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -7596,27 +7596,27 @@
           "warnings": []
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -7624,9 +7624,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -12,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.62,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -7666,6 +7666,45 @@
           "latest_week_touch_delta": 3,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.11,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -7752,45 +7791,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -12,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.62,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Tre' Harris",
@@ -8270,27 +8270,27 @@
           "warnings": []
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -8298,9 +8298,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -12,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.53,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -8340,6 +8340,45 @@
           "latest_week_touch_delta": 3,
           "three_week_touch_delta": null,
           "latest_week_snap_share_delta": -0.02,
+          "same_position": true,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": []
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
           "same_position": true,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -8426,45 +8465,6 @@
           "warnings": [
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
           ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -12,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.53,
-          "same_position": true,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": []
         },
         {
           "name": "Tre' Harris",
@@ -9172,27 +9172,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -9200,9 +9200,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -14,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.09,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9295,6 +9295,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -9375,47 +9416,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -14,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.09,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
@@ -9860,27 +9860,27 @@
           ]
         },
         {
-          "name": "Rachaad White",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "injury_status": null,
           "recent_yahoo_points_avg": null,
           "outgoing_workload": {
-            "week": 6,
-            "touches": 12,
-            "offensive_snap_share": 0.69,
-            "snap_week": 6,
+            "week": 7,
+            "touches": 19,
+            "offensive_snap_share": 0.74,
+            "snap_week": 7,
             "last_three_weeks": [
               {
+                "week": 7,
+                "touches": 19
+              },
+              {
                 "week": 6,
-                "touches": 12
+                "touches": 22
               },
               {
-                "week": 5,
-                "touches": 8
-              },
-              {
-                "week": 3,
-                "touches": 9
+                "week": 4,
+                "touches": 23
               }
             ],
             "three_week_data_complete": false,
@@ -9888,9 +9888,9 @@
             "three_week_average_touches": null,
             "three_week_snap_share": null
           },
-          "latest_week_touch_delta": null,
+          "latest_week_touch_delta": -15,
           "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": null,
+          "latest_week_snap_share_delta": -0.13,
           "same_position": false,
           "recent_yahoo_points_delta_same_position": null,
           "roster_minimum_satisfied": true,
@@ -9983,6 +9983,47 @@
           ]
         },
         {
+          "name": "Rachaad White",
+          "position": "RB",
+          "injury_status": null,
+          "recent_yahoo_points_avg": null,
+          "outgoing_workload": {
+            "week": 6,
+            "touches": 12,
+            "offensive_snap_share": 0.69,
+            "snap_week": 6,
+            "last_three_weeks": [
+              {
+                "week": 6,
+                "touches": 12
+              },
+              {
+                "week": 5,
+                "touches": 8
+              },
+              {
+                "week": 3,
+                "touches": 9
+              }
+            ],
+            "three_week_data_complete": false,
+            "three_week_snap_data_complete": false,
+            "three_week_average_touches": null,
+            "three_week_snap_share": null
+          },
+          "latest_week_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_week_snap_share_delta": null,
+          "same_position": false,
+          "recent_yahoo_points_delta_same_position": null,
+          "roster_minimum_satisfied": true,
+          "protected_asset": false,
+          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
+          "warnings": [
+            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
+          ]
+        },
+        {
           "name": "Kendre Miller",
           "position": "RB",
           "injury_status": null,
@@ -10063,47 +10104,6 @@
           "warnings": [
             "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED",
             "INJURY_OR_RETURN_VALUE_NEEDS_REVIEW"
-          ]
-        },
-        {
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "injury_status": null,
-          "recent_yahoo_points_avg": null,
-          "outgoing_workload": {
-            "week": 7,
-            "touches": 19,
-            "offensive_snap_share": 0.74,
-            "snap_week": 7,
-            "last_three_weeks": [
-              {
-                "week": 7,
-                "touches": 19
-              },
-              {
-                "week": 6,
-                "touches": 22
-              },
-              {
-                "week": 4,
-                "touches": 23
-              }
-            ],
-            "three_week_data_complete": false,
-            "three_week_snap_data_complete": false,
-            "three_week_average_touches": null,
-            "three_week_snap_share": null
-          },
-          "latest_week_touch_delta": -15,
-          "three_week_touch_delta": null,
-          "latest_week_snap_share_delta": -0.13,
-          "same_position": false,
-          "recent_yahoo_points_delta_same_position": null,
-          "roster_minimum_satisfied": true,
-          "protected_asset": false,
-          "viability": "NEEDS_REPLACEMENT_VALUE_REVIEW",
-          "warnings": [
-            "CROSS_POSITION_FLEX_IMPACT_UNVERIFIED"
           ]
         },
         {
