@@ -1,117 +1,109 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-21T12:53:33.254Z | Yahoo stats through Week 6
-League snapshot: 2026-10-21T10:37:26.887Z | Availability snapshot: 2026-10-21T10:37:26.887Z
+Generated: 2026-10-27T12:19:00.645Z | Yahoo stats through Week 7
+League snapshot: 2026-10-27T11:02:11.805Z | Availability snapshot: 2026-10-27T11:02:11.805Z
 
 ## Data coverage
-- Player-statistics entries: 1140; available entries in current snapshot: 944; other player entries: 181.
-- Complete scopes: rostered 196, FA 0, W 944.
+- Player-statistics entries: 1140; available entries in current snapshot: 943; other player entries: 183.
+- Complete scopes: rostered 197, FA 0, W 943.
 
 ## Potential offensive breakout screening — available players
 This is a statistical *screening list*, not a recommendation to add/drop or spend FAAB. Confirm current Yahoo status, offensive role, injury changes and trade value with reliable NFL evidence before proposing any claim.
 
 | Player | Position | Recent week | Previous week | Change vs prior two | Yahoo status (snapshot) |
 |---|---|---:|---:|---:|---|
-| J.J. McCarthy | QB | 62.5 | 0.4 | 62.3 | FA |
-| Tanner McKee | QB | 58.5 | 0.0 | 58.5 | FA |
-| Bam Knight | RB | 30.6 | 1.6 | 29.8 | FA |
-| Deion Burks | WR | 28.7 | 0.0 | 27.6 | FA |
-| Tommy Tremble | TE | 29.2 | 0.0 | 26.0 | FA |
-| Corey Kiner | RB | 33.2 | 13.8 | 25.2 | FA |
-| Geno Smith | QB | 60.0 | 45.6 | 22.8 | FA |
-| Pierre Strong Jr. | RB | 26.4 | 8.6 | 22.1 | FA |
-| Tyrone Tracy Jr. | RB | 31.5 | 14.7 | 21.5 | FA |
-| Colby Parkinson | TE | 21.2 | 1.6 | 20.4 | FA |
-| Michael Mayer | TE | 38.0 | 1.4 | 20.1 | FA |
-| Ja'Kobi Lane | WR | 20.0 | 0.0 | 20.0 | FA |
-| Jawhar Jordan | RB | 19.0 | 0.0 | 19.0 | FA |
-| Josh Cuevas | TE | 22.8 | 9.2 | 18.2 | FA |
-| Bryce Lance | WR | 18.5 | 0.0 | 17.3 | FA |
-| Brevyn Spann-Ford | TE | 17.0 | 0.0 | 17.0 | FA |
-| Tyler Goodson | RB | 20.0 | 0.0 | 16.8 | FA |
-| Dareke Young | WR | 20.0 | 0.0 | 16.5 | FA |
-| Foster Moreau | TE | 19.4 | 5.6 | 16.0 | FA |
-| Roschon Johnson | RB | 30.0 | 19.0 | 15.7 | FA |
-| Jahan Dotson | WR | 35.4 | 16.8 | 15.6 | FA |
-| Cooper Kupp | WR | 21.0 | 7.0 | 14.7 | FA |
-| Chig Okonkwo | TE | 26.8 | 22.0 | 14.3 | FA |
-| Savion Williams | WR | 14.2 | 0.0 | 14.2 | FA |
-| Audric Estime | RB | 13.8 | 0.0 | 13.8 | FA |
-| Jerry Jeudy | WR | 25.8 | 8.8 | 13.3 | FA |
-| DeMario Douglas | WR | 35.2 | 37.0 | 13.2 | FA |
-| Charlie Jones | WR | 32.2 | 23.2 | 13.2 | FA |
-| Trevor Etienne | RB | 13.2 | 0.0 | 13.2 | FA |
-| KeAndre Lambert-Smith | WR | 12.4 | 0.0 | 12.4 | FA |
-| Noah Gray | TE | 15.6 | 0.0 | 11.9 | FA |
-| Kene Nwangwu | RB | 17.8 | 6.8 | 11.7 | FA |
-| Quentin Johnston | WR | 17.4 | 0.0 | 10.4 | FA |
-| Joshua Palmer | WR | 10.4 | 0.0 | 9.6 | FA |
-| Devin Singletary | RB | 9.6 | 0.0 | 9.6 | FA |
-| Cyrus Allen | WR | 9.4 | 0.0 | 9.4 | FA |
-| Jalen Royals | WR | 8.8 | 0.0 | 8.8 | FA |
-| Justin Herbert | QB | 57.6 | 41.9 | 8.7 | FA |
-| Antonio Williams | WR | 19.0 | 13.4 | 8.7 | W |
-| Michael Penix Jr. | QB | 61.7 | 57.6 | 8.5 | FA |
+| Bo Nix | QB | 90.0 | 31.1 | 55.8 | W |
+| Malik Willis | QB | 78.2 | 0.0 | 47.0 | W |
+| Deshaun Watson | QB | 80.6 | 43.2 | 39.2 | W |
+| Geno Smith | QB | 86.7 | 60.0 | 33.9 | W |
+| Anthony Tyus III | RB | 29.8 | 0.0 | 29.8 | W |
+| Mason Taylor | TE | 39.4 | 12.6 | 28.2 | W |
+| Tanner McKee | QB | 57.3 | 58.5 | 28.0 | W |
+| J.J. McCarthy | QB | 59.4 | 62.5 | 27.9 | W |
+| Harold Fannin Jr. | TE | 29.2 | 2.8 | 26.9 | W |
+| Marvin Mims Jr. | WR | 34.3 | 8.1 | 26.6 | W |
+| Dylan Sampson | RB | 24.4 | 0.0 | 24.4 | W |
+| Sean Tucker | RB | 26.4 | 0.0 | 23.6 | W |
+| Greg Dulcich | TE | 32.2 | 0.0 | 23.5 | W |
+| Darren Waller | TE | 22.0 | 0.0 | 22.0 | W |
+| Malachi Fields | WR | 29.6 | 7.8 | 21.7 | W |
+| Baker Mayfield | QB | 20.6 | 0.0 | 20.6 | W |
+| Barion Brown | WR | 34.1 | 20.4 | 20.5 | W |
+| Davis Allen | TE | 24.0 | 0.0 | 18.6 | W |
+| Jacob Cowing | WR | 21.4 | 1.6 | 18.5 | W |
+| Devin Singletary | RB | 22.0 | 9.6 | 17.2 | W |
+| AJ Barner | TE | 25.2 | 6.2 | 16.6 | W |
+| Jordan Watkins | WR | 20.2 | 7.4 | 16.5 | W |
+| Tank Dell | WR | 16.4 | 0.0 | 16.4 | W |
+| Khalil Herbert | RB | 15.1 | 0.0 | 15.1 | W |
+| Kenny Pickett | QB | 14.7 | 0.0 | 14.7 | W |
+| Elijah Mitchell | RB | 14.5 | 0.0 | 14.5 | W |
+| Jalen Brooks | WR | 25.6 | 12.5 | 14.4 | W |
+| Kaelon Black | RB | 23.2 | 12.4 | 14.4 | W |
+| Jaylen Wright | RB | 18.7 | 0.0 | 13.9 | W |
+| Elic Ayomanor | WR | 17.8 | 1.6 | 13.8 | W |
+| Drew Sample | TE | 14.8 | 0.0 | 13.8 | W |
+| Eli Raridon | TE | 26.2 | 5.2 | 13.4 | W |
+| Isaiah Davis | RB | 18.8 | 8.2 | 13.0 | W |
+| Jauan Jennings | WR | 12.8 | 0.0 | 12.8 | W |
+| Tez Johnson | WR | 25.6 | 7.2 | 12.0 | W |
+| Hollywood Brown | WR | 12.0 | 0.0 | 12.0 | W |
+| Gunnar Helm | TE | 11.8 | 0.0 | 11.8 | W |
+| LaJohntay Wester | WR | 19.6 | 1.5 | 11.7 | W |
+| Trevor Etienne | RB | 17.9 | 13.2 | 11.3 | W |
+| Colby Parkinson | TE | 22.6 | 21.2 | 11.2 | W |
 
 ## Yahoo-wide popularity research triggers
-- Radar status: verified; 8 available-player signals (not acquisition recommendations).
+- Radar status: verified; 0 available-player signals (not acquisition recommendations).
 - Yahoo's ownership delta represents a fantasy-week change, not verified 24-hour add counts. Observed between-snapshot movement is a separate percentage-point measure.
 
 | Player | FA/W | Yahoo weekly ownership change (pp) | Observed snapshot change (pp) |
 |---|---|---:|---:|
-| Jalen Hurts | FA | -20.0 | -3.0 |
-| Titans | FA | 9.0 | 7.0 |
-| Jaguars | FA | -8.0 | -5.0 |
-| DeMario Douglas | FA | 8.0 | 7.0 |
-| Tyrone Tracy Jr. | FA | 6.0 | 5.0 |
-| Jameis Winston | FA | -5.0 | -2.0 |
-| Geno Smith | FA | 2.0 | 2.0 |
-| Ja'Kobi Lane | FA | 2.0 | 2.0 |
 
 Every popularity trigger requires NFL role and injury research, exact Shiva scoring and comparison with Joe's drop candidate before an ADD recommendation.
 
 ## Rolling 400-player research priorities
 - Monitor status: verified.
-- Monitoring pool: 196 rostered + 204 available.
-- Overflow opportunity signals: 44.
+- Monitoring pool: 197 rostered + 203 available.
+- Overflow opportunity signals: 45.
 
 | Player | Position | FA/W | Screening triggers |
 |---|---|---|---|
-| Tyrone Tracy Jr. | RB | FA | offensive_activity, ownership_spike_research |
-| DeMario Douglas | WR | FA | offensive_activity, ownership_spike_research |
-| Ja'Kobi Lane | WR | FA | offensive_activity, ownership_spike_research |
-| Geno Smith | QB | FA | offensive_activity, ownership_spike_research |
-| Jameis Winston | QB | FA | offensive_activity, ownership_spike_research |
-| Bam Knight | RB | FA | offensive_activity |
-| Pierre Strong Jr. | RB | FA | offensive_activity |
-| Tyler Goodson | RB | FA | offensive_activity |
-| Jawhar Jordan | RB | FA | offensive_activity |
-| Roschon Johnson | RB | FA | offensive_activity |
-| Jaleel McLaughlin | RB | FA | offensive_activity |
-| J.J. McCarthy | QB | FA | offensive_activity |
-| Deion Burks | WR | FA | offensive_activity |
-| Devin Singletary | RB | FA | offensive_activity |
-| Kaelon Black | RB | FA | offensive_activity |
-| Tanner McKee | QB | FA | offensive_activity |
-| Jahan Dotson | WR | FA | offensive_activity |
-| Ray Davis | RB | FA | offensive_activity |
-| Isaiah Davis | RB | FA | offensive_activity |
-| CJ Donaldson | RB | FA | offensive_activity |
-| Kyle Juszczyk | RB | FA | offensive_activity |
-| Kimani Vidal | RB | W | offensive_activity |
-| Hunter Luepke | RB | FA | offensive_activity |
-| Michael Mayer | TE | FA | offensive_activity |
-| Jerry Jeudy | WR | FA | offensive_activity |
-| Michael Burton | RB | FA | offensive_activity |
-| Dylan Laube | RB | FA | offensive_activity |
-| Bryce Lance | WR | FA | offensive_activity |
-| Carson Steele | RB | FA | offensive_activity |
-| Justice Hill | RB | FA | offensive_activity |
-| Austin Ekeler | RB | FA | offensive_activity |
-| Quentin Johnston | WR | FA | offensive_activity |
-| Charlie Jones | WR | FA | offensive_activity |
-| Cooper Kupp | WR | FA | offensive_activity |
-| Barion Brown | WR | FA | offensive_activity |
+| Malik Willis | QB | W | offensive_activity |
+| Dylan Sampson | RB | W | offensive_activity |
+| Bo Nix | QB | W | offensive_activity |
+| Jaylen Wright | RB | W | offensive_activity |
+| Jordan James | RB | W | offensive_activity |
+| Devin Singletary | RB | W | offensive_activity |
+| Khalil Herbert | RB | W | offensive_activity |
+| Kaelon Black | RB | W | offensive_activity |
+| Elijah Mitchell | RB | W | offensive_activity |
+| Isaiah Davis | RB | W | offensive_activity |
+| Marvin Mims Jr. | WR | W | offensive_activity |
+| Kyle Juszczyk | RB | W | offensive_activity |
+| Trevor Etienne | RB | W | offensive_activity |
+| Malachi Fields | WR | W | offensive_activity |
+| Michael Carter | RB | W | offensive_activity |
+| Connor Heyward | RB | W | offensive_activity |
+| Tez Johnson | WR | W | offensive_activity |
+| Barion Brown | WR | W | offensive_activity |
+| Jacob Cowing | WR | W | offensive_activity |
+| Xavier Hutchinson | WR | W | offensive_activity |
+| Mike Washington Jr. | RB | W | offensive_activity |
+| LaJohntay Wester | WR | W | offensive_activity |
+| Deshaun Watson | QB | W | offensive_activity |
+| Dohnte Meyers | WR | W | offensive_activity |
+| Jalen Brooks | WR | W | offensive_activity |
+| Elic Ayomanor | WR | W | offensive_activity |
+| Max Bredeson | RB | W | offensive_activity |
+| Tank Dell | WR | W | offensive_activity |
+| Greg Dulcich | TE | W | offensive_activity |
+| Jordan Watkins | WR | W | offensive_activity |
+| Mason Taylor | TE | W | offensive_activity |
+| Geno Smith | QB | W | offensive_activity |
+| Jauan Jennings | WR | W | offensive_activity |
+| Rashod Bateman | WR | W | offensive_activity |
+| Hollywood Brown | WR | W | offensive_activity |
 
 Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.
 
@@ -120,126 +112,121 @@ Ranked by verified offensive opportunity trends where available. These are not a
 
 | Priority | Target | Position | Current FA/W | Potential drop to investigate | NFL opportunity |
 |---:|---|---|---|---|---|
-| 1 | Bam Knight | RB | FA | Jaylen Wright | MATCHED |
-| 2 | Jaleel McLaughlin | RB | FA | Jaylen Wright | MATCHED |
-| 3 | Pierre Strong Jr. | RB | FA | Jaylen Wright | MATCHED |
-| 4 | Michael Mayer | TE | FA | Jaylen Wright | MATCHED |
-| 5 | Roschon Johnson | RB | FA | Jaylen Wright | MATCHED |
-| 6 | Cooper Kupp | WR | FA | Jaylen Wright | MATCHED |
-| 7 | Tyrone Tracy Jr. | RB | FA | Jaylen Wright | MATCHED |
-| 8 | Isaiah Davis | RB | FA | Tre' Harris | MATCHED |
-| 9 | DeMario Douglas | WR | FA | Jaylen Wright | MATCHED |
-| 10 | Devin Singletary | RB | FA | Tre' Harris | MATCHED |
+| 1 | Jacob Cowing | WR | W | Tre' Harris | MATCHED |
+| 2 | Davis Allen | TE | W | Tre' Harris | MATCHED |
+| 3 | Rashod Bateman | WR | W | Tre' Harris | MATCHED |
+| 4 | Xavier Hutchinson | WR | W | Tre' Harris | MATCHED |
+| 5 | Jalen Brooks | WR | W | Tre' Harris | MATCHED |
+| 6 | AJ Barner | TE | W | Tre' Harris | MATCHED |
+| 7 | Devin Singletary | RB | W | Tre' Harris | MATCHED |
+| 8 | Isaiah Davis | RB | W | Tre' Harris | MATCHED |
+| 9 | Michael Carter | RB | W | Tre' Harris | MATCHED |
+| 10 | John Metchie III | WR | W | Tre' Harris | MATCHED |
 
 Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
 
 ## ADD/DROP research comparisons (not approved moves)
-- Verified snapshot FAAB: 30. 197 candidate comparisons awaiting NFL-role and trade-value research.
+- Verified snapshot FAAB: 30. 204 candidate comparisons awaiting NFL-role and trade-value research.
 
 | Add candidate | Yahoo status | Potential drop | Recent scoring difference |
 |---|---|---|---:|
-| Tyrone Tracy Jr. | FA | Jaylen Wright | 8.6 |
-| Tyrone Tracy Jr. | FA | Samaje Perine | 4.2 |
-| DeMario Douglas | FA | Tre' Harris | 17.0 |
-| Bam Knight | FA | Jaylen Wright | 2.2 |
-| Pierre Strong Jr. | FA | Jaylen Wright | 3.1 |
-| Tyler Goodson | FA | Jaylen Wright | 0.3 |
-| Roschon Johnson | FA | Jaylen Wright | 11.0 |
-| Roschon Johnson | FA | Samaje Perine | 6.5 |
-| Jaleel McLaughlin | FA | Jaylen Wright | 1.0 |
-| Deion Burks | FA | Tre' Harris | 0.9 |
-| Jahan Dotson | FA | Tre' Harris | 15.6 |
-| Ray Davis | FA | Jaylen Wright | 8.0 |
-| Ray Davis | FA | Samaje Perine | 3.5 |
-| Kimani Vidal | W | Jaylen Wright | 16.4 |
-| Kimani Vidal | W | Samaje Perine | 11.9 |
-| Michael Mayer | FA | Dalton Schultz | 14.8 |
-| Jerry Jeudy | FA | Tre' Harris | 7.5 |
-| Dylan Laube | FA | Jaylen Wright | 4.4 |
-| Justice Hill | FA | Jaylen Wright | 4.9 |
-| Justice Hill | FA | Samaje Perine | 0.5 |
+| Marvin Mims Jr. | W | Tre' Harris | 14.2 |
+| Marvin Mims Jr. | W | Dontayvion Wicks | 4.4 |
+| Malachi Fields | W | Tre' Harris | 12.7 |
+| Malachi Fields | W | Dontayvion Wicks | 3.0 |
+| Tez Johnson | W | Tre' Harris | 15.2 |
+| Tez Johnson | W | Dontayvion Wicks | 5.5 |
+| Barion Brown | W | Tre' Harris | 18.0 |
+| Barion Brown | W | Dontayvion Wicks | 8.3 |
+| Jacob Cowing | W | Tre' Harris | 6.6 |
+| Xavier Hutchinson | W | Tre' Harris | 18.1 |
+| Xavier Hutchinson | W | Dontayvion Wicks | 8.3 |
+| LaJohntay Wester | W | Tre' Harris | 9.4 |
+| Dohnte Meyers | W | Tre' Harris | 10.8 |
+| Dohnte Meyers | W | Dontayvion Wicks | 1.0 |
+| Jalen Brooks | W | Tre' Harris | 13.6 |
+| Jalen Brooks | W | Dontayvion Wicks | 3.9 |
+| Elic Ayomanor | W | Tre' Harris | 6.2 |
+| Tank Dell | W | Tre' Harris | 3.1 |
+| Greg Dulcich | W | Dalton Schultz | 3.3 |
+| Greg Dulcich | W | Sam LaPorta | 2.8 |
 
 ## Verified NFL opportunity metrics (where Yahoo IDs match)
 These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.
 
 | Player | Targets | Carries | Receptions | Target change | Carry change | Evidence |
 |---|---:|---:|---:|---:|---:|---|
-| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
-| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
-| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
-| Tyrone Tracy Jr. | 3.0 | 6.0 | 2.0 | 0.0 | 3.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| DeMario Douglas | 8.0 | 0.0 | 7.0 | 3.0 | 0.0 | nflverse Week 6 |
-| Geno Smith | 0.0 | 2.0 | 0.0 | 0.0 | -3.0 | nflverse Week 6 |
-| Geno Smith | 0.0 | 2.0 | 0.0 | 0.0 | -3.0 | nflverse Week 6 |
-| Geno Smith | 0.0 | 2.0 | 0.0 | 0.0 | -3.0 | nflverse Week 6 |
-| Geno Smith | 0.0 | 2.0 | 0.0 | 0.0 | -3.0 | nflverse Week 6 |
-| Jameis Winston | 0.0 | 3.0 | 0.0 | 0.0 | -2.0 | nflverse Week 6 |
-| Jameis Winston | 0.0 | 3.0 | 0.0 | 0.0 | -2.0 | nflverse Week 6 |
-| Jameis Winston | 0.0 | 3.0 | 0.0 | 0.0 | -2.0 | nflverse Week 6 |
-| Jameis Winston | 0.0 | 3.0 | 0.0 | 0.0 | -2.0 | nflverse Week 6 |
-| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
-| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
-| Bam Knight | 2.0 | 15.0 | 2.0 | 2.0 | 14.0 | nflverse Week 6 |
-| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
-| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
-| Pierre Strong Jr. | 6.0 | 11.0 | 5.0 | 2.0 | 6.0 | nflverse Week 6 |
-| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
-| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
-| Tyler Goodson | 3.0 | 2.0 | 1.0 | 2.0 | -1.0 | nflverse Week 6 |
+| Malik Willis | 0.0 | 8.0 | 0.0 | 0.0 | 0.0 | nflverse Week 7 |
+| Malik Willis | 0.0 | 8.0 | 0.0 | 0.0 | 0.0 | nflverse Week 7 |
+| Malik Willis | 0.0 | 8.0 | 0.0 | 0.0 | 0.0 | nflverse Week 7 |
+| Malik Willis | 0.0 | 8.0 | 0.0 | 0.0 | 0.0 | nflverse Week 7 |
+| Bo Nix | 0.0 | 7.0 | 0.0 | 0.0 | 3.0 | nflverse Week 7 |
+| Bo Nix | 0.0 | 7.0 | 0.0 | 0.0 | 3.0 | nflverse Week 7 |
+| Bo Nix | 0.0 | 7.0 | 0.0 | 0.0 | 3.0 | nflverse Week 7 |
+| Bo Nix | 0.0 | 7.0 | 0.0 | 0.0 | 3.0 | nflverse Week 7 |
+| Jaylen Wright | 1.0 | 6.0 | 0.0 | 1.0 | 0.0 | nflverse Week 7 |
+| Jaylen Wright | 1.0 | 6.0 | 0.0 | 1.0 | 0.0 | nflverse Week 7 |
+| Jaylen Wright | 1.0 | 6.0 | 0.0 | 1.0 | 0.0 | nflverse Week 7 |
+| Jaylen Wright | 1.0 | 6.0 | 0.0 | 1.0 | 0.0 | nflverse Week 7 |
+| Devin Singletary | 3.0 | 5.0 | 3.0 | 2.0 | 1.0 | nflverse Week 7 |
+| Devin Singletary | 3.0 | 5.0 | 3.0 | 2.0 | 1.0 | nflverse Week 7 |
+| Devin Singletary | 3.0 | 5.0 | 3.0 | 2.0 | 1.0 | nflverse Week 7 |
+| Devin Singletary | 3.0 | 5.0 | 3.0 | 2.0 | 1.0 | nflverse Week 7 |
+| Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
+| Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
+| Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
+| Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
+| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
+| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
+| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
+| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
+| Marvin Mims Jr. | 2.0 | 1.0 | 2.0 | -2.0 | 1.0 | nflverse Week 7 |
 
 ## Verified NFL snap participation
 Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.
 
 | Player | Offensive snaps | Snap share | Change vs prior week (pp) |
 |---|---:|---:|---:|
-| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
-| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
-| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
-| Tyrone Tracy Jr. | 29 | 38.0% | 19.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| DeMario Douglas | 40 | 59.0% | 10.0 |
-| Geno Smith | 62 | 100.0% | 0.0 |
-| Geno Smith | 62 | 100.0% | 0.0 |
-| Geno Smith | 62 | 100.0% | 0.0 |
-| Geno Smith | 62 | 100.0% | 0.0 |
-| Jameis Winston | 46 | 60.0% | -34.0 |
-| Jameis Winston | 46 | 60.0% | -34.0 |
-| Jameis Winston | 46 | 60.0% | -34.0 |
-| Jameis Winston | 46 | 60.0% | -34.0 |
-| Bam Knight | 32 | 44.0% | 36.0 |
-| Bam Knight | 32 | 44.0% | 36.0 |
-| Bam Knight | 32 | 44.0% | 36.0 |
-| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
-| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
-| Pierre Strong Jr. | 41 | 55.0% | 14.0 |
-| Tyler Goodson | 11 | 14.0% | 9.0 |
-| Tyler Goodson | 11 | 14.0% | 9.0 |
-| Tyler Goodson | 11 | 14.0% | 9.0 |
+| Malik Willis | 65 | 100.0% | 0.0 |
+| Malik Willis | 65 | 100.0% | 0.0 |
+| Malik Willis | 65 | 100.0% | 0.0 |
+| Malik Willis | 65 | 100.0% | 0.0 |
+| Bo Nix | 61 | 100.0% | 0.0 |
+| Bo Nix | 61 | 100.0% | 0.0 |
+| Bo Nix | 61 | 100.0% | 0.0 |
+| Bo Nix | 61 | 100.0% | 0.0 |
+| Jaylen Wright | 8 | 12.0% | -2.0 |
+| Jaylen Wright | 8 | 12.0% | -2.0 |
+| Jaylen Wright | 8 | 12.0% | -2.0 |
+| Jaylen Wright | 8 | 12.0% | -2.0 |
+| Devin Singletary | 19 | 29.0% | -11.0 |
+| Devin Singletary | 19 | 29.0% | -11.0 |
+| Devin Singletary | 19 | 29.0% | -11.0 |
+| Devin Singletary | 19 | 29.0% | -11.0 |
+| Khalil Herbert | 11 | 16.0% | N/A |
+| Khalil Herbert | 11 | 16.0% | N/A |
+| Khalil Herbert | 11 | 16.0% | N/A |
+| Khalil Herbert | 11 | 16.0% | N/A |
+| Isaiah Davis | 13 | 22.0% | 9.0 |
+| Isaiah Davis | 13 | 22.0% | 9.0 |
+| Isaiah Davis | 13 | 22.0% | 9.0 |
+| Isaiah Davis | 13 | 22.0% | 9.0 |
+| Marvin Mims Jr. | 16 | 26.0% | -1.0 |
 
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
 ## Current sourced NFL headline research
-- News feed: available; 13 matched player headlines in the latest four-day window.
+- News feed: available; 8 matched player headlines in the latest four-day window.
 - Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
 
-- 2026-10-21T00:46:53+00:00 — CBS NFL: [Eagles will not be punished for how team handled Jalen Hurts' blood clots situation, NFLPA responds](https://www.cbssports.com/nfl/news/eagles-will-not-be-punished-jalen-hurts-blood-clots-situation/)
-- 2026-10-20T19:26:55+00:00 — CBS NFL: [Commanders' Terry McLaurin out for the season after knee injury on 'MNF'](https://www.cbssports.com/nfl/news/commanders-terry-mclaurin-knee-injury-monday-night-football/)
-- 2026-10-20T18:39:24+00:00 — CBS NFL: [Mr. Irrelevant to Mr. Efficient: How Brock Purdy became NFL's all-time passer rating king](https://www.cbssports.com/nfl/news/mr-irrelevant-to-mr-efficient-brock-purdy-nfls-all-time-passer-rating/)
-- 2026-10-20T18:22:19+00:00 — CBS NFL: [Jalen Hurts blood clot diagnosis timeline: Where the situation started, how it developed and what now](https://www.cbssports.com/nfl/news/jalen-hurts-blood-clot-timeline-what-to-know/)
-- 2026-10-20T18:21:20+00:00 — CBS NFL: [Rams QB Matthew Stafford on verge of tying NFL record for most losses ever by a quarterback](https://www.cbssports.com/nfl/news/rams-matthew-stafford-verge-tying-nfl-record-most-qb-losses/)
-- 2026-10-20T17:47:36+00:00 — CBS NFL: [Jim Nantz says viral 'Peanut Punch' sparked calls from Josh Allen and a former U.S. President](https://www.cbssports.com/nfl/news/jim-nantz-viral-peanut-punch-sparked-calls-josh-allen-u-s-president/)
-- 2026-10-20T15:30:59+00:00 — CBS NFL: [Giants release Najee Harris days after criticizing New York's running back rotation](https://www.cbssports.com/nfl/news/giants-release-najee-harris-critical-of-coaching/)
-- 2026-10-20T15:12:21+00:00 — CBS NFL: [Mike Evans injury update: WR avoids long-term injury, but how will 49ers fare if he misses time?](https://www.cbssports.com/nfl/news/mike-evans-injury-update-achilles-49ers/)
-- 2026-10-20T12:39:16+00:00 — CBS NFL: [NFL trade deadline: Saquon Barkley to Seahawks among 10 moves that need to happen](https://www.cbssports.com/nfl/news/nfl-trade-deadline-10-moves-saquon-barkley-seahawks/)
-- 2026-10-20T10:01:01+00:00 — CBS NFL: [Jalen Hurts blood clots: Biggest unanswered questions for Eagles about star QB's health](https://www.cbssports.com/nfl/news/biggest-unanswered-questions-eagles-jalen-hurts/)
-- 2026-10-20T02:16:13+00:00 — CBS NFL: [49ers' Mike Evans ruled out with Achilles injury after leaving game late in first half](https://www.cbssports.com/nfl/news/is-mike-evans-playing-monday-night-football/)
-- 2026-10-19T22:49:40+00:00 — CBS NFL: [Is Stefon Diggs playing Monday night? A look at the Commanders WR's status vs. 49ers on 'MNF'](https://www.cbssports.com/nfl/news/is-stefon-diggs-playing-tonight-injury-update-commanders-vs-49ers/)
-- 2026-10-19T21:33:41+00:00 — CBS NFL: [From bad to worse for Rams: Davante Adams to miss 6-10 weeks with ruptured hamstring](https://www.cbssports.com/nfl/news/rams-davante-adams-to-miss-6-10-weeks-ruptured-hamstring/)
+- 2026-10-26T22:46:21+00:00 — CBS NFL: [Will Saquon Barkley play vs. Cowboys? A look at the Eagles RB's status against Cowboys](https://www.cbssports.com/nfl/news/saquon-barkley-injury-update-eagles-cowboys/)
+- 2026-10-26T19:07:59+00:00 — CBS NFL: [NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR](https://www.cbssports.com/nfl/news/nfl-trade-deadline-matchmaker-vikings-jonathan-taylor-chiefs/)
+- 2026-10-26T18:05:46+00:00 — CBS NFL: [Garrett Wilson trade destinations: Chiefs, 49ers among three potential landing spots for Jets star](https://www.cbssports.com/nfl/news/jets-garrett-wilson-trade-landing-spots-chiefs-49ers/)
+- 2026-10-26T16:26:33+00:00 — CBS NFL: [Garrett Wilson explains heated Jets sideline moment, says frustration wasn't directed at Geno Smith](https://www.cbssports.com/nfl/news/garrett-wilson-geno-smith-heated-jets-sideline-exchange/)
+- 2026-10-26T15:58:30+00:00 — CBS NFL: [Colts' Shane Steichen has 'not thought' about QB change despite Daniel Jones' struggles](https://www.cbssports.com/nfl/news/colts-bench-daniel-jones-shane-steichen-quarterback/)
+- 2026-10-26T13:37:30+00:00 — CBS NFL: [Cover 32: There is a very clear Jonathan Taylor trade destination, plus game balls, biggest gaffes from Week 7](https://www.cbssports.com/nfl/news/nfl-week-7-analysis-why-bengals-trade-colts-jonathan-taylor/)
+- 2026-10-26T03:40:02+00:00 — CBS NFL: [Cam Skattebo says he's going to keep breaking NFL rules after getting flagged for rarely enforced penalty](https://www.cbssports.com/nfl/news/cam-skattebo-rare-penalty-giants-texans-2026/)
+- 2026-10-26T00:01:42+00:00 — CBS NFL: [NFL Week 7 winners and losers: Cam Skattebo, J.J. McCarthy lift Giants; Aaron Glenn's seat heats up](https://www.cbssports.com/nfl/news/nfl-week-7-winners-losers-cam-skattebo-j-j-mccarthy-giants-aaron-glenn/)
 
 ## Actual Chasing the Shiva FAAB market
 - Verified snapshot remaining FAAB: 30. Historical winning bids: 31.
@@ -255,20 +242,23 @@ No FAAB bids are generated without external NFL research and a defensible improv
 Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
 
 ## Injury and early-return news research
-- Injury return feed: verified; 1 players matched to dated injury/return headlines.
+- Injury return feed: verified; 0 players matched to dated injury/return headlines.
 
 | Player | Injury status | Yahoo status | News research headline |
 |---|---|---|---|
-| Mike Evans | Q | rostered | Mike Evans injury update: WR avoids long-term injury, but how will 49ers fare if he misses time? |
 
 No inferred activation date or pickup recommendation without reading the attributed article, verifying team status, workload and exact Yahoo FA/W designation.
 
 ## Strong-manager acquisition scouting — research leads only
-- John Fitzgerald and Dom acquisitions: current Yahoo snapshot verified; 30 recorded signals.
+- John Fitzgerald and Dom acquisitions: current Yahoo snapshot verified; 34 recorded signals.
 - Acquisitions by respected managers are NOT independent evidence of projected production; evaluate their success using future snaps, fantasy points, role persistence and acquisition cost, not anecdotal hindsight.
 
 | Manager | Acquired | Position | FAAB | Acquisition time | Research decision |
 |---|---|---|---:|---|---|
+| Dom | Christian Kirk | WR | unknown | 2026-10-25T10:43:33.000Z | Verify injury return, offensive role, depth chart and trade upside |
+| Dom | Seth McGowan | RB | unknown | 2026-10-23T01:28:12.000Z | Verify injury return, offensive role, depth chart and trade upside |
+| Dom | DeMario Douglas | WR | unknown | 2026-10-21T11:48:01.000Z | Verify injury return, offensive role, depth chart and trade upside |
+| Dom | Ja'Kobi Lane | WR | unknown | 2026-10-21T11:07:49.000Z | Verify injury return, offensive role, depth chart and trade upside |
 | Dom | Travis Hunter | WR | 0 | 2026-10-21T08:04:29.000Z | Verify injury return, offensive role, depth chart and trade upside |
 | John Fitzgerald | Omar Cooper Jr. | WR | 40 | 2026-10-21T08:04:29.000Z | Verify injury return, offensive role, depth chart and trade upside |
 | John Fitzgerald | Antonio Williams | WR | unknown | 2026-10-19T19:56:32.000Z | Verify injury return, offensive role, depth chart and trade upside |
@@ -285,10 +275,6 @@ No inferred activation date or pickup recommendation without reading the attribu
 | John Fitzgerald | Dohnte Meyers | WR | 30 | 2026-10-07T07:58:44.000Z | Verify injury return, offensive role, depth chart and trade upside |
 | Dom | Keon Coleman | WR | 31 | 2026-10-07T07:58:44.000Z | Verify injury return, offensive role, depth chart and trade upside |
 | John Fitzgerald | Darren Waller | TE | unknown | 2026-10-04T16:49:06.000Z | Verify injury return, offensive role, depth chart and trade upside |
-| Dom | Emanuel Wilson | RB | unknown | 2026-10-03T21:04:15.000Z | Verify injury return, offensive role, depth chart and trade upside |
-| Dom | Tyreek Hill | WR | unknown | 2026-10-01T10:11:38.000Z | Verify injury return, offensive role, depth chart and trade upside |
-| Dom | Roman Wilson | WR | unknown | 2026-09-30T11:25:19.000Z | Verify injury return, offensive role, depth chart and trade upside |
-| Dom | Tyler Higbee | TE | 11 | 2026-09-30T07:59:56.000Z | Verify injury return, offensive role, depth chart and trade upside |
 
 Study historic manager moves cautiously; the history archive may lack accurate player-level attribution and failed bids. Distinguish retrospective results from advance signals.
 

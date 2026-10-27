@@ -1,281 +1,74 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-25T16:49:49.075Z",
+  "generated_at": "2026-10-27T12:19:00.297Z",
   "league_id": "721343",
-  "season_week": 7,
-  "roster_source_at": "2026-10-25T16:19:52.897Z",
-  "availability_source_at": "2026-10-25T16:19:52.897Z",
+  "season_week": 8,
+  "roster_source_at": "2026-10-27T11:02:11.805Z",
+  "availability_source_at": "2026-10-27T11:02:11.805Z",
   "source_fresh": true,
-  "starter_warnings": [],
+  "starter_warnings": [
+    {
+      "name": "Chris Olave",
+      "status": null,
+      "slot": "WR",
+      "bye": true,
+      "severity": "REVIEW",
+      "internal_options": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "Q"
+        }
+      ]
+    },
+    {
+      "name": "Kendre Miller",
+      "status": null,
+      "slot": "W/R/T",
+      "bye": true,
+      "severity": "REVIEW",
+      "internal_options": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "Q"
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "status": null
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "status": null
+        }
+      ]
+    }
+  ],
   "verified_available_qb_options": [
     {
-      "name": "Deshaun Watson",
-      "player_id": "30125",
-      "status": "FA",
+      "name": "Bryce Young",
+      "player_id": "40029",
+      "status": "W",
       "injury_status": null
     },
     {
       "name": "Geno Smith",
       "player_id": "26662",
-      "status": "FA",
+      "status": "W",
       "injury_status": null
     },
     {
-      "name": "Justin Herbert",
-      "player_id": "32676",
-      "status": "FA",
+      "name": "Deshaun Watson",
+      "player_id": "30125",
+      "status": "W",
       "injury_status": null
     },
     {
       "name": "Bo Nix",
       "player_id": "40875",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Cam Ward",
-      "player_id": "41786",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jameis Winston",
-      "player_id": "28389",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Malik Willis",
-      "player_id": "34042",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Michael Penix Jr.",
-      "player_id": "40889",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jalon Daniels",
-      "player_id": "42919",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Baker Mayfield",
-      "player_id": "30971",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Tyler Huntley",
-      "player_id": "32993",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Carson Wentz",
-      "player_id": "29236",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "J.J. McCarthy",
-      "player_id": "40905",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Tanner McKee",
-      "player_id": "40220",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Athan Kaliakmanis",
-      "player_id": "42845",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Fernando Mendoza",
-      "player_id": "42623",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Stetson Bennett IV",
-      "player_id": "40153",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kenny Pickett",
-      "player_id": "33975",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Tua Tagovailoa",
-      "player_id": "32675",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Shedeur Sanders",
-      "player_id": "41930",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joe Milton",
-      "player_id": "41060",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kyle Allen",
-      "player_id": "31301",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joe Flacco",
-      "player_id": "8795",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Justin Fields",
-      "player_id": "33399",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Davis Mills",
-      "player_id": "33455",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Sam Ehlinger",
-      "player_id": "33606",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jalen Milroe",
-      "player_id": "41882",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kyle McCord",
-      "player_id": "41971",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Quinn Ewers",
-      "player_id": "42037",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "DJ Uiagalelei",
-      "player_id": "42079",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Anthony Richardson Sr.",
-      "player_id": "40040",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Aidan O'Connell",
-      "player_id": "40138",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jarrett Stidham",
-      "player_id": "31965",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Gardner Minshew II",
-      "player_id": "32010",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Sam Howell",
-      "player_id": "34100",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Mitchell Trubisky",
-      "player_id": "30115",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joshua Dobbs",
-      "player_id": "30248",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Ty Simpson",
-      "player_id": "42635",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Cade Klubnik",
-      "player_id": "42732",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Cole Payton",
-      "player_id": "42801",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Garrett Nussmeier",
-      "player_id": "42871",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joe Fagnano",
-      "player_id": "43003",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Tyrod Taylor",
-      "player_id": "24967",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Mac Jones",
-      "player_id": "33403",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Bryce Young",
-      "player_id": "40029",
       "status": "W",
       "injury_status": null
     },
@@ -286,14 +79,128 @@
       "injury_status": null
     },
     {
+      "name": "Cam Ward",
+      "player_id": "41786",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Malik Willis",
+      "player_id": "34042",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Justin Herbert",
+      "player_id": "32676",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "player_id": "40889",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jameis Winston",
+      "player_id": "28389",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tyler Huntley",
+      "player_id": "32993",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Baker Mayfield",
+      "player_id": "30971",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jalon Daniels",
+      "player_id": "42919",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "J.J. McCarthy",
+      "player_id": "40905",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tanner McKee",
+      "player_id": "40220",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Case Keenum",
+      "player_id": "26483",
+      "status": "W",
+      "injury_status": null
+    },
+    {
       "name": "Tyson Bagent",
       "player_id": "40504",
       "status": "W",
       "injury_status": null
     },
     {
+      "name": "Carson Wentz",
+      "player_id": "29236",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Athan Kaliakmanis",
+      "player_id": "42845",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kenny Pickett",
+      "player_id": "33975",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Fernando Mendoza",
+      "player_id": "42623",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jack Strand",
+      "player_id": "42898",
+      "status": "W",
+      "injury_status": null
+    },
+    {
       "name": "Tommy DeVito",
       "player_id": "40533",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Stetson Bennett IV",
+      "player_id": "40153",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "player_id": "32675",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Shedeur Sanders",
+      "player_id": "41930",
       "status": "W",
       "injury_status": null
     },
@@ -308,11 +215,222 @@
       "player_id": "41043",
       "status": "W",
       "injury_status": null
+    },
+    {
+      "name": "Joe Milton",
+      "player_id": "41060",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kyle Allen",
+      "player_id": "31301",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joe Flacco",
+      "player_id": "8795",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Zach Wilson",
+      "player_id": "33390",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Justin Fields",
+      "player_id": "33399",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Davis Mills",
+      "player_id": "33455",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Sam Ehlinger",
+      "player_id": "33606",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Dillon Gabriel",
+      "player_id": "41861",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jalen Milroe",
+      "player_id": "41882",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Riley Leonard",
+      "player_id": "41968",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kyle McCord",
+      "player_id": "41971",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Will Howard",
+      "player_id": "41989",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kurtis Rourke",
+      "player_id": "42009",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Quinn Ewers",
+      "player_id": "42037",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Max Brosmer",
+      "player_id": "42075",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "DJ Uiagalelei",
+      "player_id": "42079",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Anthony Richardson Sr.",
+      "player_id": "40040",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Aidan O'Connell",
+      "player_id": "40138",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jake Haener",
+      "player_id": "40144",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jarrett Stidham",
+      "player_id": "31965",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Gardner Minshew II",
+      "player_id": "32010",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Sam Howell",
+      "player_id": "34100",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Mitchell Trubisky",
+      "player_id": "30115",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joshua Dobbs",
+      "player_id": "30248",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Ty Simpson",
+      "player_id": "42635",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Drew Allar",
+      "player_id": "42698",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Cade Klubnik",
+      "player_id": "42732",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Taylen Green",
+      "player_id": "42804",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Behren Morton",
+      "player_id": "42856",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Garrett Nussmeier",
+      "player_id": "42871",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Haynes King",
+      "player_id": "42904",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joe Fagnano",
+      "player_id": "43003",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tyrod Taylor",
+      "player_id": "24967",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Mac Jones",
+      "player_id": "33403",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Andy Dalton",
+      "player_id": "24822",
+      "status": "W",
+      "injury_status": null
     }
   ],
   "preferred_short_term_qb_research": null,
   "priority_actions": [
-    "No unavailable starters detected in this snapshot; verify injuries and status before kickoff.",
+    "REVIEW Chris Olave (WR; BYE): Tre' Harris. Confirm official status and lineup eligibility before lock.",
+    "REVIEW Kendre Miller (W/R/T; BYE): Tre' Harris, Rachaad White, Samaje Perine. Confirm official status and lineup eligibility before lock.",
     "Avoid meaningful FAAB spending solely to rescue a short-term matchup unless the pickup improves the roster beyond this week."
   ],
   "trade_or_waiver_orders_placed": 0,

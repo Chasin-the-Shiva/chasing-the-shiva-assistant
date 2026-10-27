@@ -1,14 +1,55 @@
 {
   "schema": "shivagpt-legal-lineup-options-v1",
   "read_only": true,
-  "generated_at": "2026-10-21T12:53:33.003Z",
+  "generated_at": "2026-10-27T12:19:00.261Z",
   "league_id": "721343",
-  "week": 7,
-  "yahoo_snapshot_at": "2026-10-21T10:37:26.887Z",
+  "week": 8,
+  "yahoo_snapshot_at": "2026-10-27T11:02:11.805Z",
   "starter_count": 10,
-  "bench_eligible_count": 4,
-  "unavailable_starters": 0,
-  "remedies": [],
+  "bench_eligible_count": 3,
+  "unavailable_starters": 2,
+  "remedies": [
+    {
+      "starter": "Chris Olave",
+      "slot": "WR",
+      "status": null,
+      "bye": true,
+      "internal_options": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "Q"
+        }
+      ],
+      "external_research": [],
+      "action": "REVIEW_ONLY"
+    },
+    {
+      "starter": "Kendre Miller",
+      "slot": "W/R/T",
+      "status": null,
+      "bye": true,
+      "internal_options": [
+        {
+          "name": "Tre' Harris",
+          "position": "WR",
+          "status": "Q"
+        },
+        {
+          "name": "Rachaad White",
+          "position": "RB",
+          "status": null
+        },
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "status": null
+        }
+      ],
+      "external_research": [],
+      "action": "REVIEW_ONLY"
+    }
+  ],
   "automatic_lineup_changes": [],
   "complete_optimal_lineup": null,
   "missing_inputs": [

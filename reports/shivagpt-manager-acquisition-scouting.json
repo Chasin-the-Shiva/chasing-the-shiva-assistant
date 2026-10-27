@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-manager-acquisition-scouting-v1",
   "read_only": true,
-  "generated_at": "2026-10-21T12:53:33.095Z",
+  "generated_at": "2026-10-27T12:19:00.381Z",
   "source_timestamps": {
-    "live": "2026-10-21T10:37:26.887Z",
-    "available": "2026-10-21T10:37:26.887Z",
+    "live": "2026-10-27T11:02:11.805Z",
+    "available": "2026-10-27T11:02:11.805Z",
     "manager_history": "2026-09-17T18:20:35.020Z"
   },
   "watched_managers": [
@@ -42,6 +42,98 @@
       "manager_id": "manager_dom",
       "manager_label": "Dom",
       "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "154",
+      "transaction_timestamp": "2026-10-25T10:43:33.000Z",
+      "player_id": "31017",
+      "player_name": "Christian Kirk",
+      "position": "WR",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "147",
+      "transaction_timestamp": "2026-10-23T01:28:12.000Z",
+      "player_id": "42859",
+      "player_name": "Seth McGowan",
+      "position": "RB",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "141",
+      "transaction_timestamp": "2026-10-21T11:48:01.000Z",
+      "player_id": "40222",
+      "player_name": "DeMario Douglas",
+      "position": "WR",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "139",
+      "transaction_timestamp": "2026-10-21T11:07:49.000Z",
+      "player_id": "42702",
+      "player_name": "Ja'Kobi Lane",
+      "position": "WR",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
       "transaction_id": "137",
       "transaction_timestamp": "2026-10-21T08:04:29.000Z",
       "player_id": "99001",
@@ -49,7 +141,7 @@
       "position": "WR",
       "faab_bid": 0,
       "acquisition_source": "waivers",
-      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -118,7 +210,7 @@
       "position": "RB",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -141,7 +233,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -279,7 +371,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -302,7 +394,7 @@
       "position": "DEF",
       "faab_bid": 0,
       "acquisition_source": "waivers",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -325,7 +417,7 @@
       "position": "RB",
       "faab_bid": 7,
       "acquisition_source": "waivers",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -348,7 +440,7 @@
       "position": "WR",
       "faab_bid": 30,
       "acquisition_source": "waivers",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -371,7 +463,7 @@
       "position": "WR",
       "faab_bid": 31,
       "acquisition_source": "waivers",
-      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -440,7 +532,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -463,7 +555,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -509,7 +601,7 @@
       "position": "TE",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -532,7 +624,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -555,7 +647,7 @@
       "position": "TE",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -601,7 +693,7 @@
       "position": "TE",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -624,7 +716,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -647,7 +739,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "FA",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -670,7 +762,7 @@
       "position": "TE",
       "faab_bid": 1,
       "acquisition_source": "waivers",
-      "current_availability": "FA",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -716,7 +808,7 @@
       "position": "WR",
       "faab_bid": 15,
       "acquisition_source": "waivers",
-      "current_availability": "FA",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",

@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-25T16:48:05.963Z",
-  "source_at": "2026-10-25T16:19:52.897Z",
+  "generated_at": "2026-10-27T12:19:00.211Z",
+  "source_at": "2026-10-27T11:02:11.805Z",
   "league_id": "721343",
-  "lineup_week": 7,
+  "lineup_week": 8,
   "verified_roster_count": 17,
   "selected_starters": [
     {
@@ -114,9 +114,9 @@
       "name": "Tyrone Tracy Jr.",
       "position": "RB",
       "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Hamstring",
       "bye_week": "8"
     },
     {
@@ -188,7 +188,28 @@
     "W/R/T": 2,
     "DEF": 1
   },
-  "starter_warnings": [],
+  "starter_warnings": [
+    {
+      "id": "33966",
+      "name": "Chris Olave",
+      "position": "WR",
+      "selected_position": "WR",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
+    {
+      "id": "40108",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    }
+  ],
   "recommended_lineup_changes": [],
   "limits": [
     "Injury flag is not a confirmed game designation until Yahoo is refreshed and official NFL status checked",
