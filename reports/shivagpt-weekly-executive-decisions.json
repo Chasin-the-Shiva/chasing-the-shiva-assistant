@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T12:19:00.144Z",
+  "generated_at": "2026-10-27T16:17:53.299Z",
   "league_id": "721343",
-  "verified_inputs_fresh": false,
+  "verified_inputs_fresh": true,
   "remaining_faab": 30,
   "decision": "HOLD_FAAB_NO_MOVE",
   "automatic_transactions_enabled": false,
@@ -21,8 +21,7 @@
       "blocked_reasons": [
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -46,8 +45,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -55,6 +53,30 @@
       "pricing_reference": {
         "winning_bid_median": 1,
         "winning_bid_p75": 11
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Hollywood Brown",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Tre' Harris",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 15,
+        "winning_bid_p75": 20
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -71,8 +93,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -95,8 +116,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -119,8 +139,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -143,8 +162,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -167,8 +185,7 @@
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -192,8 +209,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -217,8 +233,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -242,8 +257,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -267,8 +281,31 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Elijah Mitchell",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Ollie Gordon II",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -292,8 +329,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -317,8 +353,7 @@
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
+        "TRADE_VALUE_UNCONFIRMED"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -326,55 +361,6 @@
       "pricing_reference": {
         "winning_bid_median": 15,
         "winning_bid_p75": 20
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Bo Nix",
-      "position": "QB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 5,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Jacoby Brissett",
-      "blocked_reasons": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 2,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Kyle Juszczyk",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "STALE_OR_INCONSISTENT_INPUTS"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     }

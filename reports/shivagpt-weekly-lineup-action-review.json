@@ -1,52 +1,13 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T12:19:00.297Z",
+  "generated_at": "2026-10-27T16:17:53.462Z",
   "league_id": "721343",
   "season_week": 8,
-  "roster_source_at": "2026-10-27T11:02:11.805Z",
-  "availability_source_at": "2026-10-27T11:02:11.805Z",
+  "roster_source_at": "2026-10-27T13:39:09.179Z",
+  "availability_source_at": "2026-10-27T13:39:09.179Z",
   "source_fresh": true,
-  "starter_warnings": [
-    {
-      "name": "Chris Olave",
-      "status": null,
-      "slot": "WR",
-      "bye": true,
-      "severity": "REVIEW",
-      "internal_options": [
-        {
-          "name": "Tre' Harris",
-          "position": "WR",
-          "status": "Q"
-        }
-      ]
-    },
-    {
-      "name": "Kendre Miller",
-      "status": null,
-      "slot": "W/R/T",
-      "bye": true,
-      "severity": "REVIEW",
-      "internal_options": [
-        {
-          "name": "Tre' Harris",
-          "position": "WR",
-          "status": "Q"
-        },
-        {
-          "name": "Rachaad White",
-          "position": "RB",
-          "status": null
-        },
-        {
-          "name": "Samaje Perine",
-          "position": "RB",
-          "status": null
-        }
-      ]
-    }
-  ],
+  "starter_warnings": [],
   "verified_available_qb_options": [
     {
       "name": "Bryce Young",
@@ -379,6 +340,12 @@
       "injury_status": null
     },
     {
+      "name": "Cole Payton",
+      "player_id": "42801",
+      "status": "W",
+      "injury_status": null
+    },
+    {
       "name": "Taylen Green",
       "player_id": "42804",
       "status": "W",
@@ -429,8 +396,7 @@
   ],
   "preferred_short_term_qb_research": null,
   "priority_actions": [
-    "REVIEW Chris Olave (WR; BYE): Tre' Harris. Confirm official status and lineup eligibility before lock.",
-    "REVIEW Kendre Miller (W/R/T; BYE): Tre' Harris, Rachaad White, Samaje Perine. Confirm official status and lineup eligibility before lock.",
+    "No unavailable starters detected in this snapshot; verify injuries and status before kickoff.",
     "Avoid meaningful FAAB spending solely to rescue a short-term matchup unless the pickup improves the roster beyond this week."
   ],
   "trade_or_waiver_orders_placed": 0,

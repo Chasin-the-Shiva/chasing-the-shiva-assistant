@@ -1,11 +1,41 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T12:19:00.021Z",
+  "generated_at": "2026-10-27T16:17:53.169Z",
   "league_id": "721343",
   "source_ready": true,
   "remaining_faab": 30,
   "winning_bid_market": {
+    "WR": {
+      "count": 12,
+      "minimum": 0,
+      "median": 15,
+      "p75": 20,
+      "p90": 31,
+      "maximum": 40,
+      "over_20": 4,
+      "over_40": 1
+    },
+    "QB": {
+      "count": 6,
+      "minimum": 0,
+      "median": 1,
+      "p75": 15,
+      "p90": 15,
+      "maximum": 15,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "RB": {
+      "count": 10,
+      "minimum": 0,
+      "median": 7,
+      "p75": 15,
+      "p90": 31,
+      "maximum": 47,
+      "over_20": 2,
+      "over_40": 1
+    },
     "DEF": {
       "count": 5,
       "minimum": 0,
@@ -14,36 +44,6 @@
       "p90": 1,
       "maximum": 1,
       "over_20": 0,
-      "over_40": 0
-    },
-    "QB": {
-      "count": 5,
-      "minimum": 0,
-      "median": 2,
-      "p75": 15,
-      "p90": 15,
-      "maximum": 15,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "RB": {
-      "count": 9,
-      "minimum": 0,
-      "median": 7,
-      "p75": 15,
-      "p90": 47,
-      "maximum": 47,
-      "over_20": 2,
-      "over_40": 1
-    },
-    "WR": {
-      "count": 9,
-      "minimum": 5,
-      "median": 15,
-      "p75": 20,
-      "p90": 31,
-      "maximum": 31,
-      "over_20": 3,
       "over_40": 0
     },
     "TE": {
@@ -100,6 +100,30 @@
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
+        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
+        "TRADE_MARKET_UNVERIFIED"
+      ],
+      "analyst_candidate": false,
+      "recommendation": "RESEARCH_ONLY",
+      "faab_bid": null,
+      "approval_required": true
+    },
+    {
+      "player_id": "31857",
+      "name": "Hollywood Brown",
+      "position": "WR",
+      "availability": "W",
+      "potential_drop": "Tre' Harris",
+      "research_score": 38.98,
+      "recent_carries": 0,
+      "recent_targets": 5,
+      "opportunity_growth": 3,
+      "offensive_snap_pct": 0.55,
+      "role_evidence_met": false,
+      "possible_same_position_swap": true,
+      "protected_drop": false,
+      "needs_review": [
+        "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],
@@ -328,6 +352,31 @@
       "approval_required": true
     },
     {
+      "player_id": "33582",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "availability": "W",
+      "potential_drop": "Tre' Harris",
+      "research_score": 19.26,
+      "recent_carries": 3,
+      "recent_targets": 4,
+      "opportunity_growth": 0,
+      "offensive_snap_pct": 0.21,
+      "role_evidence_met": false,
+      "possible_same_position_swap": false,
+      "protected_drop": false,
+      "needs_review": [
+        "NFL_ROLE_NOT_CONFIRMED",
+        "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
+        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
+        "TRADE_MARKET_UNVERIFIED"
+      ],
+      "analyst_candidate": false,
+      "recommendation": "RESEARCH_ONLY",
+      "faab_bid": null,
+      "approval_required": true
+    },
+    {
       "player_id": "34036",
       "name": "Greg Dulcich",
       "position": "TE",
@@ -368,55 +417,6 @@
       "protected_drop": false,
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
-        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
-        "TRADE_MARKET_UNVERIFIED"
-      ],
-      "analyst_candidate": false,
-      "recommendation": "RESEARCH_ONLY",
-      "faab_bid": null,
-      "approval_required": true
-    },
-    {
-      "player_id": "40875",
-      "name": "Bo Nix",
-      "position": "QB",
-      "availability": "W",
-      "potential_drop": "Tre' Harris",
-      "research_score": 11.51,
-      "recent_carries": 7,
-      "recent_targets": 0,
-      "opportunity_growth": 3,
-      "offensive_snap_pct": 1,
-      "role_evidence_met": true,
-      "possible_same_position_swap": false,
-      "protected_drop": false,
-      "needs_review": [
-        "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
-        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
-        "TRADE_MARKET_UNVERIFIED"
-      ],
-      "analyst_candidate": false,
-      "recommendation": "RESEARCH_ONLY",
-      "faab_bid": null,
-      "approval_required": true
-    },
-    {
-      "player_id": "26753",
-      "name": "Kyle Juszczyk",
-      "position": "RB",
-      "availability": "W",
-      "potential_drop": "Tre' Harris",
-      "research_score": 8,
-      "recent_carries": 0,
-      "recent_targets": 3,
-      "opportunity_growth": 1,
-      "offensive_snap_pct": 0.48,
-      "role_evidence_met": false,
-      "possible_same_position_swap": false,
-      "protected_drop": false,
-      "needs_review": [
-        "NFL_ROLE_NOT_CONFIRMED",
-        "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],

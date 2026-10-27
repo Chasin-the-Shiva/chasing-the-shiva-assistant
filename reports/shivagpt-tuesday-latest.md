@@ -1,7 +1,7 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-10-27T12:19:00.645Z | Yahoo stats through Week 7
-League snapshot: 2026-10-27T11:02:11.805Z | Availability snapshot: 2026-10-27T11:02:11.805Z
+Generated: 2026-10-27T16:17:53.779Z | Yahoo stats through Week 7
+League snapshot: 2026-10-27T13:39:09.179Z | Availability snapshot: 2026-10-27T13:39:09.179Z
 
 ## Data coverage
 - Player-statistics entries: 1140; available entries in current snapshot: 943; other player entries: 183.
@@ -114,42 +114,42 @@ Ranked by verified offensive opportunity trends where available. These are not a
 |---:|---|---|---|---|---|
 | 1 | Jacob Cowing | WR | W | Tre' Harris | MATCHED |
 | 2 | Davis Allen | TE | W | Tre' Harris | MATCHED |
-| 3 | Rashod Bateman | WR | W | Tre' Harris | MATCHED |
-| 4 | Xavier Hutchinson | WR | W | Tre' Harris | MATCHED |
-| 5 | Jalen Brooks | WR | W | Tre' Harris | MATCHED |
-| 6 | AJ Barner | TE | W | Tre' Harris | MATCHED |
-| 7 | Devin Singletary | RB | W | Tre' Harris | MATCHED |
-| 8 | Isaiah Davis | RB | W | Tre' Harris | MATCHED |
-| 9 | Michael Carter | RB | W | Tre' Harris | MATCHED |
-| 10 | John Metchie III | WR | W | Tre' Harris | MATCHED |
+| 3 | Hollywood Brown | WR | W | Tre' Harris | MATCHED |
+| 4 | Rashod Bateman | WR | W | Tre' Harris | MATCHED |
+| 5 | Xavier Hutchinson | WR | W | Tre' Harris | MATCHED |
+| 6 | Jalen Brooks | WR | W | Tre' Harris | MATCHED |
+| 7 | AJ Barner | TE | W | Tre' Harris | MATCHED |
+| 8 | Devin Singletary | RB | W | Tre' Harris | MATCHED |
+| 9 | Isaiah Davis | RB | W | Tre' Harris | MATCHED |
+| 10 | Michael Carter | RB | W | Tre' Harris | MATCHED |
 
 Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
 
 ## ADD/DROP research comparisons (not approved moves)
-- Verified snapshot FAAB: 30. 204 candidate comparisons awaiting NFL-role and trade-value research.
+- Verified snapshot FAAB: 30. 185 candidate comparisons awaiting NFL-role and trade-value research.
 
 | Add candidate | Yahoo status | Potential drop | Recent scoring difference |
 |---|---|---|---:|
 | Marvin Mims Jr. | W | Tre' Harris | 14.2 |
+| Marvin Mims Jr. | W | Caleb Douglas | 4.9 |
 | Marvin Mims Jr. | W | Dontayvion Wicks | 4.4 |
 | Malachi Fields | W | Tre' Harris | 12.7 |
+| Malachi Fields | W | Caleb Douglas | 3.5 |
 | Malachi Fields | W | Dontayvion Wicks | 3.0 |
 | Tez Johnson | W | Tre' Harris | 15.2 |
+| Tez Johnson | W | Caleb Douglas | 5.9 |
 | Tez Johnson | W | Dontayvion Wicks | 5.5 |
 | Barion Brown | W | Tre' Harris | 18.0 |
+| Barion Brown | W | Caleb Douglas | 8.8 |
 | Barion Brown | W | Dontayvion Wicks | 8.3 |
 | Jacob Cowing | W | Tre' Harris | 6.6 |
 | Xavier Hutchinson | W | Tre' Harris | 18.1 |
+| Xavier Hutchinson | W | Caleb Douglas | 8.8 |
 | Xavier Hutchinson | W | Dontayvion Wicks | 8.3 |
 | LaJohntay Wester | W | Tre' Harris | 9.4 |
+| LaJohntay Wester | W | Caleb Douglas | 0.1 |
 | Dohnte Meyers | W | Tre' Harris | 10.8 |
-| Dohnte Meyers | W | Dontayvion Wicks | 1.0 |
-| Jalen Brooks | W | Tre' Harris | 13.6 |
-| Jalen Brooks | W | Dontayvion Wicks | 3.9 |
-| Elic Ayomanor | W | Tre' Harris | 6.2 |
-| Tank Dell | W | Tre' Harris | 3.1 |
-| Greg Dulcich | W | Dalton Schultz | 3.3 |
-| Greg Dulcich | W | Sam LaPorta | 2.8 |
+| Dohnte Meyers | W | Caleb Douglas | 1.5 |
 
 ## Verified NFL opportunity metrics (where Yahoo IDs match)
 These are week-over-week NFL workload observations, not Yahoo fantasy point calculations or forecasts.
@@ -176,11 +176,11 @@ These are week-over-week NFL workload observations, not Yahoo fantasy point calc
 | Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
 | Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
 | Khalil Herbert | 1.0 | 2.0 | 1.0 | N/A | N/A | nflverse Week 7 |
+| Elijah Mitchell | 4.0 | 3.0 | 3.0 | N/A | N/A | nflverse Week 7 |
+| Elijah Mitchell | 4.0 | 3.0 | 3.0 | N/A | N/A | nflverse Week 7 |
+| Elijah Mitchell | 4.0 | 3.0 | 3.0 | N/A | N/A | nflverse Week 7 |
+| Elijah Mitchell | 4.0 | 3.0 | 3.0 | N/A | N/A | nflverse Week 7 |
 | Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
-| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
-| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
-| Isaiah Davis | 3.0 | 1.0 | 3.0 | 2.0 | -6.0 | nflverse Week 7 |
-| Marvin Mims Jr. | 2.0 | 1.0 | 2.0 | -2.0 | 1.0 | nflverse Week 7 |
 
 ## Verified NFL snap participation
 Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.
@@ -207,11 +207,11 @@ Use the snap-share trend alongside carries, targets and injury context; it is no
 | Khalil Herbert | 11 | 16.0% | N/A |
 | Khalil Herbert | 11 | 16.0% | N/A |
 | Khalil Herbert | 11 | 16.0% | N/A |
+| Elijah Mitchell | 14 | 21.0% | N/A |
+| Elijah Mitchell | 14 | 21.0% | N/A |
+| Elijah Mitchell | 14 | 21.0% | N/A |
+| Elijah Mitchell | 14 | 21.0% | N/A |
 | Isaiah Davis | 13 | 22.0% | 9.0 |
-| Isaiah Davis | 13 | 22.0% | 9.0 |
-| Isaiah Davis | 13 | 22.0% | 9.0 |
-| Isaiah Davis | 13 | 22.0% | 9.0 |
-| Marvin Mims Jr. | 16 | 26.0% | -1.0 |
 
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
@@ -219,24 +219,24 @@ No FAAB bids are generated without external NFL research and a defensible improv
 - News feed: available; 8 matched player headlines in the latest four-day window.
 - Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
 
+- 2026-10-27T12:46:45+00:00 — CBS NFL: [Should the Giants trade for Saquon Barkley? Making the case for and against potential blockbuster deal](https://www.cbssports.com/nfl/news/case-for-against-giants-trading-for-saquon-barkley/)
 - 2026-10-26T22:46:21+00:00 — CBS NFL: [Will Saquon Barkley play vs. Cowboys? A look at the Eagles RB's status against Cowboys](https://www.cbssports.com/nfl/news/saquon-barkley-injury-update-eagles-cowboys/)
-- 2026-10-26T19:07:59+00:00 — CBS NFL: [NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR](https://www.cbssports.com/nfl/news/nfl-trade-deadline-matchmaker-vikings-jonathan-taylor-chiefs/)
+- 2026-10-27T12:52:44+00:00 — CBS NFL: [NFL trade deadline matchmaker: Vikings add Jonathan Taylor to boost offense, Chiefs nab WR](https://www.cbssports.com/nfl/news/nfl-trade-deadline-matchmaker-vikings-jonathan-taylor-chiefs/)
 - 2026-10-26T18:05:46+00:00 — CBS NFL: [Garrett Wilson trade destinations: Chiefs, 49ers among three potential landing spots for Jets star](https://www.cbssports.com/nfl/news/jets-garrett-wilson-trade-landing-spots-chiefs-49ers/)
 - 2026-10-26T16:26:33+00:00 — CBS NFL: [Garrett Wilson explains heated Jets sideline moment, says frustration wasn't directed at Geno Smith](https://www.cbssports.com/nfl/news/garrett-wilson-geno-smith-heated-jets-sideline-exchange/)
 - 2026-10-26T15:58:30+00:00 — CBS NFL: [Colts' Shane Steichen has 'not thought' about QB change despite Daniel Jones' struggles](https://www.cbssports.com/nfl/news/colts-bench-daniel-jones-shane-steichen-quarterback/)
 - 2026-10-26T13:37:30+00:00 — CBS NFL: [Cover 32: There is a very clear Jonathan Taylor trade destination, plus game balls, biggest gaffes from Week 7](https://www.cbssports.com/nfl/news/nfl-week-7-analysis-why-bengals-trade-colts-jonathan-taylor/)
 - 2026-10-26T03:40:02+00:00 — CBS NFL: [Cam Skattebo says he's going to keep breaking NFL rules after getting flagged for rarely enforced penalty](https://www.cbssports.com/nfl/news/cam-skattebo-rare-penalty-giants-texans-2026/)
-- 2026-10-26T00:01:42+00:00 — CBS NFL: [NFL Week 7 winners and losers: Cam Skattebo, J.J. McCarthy lift Giants; Aaron Glenn's seat heats up](https://www.cbssports.com/nfl/news/nfl-week-7-winners-losers-cam-skattebo-j-j-mccarthy-giants-aaron-glenn/)
 
 ## Actual Chasing the Shiva FAAB market
-- Verified snapshot remaining FAAB: 30. Historical winning bids: 31.
+- Verified snapshot remaining FAAB: 30. Historical winning bids: 36.
 
 | Position | Winning bids | Median | 75th percentile | Maximum |
 |---|---:|---:|---:|---:|
+| WR | 12 | 15 | 20 | 40 |
+| QB | 6 | 1 | 15 | 15 |
+| RB | 10 | 7 | 15 | 47 |
 | DEF | 5 | 1 | 1 | 1 |
-| QB | 5 | 2 | 15 | 15 |
-| RB | 9 | 7 | 15 | 47 |
-| WR | 9 | 15 | 20 | 31 |
 | TE | 3 | 1 | 11 | 11 |
 
 Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
