@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-10-28T00:45:24.837Z",
+  "generated_at": "2026-10-28T06:20:58.197Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-10-28T00:44:27.783Z",
+  "source_retrieved_at": "2026-10-28T06:20:08.634Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -12,8 +12,8 @@
       "observed_ownership_change_pp": -1,
       "name": "Jets",
       "availability_status": "rostered",
-      "percent_owned": 60,
-      "percent_owned_delta": -7,
+      "percent_owned": 59,
+      "percent_owned_delta": -8,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -22,7 +22,27 @@
       "observed_ownership_change_pp": -1,
       "name": "Titans",
       "availability_status": "rostered",
-      "percent_owned": 45,
+      "percent_owned": 44,
+      "percent_owned_delta": -6,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "29344",
+      "observed_ownership_change_pp": -1,
+      "name": "Tyler Higbee",
+      "availability_status": "rostered",
+      "percent_owned": 40,
+      "percent_owned_delta": -5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41048",
+      "observed_ownership_change_pp": -1,
+      "name": "Tyrone Tracy Jr.",
+      "availability_status": "rostered",
+      "percent_owned": 23,
       "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
@@ -31,7 +51,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-10-27T21:28:54.200Z",
-    "elapsed_hours": 3.26
+    "previous_retrieved_at": "2026-10-28T00:44:27.783Z",
+    "elapsed_hours": 5.59
   }
 }
