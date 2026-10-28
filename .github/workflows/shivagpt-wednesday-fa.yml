@@ -1,6 +1,12 @@
 name: ShivaGPT Wednesday Free Agent Contingencies
 on:
   workflow_dispatch:
+  # Permit a scoped, read-only recovery when GitHub skips the Wednesday schedule.
+  # Changing this workflow file triggers its report builder on current main.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-wednesday-fa.yml"
   schedule:
     - cron: "30 7 * * 3"
       timezone: "America/New_York"
