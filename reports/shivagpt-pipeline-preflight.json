@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-28T15:58:44.440Z",
+  "checked_at": "2026-10-28T21:01:30.996Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 2.4,
-      "timestamp": "2026-10-28T13:34:29.534Z"
+      "age_hours": 1.88,
+      "timestamp": "2026-10-28T19:08:33.237Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 2.4,
-      "timestamp": "2026-10-28T13:34:29.534Z",
+      "age_hours": 1.88,
+      "timestamp": "2026-10-28T19:08:33.237Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 2.4,
-      "timestamp": "2026-10-28T13:34:29.534Z"
+      "age_hours": 1.88,
+      "timestamp": "2026-10-28T19:08:33.237Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 26.14,
+      "age_hours": 31.18,
       "timestamp": "2026-10-27T13:50:29.805Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 24.14,
-      "timestamp": "2026-10-27T15:50:05.209991+00:00"
+      "age_hours": 4.46,
+      "timestamp": "2026-10-28T16:33:47.218824+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 24.13,
-      "timestamp": "2026-10-27T15:50:38.444257+00:00"
+      "age_hours": 4.45,
+      "timestamp": "2026-10-28T16:34:32.501510+00:00"
     },
     "popularity": {
       "status": "FRESH",
-      "age_hours": 2.44,
-      "timestamp": "2026-10-28T13:32:07.103Z"
+      "age_hours": 1.91,
+      "timestamp": "2026-10-28T19:06:52.826Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 2.4,
-      "timestamp": "2026-10-28T13:34:29.534Z"
+      "age_hours": 1.88,
+      "timestamp": "2026-10-28T19:08:33.237Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.73,
-      "timestamp": "2026-10-28T13:14:47.076444+00:00"
+      "age_hours": 2.09,
+      "timestamp": "2026-10-28T18:56:11.555420+00:00"
     }
   },
   "blocking_sources": [],
