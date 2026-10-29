@@ -1,59 +1,59 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-10-29T00:52:59.980Z",
+  "checked_at": "2026-10-29T07:01:46.444Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 1.28,
-      "timestamp": "2026-10-28T23:36:16.125Z"
+      "age_hours": 1.59,
+      "timestamp": "2026-10-29T05:26:08.932Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 1.28,
-      "timestamp": "2026-10-28T23:36:16.125Z",
+      "age_hours": 1.59,
+      "timestamp": "2026-10-29T05:26:08.932Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 1.28,
-      "timestamp": "2026-10-28T23:36:16.125Z"
+      "age_hours": 1.59,
+      "timestamp": "2026-10-29T05:26:08.932Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 35.04,
+      "age_hours": 41.19,
       "timestamp": "2026-10-27T13:50:29.805Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 8.32,
+      "age_hours": 14.47,
       "timestamp": "2026-10-28T16:33:47.218824+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 8.31,
+      "age_hours": 14.45,
       "timestamp": "2026-10-28T16:34:32.501510+00:00"
     },
     "popularity": {
-      "status": "FRESH",
-      "age_hours": 1.34,
-      "timestamp": "2026-10-28T23:32:49.077Z"
+      "status": "STALE",
+      "age_hours": 4.15,
+      "timestamp": "2026-10-29T02:52:32.141Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 1.28,
-      "timestamp": "2026-10-28T23:36:16.125Z"
+      "age_hours": 1.59,
+      "timestamp": "2026-10-29T05:26:08.932Z"
     },
     "nfl_headlines": {
-      "status": "FRESH",
-      "age_hours": 1.54,
-      "timestamp": "2026-10-28T23:20:38.430275+00:00"
+      "status": "STALE",
+      "age_hours": 4.43,
+      "timestamp": "2026-10-29T02:36:03.804655+00:00"
     }
   },
   "blocking_sources": [],
   "ready_for_scouting": true,
-  "evidence_ready_for_recommendations": true,
+  "evidence_ready_for_recommendations": false,
   "note": "Diagnostic only. Green preflight execution does not mean the main report has published or that NFL role research is complete."
 }
