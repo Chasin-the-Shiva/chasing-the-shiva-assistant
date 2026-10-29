@@ -1,21 +1,21 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:17:53.371Z",
-  "source_at": "2026-10-27T13:39:09.179Z",
+  "generated_at": "2026-10-29T18:38:19.667Z",
+  "source_at": "2026-10-29T17:05:49.037Z",
   "league_id": "721343",
   "lineup_week": 8,
   "verified_roster_count": 17,
   "selected_starters": [
     {
-      "id": "29325",
-      "name": "Jacoby Brissett",
+      "id": "40029",
+      "name": "Bryce Young",
       "position": "QB",
       "selected_position": "QB",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "14"
+      "bye_week": "5"
     },
     {
       "id": "41969",
@@ -28,43 +28,43 @@
       "bye_week": "6"
     },
     {
-      "id": "34047",
-      "name": "Rachaad White",
+      "id": "33996",
+      "name": "Kenneth Walker III",
       "position": "RB",
       "selected_position": "RB",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "7"
+      "bye_week": "5"
     },
     {
       "id": "31883",
       "name": "A.J. Brown",
       "position": "WR",
       "selected_position": "WR",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Knee",
       "bye_week": "11"
     },
     {
-      "id": "40114",
-      "name": "Tre Tucker",
+      "id": "42697",
+      "name": "Caleb Douglas",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "13"
+      "bye_week": "6"
     },
     {
-      "id": "41840",
-      "name": "Tre' Harris",
+      "id": "42693",
+      "name": "Antonio Williams",
       "position": "WR",
       "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Hamstring",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "7"
     },
     {
@@ -78,6 +78,16 @@
       "bye_week": "6"
     },
     {
+      "id": "34047",
+      "name": "Rachaad White",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "7"
+    },
+    {
       "id": "30227",
       "name": "Samaje Perine",
       "position": "RB",
@@ -88,17 +98,27 @@
       "bye_week": "6"
     },
     {
-      "id": "100010",
-      "name": "Titans",
+      "id": "100004",
+      "name": "Bengals",
       "position": "DEF",
       "selected_position": "DEF",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "9"
+      "bye_week": "6"
     }
   ],
   "bench": [
+    {
+      "id": "40201",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Ankle",
+      "bye_week": "10"
+    },
     {
       "id": "33966",
       "name": "Chris Olave",
@@ -120,26 +140,6 @@
       "bye_week": "8"
     },
     {
-      "id": "41048",
-      "name": "Tyrone Tracy Jr.",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Hamstring",
-      "bye_week": "8"
-    },
-    {
-      "id": "40201",
-      "name": "Dontayvion Wicks",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Ankle",
-      "bye_week": "10"
-    },
-    {
       "id": "31107",
       "name": "Dalton Schultz",
       "position": "TE",
@@ -150,24 +150,24 @@
       "bye_week": "8"
     },
     {
-      "id": "33996",
-      "name": "Kenneth Walker III",
+      "id": "41907",
+      "name": "Dylan Sampson",
       "position": "RB",
       "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "5"
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Knee",
+      "bye_week": "11"
     },
     {
-      "id": "42697",
-      "name": "Caleb Douglas",
+      "id": "42696",
+      "name": "Malachi Fields",
       "position": "WR",
       "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "6"
+      "bye_week": "8"
     },
     {
       "id": "40118",
@@ -185,7 +185,7 @@
     "RB": 2,
     "WR": 3,
     "TE": 1,
-    "W/R/T": 1,
+    "W/R/T": 2,
     "DEF": 1
   },
   "starter_warnings": [],
