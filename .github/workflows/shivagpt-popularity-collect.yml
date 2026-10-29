@@ -1,6 +1,10 @@
 name: ShivaGPT Yahoo Popularity Radar
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shivagpt-popularity-collect.yml"
   schedule:
     - cron: "45 * * * *"
 permissions:
@@ -14,6 +18,10 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+      - name: Synchronize with latest main before collecting
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
