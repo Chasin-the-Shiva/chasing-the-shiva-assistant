@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-30T18:11:44.827Z",
-  "source_at": "2026-10-30T16:16:11.570Z",
+  "generated_at": "2026-10-31T17:21:37.886Z",
+  "source_at": "2026-10-31T16:23:07.821Z",
   "league_id": "721343",
   "lineup_week": 8,
   "verified_roster_count": 17,
@@ -44,7 +44,7 @@
       "selected_position": "WR",
       "status": "Q",
       "status_full": "Questionable",
-      "injury_note": "Knee",
+      "injury_note": "Ankle",
       "bye_week": "11"
     },
     {
@@ -114,8 +114,8 @@
       "name": "Dontayvion Wicks",
       "position": "WR",
       "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
+      "status": "O",
+      "status_full": "Out",
       "injury_note": "Ankle",
       "bye_week": "10"
     },
