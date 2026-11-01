@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-10-31T17:21:37.886Z",
-  "source_at": "2026-10-31T16:23:07.821Z",
+  "generated_at": "2026-11-01T18:32:48.115Z",
+  "source_at": "2026-11-01T16:27:59.666Z",
   "league_id": "721343",
   "lineup_week": 8,
   "verified_roster_count": 17,
@@ -38,16 +38,6 @@
       "bye_week": "5"
     },
     {
-      "id": "31883",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Ankle",
-      "bye_week": "11"
-    },
-    {
       "id": "42697",
       "name": "Caleb Douglas",
       "position": "WR",
@@ -66,6 +56,16 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "7"
+    },
+    {
+      "id": "42030",
+      "name": "Tez Johnson",
+      "position": "WR",
+      "selected_position": "WR",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "10"
     },
     {
       "id": "40064",
@@ -88,14 +88,14 @@
       "bye_week": "7"
     },
     {
-      "id": "30227",
-      "name": "Samaje Perine",
+      "id": "41907",
+      "name": "Dylan Sampson",
       "position": "RB",
       "selected_position": "W/R/T",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "6"
+      "bye_week": "11"
     },
     {
       "id": "100004",
@@ -109,6 +109,26 @@
     }
   ],
   "bench": [
+    {
+      "id": "30227",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
+      "id": "31883",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Ankle",
+      "bye_week": "11"
+    },
     {
       "id": "40201",
       "name": "Dontayvion Wicks",
@@ -138,26 +158,6 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "8"
-    },
-    {
-      "id": "31107",
-      "name": "Dalton Schultz",
-      "position": "TE",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
-    },
-    {
-      "id": "41907",
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "11"
     },
     {
       "id": "42696",
