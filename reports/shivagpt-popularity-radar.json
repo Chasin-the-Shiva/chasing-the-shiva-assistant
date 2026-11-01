@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-01T08:57:02.204Z",
+  "generated_at": "2026-11-01T09:44:02.163Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-01T08:56:03.299Z",
+  "source_retrieved_at": "2026-11-01T09:43:13.091Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -39,7 +39,7 @@
     },
     {
       "player_id": "100028",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Commanders",
       "availability_status": "rostered",
       "percent_owned": 42,
@@ -59,7 +59,7 @@
     },
     {
       "player_id": "42730",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jonah Coleman",
       "availability_status": "rostered",
       "percent_owned": 68,
@@ -79,7 +79,7 @@
     },
     {
       "player_id": "34063",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Dameon Pierce",
       "availability_status": "FA",
       "percent_owned": 24,
@@ -89,7 +89,7 @@
     },
     {
       "player_id": "34047",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Rachaad White",
       "availability_status": "rostered",
       "percent_owned": 81,
@@ -99,7 +99,7 @@
     },
     {
       "player_id": "100025",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "49ers",
       "availability_status": "FA",
       "percent_owned": 25,
@@ -239,7 +239,7 @@
     },
     {
       "player_id": "42642",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Makai Lemon",
       "availability_status": "rostered",
       "percent_owned": 53,
@@ -259,7 +259,7 @@
     },
     {
       "player_id": "29269",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Hunter Henry",
       "availability_status": "rostered",
       "percent_owned": 72,
@@ -339,7 +339,7 @@
     },
     {
       "player_id": "100033",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Ravens",
       "availability_status": "FA",
       "percent_owned": 44,
@@ -469,7 +469,7 @@
     },
     {
       "player_id": "31908",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Terry McLaurin",
       "availability_status": "FA",
       "percent_owned": 36,
@@ -499,10 +499,20 @@
     },
     {
       "player_id": "33443",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Pat Freiermuth",
       "availability_status": "rostered",
       "percent_owned": 39,
+      "percent_owned_delta": -9,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "41845",
+      "observed_ownership_change_pp": -1,
+      "name": "RJ Harvey",
+      "availability_status": "rostered",
+      "percent_owned": 74,
       "percent_owned_delta": -9,
       "adds_24h": null,
       "drops_24h": null
@@ -519,7 +529,7 @@
     },
     {
       "player_id": "40707",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Emanuel Wilson",
       "availability_status": "rostered",
       "percent_owned": 63,
@@ -533,16 +543,6 @@
       "name": "J.K. Dobbins",
       "availability_status": "rostered",
       "percent_owned": 79,
-      "percent_owned_delta": -8,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "41845",
-      "observed_ownership_change_pp": 0,
-      "name": "RJ Harvey",
-      "availability_status": "rostered",
-      "percent_owned": 75,
       "percent_owned_delta": -8,
       "adds_24h": null,
       "drops_24h": null
@@ -639,7 +639,7 @@
     },
     {
       "player_id": "41935",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jaydon Blue",
       "availability_status": "rostered",
       "percent_owned": 6,
@@ -831,7 +831,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-01T02:34:41.578Z",
-    "elapsed_hours": 6.36
+    "previous_retrieved_at": "2026-11-01T08:56:03.299Z",
+    "elapsed_hours": 0.79
   }
 }
