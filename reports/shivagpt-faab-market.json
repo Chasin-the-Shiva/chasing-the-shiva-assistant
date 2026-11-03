@@ -2,37 +2,57 @@
   "schema": "shivagpt-faab-market-v1",
   "read_only": true,
   "league_id": "721343",
-  "generated_at": "2026-10-27T16:00:03.827Z",
-  "league_snapshot_at": "2026-10-27T13:39:09.179Z",
-  "total_successful_waiver_bids": 36,
+  "generated_at": "2026-11-03T18:39:13.186Z",
+  "league_snapshot_at": "2026-11-03T18:05:32.414Z",
+  "total_successful_waiver_bids": 45,
   "all_positions": {
-    "count": 36,
+    "count": 45,
     "minimum": 0,
     "median": 5,
     "p75": 15,
-    "p90": 31,
+    "p90": 30,
     "maximum": 47,
     "over_20": 6,
     "over_40": 2
   },
   "by_position": {
-    "WR": {
-      "count": 12,
+    "QB": {
+      "count": 8,
       "minimum": 0,
-      "median": 15,
-      "p75": 20,
+      "median": 1,
+      "p75": 2,
+      "p90": 15,
+      "maximum": 15,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "DEF": {
+      "count": 6,
+      "minimum": 0,
+      "median": 0,
+      "p75": 1,
+      "p90": 1,
+      "maximum": 1,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "WR": {
+      "count": 16,
+      "minimum": 0,
+      "median": 9,
+      "p75": 17,
       "p90": 31,
       "maximum": 40,
       "over_20": 4,
       "over_40": 1
     },
-    "QB": {
-      "count": 6,
+    "TE": {
+      "count": 5,
       "minimum": 0,
-      "median": 1,
-      "p75": 15,
-      "p90": 15,
-      "maximum": 15,
+      "median": 7,
+      "p75": 11,
+      "p90": 11,
+      "maximum": 11,
       "over_20": 0,
       "over_40": 0
     },
@@ -45,26 +65,6 @@
       "maximum": 47,
       "over_20": 2,
       "over_40": 1
-    },
-    "DEF": {
-      "count": 5,
-      "minimum": 0,
-      "median": 1,
-      "p75": 1,
-      "p90": 1,
-      "maximum": 1,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "TE": {
-      "count": 3,
-      "minimum": 0,
-      "median": 1,
-      "p75": 11,
-      "p90": 11,
-      "maximum": 11,
-      "over_20": 0,
-      "over_40": 0
     }
   },
   "limitations": [
