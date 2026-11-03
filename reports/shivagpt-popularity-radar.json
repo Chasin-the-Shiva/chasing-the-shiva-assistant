@@ -1,15 +1,15 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-02T22:34:22.159Z",
+  "generated_at": "2026-11-03T01:48:36.422Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-02T22:33:18.213Z",
+  "source_retrieved_at": "2026-11-03T01:47:32.519Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100004",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Bengals",
       "availability_status": "rostered",
       "percent_owned": 86,
@@ -59,7 +59,7 @@
     },
     {
       "player_id": "42730",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jonah Coleman",
       "availability_status": "rostered",
       "percent_owned": 73,
@@ -69,7 +69,7 @@
     },
     {
       "player_id": "100034",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Texans",
       "availability_status": "FA",
       "percent_owned": 65,
@@ -99,7 +99,7 @@
     },
     {
       "player_id": "100025",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "49ers",
       "availability_status": "FA",
       "percent_owned": 25,
@@ -298,16 +298,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "41048",
-      "observed_ownership_change_pp": 0,
-      "name": "Tyrone Tracy Jr.",
-      "availability_status": "FA",
-      "percent_owned": 12,
-      "percent_owned_delta": -16,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "100027",
       "observed_ownership_change_pp": 0,
       "name": "Buccaneers",
@@ -318,8 +308,18 @@
       "drops_24h": null
     },
     {
+      "player_id": "41048",
+      "observed_ownership_change_pp": 0,
+      "name": "Tyrone Tracy Jr.",
+      "availability_status": "FA",
+      "percent_owned": 12,
+      "percent_owned_delta": -16,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "100008",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Lions",
       "availability_status": "W",
       "percent_owned": 29,
@@ -329,7 +329,7 @@
     },
     {
       "player_id": "7200",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Aaron Rodgers",
       "availability_status": "rostered",
       "percent_owned": 41,
@@ -408,6 +408,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "40877",
+      "observed_ownership_change_pp": -1,
+      "name": "Xavier Worthy",
+      "availability_status": "rostered",
+      "percent_owned": 69,
+      "percent_owned_delta": -12,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "100009",
       "observed_ownership_change_pp": 0,
       "name": "Packers",
@@ -468,11 +478,11 @@
       "drops_24h": null
     },
     {
-      "player_id": "40877",
+      "player_id": "31908",
       "observed_ownership_change_pp": 0,
-      "name": "Xavier Worthy",
-      "availability_status": "rostered",
-      "percent_owned": 70,
+      "name": "Terry McLaurin",
+      "availability_status": "W",
+      "percent_owned": 35,
       "percent_owned_delta": -11,
       "adds_24h": null,
       "drops_24h": null
@@ -483,16 +493,6 @@
       "name": "Christian Kirk",
       "availability_status": "FA",
       "percent_owned": 5,
-      "percent_owned_delta": -11,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "31908",
-      "observed_ownership_change_pp": 0,
-      "name": "Terry McLaurin",
-      "availability_status": "W",
-      "percent_owned": 35,
       "percent_owned_delta": -11,
       "adds_24h": null,
       "drops_24h": null
@@ -738,21 +738,21 @@
       "drops_24h": null
     },
     {
-      "player_id": "31107",
-      "observed_ownership_change_pp": 0,
-      "name": "Dalton Schultz",
-      "availability_status": "FA",
-      "percent_owned": 37,
-      "percent_owned_delta": -6,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "32723",
       "observed_ownership_change_pp": 0,
       "name": "Jalen Hurts",
       "availability_status": "W",
       "percent_owned": 34,
+      "percent_owned_delta": -6,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "31107",
+      "observed_ownership_change_pp": 0,
+      "name": "Dalton Schultz",
+      "availability_status": "FA",
+      "percent_owned": 37,
       "percent_owned_delta": -6,
       "adds_24h": null,
       "drops_24h": null
@@ -868,16 +868,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "40097",
-      "observed_ownership_change_pp": 0,
-      "name": "Tank Dell",
-      "availability_status": "FA",
-      "percent_owned": 15,
-      "percent_owned_delta": -5,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "40875",
       "observed_ownership_change_pp": 0,
       "name": "Bo Nix",
@@ -898,6 +888,16 @@
       "drops_24h": null
     },
     {
+      "player_id": "40097",
+      "observed_ownership_change_pp": 0,
+      "name": "Tank Dell",
+      "availability_status": "FA",
+      "percent_owned": 15,
+      "percent_owned_delta": -5,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "29399",
       "observed_ownership_change_pp": 0,
       "name": "Tyreek Hill",
@@ -911,7 +911,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-02T18:49:54.233Z",
-    "elapsed_hours": 3.72
+    "previous_retrieved_at": "2026-11-02T22:33:18.213Z",
+    "elapsed_hours": 3.24
   }
 }
