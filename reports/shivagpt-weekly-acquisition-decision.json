@@ -1,330 +1,26 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-10-27T16:50:11.967Z",
+  "generated_at": "2026-11-03T12:45:26.838Z",
   "league_id": "721343",
-  "source_fresh": false,
+  "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
   "recommended_moves": [],
   "candidate_reviews": [
     {
-      "name": "Jacob Cowing",
-      "position": "WR",
-      "availability": "W",
-      "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
-      "three_week_touches": 2.67,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Tre Tucker",
-          "latest_touch_delta": -6,
-          "three_week_touch_delta": -6,
-          "latest_snap_share_delta": -0.43,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Davis Allen",
-      "position": "TE",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 2.67,
-      "candidates_to_drop": [
-        {
-          "name": "Sam LaPorta",
-          "latest_touch_delta": 3,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.28,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dalton Schultz",
-          "latest_touch_delta": -1,
-          "three_week_touch_delta": -2.66,
-          "latest_snap_share_delta": 0.12,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 3,
-        "median": 1,
-        "p75": 11,
-        "max": 11
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Hollywood Brown",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": null,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Tre Tucker",
-          "latest_touch_delta": -7,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.27,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Rashod Bateman",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 3.67,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Caleb Douglas",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Xavier Hutchinson",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 5.33,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Caleb Douglas",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Jalen Brooks",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 5.33,
-      "candidates_to_drop": [
-        {
-          "name": "Tre' Harris",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Caleb Douglas",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "AJ Barner",
-      "position": "TE",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 5.67,
-      "candidates_to_drop": [
-        {
-          "name": "Dalton Schultz",
-          "latest_touch_delta": 2,
-          "three_week_touch_delta": 0.34,
-          "latest_snap_share_delta": 0.23,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Sam LaPorta",
-          "latest_touch_delta": 6,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.17,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 3,
-        "median": 1,
-        "p75": 11,
-        "max": 11
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Devin Singletary",
+      "name": "Elijah Mitchell",
       "position": "RB",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": 12,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": 0.22,
+          "recommendation": "RESEARCH_ONLY"
+        },
         {
           "name": "Ollie Gordon II",
           "latest_touch_delta": null,
@@ -333,17 +29,10 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Rachaad White",
-          "latest_touch_delta": null,
+          "name": "Kenneth Walker III",
+          "latest_touch_delta": -9,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Samaje Perine",
-          "latest_touch_delta": 4,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": 0.06,
+          "latest_snap_share_delta": -0.24,
           "recommendation": "RESEARCH_ONLY"
         }
       ],
@@ -353,9 +42,8 @@
         "p75": 15,
         "max": 47
       },
-      "remaining_faab": 30,
+      "remaining_faab": 23,
       "risk_blockers": [
-        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -365,11 +53,11 @@
       "approved_add_drop": false
     },
     {
-      "name": "Isaiah Davis",
+      "name": "Sione Vaki",
       "position": "RB",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 5.33,
+      "three_week_touches": null,
       "candidates_to_drop": [
         {
           "name": "Ollie Gordon II",
@@ -379,15 +67,150 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
+          "name": "Kenneth Walker III",
+          "latest_touch_delta": -14,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.53,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
           "name": "Rachaad White",
+          "latest_touch_delta": -2,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.19,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Tyler Allgeier",
+      "position": "RB",
+      "availability": "W",
+      "role": "SUSTAINED_USAGE",
+      "three_week_touches": 15.67,
+      "candidates_to_drop": [
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": 11,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": 0.24,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kendre Miller",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Samaje Perine",
-          "latest_touch_delta": 0,
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Jahan Dotson",
+      "position": "WR",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 4.33,
+      "candidates_to_drop": [
+        {
+          "name": "Dontayvion Wicks",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Tez Johnson",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Caleb Douglas",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 12,
+        "median": 15,
+        "p75": 20,
+        "max": 40
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": null,
+      "candidates_to_drop": [
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kenneth Walker III",
+          "latest_touch_delta": -16,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.35,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Rachaad White",
+          "latest_touch_delta": -4,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": -0.01,
           "recommendation": "RESEARCH_ONLY"
@@ -399,9 +222,39 @@
         "p75": 15,
         "max": 47
       },
-      "remaining_faab": 30,
+      "remaining_faab": 23,
       "risk_blockers": [
-        "STALE_SOURCE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Darnell Washington",
+      "position": "TE",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 4,
+      "candidates_to_drop": [
+        {
+          "name": "Sam LaPorta",
+          "latest_touch_delta": -1,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.3,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 3,
+        "median": 1,
+        "p75": 11,
+        "max": 11
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -412,7 +265,52 @@
       "approved_add_drop": false
     },
     {
-      "name": "Michael Carter",
+      "name": "Tyler Goodson",
+      "position": "RB",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 8,
+      "candidates_to_drop": [
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": 4,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.08,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kendre Miller",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Khalil Herbert",
       "position": "RB",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
@@ -426,17 +324,17 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Rachaad White",
-          "latest_touch_delta": null,
+          "name": "Kenneth Walker III",
+          "latest_touch_delta": -21,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
+          "latest_snap_share_delta": -0.62,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Samaje Perine",
-          "latest_touch_delta": 0,
+          "name": "Rachaad White",
+          "latest_touch_delta": -9,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": 0.02,
+          "latest_snap_share_delta": -0.28,
           "recommendation": "RESEARCH_ONLY"
         }
       ],
@@ -446,9 +344,8 @@
         "p75": 15,
         "max": 47
       },
-      "remaining_faab": 30,
+      "remaining_faab": 23,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -459,28 +356,28 @@
       "approved_add_drop": false
     },
     {
-      "name": "John Metchie III",
+      "name": "Treylon Burks",
       "position": "WR",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "three_week_touches": null,
       "candidates_to_drop": [
         {
-          "name": "Tre' Harris",
+          "name": "Dontayvion Wicks",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Tre Tucker",
-          "latest_touch_delta": -8,
+          "name": "Tez Johnson",
+          "latest_touch_delta": null,
           "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.36,
+          "latest_snap_share_delta": null,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Dontayvion Wicks",
+          "name": "Caleb Douglas",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -493,9 +390,8 @@
         "p75": 20,
         "max": 40
       },
-      "remaining_faab": 30,
+      "remaining_faab": 23,
       "risk_blockers": [
-        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -506,148 +402,14 @@
       "approved_add_drop": false
     },
     {
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": null,
-      "candidates_to_drop": [
-        {
-          "name": "Ollie Gordon II",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Rachaad White",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Samaje Perine",
-          "latest_touch_delta": 3,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.11,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 10,
-        "median": 7,
-        "p75": 15,
-        "max": 47
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Elijah Mitchell",
-      "position": "RB",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": null,
-      "candidates_to_drop": [
-        {
-          "name": "Ollie Gordon II",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Rachaad White",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Samaje Perine",
-          "latest_touch_delta": 3,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.02,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 10,
-        "median": 7,
-        "p75": 15,
-        "max": 47
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Greg Dulcich",
-      "position": "TE",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": null,
-      "candidates_to_drop": [
-        {
-          "name": "Dalton Schultz",
-          "latest_touch_delta": -1,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": 0.08,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Sam LaPorta",
-          "latest_touch_delta": 3,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": -0.32,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 3,
-        "median": 1,
-        "p75": 11,
-        "max": 11
-      },
-      "remaining_faab": 30,
-      "risk_blockers": [
-        "STALE_SOURCE",
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Jerry Jeudy",
+      "name": "Tutu Atwell",
       "position": "WR",
       "availability": "W",
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 5,
+      "three_week_touches": null,
       "candidates_to_drop": [
         {
-          "name": "Tre' Harris",
+          "name": "Dontayvion Wicks",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -661,7 +423,7 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Dontayvion Wicks",
+          "name": "Antonio Williams",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -674,9 +436,238 @@
         "p75": 20,
         "max": 40
       },
-      "remaining_faab": 30,
+      "remaining_faab": 23,
       "risk_blockers": [
-        "STALE_SOURCE",
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Jeremy McNichols",
+      "position": "RB",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": null,
+      "candidates_to_drop": [
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kenneth Walker III",
+          "latest_touch_delta": -20,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.61,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Rachaad White",
+          "latest_touch_delta": -8,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.27,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Quentin Johnston",
+      "position": "WR",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": null,
+      "candidates_to_drop": [
+        {
+          "name": "Dontayvion Wicks",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Caleb Douglas",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Antonio Williams",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 12,
+        "median": 15,
+        "p75": 20,
+        "max": 40
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Marvin Mims Jr.",
+      "position": "WR",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 4,
+      "candidates_to_drop": [
+        {
+          "name": "Dontayvion Wicks",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Tez Johnson",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Caleb Douglas",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 12,
+        "median": 15,
+        "p75": 20,
+        "max": 40
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Bam Knight",
+      "position": "RB",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 11.33,
+      "candidates_to_drop": [
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": 0,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.13,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kendre Miller",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Jalen Nailor",
+      "position": "WR",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 4.33,
+      "candidates_to_drop": [
+        {
+          "name": "Dontayvion Wicks",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Caleb Douglas",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Antonio Williams",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 12,
+        "median": 15,
+        "p75": 20,
+        "max": 40
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",

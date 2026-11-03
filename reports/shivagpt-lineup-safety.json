@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-01T18:32:48.115Z",
-  "source_at": "2026-11-01T16:27:59.666Z",
+  "generated_at": "2026-11-03T12:45:26.942Z",
+  "source_at": "2026-11-03T10:06:42.948Z",
   "league_id": "721343",
-  "lineup_week": 8,
+  "lineup_week": 9,
   "verified_roster_count": 17,
   "selected_starters": [
     {
