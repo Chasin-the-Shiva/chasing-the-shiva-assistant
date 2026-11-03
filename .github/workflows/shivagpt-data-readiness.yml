@@ -43,3 +43,4 @@ jobs:
           echo "Safe publishing failed after four attempts" >&2
           exit 1
 # Read-only diagnostic verification trigger 2026-11-03 09:30 EST after recovery of stale sources; no workflow commands changed.
+# Verification-only readiness run after freshness recovery, 2026-11-03 18:20 EST; no commands changed.
