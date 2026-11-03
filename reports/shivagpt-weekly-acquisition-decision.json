@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T12:45:26.838Z",
+  "generated_at": "2026-11-03T19:17:23.886Z",
   "league_id": "721343",
   "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
@@ -142,6 +142,52 @@
       "approved_add_drop": false
     },
     {
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": 7.67,
+      "candidates_to_drop": [
+        {
+          "name": "Samaje Perine",
+          "latest_touch_delta": 1,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": -0.15,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Kendre Miller",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Ollie Gordon II",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 10,
+        "median": 7,
+        "p75": 15,
+        "max": 47
+      },
+      "remaining_faab": 23,
+      "risk_blockers": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
       "name": "Jahan Dotson",
       "position": "WR",
       "availability": "W",
@@ -163,7 +209,7 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Caleb Douglas",
+          "name": "Malachi Fields",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -171,9 +217,9 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
+        "winning_bid_count": 16,
+        "median": 9,
+        "p75": 17,
         "max": 40
       },
       "remaining_faab": 23,
@@ -248,8 +294,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 3,
-        "median": 1,
+        "winning_bid_count": 5,
+        "median": 7,
         "p75": 11,
         "max": 11
       },
@@ -377,7 +423,7 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Caleb Douglas",
+          "name": "Malachi Fields",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -385,9 +431,9 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
+        "winning_bid_count": 16,
+        "median": 9,
+        "p75": 17,
         "max": 40
       },
       "remaining_faab": 23,
@@ -416,14 +462,14 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Caleb Douglas",
+          "name": "Malachi Fields",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Antonio Williams",
+          "name": "Tez Johnson",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -431,9 +477,9 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
+        "winning_bid_count": 16,
+        "median": 9,
+        "p75": 17,
         "max": 40
       },
       "remaining_faab": 23,
@@ -508,14 +554,14 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Caleb Douglas",
+          "name": "Malachi Fields",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Antonio Williams",
+          "name": "Tez Johnson",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -523,9 +569,9 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
+        "winning_bid_count": 16,
+        "median": 9,
+        "p75": 17,
         "max": 40
       },
       "remaining_faab": 23,
@@ -561,7 +607,7 @@
           "recommendation": "RESEARCH_ONLY"
         },
         {
-          "name": "Caleb Douglas",
+          "name": "Malachi Fields",
           "latest_touch_delta": null,
           "three_week_touch_delta": null,
           "latest_snap_share_delta": null,
@@ -569,9 +615,9 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
+        "winning_bid_count": 16,
+        "median": 9,
+        "p75": 17,
         "max": 40
       },
       "remaining_faab": 23,
@@ -619,52 +665,6 @@
         "median": 7,
         "p75": 15,
         "max": 47
-      },
-      "remaining_faab": 23,
-      "risk_blockers": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Jalen Nailor",
-      "position": "WR",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 4.33,
-      "candidates_to_drop": [
-        {
-          "name": "Dontayvion Wicks",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Caleb Douglas",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Antonio Williams",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 12,
-        "median": 15,
-        "p75": 20,
-        "max": 40
       },
       "remaining_faab": 23,
       "risk_blockers": [

@@ -1,7 +1,7 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-11-03T12:45:27.384Z | Yahoo stats through Week 8
-League snapshot: 2026-11-03T10:06:42.948Z | Availability snapshot: 2026-11-03T10:06:42.948Z
+Generated: 2026-11-03T19:17:24.313Z | Yahoo stats through Week 8
+League snapshot: 2026-11-03T18:05:32.414Z | Availability snapshot: 2026-11-03T18:05:32.414Z
 
 ## Data coverage
 - Player-statistics entries: 1140; available entries in current snapshot: 943; other player entries: 184.
@@ -54,11 +54,12 @@ This is a statistical *screening list*, not a recommendation to add/drop or spen
 | Elijah Mitchell | RB | 15.4 | 14.5 | 8.2 | W |
 
 ## Yahoo-wide popularity research triggers
-- Radar status: verified; 0 available-player signals (not acquisition recommendations).
+- Radar status: verified; 1 available-player signals (not acquisition recommendations).
 - Yahoo's ownership delta represents a fantasy-week change, not verified 24-hour add counts. Observed between-snapshot movement is a separate percentage-point measure.
 
 | Player | FA/W | Yahoo weekly ownership change (pp) | Observed snapshot change (pp) |
 |---|---|---:|---:|
+| Jacoby Brissett | W | -6.0 | -2.0 |
 
 Every popularity trigger requires NFL role and injury research, exact Shiva scoring and comparison with Joe's drop candidate before an ADD recommendation.
 
@@ -71,6 +72,7 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 |---|---|---|---|
 | Tyler Allgeier | RB | W | offensive_activity |
 | Emmett Johnson | RB | W | offensive_activity |
+| Jacoby Brissett | QB | W | offensive_activity, ownership_spike_research |
 | Chimere Dike | WR | W | offensive_activity |
 | Sione Vaki | RB | W | offensive_activity |
 | Tyler Goodson | RB | W | offensive_activity |
@@ -103,7 +105,6 @@ Every popularity trigger requires NFL role and injury research, exact Shiva scor
 | Simi Fehoko | WR | W | offensive_activity |
 | Zavion Thomas | WR | W | offensive_activity |
 | Cyrus Allen | WR | W | offensive_activity |
-| Olamide Zaccheaus | WR | W | offensive_activity |
 
 Rankings are provisional screening priorities. Check current injuries, role, NFL news, exact Joe drop candidate and league scoring before recommending acquisitions.
 
@@ -115,13 +116,13 @@ Ranked by verified offensive opportunity trends where available. These are not a
 | 1 | Elijah Mitchell | RB | W | Dontayvion Wicks | MATCHED |
 | 2 | Sione Vaki | RB | W | Dontayvion Wicks | MATCHED |
 | 3 | Tyler Allgeier | RB | W | Dontayvion Wicks | MATCHED |
-| 4 | Jahan Dotson | WR | W | Dontayvion Wicks | MATCHED |
-| 5 | Kimani Vidal | RB | W | Dontayvion Wicks | MATCHED |
-| 6 | Darnell Washington | TE | W | Dontayvion Wicks | MATCHED |
-| 7 | Tyler Goodson | RB | W | Dontayvion Wicks | MATCHED |
-| 8 | Khalil Herbert | RB | W | Dontayvion Wicks | MATCHED |
-| 9 | Treylon Burks | WR | W | Dontayvion Wicks | MATCHED |
-| 10 | Tutu Atwell | WR | W | Dontayvion Wicks | MATCHED |
+| 4 | Roschon Johnson | RB | W | Dontayvion Wicks | MATCHED |
+| 5 | Jahan Dotson | WR | W | Dontayvion Wicks | MATCHED |
+| 6 | Kimani Vidal | RB | W | Dontayvion Wicks | MATCHED |
+| 7 | Darnell Washington | TE | W | Dontayvion Wicks | MATCHED |
+| 8 | Tyler Goodson | RB | W | Dontayvion Wicks | MATCHED |
+| 9 | Khalil Herbert | RB | W | Dontayvion Wicks | MATCHED |
+| 10 | Treylon Burks | WR | W | Dontayvion Wicks | MATCHED |
 
 Cross-position swaps require an explicit lineup and FLEX analysis; raw fantasy scoring averages across positions cannot establish net roster value.
 
@@ -160,12 +161,20 @@ These are week-over-week NFL workload observations, not Yahoo fantasy point calc
 | Tyler Allgeier | 5.0 | 11.0 | 5.0 | 2.0 | 3.0 | nflverse Week 8 |
 | Tyler Allgeier | 5.0 | 11.0 | 5.0 | 2.0 | 3.0 | nflverse Week 8 |
 | Tyler Allgeier | 5.0 | 11.0 | 5.0 | 2.0 | 3.0 | nflverse Week 8 |
+| Jacoby Brissett | 0.0 | 3.0 | 0.0 | 0.0 | -4.0 | nflverse Week 8 |
+| Jacoby Brissett | 0.0 | 3.0 | 0.0 | 0.0 | -4.0 | nflverse Week 8 |
+| Jacoby Brissett | 0.0 | 3.0 | 0.0 | 0.0 | -4.0 | nflverse Week 8 |
+| Jacoby Brissett | 0.0 | 3.0 | 0.0 | 0.0 | -4.0 | nflverse Week 8 |
 | Sione Vaki | 1.0 | 11.0 | 1.0 | 1.0 | 10.0 | nflverse Week 8 |
 | Sione Vaki | 1.0 | 11.0 | 1.0 | 1.0 | 10.0 | nflverse Week 8 |
 | Tyler Goodson | 2.0 | 7.0 | 2.0 | 2.0 | -3.0 | nflverse Week 8 |
 | Tyler Goodson | 2.0 | 7.0 | 2.0 | 2.0 | -3.0 | nflverse Week 8 |
 | Tyler Goodson | 2.0 | 7.0 | 2.0 | 2.0 | -3.0 | nflverse Week 8 |
 | Tyler Goodson | 2.0 | 7.0 | 2.0 | 2.0 | -3.0 | nflverse Week 8 |
+| George Holani | 1.0 | 1.0 | 0.0 | -1.0 | -4.0 | nflverse Week 8 |
+| George Holani | 1.0 | 1.0 | 0.0 | -1.0 | -4.0 | nflverse Week 8 |
+| George Holani | 1.0 | 1.0 | 0.0 | -1.0 | -4.0 | nflverse Week 8 |
+| George Holani | 1.0 | 1.0 | 0.0 | -1.0 | -4.0 | nflverse Week 8 |
 | Justin Herbert | 0.0 | 4.0 | 0.0 | 0.0 | -1.0 | nflverse Week 8 |
 | Justin Herbert | 0.0 | 4.0 | 0.0 | 0.0 | -1.0 | nflverse Week 8 |
 | Justin Herbert | 0.0 | 4.0 | 0.0 | 0.0 | -1.0 | nflverse Week 8 |
@@ -173,14 +182,6 @@ These are week-over-week NFL workload observations, not Yahoo fantasy point calc
 | Treylon Burks | 5.0 | 0.0 | 3.0 | -1.0 | 0.0 | nflverse Week 8 |
 | Treylon Burks | 5.0 | 0.0 | 3.0 | -1.0 | 0.0 | nflverse Week 8 |
 | Treylon Burks | 5.0 | 0.0 | 3.0 | -1.0 | 0.0 | nflverse Week 8 |
-| Treylon Burks | 5.0 | 0.0 | 3.0 | -1.0 | 0.0 | nflverse Week 8 |
-| Kimani Vidal | 2.0 | 8.0 | 2.0 | -2.0 | 1.0 | nflverse Week 8 |
-| Kimani Vidal | 2.0 | 8.0 | 2.0 | -2.0 | 1.0 | nflverse Week 8 |
-| Isaiah Williams | 1.0 | 0.0 | 1.0 | 1.0 | 0.0 | nflverse Week 8 |
-| Isaiah Williams | 1.0 | 0.0 | 1.0 | 1.0 | 0.0 | nflverse Week 8 |
-| Isaiah Williams | 1.0 | 0.0 | 1.0 | 1.0 | 0.0 | nflverse Week 8 |
-| Jeremy McNichols | 1.0 | 5.0 | 1.0 | 1.0 | 0.0 | nflverse Week 8 |
-| Jeremy McNichols | 1.0 | 5.0 | 1.0 | 1.0 | 0.0 | nflverse Week 8 |
 
 ## Verified NFL snap participation
 Use the snap-share trend alongside carries, targets and injury context; it is not sufficient by itself to recommend a transaction.
@@ -191,12 +192,20 @@ Use the snap-share trend alongside carries, targets and injury context; it is no
 | Tyler Allgeier | 48 | 59.0% | 12.0 |
 | Tyler Allgeier | 48 | 59.0% | 12.0 |
 | Tyler Allgeier | 48 | 59.0% | 12.0 |
+| Jacoby Brissett | 47 | 58.0% | -42.0 |
+| Jacoby Brissett | 47 | 58.0% | -42.0 |
+| Jacoby Brissett | 47 | 58.0% | -42.0 |
+| Jacoby Brissett | 47 | 58.0% | -42.0 |
 | Sione Vaki | 20 | 28.0% | 15.0 |
 | Sione Vaki | 20 | 28.0% | 15.0 |
 | Tyler Goodson | 20 | 27.0% | 6.0 |
 | Tyler Goodson | 20 | 27.0% | 6.0 |
 | Tyler Goodson | 20 | 27.0% | 6.0 |
 | Tyler Goodson | 20 | 27.0% | 6.0 |
+| George Holani | 11 | 17.0% | -19.0 |
+| George Holani | 11 | 17.0% | -19.0 |
+| George Holani | 11 | 17.0% | -19.0 |
+| George Holani | 11 | 17.0% | -19.0 |
 | Justin Herbert | 61 | 100.0% | 0.0 |
 | Justin Herbert | 61 | 100.0% | 0.0 |
 | Justin Herbert | 61 | 100.0% | 0.0 |
@@ -204,21 +213,17 @@ Use the snap-share trend alongside carries, targets and injury context; it is no
 | Treylon Burks | 40 | 67.0% | 12.0 |
 | Treylon Burks | 40 | 67.0% | 12.0 |
 | Treylon Burks | 40 | 67.0% | 12.0 |
-| Treylon Burks | 40 | 67.0% | 12.0 |
-| Kimani Vidal | 28 | 46.0% | 9.0 |
-| Kimani Vidal | 28 | 46.0% | 9.0 |
-| Isaiah Williams | 10 | 16.0% | -6.0 |
-| Isaiah Williams | 10 | 16.0% | -6.0 |
-| Isaiah Williams | 10 | 16.0% | -6.0 |
-| Jeremy McNichols | 12 | 20.0% | 2.0 |
-| Jeremy McNichols | 12 | 20.0% | 2.0 |
 
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
 ## Current sourced NFL headline research
-- News feed: available; 14 matched player headlines in the latest four-day window.
+- News feed: available; 12 matched player headlines in the latest four-day window.
 - Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
 
+- 2026-11-03T17:24:25+00:00 — CBS NFL: [Cowboys' Jerry Jones has blunt response on George Pickens' useage: 'He needs the ball coming his way more'](https://www.cbssports.com/nfl/news/cowboys-jerry-jones-wants-george-pickens-to-be-more-involved/)
+- 2026-11-03T16:03:59+00:00 — CBS NFL: [Klint Kubiak addresses Ashton Jeanty's disappearance from game plan vs. Jets](https://www.cbssports.com/nfl/news/klint-kubiak-ashton-jeantys-disappearance-from-game-plan-vs-jets/)
+- 2026-11-03T12:01:54+00:00 — CBS NFL: [Could Tyson Bagent save Ravens' playoff hopes? Lamar Jackson injury raises a costly trade question](https://www.cbssports.com/nfl/news/could-tyson-bagent-save-ravens-playoff-hopes-lamar-jackson-injury/)
+- 2026-11-03T11:50:30+00:00 — CBS NFL: [Mock trades for Jaguars' Brian Thomas Jr.: Why Chiefs, Raiders could stand out as top fits](https://www.cbssports.com/nfl/news/jaguars-mock-trade-brian-thomas-jr-chiefs-raiders/)
 - 2026-11-02T23:25:03+00:00 — CBS NFL: [Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears](https://www.cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football/)
 - 2026-11-02T22:27:10+00:00 — CBS NFL: [Cardinals name Gardner Minshew as starter, Carson Beck No. 2: What's next for Jacoby Brissett?](https://www.cbssports.com/nfl/news/cardinals-name-gardner-minshew-carson-beck-no-2-jacoby-brissett/)
 - 2026-11-02T22:12:55+00:00 — CBS NFL: [Seahawks vs. Bears prediction: Caleb Williams faces toughest test yet in Seattle defense](https://www.cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams/)
@@ -227,28 +232,22 @@ No FAAB bids are generated without external NFL research and a defensible improv
 - 2026-11-02T15:53:47+00:00 — CBS NFL: [Trey McBride taunts Caleb Downs as Cowboys rookie's struggles reach alarming level](https://www.cbssports.com/nfl/news/caleb-downs-cowboys-defense-trey-mcbride/)
 - 2026-11-02T14:34:30+00:00 — CBS NFL: [Lamar Jackson injury throws huge wrench into looming contract talks with Ravens](https://www.cbssports.com/nfl/news/lamar-jackson-injury-ravens-contract-extension/)
 - 2026-11-02T13:37:48+00:00 — CBS NFL: [Cowboys should consider trading George Pickens: 5 logical NFL deadline destinations](https://www.cbssports.com/nfl/news/cowboys-nfl-trade-deadline-george-pickens-destinations/)
-- 2026-11-02T13:28:24+00:00 — CBS NFL: [NFL Week 9 early odds: Ravens become home underdogs to Jaguars after Lamar Jackson injury](https://www.cbssports.com/nfl/news/nfl-week-9-early-odds-spreads-ravens-jaguars-lamar-jackson/)
-- 2026-11-02T13:03:24+00:00 — CBS NFL: [Steelers' Jaylen Warren is 'on fire': Why the breakout running back keeps getting better](https://www.cbssports.com/nfl/news/steelers-jaylen-warren-breakout-running-back/)
-- 2026-11-02T12:36:17+00:00 — CBS NFL: [Cover 32: Why Jets have every reason to trade Breece Hall, plus Week 8 games balls, gaffes](https://www.cbssports.com/nfl/news/cover-32-nfl-week-8-trade-deadline-jets/)
-- 2026-11-02T01:57:37+00:00 — CBS NFL: [NFL Week 8 winners and losers: Cowboys suffer epic collapse, Joe Burrow delivers historic heroics](https://www.cbssports.com/nfl/news/nfl-week-8-winners-losers-cowboys-joe-burrow/)
-- 2026-11-02T02:11:45+00:00 — CBS NFL: [Week 8 overreactions: Time for Vikings to bench Kyler Murray? Colts should fire Steichen?](https://www.cbssports.com/nfl/news/nfl-week-8-overreactions-vikings-kyler-murray-colts/)
-- 2026-11-02T01:20:47+00:00 — CBS NFL: [Why is Ashton Jeanty not getting carries? Another Raider emerges as Vegas' top RB in Week 8](https://www.cbssports.com/nfl/news/why-is-ashton-jeanty-not-getting-ball-raiders-mike-washington-jr/)
 
 ## Actual Chasing the Shiva FAAB market
-- Verified snapshot remaining FAAB: 23. Historical winning bids: 36.
+- Verified snapshot remaining FAAB: 23. Historical winning bids: 45.
 
 | Position | Winning bids | Median | 75th percentile | Maximum |
 |---|---:|---:|---:|---:|
-| WR | 12 | 15 | 20 | 40 |
-| QB | 6 | 1 | 15 | 15 |
+| QB | 8 | 1 | 2 | 15 |
+| DEF | 6 | 0 | 1 | 1 |
+| WR | 16 | 9 | 17 | 40 |
+| TE | 5 | 7 | 11 | 11 |
 | RB | 10 | 7 | 15 | 47 |
-| DEF | 5 | 1 | 1 | 1 |
-| TE | 3 | 1 | 11 | 11 |
 
 Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
 
 ## Injury and early-return news research
-- Injury return feed: verified; 0 players matched to dated injury/return headlines.
+- Injury return feed: unavailable or stale; 0 players matched to dated injury/return headlines.
 
 | Player | Injury status | Yahoo status | News research headline |
 |---|---|---|---|

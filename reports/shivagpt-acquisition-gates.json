@@ -1,28 +1,48 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T12:45:26.746Z",
+  "generated_at": "2026-11-03T19:17:23.813Z",
   "league_id": "721343",
   "source_ready": true,
   "remaining_faab": 23,
   "winning_bid_market": {
-    "WR": {
-      "count": 12,
+    "QB": {
+      "count": 8,
       "minimum": 0,
-      "median": 15,
-      "p75": 20,
+      "median": 1,
+      "p75": 2,
+      "p90": 15,
+      "maximum": 15,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "DEF": {
+      "count": 6,
+      "minimum": 0,
+      "median": 0,
+      "p75": 1,
+      "p90": 1,
+      "maximum": 1,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "WR": {
+      "count": 16,
+      "minimum": 0,
+      "median": 9,
+      "p75": 17,
       "p90": 31,
       "maximum": 40,
       "over_20": 4,
       "over_40": 1
     },
-    "QB": {
-      "count": 6,
+    "TE": {
+      "count": 5,
       "minimum": 0,
-      "median": 1,
-      "p75": 15,
-      "p90": 15,
-      "maximum": 15,
+      "median": 7,
+      "p75": 11,
+      "p90": 11,
+      "maximum": 11,
       "over_20": 0,
       "over_40": 0
     },
@@ -35,26 +55,6 @@
       "maximum": 47,
       "over_20": 2,
       "over_40": 1
-    },
-    "DEF": {
-      "count": 5,
-      "minimum": 0,
-      "median": 1,
-      "p75": 1,
-      "p90": 1,
-      "maximum": 1,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "TE": {
-      "count": 3,
-      "minimum": 0,
-      "median": 1,
-      "p75": 11,
-      "p90": 11,
-      "maximum": 11,
-      "over_20": 0,
-      "over_40": 0
     }
   },
   "decision": "NO_BID_WITHOUT_INDIVIDUAL_ROLE_AND_TRADE_VERIFICATION",
@@ -123,6 +123,31 @@
       "possible_same_position_swap": false,
       "protected_drop": false,
       "needs_review": [
+        "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
+        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
+        "TRADE_MARKET_UNVERIFIED"
+      ],
+      "analyst_candidate": false,
+      "recommendation": "RESEARCH_ONLY",
+      "faab_bid": null,
+      "approval_required": true
+    },
+    {
+      "player_id": "40162",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "availability": "W",
+      "potential_drop": "Dontayvion Wicks",
+      "research_score": 34.76,
+      "recent_carries": 5,
+      "recent_targets": 1,
+      "opportunity_growth": 4,
+      "offensive_snap_pct": 0.2,
+      "role_evidence_met": false,
+      "possible_same_position_swap": false,
+      "protected_drop": false,
+      "needs_review": [
+        "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
@@ -394,30 +419,6 @@
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
         "INJURY_STATUS_NEEDS_VERIFICATION",
-        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
-        "TRADE_MARKET_UNVERIFIED"
-      ],
-      "analyst_candidate": false,
-      "recommendation": "RESEARCH_ONLY",
-      "faab_bid": null,
-      "approval_required": true
-    },
-    {
-      "player_id": "34147",
-      "name": "Jalen Nailor",
-      "position": "WR",
-      "availability": "W",
-      "potential_drop": "Dontayvion Wicks",
-      "research_score": 13.72,
-      "recent_carries": 0,
-      "recent_targets": 4,
-      "opportunity_growth": -1,
-      "offensive_snap_pct": 0.46,
-      "role_evidence_met": false,
-      "possible_same_position_swap": true,
-      "protected_drop": false,
-      "needs_review": [
-        "NFL_ROLE_NOT_CONFIRMED",
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],

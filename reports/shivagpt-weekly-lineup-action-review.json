@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T12:45:27.034Z",
+  "generated_at": "2026-11-03T19:17:24.033Z",
   "league_id": "721343",
   "season_week": 9,
-  "roster_source_at": "2026-11-03T10:06:42.948Z",
-  "availability_source_at": "2026-11-03T10:06:42.948Z",
+  "roster_source_at": "2026-11-03T18:05:32.414Z",
+  "availability_source_at": "2026-11-03T18:05:32.414Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -90,6 +90,12 @@
     {
       "name": "Marcus Mariota",
       "player_id": "28390",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Case Keenum",
+      "player_id": "26483",
       "status": "W",
       "injury_status": null
     },
@@ -186,6 +192,12 @@
     {
       "name": "Joe Milton",
       "player_id": "41060",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kedon Slovis",
+      "player_id": "41476",
       "status": "W",
       "injury_status": null
     },
@@ -348,6 +360,12 @@
     {
       "name": "Garrett Nussmeier",
       "player_id": "42871",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Haynes King",
+      "player_id": "42904",
       "status": "W",
       "injury_status": null
     },

@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T12:45:26.942Z",
-  "source_at": "2026-11-03T10:06:42.948Z",
+  "generated_at": "2026-11-03T19:17:23.962Z",
+  "source_at": "2026-11-03T18:05:32.414Z",
   "league_id": "721343",
   "lineup_week": 9,
   "verified_roster_count": 17,
@@ -38,34 +38,34 @@
       "bye_week": "5"
     },
     {
-      "id": "42697",
-      "name": "Caleb Douglas",
+      "id": "33966",
+      "name": "Chris Olave",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "6"
+      "bye_week": "8"
     },
     {
-      "id": "42693",
-      "name": "Antonio Williams",
+      "id": "31883",
+      "name": "A.J. Brown",
       "position": "WR",
       "selected_position": "WR",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "7"
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Ankle",
+      "bye_week": "11"
     },
     {
-      "id": "42030",
-      "name": "Tez Johnson",
+      "id": "42696",
+      "name": "Malachi Fields",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "10"
+      "bye_week": "8"
     },
     {
       "id": "40064",
@@ -110,6 +110,36 @@
   ],
   "bench": [
     {
+      "id": "42030",
+      "name": "Tez Johnson",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "10"
+    },
+    {
+      "id": "42693",
+      "name": "Antonio Williams",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "7"
+    },
+    {
+      "id": "42697",
+      "name": "Caleb Douglas",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    },
+    {
       "id": "30227",
       "name": "Samaje Perine",
       "position": "RB",
@@ -120,49 +150,19 @@
       "bye_week": "6"
     },
     {
-      "id": "31883",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Ankle",
-      "bye_week": "11"
-    },
-    {
       "id": "40201",
       "name": "Dontayvion Wicks",
       "position": "WR",
       "selected_position": "BN",
-      "status": "O",
-      "status_full": "Out",
+      "status": "Q",
+      "status_full": "Questionable",
       "injury_note": "Ankle",
       "bye_week": "10"
-    },
-    {
-      "id": "33966",
-      "name": "Chris Olave",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
     },
     {
       "id": "40108",
       "name": "Kendre Miller",
       "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
-    },
-    {
-      "id": "42696",
-      "name": "Malachi Fields",
-      "position": "WR",
       "selected_position": "BN",
       "status": null,
       "status_full": null,
