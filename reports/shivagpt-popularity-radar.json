@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T18:03:42.465Z",
+  "generated_at": "2026-11-03T23:20:15.320Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-03T18:02:35.616Z",
+  "source_retrieved_at": "2026-11-03T23:19:17.439Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -12,18 +12,18 @@
       "observed_ownership_change_pp": -2,
       "name": "Jacoby Brissett",
       "availability_status": "W",
-      "percent_owned": 44,
-      "percent_owned_delta": -6,
+      "percent_owned": 42,
+      "percent_owned_delta": -8,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "40707",
-      "observed_ownership_change_pp": -2,
+      "observed_ownership_change_pp": -1,
       "name": "Emanuel Wilson",
       "availability_status": "rostered",
-      "percent_owned": 56,
-      "percent_owned_delta": -4,
+      "percent_owned": 55,
+      "percent_owned_delta": -5,
       "adds_24h": null,
       "drops_24h": null
     }
@@ -31,7 +31,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-03T14:27:30.000Z",
-    "elapsed_hours": 3.58
+    "previous_retrieved_at": "2026-11-03T18:02:35.616Z",
+    "elapsed_hours": 5.28
   }
 }
