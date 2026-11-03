@@ -45,3 +45,4 @@ jobs:
           done
           echo "Safe publishing failed after four attempts" >&2
           exit 1
+# Read-only injury radar freshness recovery trigger 2026-11-03 09:29 EST; no job commands changed.
