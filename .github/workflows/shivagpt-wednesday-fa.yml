@@ -40,3 +40,4 @@ jobs:
           done
           echo "Safe publishing failed after four attempts" >&2
           exit 1
+# Read-only Wednesday FA publication recovery trigger 2026-11-04 07:49 EST; no workflow commands, permissions, or Yahoo data writes changed.
