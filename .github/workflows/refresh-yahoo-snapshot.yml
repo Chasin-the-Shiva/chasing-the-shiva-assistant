@@ -74,3 +74,4 @@ jobs:
 # Routine scheduled and dispatched runs refresh only current-season data. Manager history v3 is rebuilt only
 # by an explicit manual run with rebuild_history=true.
 # Read-only Yahoo snapshot freshness recovery trigger: 2026-11-03 09:24 EST. No workflow logic or permissions changed.
+# Read-only snapshot freshness recovery trigger: 2026-11-04 02:22 EST; no workflow steps, permissions, schedule, or Yahoo data writes changed.
