@@ -1,59 +1,62 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-05T23:26:37.034Z",
+  "checked_at": "2026-11-06T01:31:14.492Z",
   "league_id": "721343",
   "sources": {
     "live": {
-      "status": "FRESH",
-      "age_hours": 1.09,
+      "status": "STALE",
+      "age_hours": 3.17,
       "timestamp": "2026-11-05T22:21:01.121Z"
     },
     "availability": {
-      "status": "FRESH",
-      "age_hours": 1.09,
+      "status": "STALE",
+      "age_hours": 3.17,
       "timestamp": "2026-11-05T22:21:01.121Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 1.09,
+      "age_hours": 3.17,
       "timestamp": "2026-11-05T22:21:01.121Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 54.65,
+      "age_hours": 56.73,
       "timestamp": "2026-11-03T16:47:20.745Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 4.78,
+      "age_hours": 6.86,
       "timestamp": "2026-11-05T18:39:48.438607+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 4.77,
+      "age_hours": 6.85,
       "timestamp": "2026-11-05T18:40:16.552915+00:00"
     },
     "popularity": {
       "status": "FRESH",
-      "age_hours": 1.16,
+      "age_hours": 3.24,
       "timestamp": "2026-11-05T22:17:00.386Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 1.09,
+      "age_hours": 3.17,
       "timestamp": "2026-11-05T22:21:01.121Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 0.01,
-      "timestamp": "2026-11-05T23:25:52.131301+00:00"
+      "age_hours": 1.1,
+      "timestamp": "2026-11-06T00:25:21.359003+00:00"
     }
   },
-  "blocking_sources": [],
-  "ready_for_scouting": true,
-  "evidence_ready_for_recommendations": true,
+  "blocking_sources": [
+    "live",
+    "availability"
+  ],
+  "ready_for_scouting": false,
+  "evidence_ready_for_recommendations": false,
   "note": "Diagnostic only. Green preflight execution does not mean the main report has published or that NFL role research is complete."
 }
