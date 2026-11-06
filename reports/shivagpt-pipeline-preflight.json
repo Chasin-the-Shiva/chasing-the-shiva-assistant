@@ -1,59 +1,59 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-06T06:07:28.051Z",
+  "checked_at": "2026-11-06T06:08:57.942Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 0.01,
+      "age_hours": 0.04,
       "timestamp": "2026-11-06T06:06:40.696Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 0.01,
+      "age_hours": 0.04,
       "timestamp": "2026-11-06T06:06:40.696Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 0.01,
+      "age_hours": 0.04,
       "timestamp": "2026-11-06T06:06:40.696Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 61.34,
+      "age_hours": 61.36,
       "timestamp": "2026-11-03T16:47:20.745Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 11.46,
+      "age_hours": 11.49,
       "timestamp": "2026-11-05T18:39:48.438607+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 11.45,
+      "age_hours": 11.48,
       "timestamp": "2026-11-05T18:40:16.552915+00:00"
     },
     "popularity": {
       "status": "FRESH",
-      "age_hours": 3.3,
+      "age_hours": 3.33,
       "timestamp": "2026-11-06T02:49:18.442Z"
     },
     "injury": {
-      "status": "STALE",
-      "age_hours": 4.57,
-      "timestamp": "2026-11-06T01:33:31.572Z"
+      "status": "FRESH",
+      "age_hours": 0.04,
+      "timestamp": "2026-11-06T06:06:40.696Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 1.21,
+      "age_hours": 1.23,
       "timestamp": "2026-11-06T04:55:00.313588+00:00"
     }
   },
   "blocking_sources": [],
   "ready_for_scouting": true,
-  "evidence_ready_for_recommendations": false,
+  "evidence_ready_for_recommendations": true,
   "note": "Diagnostic only. Green preflight execution does not mean the main report has published or that NFL role research is complete."
 }
