@@ -79,3 +79,4 @@ jobs:
 # Read-only Yahoo snapshot recovery trigger: 2026-11-06 21:26 EST; missed refresh and freshness-watch schedules; comment only, no logic/permissions/Yahoo-write changes.
 # Read-only current-season Yahoo snapshot recovery trigger 2026-11-07 01:20 EST: missed scheduled refreshes; comment only, no workflow logic, permissions, historical rebuild, or Yahoo transaction changes.
 # Read-only Yahoo freshness recovery trigger: 2026-11-07 04:27 EST; missed scheduled refreshes, stale >3h. No logic, schedule, permissions, Yahoo writes, or history rebuild changed.
+# Read-only Yahoo freshness recovery trigger: 2026-11-07 09:23 EST after missed scheduled refreshes and stale-source injury validation failure; comment only. No workflow logic, schedule, permissions, historical rebuild, or Yahoo writes changed.
