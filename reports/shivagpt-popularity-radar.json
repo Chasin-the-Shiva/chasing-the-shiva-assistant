@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-07T09:30:06.853Z",
+  "generated_at": "2026-11-07T10:41:52.715Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-07T09:29:16.531Z",
+  "source_retrieved_at": "2026-11-07T10:40:59.262Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -19,7 +19,7 @@
     },
     {
       "player_id": "31906",
-      "observed_ownership_change_pp": 2,
+      "observed_ownership_change_pp": 0,
       "name": "Devin Singletary",
       "availability_status": "rostered",
       "percent_owned": 44,
@@ -31,7 +31,7 @@
       "player_id": "100004",
       "observed_ownership_change_pp": 0,
       "name": "Bengals",
-      "availability_status": "W",
+      "availability_status": "FA",
       "percent_owned": 51,
       "percent_owned_delta": -36,
       "adds_24h": null,
@@ -39,7 +39,7 @@
     },
     {
       "player_id": "100003",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Bears",
       "availability_status": "rostered",
       "percent_owned": 61,
@@ -49,7 +49,7 @@
     },
     {
       "player_id": "40915",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Adonai Mitchell",
       "availability_status": "rostered",
       "percent_owned": 43,
@@ -69,7 +69,7 @@
     },
     {
       "player_id": "100028",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Commanders",
       "availability_status": "W",
       "percent_owned": 15,
@@ -79,7 +79,7 @@
     },
     {
       "player_id": "100012",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Chiefs",
       "availability_status": "rostered",
       "percent_owned": 72,
@@ -139,7 +139,7 @@
     },
     {
       "player_id": "31002",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Lamar Jackson",
       "availability_status": "rostered",
       "percent_owned": 78,
@@ -269,7 +269,7 @@
     },
     {
       "player_id": "42652",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Omar Cooper Jr.",
       "availability_status": "rostered",
       "percent_owned": 62,
@@ -319,7 +319,7 @@
     },
     {
       "player_id": "41845",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "RJ Harvey",
       "availability_status": "rostered",
       "percent_owned": 60,
@@ -429,7 +429,7 @@
     },
     {
       "player_id": "31056",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Mark Andrews",
       "availability_status": "rostered",
       "percent_owned": 58,
@@ -439,7 +439,7 @@
     },
     {
       "player_id": "41902",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Woody Marks",
       "availability_status": "rostered",
       "percent_owned": 86,
@@ -509,7 +509,7 @@
     },
     {
       "player_id": "25812",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Kirk Cousins",
       "availability_status": "rostered",
       "percent_owned": 62,
@@ -529,7 +529,7 @@
     },
     {
       "player_id": "41087",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Ryan Flournoy",
       "availability_status": "rostered",
       "percent_owned": 40,
@@ -719,7 +719,7 @@
     },
     {
       "player_id": "41060",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Joe Milton",
       "availability_status": "FA",
       "percent_owned": 6,
@@ -741,7 +741,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-07T03:12:28.574Z",
-    "elapsed_hours": 6.28
+    "previous_retrieved_at": "2026-11-07T09:29:16.531Z",
+    "elapsed_hours": 1.2
   }
 }
