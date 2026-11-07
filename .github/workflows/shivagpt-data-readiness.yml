@@ -47,3 +47,4 @@ jobs:
 # Verify latest source freshness after 2026-11-04 02:25 EST read-only recovery; logic unchanged.
 # Read-only readiness verification after injury freshness recovery, 2026-11-07 00:45 EST; no commands changed.
 # Read-only diagnostic after Yahoo and NFL headline freshness recoveries, 2026-11-07 01:22 EST; no commands, schedule, or permissions changed.
+# Read-only post-recovery diagnostic trigger 2026-11-07 04:29 EST after Yahoo and popularity refresh; no commands, schedules, permissions, or Yahoo writes changed.
