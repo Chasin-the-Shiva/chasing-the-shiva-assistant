@@ -45,3 +45,4 @@ jobs:
 # Read-only diagnostic verification trigger 2026-11-03 09:30 EST after recovery of stale sources; no workflow commands changed.
 # Verification-only readiness run after freshness recovery, 2026-11-03 18:20 EST; no commands changed.
 # Verify latest source freshness after 2026-11-04 02:25 EST read-only recovery; logic unchanged.
+# Read-only readiness verification after injury freshness recovery, 2026-11-07 00:45 EST; no commands changed.
