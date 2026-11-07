@@ -47,3 +47,4 @@ jobs:
           exit 1
 # Read-only injury radar freshness recovery trigger 2026-11-03 09:29 EST; no job commands changed.
 # Read-only injury source freshness recovery, 2026-11-07 00:43 EST; configuration and commands unchanged.
+# Read-only injury radar freshness recovery trigger: 2026-11-07 07:10 EST; primary Yahoo source fresh, injury radar sourced from 01:21 EST after missed hourly schedule; no workflow commands, permissions, schedules, Yahoo writes, or existing alerts changed.
