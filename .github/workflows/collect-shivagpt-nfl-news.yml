@@ -44,3 +44,4 @@ jobs:
           exit 1
 # Read-only NFL headlines freshness recovery trigger 2026-11-03 09:29 EST; no job commands changed.
 # Read-only NFL headline freshness recovery: 2026-11-03 18:18 EST. No workflow logic changed.
+# Read-only NFL headline research freshness recovery trigger 2026-11-07 01:22 EST; comment only, existing collector logic and permissions unchanged.
