@@ -1,15 +1,15 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-07T16:15:39.118Z",
+  "generated_at": "2026-11-07T16:38:24.295Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-07T16:14:38.967Z",
+  "source_retrieved_at": "2026-11-07T16:37:31.114Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100018",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Saints",
       "availability_status": "rostered",
       "percent_owned": 56,
@@ -19,7 +19,7 @@
     },
     {
       "player_id": "31906",
-      "observed_ownership_change_pp": 3,
+      "observed_ownership_change_pp": 0,
       "name": "Devin Singletary",
       "availability_status": "rostered",
       "percent_owned": 47,
@@ -39,7 +39,7 @@
     },
     {
       "player_id": "40915",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Adonai Mitchell",
       "availability_status": "rostered",
       "percent_owned": 44,
@@ -59,7 +59,7 @@
     },
     {
       "player_id": "40707",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Emanuel Wilson",
       "availability_status": "rostered",
       "percent_owned": 28,
@@ -119,7 +119,7 @@
     },
     {
       "player_id": "100023",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Steelers",
       "availability_status": "rostered",
       "percent_owned": 70,
@@ -279,7 +279,7 @@
     },
     {
       "player_id": "42652",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Omar Cooper Jr.",
       "availability_status": "rostered",
       "percent_owned": 63,
@@ -329,7 +329,7 @@
     },
     {
       "player_id": "31833",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Kyler Murray",
       "availability_status": "FA",
       "percent_owned": 56,
@@ -339,7 +339,7 @@
     },
     {
       "player_id": "100020",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Jets",
       "availability_status": "FA",
       "percent_owned": 9,
@@ -379,7 +379,7 @@
     },
     {
       "player_id": "30197",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Chris Godwin Jr.",
       "availability_status": "rostered",
       "percent_owned": 67,
@@ -449,7 +449,7 @@
     },
     {
       "player_id": "41823",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "TreVeyon Henderson",
       "availability_status": "rostered",
       "percent_owned": 62,
@@ -741,7 +741,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-07T10:40:59.262Z",
-    "elapsed_hours": 5.56
+    "previous_retrieved_at": "2026-11-07T16:14:38.967Z",
+    "elapsed_hours": 0.38
   }
 }
