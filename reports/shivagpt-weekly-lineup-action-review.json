@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-11-07T18:19:58.350Z",
+  "generated_at": "2026-11-08T18:30:33.754Z",
   "league_id": "721343",
   "season_week": 9,
-  "roster_source_at": "2026-11-07T16:38:31.219Z",
-  "availability_source_at": "2026-11-07T16:38:31.219Z",
+  "roster_source_at": "2026-11-08T18:13:40.203Z",
+  "availability_source_at": "2026-11-08T18:13:40.203Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -16,38 +16,8 @@
       "injury_status": null
     },
     {
-      "name": "Bo Nix",
-      "player_id": "40875",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Daniel Jones",
-      "player_id": "31838",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Malik Willis",
-      "player_id": "34042",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Justin Herbert",
       "player_id": "32676",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Michael Penix Jr.",
-      "player_id": "40889",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jameis Winston",
-      "player_id": "28389",
       "status": "FA",
       "injury_status": null
     },
@@ -64,20 +34,8 @@
       "injury_status": null
     },
     {
-      "name": "J.J. McCarthy",
-      "player_id": "40905",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Drew Lock",
       "player_id": "31874",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Marcus Mariota",
-      "player_id": "28390",
       "status": "FA",
       "injury_status": null
     },
@@ -106,26 +64,8 @@
       "injury_status": null
     },
     {
-      "name": "Athan Kaliakmanis",
-      "player_id": "42845",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kenny Pickett",
-      "player_id": "33975",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Fernando Mendoza",
       "player_id": "42623",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Jack Strand",
-      "player_id": "42898",
       "status": "FA",
       "injury_status": null
     },
@@ -136,62 +76,8 @@
       "injury_status": null
     },
     {
-      "name": "Stetson Bennett IV",
-      "player_id": "40153",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Tua Tagovailoa",
-      "player_id": "32675",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Shedeur Sanders",
-      "player_id": "41930",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Anthony Richardson Sr.",
-      "player_id": "40040",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Mason Rudolph",
       "player_id": "31046",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Spencer Rattler",
-      "player_id": "41043",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joe Milton",
-      "player_id": "41060",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joe Flacco",
-      "player_id": "8795",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Zach Wilson",
-      "player_id": "33390",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Justin Fields",
-      "player_id": "33399",
       "status": "FA",
       "injury_status": null
     },
@@ -202,32 +88,8 @@
       "injury_status": null
     },
     {
-      "name": "Sam Ehlinger",
-      "player_id": "33606",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Dillon Gabriel",
-      "player_id": "41861",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Jalen Milroe",
       "player_id": "41882",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Riley Leonard",
-      "player_id": "41968",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Kyle McCord",
-      "player_id": "41971",
       "status": "FA",
       "injury_status": null
     },
@@ -262,32 +124,8 @@
       "injury_status": null
     },
     {
-      "name": "Jarrett Stidham",
-      "player_id": "31965",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Sam Howell",
-      "player_id": "34100",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Mitchell Trubisky",
       "player_id": "30115",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Joshua Dobbs",
-      "player_id": "30248",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Ty Simpson",
-      "player_id": "42635",
       "status": "FA",
       "injury_status": null
     },
@@ -304,38 +142,8 @@
       "injury_status": null
     },
     {
-      "name": "Cade Klubnik",
-      "player_id": "42732",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Cole Payton",
-      "player_id": "42801",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Taylen Green",
-      "player_id": "42804",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Behren Morton",
       "player_id": "42856",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Garrett Nussmeier",
-      "player_id": "42871",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Haynes King",
-      "player_id": "42904",
       "status": "FA",
       "injury_status": null
     },
@@ -358,14 +166,50 @@
       "injury_status": null
     },
     {
-      "name": "Andy Dalton",
-      "player_id": "24822",
-      "status": "FA",
+      "name": "Jacoby Brissett",
+      "player_id": "29325",
+      "status": "W",
       "injury_status": null
     },
     {
-      "name": "Jacoby Brissett",
-      "player_id": "29325",
+      "name": "Daniel Jones",
+      "player_id": "31838",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Malik Willis",
+      "player_id": "34042",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "player_id": "40889",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jameis Winston",
+      "player_id": "28389",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tanner McKee",
+      "player_id": "40220",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "J.J. McCarthy",
+      "player_id": "40905",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Marcus Mariota",
+      "player_id": "28390",
       "status": "W",
       "injury_status": null
     },
@@ -376,8 +220,104 @@
       "injury_status": null
     },
     {
+      "name": "Kenny Pickett",
+      "player_id": "33975",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Stetson Bennett IV",
+      "player_id": "40153",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "player_id": "32675",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Shedeur Sanders",
+      "player_id": "41930",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Anthony Richardson Sr.",
+      "player_id": "40040",
+      "status": "W",
+      "injury_status": null
+    },
+    {
       "name": "Quinn Ewers",
       "player_id": "42037",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Spencer Rattler",
+      "player_id": "41043",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joe Milton",
+      "player_id": "41060",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joe Flacco",
+      "player_id": "8795",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Justin Fields",
+      "player_id": "33399",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Dillon Gabriel",
+      "player_id": "41861",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Kyle McCord",
+      "player_id": "41971",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jarrett Stidham",
+      "player_id": "31965",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Sam Howell",
+      "player_id": "34100",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Joshua Dobbs",
+      "player_id": "30248",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Cade Klubnik",
+      "player_id": "42732",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Cole Payton",
+      "player_id": "42801",
       "status": "W",
       "injury_status": null
     }
