@@ -1,59 +1,59 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-08T18:14:47.140Z",
+  "checked_at": "2026-11-08T18:16:55.440Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 0.02,
+      "age_hours": 0.05,
       "timestamp": "2026-11-08T18:13:40.203Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 0.02,
+      "age_hours": 0.05,
       "timestamp": "2026-11-08T18:13:40.203Z",
       "player_count": 942,
       "unique_player_count": 942
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 0.02,
+      "age_hours": 0.05,
       "timestamp": "2026-11-08T18:13:40.203Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 54.48,
+      "age_hours": 54.51,
       "timestamp": "2026-11-06T11:46:06.819Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 1.25,
+      "age_hours": 1.29,
       "timestamp": "2026-11-08T16:59:37.259244+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 1.25,
+      "age_hours": 1.28,
       "timestamp": "2026-11-08T16:59:51.759108+00:00"
     },
     "popularity": {
-      "status": "STALE",
-      "age_hours": 4.37,
-      "timestamp": "2026-11-08T13:52:47.656Z"
+      "status": "FRESH",
+      "age_hours": 0.03,
+      "timestamp": "2026-11-08T18:15:20.974Z"
     },
     "injury": {
       "status": "FRESH",
-      "age_hours": 0.02,
+      "age_hours": 0.05,
       "timestamp": "2026-11-08T18:13:40.203Z"
     },
     "nfl_headlines": {
-      "status": "STALE",
-      "age_hours": 4.51,
-      "timestamp": "2026-11-08T13:43:55.446505+00:00"
+      "status": "FRESH",
+      "age_hours": 0.02,
+      "timestamp": "2026-11-08T18:15:26.212770+00:00"
     }
   },
   "blocking_sources": [],
   "ready_for_scouting": true,
-  "evidence_ready_for_recommendations": false,
+  "evidence_ready_for_recommendations": true,
   "note": "Diagnostic only. Green preflight execution does not mean the main report has published or that NFL role research is complete."
 }
