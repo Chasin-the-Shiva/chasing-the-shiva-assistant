@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-09T09:48:24.208Z",
+  "generated_at": "2026-11-09T12:08:56.040Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-09T09:47:25.751Z",
+  "source_retrieved_at": "2026-11-09T12:08:01.710Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
@@ -409,7 +409,7 @@
     },
     {
       "player_id": "30197",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Chris Godwin Jr.",
       "availability_status": "rostered",
       "percent_owned": 66,
@@ -829,7 +829,7 @@
     },
     {
       "player_id": "31908",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Terry McLaurin",
       "availability_status": "W",
       "percent_owned": 30,
@@ -851,7 +851,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-09T02:58:32.238Z",
-    "elapsed_hours": 6.81
+    "previous_retrieved_at": "2026-11-09T09:47:25.751Z",
+    "elapsed_hours": 2.34
   }
 }
