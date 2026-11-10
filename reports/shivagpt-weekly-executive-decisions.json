@@ -1,171 +1,28 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T19:48:21.609Z",
+  "generated_at": "2026-11-10T12:06:21.993Z",
   "league_id": "721343",
-  "verified_inputs_fresh": true,
-  "remaining_faab": 23,
+  "verified_inputs_fresh": false,
+  "remaining_faab": 0,
   "decision": "HOLD_FAAB_NO_MOVE",
   "automatic_transactions_enabled": false,
   "approved_moves": [],
   "ranked_research": [
     {
-      "player": "Elijah Mitchell",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Samaje Perine",
-      "blocked_reasons": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Sione Vaki",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
-      "blocked_reasons": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Tyler Allgeier",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 15.67,
-      "role": "SUSTAINED_USAGE",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Samaje Perine",
-      "blocked_reasons": [
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Roschon Johnson",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 7.67,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Samaje Perine",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED",
-        "EXTERNAL_ROLE_NOT_CONFIRMED"
-      ],
-      "external_role_status": "THIRD_BACK_CONDITIONAL",
-      "evidence_links": [
-        "https://secure.ourlads.com/nfldepthcharts/depthchart/CHI",
-        "https://www.windycitygridiron.com/chicago-bears-injuries/125295/chicagobears-vs-falcons-injury-report-swift-and-monangai-dnp-ol-injuries"
-      ],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Jahan Dotson",
-      "position": "WR",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 4.33,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dontayvion Wicks",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 9,
-        "winning_bid_p75": 17
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Kimani Vidal",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
-      "blocked_reasons": [
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Darnell Washington",
+      "player": "Darren Waller",
       "position": "TE",
       "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 4,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "priority_tier": "INVESTIGATE_BEFORE_WAIVERS",
+      "observed_three_week_touches": 4.67,
+      "role": "RECENT_WORKLOAD_SPIKE_NEEDS_CONFIRMATION",
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Sam LaPorta",
       "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
+        "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -177,18 +34,263 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
+      "player": "Pierre Strong Jr.",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Ollie Gordon II",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Audric Estime",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Kendre Miller",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Tank Dell",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Antonio Williams",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 9,
+        "winning_bid_p75": 17
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Kendre Miller",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Van Jefferson",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Caleb Douglas",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 9,
+        "winning_bid_p75": 17
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
       "player": "Tyler Goodson",
       "position": "RB",
       "status": "W",
       "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 8,
+      "observed_three_week_touches": 10.67,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Samaje Perine",
+      "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Emari Demercado",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Ollie Gordon II",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 7,
+        "winning_bid_p75": 15
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Mack Hollins",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Caleb Douglas",
+      "blocked_reasons": [
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 9,
+        "winning_bid_p75": 17
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Jerry Jeudy",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 3,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Caleb Douglas",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 9,
+        "winning_bid_p75": 17
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Xavier Hutchinson",
+      "position": "WR",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": null,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Antonio Williams",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
+      ],
+      "external_role_status": "NOT_RESEARCHED",
+      "evidence_links": [],
+      "individual_bid": null,
+      "pricing_reference": {
+        "winning_bid_median": 9,
+        "winning_bid_p75": 17
+      },
+      "action": "NO_TRANSACTION_RECOMMENDED"
+    },
+    {
+      "player": "Sione Vaki",
+      "position": "RB",
+      "status": "W",
+      "priority_tier": "PASS_OR_WATCH",
+      "observed_three_week_touches": 6,
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "better_three_week_replacement_candidates": [],
+      "first_look_drop": "Kendre Miller",
+      "blocked_reasons": [
+        "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -204,87 +306,16 @@
       "position": "RB",
       "status": "W",
       "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
+      "observed_three_week_touches": 4,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
+      "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 15
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Treylon Burks",
-      "position": "WR",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dontayvion Wicks",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 9,
-        "winning_bid_p75": 17
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Tutu Atwell",
-      "position": "WR",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dontayvion Wicks",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 9,
-        "winning_bid_p75": 17
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Jeremy McNichols",
-      "position": "RB",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": null,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Ollie Gordon II",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -303,12 +334,13 @@
       "observed_three_week_touches": null,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dontayvion Wicks",
+      "first_look_drop": "Antonio Williams",
       "blocked_reasons": [
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -320,43 +352,19 @@
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
     {
-      "player": "Marvin Mims Jr.",
-      "position": "WR",
-      "status": "W",
-      "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 4,
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Dontayvion Wicks",
-      "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "external_role_status": "NOT_RESEARCHED",
-      "evidence_links": [],
-      "individual_bid": null,
-      "pricing_reference": {
-        "winning_bid_median": 9,
-        "winning_bid_p75": 17
-      },
-      "action": "NO_TRANSACTION_RECOMMENDED"
-    },
-    {
-      "player": "Bam Knight",
+      "player": "Elijah Mitchell",
       "position": "RB",
       "status": "W",
       "priority_tier": "PASS_OR_WATCH",
-      "observed_three_week_touches": 11.33,
+      "observed_three_week_touches": 10.33,
       "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
       "better_three_week_replacement_candidates": [],
-      "first_look_drop": "Samaje Perine",
+      "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
-        "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
@@ -372,7 +380,7 @@
     "low_value": "$0-$3 only after real upgrade verified",
     "medium_value": "$4-$19 only after role/competition verification",
     "difference_maker": "$20+ only with unusually high expected return, scarcity and verified current FAAB",
-    "hard_spend_cap": 23,
+    "hard_spend_cap": 0,
     "source": "League historical winning bids, not recommended individual prices"
   },
   "caveats": [

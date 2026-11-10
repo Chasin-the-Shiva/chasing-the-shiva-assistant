@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-manager-acquisition-scouting-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T19:17:24.099Z",
+  "generated_at": "2026-11-10T12:06:22.153Z",
   "source_timestamps": {
-    "live": "2026-11-03T18:05:32.414Z",
-    "available": "2026-11-03T18:05:32.414Z",
+    "live": "2026-11-10T09:50:37.588Z",
+    "available": "2026-11-10T09:50:37.588Z",
     "manager_history": "2026-09-17T18:20:35.020Z"
   },
   "watched_managers": [
@@ -38,6 +38,98 @@
     }
   ],
   "acquisition_signals": [
+    {
+      "manager_id": "manager_john",
+      "manager_label": "John Fitzgerald",
+      "team_at_transaction": "To infinity and Bijon",
+      "transaction_id": "205",
+      "transaction_timestamp": "2026-11-06T18:03:22.000Z",
+      "player_id": "41903",
+      "player_name": "Chimere Dike",
+      "position": "WR",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_john",
+      "manager_label": "John Fitzgerald",
+      "team_at_transaction": "To infinity and Bijon",
+      "transaction_id": "204",
+      "transaction_timestamp": "2026-11-06T17:49:50.000Z",
+      "player_id": "41786",
+      "player_name": "Cam Ward",
+      "position": "QB",
+      "faab_bid": null,
+      "acquisition_source": "freeagents",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "190",
+      "transaction_timestamp": "2026-11-04T09:13:36.000Z",
+      "player_id": "33113",
+      "player_name": "Juwan Johnson",
+      "position": "TE",
+      "faab_bid": 0,
+      "acquisition_source": "waivers",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
+    {
+      "manager_id": "manager_dom",
+      "manager_label": "Dom",
+      "team_at_transaction": "Team StudMonkey",
+      "transaction_id": "189",
+      "transaction_timestamp": "2026-11-04T09:13:36.000Z",
+      "player_id": "42796",
+      "player_name": "Emmett Johnson",
+      "position": "RB",
+      "faab_bid": 0,
+      "acquisition_source": "waivers",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
+      "requires": [
+        "Confirm injury/return history",
+        "Confirm draft pedigree",
+        "Compare NFL snap share, routes, targets, carries and red zone with previous games",
+        "Verify competing starters and role durability",
+        "Check current Yahoo FA/W status and exact drop",
+        "Assess keeper/trade value, cost and hindsight outcomes"
+      ],
+      "acquisition_recommendation": false
+    },
     {
       "manager_id": "manager_dom",
       "manager_label": "Dom",
@@ -95,7 +187,7 @@
       "position": "WR",
       "faab_bid": 0,
       "acquisition_source": "waivers",
-      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -302,7 +394,7 @@
       "position": "RB",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "W",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -348,7 +440,7 @@
       "position": "WR",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "W",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -417,7 +509,7 @@
       "position": "RB",
       "faab_bid": 7,
       "acquisition_source": "waivers",
-      "current_availability": "W",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -555,7 +647,7 @@
       "position": "WR",
       "faab_bid": 31,
       "acquisition_source": "waivers",
-      "current_availability": "NOT_IN_AVAILABLE_POOL",
+      "current_availability": "W",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
@@ -785,7 +877,7 @@
       "position": "TE",
       "faab_bid": null,
       "acquisition_source": "freeagents",
-      "current_availability": "W",
+      "current_availability": "NOT_IN_AVAILABLE_POOL",
       "research_signal": "RESPECTED_MANAGER_ACQUISITION_REVIEW",
       "requires": [
         "Confirm injury/return history",
