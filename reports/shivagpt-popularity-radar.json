@@ -1,19 +1,19 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T12:05:32.997Z",
+  "generated_at": "2026-11-10T13:00:00.960Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-10T12:04:28.372Z",
+  "source_retrieved_at": "2026-11-10T12:59:05.095Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "40121",
-      "observed_ownership_change_pp": -2,
+      "observed_ownership_change_pp": -1,
       "name": "Michael Wilson",
       "availability_status": "rostered",
-      "percent_owned": 87,
-      "percent_owned_delta": -7,
+      "percent_owned": 86,
+      "percent_owned_delta": -8,
       "adds_24h": null,
       "drops_24h": null
     }
@@ -21,7 +21,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-10T04:20:08.249Z",
-    "elapsed_hours": 7.74
+    "previous_retrieved_at": "2026-11-10T12:04:28.372Z",
+    "elapsed_hours": 0.91
   }
 }
