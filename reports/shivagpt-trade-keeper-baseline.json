@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-league-keeper-trade-baseline-v1",
   "read_only": true,
-  "generated_at": "2026-11-03T20:04:06.719Z",
+  "generated_at": "2026-11-10T20:25:42.123Z",
   "league_id": "721343",
-  "source_at": "2026-11-03T18:05:32.414Z",
+  "source_at": "2026-11-10T17:50:57.422Z",
   "teams": 12,
   "keep_limit": 3,
   "managers": [
@@ -37,7 +37,7 @@
           "id": "40168",
           "name": "Puka Nacua",
           "position": "WR",
-          "status": null,
+          "status": "D",
           "is_yahoo_keeper_marker": true
         },
         {
@@ -65,7 +65,7 @@
           "id": "31856",
           "name": "Josh Jacobs",
           "position": "RB",
-          "status": null,
+          "status": "O",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -100,7 +100,7 @@
           "id": "40971",
           "name": "MarShawn Lloyd",
           "position": "RB",
-          "status": null,
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -151,18 +151,18 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "32705",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
           "id": "40196",
           "name": "Chase Brown",
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "34107",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
         },
         {
           "id": "33963",
@@ -179,8 +179,22 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "42646",
-          "name": "KC Concepcion Jr.",
+          "id": "32692",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "31960",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42630",
+          "name": "Jordyn Tyson",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -193,31 +207,10 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "32692",
-          "name": "Justin Jefferson",
+          "id": "42646",
+          "name": "KC Concepcion Jr.",
           "position": "WR",
           "status": null,
-          "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "42730",
-          "name": "Jonah Coleman",
-          "position": "RB",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "41845",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "status": "IR",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "30551",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "status": "O",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -228,9 +221,16 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42638",
-          "name": "Kenyon Sadiq",
-          "position": "TE",
+          "id": "32705",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42730",
+          "name": "Jonah Coleman",
+          "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -238,21 +238,21 @@
           "id": "42025",
           "name": "Kyle Monangai",
           "position": "RB",
-          "status": "Q",
+          "status": "O",
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "41904",
-          "name": "Elic Ayomanor",
-          "position": "WR",
+          "id": "42763",
+          "name": "Nicholas Singleton",
+          "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42630",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "status": "IR-R",
+          "id": "41845",
+          "name": "RJ Harvey",
+          "position": "RB",
+          "status": "IR",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -272,21 +272,14 @@
     {
       "team_id": "3",
       "team_name": "To infinity and Bijon",
-      "roster_count": 16,
+      "roster_count": 17,
       "players": [
         {
-          "id": "31002",
-          "name": "Lamar Jackson",
+          "id": "40030",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "status": "O",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "29279",
-          "name": "Derrick Henry",
-          "position": "RB",
           "status": null,
-          "is_yahoo_keeper_marker": true
+          "is_yahoo_keeper_marker": false
         },
         {
           "id": "33514",
@@ -294,6 +287,13 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "30121",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
         },
         {
           "id": "40039",
@@ -324,6 +324,13 @@
           "is_yahoo_keeper_marker": true
         },
         {
+          "id": "29279",
+          "name": "Derrick Henry",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
           "id": "34320",
           "name": "Jordan Mason",
           "position": "RB",
@@ -331,29 +338,8 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40911",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "30121",
-          "name": "Christian McCaffrey",
-          "position": "RB",
-          "status": "Q",
-          "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "40030",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "34709",
-          "name": "KaVontae Turpin",
+          "id": "41824",
+          "name": "Luther Burden III",
           "position": "WR",
           "status": "Q",
           "is_yahoo_keeper_marker": false
@@ -370,6 +356,27 @@
           "name": "Kalif Raymond",
           "position": "WR",
           "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41786",
+          "name": "Cam Ward",
+          "position": "QB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41903",
+          "name": "Chimere Dike",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31002",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "status": "IR",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -396,7 +403,7 @@
     {
       "team_id": "4",
       "team_name": "Team StudMonkey",
-      "roster_count": 17,
+      "roster_count": 16,
       "players": [
         {
           "id": "41825",
@@ -413,8 +420,8 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "40707",
-          "name": "Emanuel Wilson",
+          "id": "42859",
+          "name": "Seth McGowan",
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -434,15 +441,15 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "41824",
-          "name": "Luther Burden III",
+          "id": "42669",
+          "name": "Germie Bernard",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "41877",
-          "name": "Harold Fannin Jr.",
+          "id": "33113",
+          "name": "Juwan Johnson",
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -455,30 +462,9 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42702",
-          "name": "Ja'Kobi Lane",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "42625",
-          "name": "Jeremiyah Love",
+          "id": "42796",
+          "name": "Emmett Johnson",
           "position": "RB",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "42669",
-          "name": "Germie Bernard",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "26662",
-          "name": "Geno Smith",
-          "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -490,17 +476,31 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42859",
-          "name": "Seth McGowan",
+          "id": "42702",
+          "name": "Ja'Kobi Lane",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40707",
+          "name": "Emanuel Wilson",
           "position": "RB",
           "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42625",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "status": "IR",
           "is_yahoo_keeper_marker": false
         },
         {
           "id": "41831",
           "name": "Terrance Ferguson",
           "position": "TE",
-          "status": "IR",
+          "status": "IR-R",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -554,7 +554,7 @@
           "id": "33394",
           "name": "Jaylen Waddle",
           "position": "WR",
-          "status": null,
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -579,15 +579,22 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "41087",
-          "name": "Ryan Flournoy",
+          "id": "40042",
+          "name": "Jordan Addison",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40042",
-          "name": "Jordan Addison",
+          "id": "42654",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41087",
+          "name": "Ryan Flournoy",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -628,15 +635,8 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42654",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "100028",
-          "name": "Commanders",
+          "id": "100019",
+          "name": "Giants",
           "position": "DEF",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -651,7 +651,7 @@
     {
       "team_id": "6",
       "team_name": "The 'Cant Finish on Top' Turds",
-      "roster_count": 16,
+      "roster_count": 17,
       "players": [
         {
           "id": "29369",
@@ -671,7 +671,7 @@
           "id": "33991",
           "name": "Breece Hall",
           "position": "RB",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": true
         },
         {
@@ -689,23 +689,16 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42661",
-          "name": "Denzel Boston",
+          "id": "42626",
+          "name": "Carnell Tate",
           "position": "WR",
-          "status": null,
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
           "id": "30259",
           "name": "George Kittle",
           "position": "TE",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "33538",
-          "name": "Kenny Gainwell",
-          "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -717,16 +710,23 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42626",
-          "name": "Carnell Tate",
+          "id": "42661",
+          "name": "Denzel Boston",
           "position": "WR",
-          "status": "O",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "34099",
-          "name": "Chig Okonkwo",
-          "position": "TE",
+          "id": "31906",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33538",
+          "name": "Kenny Gainwell",
+          "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -756,6 +756,13 @@
           "name": "Kaelon Black",
           "position": "RB",
           "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "42655",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "status": "IR",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -806,15 +813,15 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "31883",
-          "name": "A.J. Brown",
+          "id": "42697",
+          "name": "Caleb Douglas",
           "position": "WR",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42696",
-          "name": "Malachi Fields",
+          "id": "42693",
+          "name": "Antonio Williams",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -834,6 +841,20 @@
           "is_yahoo_keeper_marker": false
         },
         {
+          "id": "42744",
+          "name": "Mike Washington Jr.",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31883",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
           "id": "41907",
           "name": "Dylan Sampson",
           "position": "RB",
@@ -841,22 +862,15 @@
           "is_yahoo_keeper_marker": false
         },
         {
+          "id": "42696",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
           "id": "42030",
           "name": "Tez Johnson",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "42693",
-          "name": "Antonio Williams",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "42697",
-          "name": "Caleb Douglas",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -869,17 +883,10 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40201",
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
           "id": "40108",
           "name": "Kendre Miller",
           "position": "RB",
-          "status": null,
+          "status": "NA",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -890,8 +897,8 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "100004",
-          "name": "Bengals",
+          "id": "100018",
+          "name": "Saints",
           "position": "DEF",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -926,22 +933,15 @@
           "id": "41900",
           "name": "Bhayshul Tuten",
           "position": "RB",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
           "id": "33989",
           "name": "Christian Watson",
           "position": "WR",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "33965",
-          "name": "Garrett Wilson",
-          "position": "WR",
           "status": null,
-          "is_yahoo_keeper_marker": true
+          "is_yahoo_keeper_marker": false
         },
         {
           "id": "33500",
@@ -951,16 +951,16 @@
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "41799",
-          "name": "Tyler Warren",
-          "position": "TE",
+          "id": "41293",
+          "name": "Jalen Coker",
+          "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "41293",
-          "name": "Jalen Coker",
-          "position": "WR",
+          "id": "41799",
+          "name": "Tyler Warren",
+          "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -970,6 +970,20 @@
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41097",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33965",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": true
         },
         {
           "id": "41807",
@@ -982,13 +996,6 @@
           "id": "31012",
           "name": "Mike Gesicki",
           "position": "TE",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "41097",
-          "name": "Devaughn Vele",
-          "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1033,6 +1040,13 @@
           "is_yahoo_keeper_marker": true
         },
         {
+          "id": "30423",
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
           "id": "34447",
           "name": "Jaylen Warren",
           "position": "RB",
@@ -1040,9 +1054,9 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "30972",
-          "name": "Saquon Barkley",
-          "position": "RB",
+          "id": "32231",
+          "name": "Jakobi Meyers",
+          "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1054,22 +1068,29 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40901",
-          "name": "Rome Odunze",
+          "id": "31868",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "status": null,
+          "status": "Q",
           "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "42642",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
         },
         {
           "id": "26686",
           "name": "Travis Kelce",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40119",
+          "name": "Tyjae Spears",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33443",
+          "name": "Pat Freiermuth",
           "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -1082,16 +1103,9 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "32231",
-          "name": "Jakobi Meyers",
+          "id": "29360",
+          "name": "Demarcus Robinson",
           "position": "WR",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "33443",
-          "name": "Pat Freiermuth",
-          "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1099,40 +1113,33 @@
           "id": "41804",
           "name": "Emeka Egbuka",
           "position": "WR",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40119",
-          "name": "Tyjae Spears",
-          "position": "RB",
-          "status": "O",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "31868",
-          "name": "Deebo Samuel Sr.",
+          "id": "40901",
+          "name": "Rome Odunze",
           "position": "WR",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": true
         },
         {
-          "id": "32018",
-          "name": "Ty Johnson",
+          "id": "30972",
+          "name": "Saquon Barkley",
           "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "41001",
-          "name": "AJ Barner",
-          "position": "TE",
+          "id": "42642",
+          "name": "Makai Lemon",
+          "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "100023",
-          "name": "Steelers",
+          "id": "100034",
+          "name": "Texans",
           "position": "DEF",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -1150,8 +1157,8 @@
       "roster_count": 16,
       "players": [
         {
-          "id": "9265",
-          "name": "Matthew Stafford",
+          "id": "30123",
+          "name": "Patrick Mahomes",
           "position": "QB",
           "status": "Q",
           "is_yahoo_keeper_marker": false
@@ -1164,24 +1171,17 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "33508",
-          "name": "Rhamondre Stevenson",
+          "id": "34120",
+          "name": "Kyren Williams",
           "position": "RB",
           "status": null,
-          "is_yahoo_keeper_marker": false
+          "is_yahoo_keeper_marker": true
         },
         {
           "id": "30994",
           "name": "DJ Moore",
           "position": "WR",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "34659",
-          "name": "Rashid Shaheed",
-          "position": "WR",
-          "status": "Q",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
@@ -1192,6 +1192,13 @@
           "is_yahoo_keeper_marker": true
         },
         {
+          "id": "34659",
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
           "id": "40078",
           "name": "Brenton Strange",
           "position": "TE",
@@ -1199,23 +1206,9 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "33398",
-          "name": "DeVonta Smith",
+          "id": "40915",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "status": "Q",
-          "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "34120",
-          "name": "Kyren Williams",
-          "position": "RB",
-          "status": null,
-          "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "33392",
-          "name": "Kyle Pitts Sr.",
-          "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1234,18 +1227,32 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "30123",
-          "name": "Patrick Mahomes",
+          "id": "33508",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "status": "D",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33392",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "9265",
+          "name": "Matthew Stafford",
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40915",
-          "name": "Adonai Mitchell",
+          "id": "33398",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
+          "status": "O",
+          "is_yahoo_keeper_marker": true
         },
         {
           "id": "32696",
@@ -1271,7 +1278,7 @@
     {
       "team_id": "11",
       "team_name": "Roadrunner",
-      "roster_count": 17,
+      "roster_count": 16,
       "players": [
         {
           "id": "40881",
@@ -1295,31 +1302,38 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40877",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
           "id": "40908",
           "name": "Ladd McConkey",
           "position": "WR",
-          "status": null,
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "34007",
-          "name": "George Pickens",
+          "id": "33477",
+          "name": "Nico Collins",
           "position": "WR",
           "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
+          "id": "40877",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "29269",
-          "name": "Hunter Henry",
+          "id": "41877",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
-          "status": "Q",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "34095",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
@@ -1330,9 +1344,23 @@
           "is_yahoo_keeper_marker": false
         },
         {
+          "id": "41922",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "status": "Q",
+          "is_yahoo_keeper_marker": false
+        },
+        {
           "id": "40641",
           "name": "Keaton Mitchell",
           "position": "RB",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "29269",
+          "name": "Hunter Henry",
+          "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1344,45 +1372,17 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "41885",
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "status": "IR",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "34095",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "33477",
-          "name": "Nico Collins",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": true
-        },
-        {
-          "id": "41922",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "7200",
-          "name": "Aaron Rodgers",
+          "id": "26662",
+          "name": "Geno Smith",
           "position": "QB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "40926",
-          "name": "Jonathon Brooks",
-          "position": "RB",
-          "status": "IR",
+          "id": "34007",
+          "name": "George Pickens",
+          "position": "WR",
+          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -1405,16 +1405,9 @@
       "roster_count": 17,
       "players": [
         {
-          "id": "30973",
-          "name": "Sam Darnold",
+          "id": "40875",
+          "name": "Bo Nix",
           "position": "QB",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "31960",
-          "name": "Tony Pollard",
-          "position": "RB",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1422,26 +1415,33 @@
           "id": "31945",
           "name": "Justice Hill",
           "position": "RB",
-          "status": "Q",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "41052",
+          "name": "Kimani Vidal",
+          "position": "RB",
+          "status": null,
           "is_yahoo_keeper_marker": false
         },
         {
           "id": "40121",
           "name": "Michael Wilson",
           "position": "WR",
-          "status": "Q",
+          "status": "O",
           "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "33998",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": true
         },
         {
           "id": "40234",
           "name": "Parker Washington",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "40090",
+          "name": "Marvin Mims Jr.",
           "position": "WR",
           "status": null,
           "is_yahoo_keeper_marker": false
@@ -1468,31 +1468,24 @@
           "is_yahoo_keeper_marker": false
         },
         {
+          "id": "34054",
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "status": "IR",
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "33998",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "status": null,
+          "is_yahoo_keeper_marker": true
+        },
+        {
           "id": "31019",
           "name": "Dallas Goedert",
           "position": "TE",
           "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "42706",
-          "name": "Ted Hurst III",
-          "position": "WR",
-          "status": null,
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "34054",
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "status": "Q",
-          "is_yahoo_keeper_marker": false
-        },
-        {
-          "id": "40231",
-          "name": "Chris Rodriguez Jr.",
-          "position": "RB",
-          "status": "Q",
           "is_yahoo_keeper_marker": false
         },
         {
@@ -1503,9 +1496,16 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "42389",
-          "name": "Myles Price",
-          "position": "WR",
+          "id": "40065",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "status": null,
+          "is_yahoo_keeper_marker": false
+        },
+        {
+          "id": "31107",
+          "name": "Dalton Schultz",
+          "position": "TE",
           "status": null,
           "is_yahoo_keeper_marker": false
         },
@@ -1517,8 +1517,8 @@
           "is_yahoo_keeper_marker": false
         },
         {
-          "id": "100022",
-          "name": "Cardinals",
+          "id": "100008",
+          "name": "Lions",
           "position": "DEF",
           "status": null,
           "is_yahoo_keeper_marker": false
