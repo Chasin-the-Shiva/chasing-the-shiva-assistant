@@ -1,7 +1,7 @@
 # ShivaGPT — Tuesday scouting data brief
 
-Generated: 2026-11-10T12:06:22.328Z | Yahoo stats through Week 9
-League snapshot: 2026-11-10T09:50:37.588Z | Availability snapshot: 2026-11-10T09:50:37.588Z
+Generated: 2026-11-10T19:29:41.154Z | Yahoo stats through Week 9
+League snapshot: 2026-11-10T17:50:57.422Z | Availability snapshot: 2026-11-10T17:50:57.422Z
 
 ## Data coverage
 - Player-statistics entries: 1140; available entries in current snapshot: 943; other player entries: 184.
@@ -54,7 +54,7 @@ This is a statistical *screening list*, not a recommendation to add/drop or spen
 | Nate Boerkircher | TE | 19.2 | 15.2 | 11.6 | W |
 
 ## Yahoo-wide popularity research triggers
-- Radar status: verified; 0 available-player signals (not acquisition recommendations).
+- Radar status: stale; 0 available-player signals (not acquisition recommendations).
 - Yahoo's ownership delta represents a fantasy-week change, not verified 24-hour add counts. Observed between-snapshot movement is a separate percentage-point measure.
 
 | Player | FA/W | Yahoo weekly ownership change (pp) | Observed snapshot change (pp) |
@@ -216,7 +216,7 @@ Use the snap-share trend alongside carries, targets and injury context; it is no
 No FAAB bids are generated without external NFL research and a defensible improvement over the exact drop candidate.
 
 ## Current sourced NFL headline research
-- News feed: available; 10 matched player headlines in the latest four-day window.
+- News feed: available; 9 matched player headlines in the latest four-day window.
 - Headlines are research leads, not verified full-article conclusions. Confirm the linked reporting before forecasting return dates or approving a bid.
 
 - 2026-11-10T04:44:19+00:00 — CBS NFL: [Six lessons learned from NFL Week 9: Arvell Reese a superstar in the making, C.J. Stroud having career year](https://www.cbssports.com/nfl/news/six-lessons-nfl-week-9-arvell-reese-c-j-stroud/)
@@ -228,18 +228,17 @@ No FAAB bids are generated without external NFL research and a defensible improv
 - 2026-11-09T17:38:15+00:00 — CBS NFL: [Cam Skattebo injury update: Giants RB 'full go' for Thursday night vs. Commanders](https://www.cbssports.com/nfl/news/cam-skattebo-injury-update-giants-rb-thursday-night-commanders/)
 - 2026-11-09T23:34:07+00:00 — CBS NFL: [Browns QB update: Todd Monken hasn't decided between Deshaun Watson and Shedeur Sanders for Week 10](https://www.cbssports.com/nfl/news/browns-starting-qb-deshaun-watson-shedeur-sanders-texans-2026/)
 - 2026-11-09T13:53:29+00:00 — CBS NFL: [Bears overcome Caleb Williams' interceptions for 'SNF' win; resetting CFP race after Week 10](https://www.cbssports.com/nfl/news/bears-overcome-caleb-williams-interceptions-for-snf-win-resetting-cfp-race-after-week-10/)
-- 2026-11-09T13:36:38+00:00 — CBS NFL: [Caleb Williams unfazed by four-interception game in Bears win: 'I don't get gun shy'](https://www.cbssports.com/nfl/news/caleb-williams-four-interceptions-bears-buccaneers-2026/)
 
 ## Actual Chasing the Shiva FAAB market
-- Verified snapshot remaining FAAB: 0. Historical winning bids: 45.
+- Verified snapshot remaining FAAB: 0. Historical winning bids: 51.
 
 | Position | Winning bids | Median | 75th percentile | Maximum |
 |---|---:|---:|---:|---:|
-| QB | 8 | 1 | 2 | 15 |
+| QB | 9 | 1 | 2 | 15 |
+| TE | 6 | 1 | 11 | 11 |
+| RB | 13 | 7 | 23 | 51 |
+| WR | 17 | 9 | 17 | 40 |
 | DEF | 6 | 0 | 1 | 1 |
-| WR | 16 | 9 | 17 | 40 |
-| TE | 5 | 7 | 11 | 11 |
-| RB | 10 | 7 | 15 | 47 |
 
 Winning bid history excludes losing bids and is only a pricing reference, not a suggested bid for an unverified player.
 
@@ -248,7 +247,7 @@ Winning bid history excludes losing bids and is only a pricing reference, not a 
 
 | Player | Injury status | Yahoo status | News research headline |
 |---|---|---|---|
-| Cam Skattebo | O | rostered | Cam Skattebo injury update: Giants RB 'full go' for Thursday night vs. Commanders |
+| Cam Skattebo | Q | rostered | Cam Skattebo injury update: Giants RB 'full go' for Thursday night vs. Commanders |
 
 No inferred activation date or pickup recommendation without reading the attributed article, verifying team status, workload and exact Yahoo FA/W designation.
 

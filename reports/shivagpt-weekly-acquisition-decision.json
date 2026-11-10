@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T12:06:21.969Z",
+  "generated_at": "2026-11-10T19:29:40.585Z",
   "league_id": "721343",
   "source_fresh": true,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
@@ -37,10 +37,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -82,10 +82,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -127,7 +127,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -172,10 +172,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -217,7 +217,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -248,8 +248,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 5,
-        "median": 7,
+        "winning_bid_count": 6,
+        "median": 1,
         "p75": 11,
         "max": 11
       },
@@ -293,10 +293,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -338,10 +338,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -384,7 +384,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -429,7 +429,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -475,7 +475,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -483,6 +483,51 @@
       "remaining_faab": 0,
       "risk_blockers": [
         "OFFENSIVE_ROLE_INCOMPLETE",
+        "INSUFFICIENT_SUSTAINED_USAGE",
+        "DEPTH_CHART_UNCONFIRMED",
+        "TRADE_VALUE_UNCONFIRMED"
+      ],
+      "readiness": "HOLD_FOR_RESEARCH",
+      "recommended_bid": null,
+      "approved_add_drop": false
+    },
+    {
+      "name": "Keon Coleman",
+      "position": "WR",
+      "availability": "W",
+      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
+      "three_week_touches": null,
+      "candidates_to_drop": [
+        {
+          "name": "Caleb Douglas",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Antonio Williams",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        },
+        {
+          "name": "Malachi Fields",
+          "latest_touch_delta": null,
+          "three_week_touch_delta": null,
+          "latest_snap_share_delta": null,
+          "recommendation": "RESEARCH_ONLY"
+        }
+      ],
+      "market_context": {
+        "winning_bid_count": 17,
+        "median": 9,
+        "p75": 17,
+        "max": 40
+      },
+      "remaining_faab": 0,
+      "risk_blockers": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -521,10 +566,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -567,10 +612,10 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 10,
+        "winning_bid_count": 13,
         "median": 7,
-        "p75": 15,
-        "max": 47
+        "p75": 23,
+        "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
@@ -613,7 +658,7 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 16,
+        "winning_bid_count": 17,
         "median": 9,
         "p75": 17,
         "max": 40
@@ -621,51 +666,6 @@
       "remaining_faab": 0,
       "risk_blockers": [
         "OFFENSIVE_ROLE_INCOMPLETE",
-        "INSUFFICIENT_SUSTAINED_USAGE",
-        "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
-      ],
-      "readiness": "HOLD_FOR_RESEARCH",
-      "recommended_bid": null,
-      "approved_add_drop": false
-    },
-    {
-      "name": "Elijah Mitchell",
-      "position": "RB",
-      "availability": "W",
-      "role": "LOW_OR_UNVERIFIED_OPPORTUNITY",
-      "three_week_touches": 10.33,
-      "candidates_to_drop": [
-        {
-          "name": "Kendre Miller",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Mike Washington Jr.",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        },
-        {
-          "name": "Ollie Gordon II",
-          "latest_touch_delta": null,
-          "three_week_touch_delta": null,
-          "latest_snap_share_delta": null,
-          "recommendation": "RESEARCH_ONLY"
-        }
-      ],
-      "market_context": {
-        "winning_bid_count": 10,
-        "median": 7,
-        "p75": 15,
-        "max": 47
-      },
-      "remaining_faab": 0,
-      "risk_blockers": [
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"

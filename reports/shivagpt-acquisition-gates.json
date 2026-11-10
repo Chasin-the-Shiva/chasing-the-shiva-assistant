@@ -1,13 +1,13 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T12:06:21.910Z",
+  "generated_at": "2026-11-10T19:29:40.498Z",
   "league_id": "721343",
   "source_ready": true,
   "remaining_faab": 0,
   "winning_bid_market": {
     "QB": {
-      "count": 8,
+      "count": 9,
       "minimum": 0,
       "median": 1,
       "p75": 2,
@@ -15,6 +15,36 @@
       "maximum": 15,
       "over_20": 0,
       "over_40": 0
+    },
+    "TE": {
+      "count": 6,
+      "minimum": 0,
+      "median": 1,
+      "p75": 11,
+      "p90": 11,
+      "maximum": 11,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "RB": {
+      "count": 13,
+      "minimum": 0,
+      "median": 7,
+      "p75": 23,
+      "p90": 47,
+      "maximum": 51,
+      "over_20": 4,
+      "over_40": 2
+    },
+    "WR": {
+      "count": 17,
+      "minimum": 0,
+      "median": 9,
+      "p75": 17,
+      "p90": 31,
+      "maximum": 40,
+      "over_20": 4,
+      "over_40": 1
     },
     "DEF": {
       "count": 6,
@@ -25,36 +55,6 @@
       "maximum": 1,
       "over_20": 0,
       "over_40": 0
-    },
-    "WR": {
-      "count": 16,
-      "minimum": 0,
-      "median": 9,
-      "p75": 17,
-      "p90": 31,
-      "maximum": 40,
-      "over_20": 4,
-      "over_40": 1
-    },
-    "TE": {
-      "count": 5,
-      "minimum": 0,
-      "median": 7,
-      "p75": 11,
-      "p90": 11,
-      "maximum": 11,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "RB": {
-      "count": 10,
-      "minimum": 0,
-      "median": 7,
-      "p75": 15,
-      "p90": 31,
-      "maximum": 47,
-      "over_20": 2,
-      "over_40": 1
     }
   },
   "decision": "NO_BID_WITHOUT_INDIVIDUAL_ROLE_AND_TRADE_VERIFICATION",
@@ -326,6 +326,30 @@
       "approval_required": true
     },
     {
+      "player_id": "40911",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "availability": "W",
+      "potential_drop": "Kendre Miller",
+      "research_score": 25.22,
+      "recent_carries": 0,
+      "recent_targets": 6,
+      "opportunity_growth": 3,
+      "offensive_snap_pct": 0.61,
+      "role_evidence_met": true,
+      "possible_same_position_swap": false,
+      "protected_drop": false,
+      "needs_review": [
+        "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
+        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
+        "TRADE_MARKET_UNVERIFIED"
+      ],
+      "analyst_candidate": false,
+      "recommendation": "RESEARCH_ONLY",
+      "faab_bid": null,
+      "approval_required": true
+    },
+    {
       "player_id": "41006",
       "name": "Sione Vaki",
       "position": "RB",
@@ -390,29 +414,6 @@
       "needs_review": [
         "NFL_ROLE_NOT_CONFIRMED",
         "CROSS_POSITION_REPLACEMENT_NOT_EVALUATED",
-        "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
-        "TRADE_MARKET_UNVERIFIED"
-      ],
-      "analyst_candidate": false,
-      "recommendation": "RESEARCH_ONLY",
-      "faab_bid": null,
-      "approval_required": true
-    },
-    {
-      "player_id": "33582",
-      "name": "Elijah Mitchell",
-      "position": "RB",
-      "availability": "W",
-      "potential_drop": "Kendre Miller",
-      "research_score": 22.1,
-      "recent_carries": 3,
-      "recent_targets": 4,
-      "opportunity_growth": -10,
-      "offensive_snap_pct": 0.41,
-      "role_evidence_met": true,
-      "possible_same_position_swap": true,
-      "protected_drop": false,
-      "needs_review": [
         "TEAM_DEPTH_CHART_AND_COMPETITION_UNVERIFIED",
         "TRADE_MARKET_UNVERIFIED"
       ],
