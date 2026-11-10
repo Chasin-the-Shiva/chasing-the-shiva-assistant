@@ -53,3 +53,4 @@ jobs:
 # Verification-only readiness trigger 2026-11-09 10:40 EST after successful read-only Yahoo and injury snapshot freshness recovery; comment-only, no commands, schedules, permissions, or Yahoo writes changed.
 
 # Read-only readiness verification 2026-11-09 19:51 EST: post-recovery injury radar now sourced from 17:43 EST Yahoo snapshot. Comment-only trigger, no workflow commands, schedules, permissions or Yahoo write changes.
+# Read-only source-readiness verification trigger 2026-11-10 02:37 EST: independently validated Yahoo snapshot retrieved 02:35 EST and injury radar using same new source; comment-only, no workflow commands, schedule, permissions, Yahoo writes, alert changes or manager-history rebuild.
