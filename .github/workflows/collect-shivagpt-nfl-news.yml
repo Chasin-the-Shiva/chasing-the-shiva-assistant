@@ -46,3 +46,4 @@ jobs:
 # Read-only NFL headline freshness recovery: 2026-11-03 18:18 EST. No workflow logic changed.
 # Read-only NFL headline research freshness recovery trigger 2026-11-07 01:22 EST; comment only, existing collector logic and permissions unchanged.
 # Read-only NFL headlines recovery trigger 2026-11-07 09:26 EST after missed scheduled runs and >4h stale evidence; comment only, no collector logic, permissions, or data writes to Yahoo.
+# Read-only NFL headline evidence recovery 2026-11-10 07:02 EST: scheduled :22 opportunities missed; last successful source >7h old before Tuesday waiver report. Comment-only trigger; no collection or publication logic, permissions, or Yahoo writes changed.
