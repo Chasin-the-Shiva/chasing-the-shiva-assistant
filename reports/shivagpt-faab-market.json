@@ -2,22 +2,22 @@
   "schema": "shivagpt-faab-market-v1",
   "read_only": true,
   "league_id": "721343",
-  "generated_at": "2026-11-03T18:39:13.186Z",
-  "league_snapshot_at": "2026-11-03T18:05:32.414Z",
-  "total_successful_waiver_bids": 45,
+  "generated_at": "2026-11-10T18:47:56.018Z",
+  "league_snapshot_at": "2026-11-10T17:50:57.422Z",
+  "total_successful_waiver_bids": 51,
   "all_positions": {
-    "count": 45,
+    "count": 51,
     "minimum": 0,
     "median": 5,
     "p75": 15,
     "p90": 30,
-    "maximum": 47,
-    "over_20": 6,
-    "over_40": 2
+    "maximum": 51,
+    "over_20": 8,
+    "over_40": 3
   },
   "by_position": {
     "QB": {
-      "count": 8,
+      "count": 9,
       "minimum": 0,
       "median": 1,
       "p75": 2,
@@ -25,6 +25,36 @@
       "maximum": 15,
       "over_20": 0,
       "over_40": 0
+    },
+    "TE": {
+      "count": 6,
+      "minimum": 0,
+      "median": 1,
+      "p75": 11,
+      "p90": 11,
+      "maximum": 11,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "RB": {
+      "count": 13,
+      "minimum": 0,
+      "median": 7,
+      "p75": 23,
+      "p90": 47,
+      "maximum": 51,
+      "over_20": 4,
+      "over_40": 2
+    },
+    "WR": {
+      "count": 17,
+      "minimum": 0,
+      "median": 9,
+      "p75": 17,
+      "p90": 31,
+      "maximum": 40,
+      "over_20": 4,
+      "over_40": 1
     },
     "DEF": {
       "count": 6,
@@ -35,36 +65,6 @@
       "maximum": 1,
       "over_20": 0,
       "over_40": 0
-    },
-    "WR": {
-      "count": 16,
-      "minimum": 0,
-      "median": 9,
-      "p75": 17,
-      "p90": 31,
-      "maximum": 40,
-      "over_20": 4,
-      "over_40": 1
-    },
-    "TE": {
-      "count": 5,
-      "minimum": 0,
-      "median": 7,
-      "p75": 11,
-      "p90": 11,
-      "maximum": 11,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "RB": {
-      "count": 10,
-      "minimum": 0,
-      "median": 7,
-      "p75": 15,
-      "p90": 31,
-      "maximum": 47,
-      "over_20": 2,
-      "over_40": 1
     }
   },
   "limitations": [
