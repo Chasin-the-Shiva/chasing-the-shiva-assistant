@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-10T17:45:47.480Z",
+  "checked_at": "2026-11-10T23:15:32.510Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 1.36,
-      "timestamp": "2026-11-10T16:24:28.771Z"
+      "age_hours": 2.63,
+      "timestamp": "2026-11-10T20:37:48.895Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 1.36,
-      "timestamp": "2026-11-10T16:24:28.771Z",
+      "age_hours": 2.63,
+      "timestamp": "2026-11-10T20:37:48.895Z",
       "player_count": 943,
       "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 1.36,
-      "timestamp": "2026-11-10T16:24:28.771Z"
+      "age_hours": 2.63,
+      "timestamp": "2026-11-10T20:37:48.895Z"
     },
     "player_stats": {
       "status": "FRESH",
-      "age_hours": 1.04,
+      "age_hours": 6.53,
       "timestamp": "2026-11-10T16:43:32.372Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 20.37,
-      "timestamp": "2026-11-09T21:23:50.535241+00:00"
+      "age_hours": 4.65,
+      "timestamp": "2026-11-10T18:36:22.812819+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 20.36,
-      "timestamp": "2026-11-09T21:23:55.261692+00:00"
+      "age_hours": 4.63,
+      "timestamp": "2026-11-10T18:37:36.597608+00:00"
     },
     "popularity": {
-      "status": "STALE",
-      "age_hours": 4.78,
-      "timestamp": "2026-11-10T12:59:05.095Z"
+      "status": "FRESH",
+      "age_hours": 2.65,
+      "timestamp": "2026-11-10T20:36:46.721Z"
     },
     "injury": {
-      "status": "FRESH",
-      "age_hours": 1.36,
-      "timestamp": "2026-11-10T16:24:28.771Z"
+      "status": "STALE",
+      "age_hours": 5.41,
+      "timestamp": "2026-11-10T17:50:57.422Z"
     },
     "nfl_headlines": {
-      "status": "STALE",
-      "age_hours": 4.14,
-      "timestamp": "2026-11-10T13:37:19.156708+00:00"
+      "status": "FRESH",
+      "age_hours": 2.35,
+      "timestamp": "2026-11-10T20:54:35.978684+00:00"
     }
   },
   "blocking_sources": [],
