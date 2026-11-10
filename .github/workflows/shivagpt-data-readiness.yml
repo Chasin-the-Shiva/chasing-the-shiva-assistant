@@ -51,3 +51,5 @@ jobs:
 # Verification-only readiness run 2026-11-07 09:27 EST after read-only Yahoo recovery, injury validation rerun, and NFL headline refresh; no workflow commands, schedules, permissions, or Yahoo writes changed.
 # Verification-only readiness trigger 2026-11-09 00:58 EST after successful read-only Yahoo and injury freshness recovery; no workflow commands, schedule, permissions, or Yahoo writes changed.
 # Verification-only readiness trigger 2026-11-09 10:40 EST after successful read-only Yahoo and injury snapshot freshness recovery; comment-only, no commands, schedules, permissions, or Yahoo writes changed.
+
+# Read-only readiness verification 2026-11-09 19:51 EST: post-recovery injury radar now sourced from 17:43 EST Yahoo snapshot. Comment-only trigger, no workflow commands, schedules, permissions or Yahoo write changes.
