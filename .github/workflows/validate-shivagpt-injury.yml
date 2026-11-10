@@ -52,3 +52,4 @@ jobs:
 # Read-only injury radar recovery trigger 2026-11-09 10:39 EST: source dated 04:47 EST exceeded four-hour threshold after skipped schedules; Yahoo snapshot refreshed and validated at 10:37 EST. Comment-only; no commands, schedules, permissions, or Yahoo writes changed.
 
 # Read-only injury freshness recovery 2026-11-09 19:49 EST: scheduled collector last ran 13:57 EST; underlying injury source from 12:29 EST is overdue. Latest sanitized Yahoo snapshot succeeded 17:43 EST. Comment-only trigger; preserve job logic, schedule, permissions and all Yahoo writes prohibited.
+# Read-only injury source refresh 2026-11-10 02:36 EST: last injury radar sourced from 2026-11-09 20:31 EST, beyond four-hour threshold after missed scheduled runs; fresh read-only Yahoo snapshot verified at 02:35 EST. Comment-only trigger; preserve all job logic, schedule, permissions, Yahoo transactions, rosters, lineups and bids.
