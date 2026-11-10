@@ -50,3 +50,4 @@ jobs:
           exit 1
 
 # Scheduled statistics recovery trigger, 2026-11-03: comment-only change; collection and publishing logic unchanged.
+# Read-only player-stats schedule recovery, 2026-11-10 05:10 EST: 04:00 scheduled run absent; Week 9 completion needed before 07:00 Tuesday brief. Comment-only trigger; preserve commands, schedule, permissions and Yahoo transactions.
