@@ -52,3 +52,4 @@ jobs:
 # Read-only popularity freshness recovery: 2026-11-04 10:40 EST after missed schedule; workflow commands, permissions, and Yahoo transactions unchanged.
 # Read-only popularity freshness recovery trigger: 2026-11-07 04:27 EST; >6h since source, missed scheduled collection. Workflow commands, permissions and Yahoo transactions unchanged.
 # Read-only popularity freshness recovery trigger: 2026-11-07 11:12 EST; last source 05:40 EST, multiple :45 scheduled opportunities missed. Comment-only trigger; no workflow commands, schedule, permissions, Yahoo writes, or alert settings changed.
+# Read-only popularity evidence recovery 2026-11-10 07:02 EST: scheduled :45 opportunities missed; last successful source >7h old before Tuesday waiver report. Comment-only trigger; no workflow commands, schedule, permissions, Yahoo transactions, or visibility changes.
