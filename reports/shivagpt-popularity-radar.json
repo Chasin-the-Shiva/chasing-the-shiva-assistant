@@ -1,19 +1,29 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T13:00:00.960Z",
+  "generated_at": "2026-11-10T20:37:43.674Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-10T12:59:05.095Z",
+  "source_retrieved_at": "2026-11-10T20:36:46.721Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "40121",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": -6,
       "name": "Michael Wilson",
       "availability_status": "rostered",
-      "percent_owned": 86,
-      "percent_owned_delta": -8,
+      "percent_owned": 80,
+      "percent_owned_delta": -14,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100018",
+      "observed_ownership_change_pp": -2,
+      "name": "Saints",
+      "availability_status": "rostered",
+      "percent_owned": 59,
+      "percent_owned_delta": -3,
       "adds_24h": null,
       "drops_24h": null
     }
@@ -21,7 +31,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-10T12:04:28.372Z",
-    "elapsed_hours": 0.91
+    "previous_retrieved_at": "2026-11-10T12:59:05.095Z",
+    "elapsed_hours": 7.63
   }
 }
