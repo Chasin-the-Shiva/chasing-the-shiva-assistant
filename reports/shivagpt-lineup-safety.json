@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-12T21:05:28.084Z",
-  "source_at": "2026-11-12T18:56:23.782Z",
+  "generated_at": "2026-11-13T20:38:32.052Z",
+  "source_at": "2026-11-13T18:07:05.046Z",
   "league_id": "721343",
   "lineup_week": 10,
   "verified_roster_count": 17,
@@ -58,14 +58,14 @@
       "bye_week": "6"
     },
     {
-      "id": "42693",
-      "name": "Antonio Williams",
+      "id": "33445",
+      "name": "Tutu Atwell",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "7"
+      "bye_week": "11"
     },
     {
       "id": "40064",
@@ -88,9 +88,9 @@
       "bye_week": "8"
     },
     {
-      "id": "33445",
-      "name": "Tutu Atwell",
-      "position": "WR",
+      "id": "41907",
+      "name": "Dylan Sampson",
+      "position": "RB",
       "selected_position": "W/R/T",
       "status": null,
       "status_full": null,
@@ -110,6 +110,16 @@
   ],
   "bench": [
     {
+      "id": "42693",
+      "name": "Antonio Williams",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "7"
+    },
+    {
       "id": "31883",
       "name": "A.J. Brown",
       "position": "WR",
@@ -117,16 +127,6 @@
       "status": "Q",
       "status_full": "Questionable",
       "injury_note": "Knee",
-      "bye_week": "11"
-    },
-    {
-      "id": "41907",
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
       "bye_week": "11"
     },
     {
