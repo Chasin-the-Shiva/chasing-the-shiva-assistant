@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-11-12T21:07:26.005Z",
+  "generated_at": "2026-11-13T20:39:26.230Z",
   "league_id": "721343",
   "season_week": 10,
-  "roster_source_at": "2026-11-12T18:56:23.782Z",
-  "availability_source_at": "2026-11-12T18:56:23.782Z",
+  "roster_source_at": "2026-11-13T18:07:05.046Z",
+  "availability_source_at": "2026-11-13T18:07:05.046Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -22,14 +22,14 @@
       "injury_status": null
     },
     {
-      "name": "Michael Penix Jr.",
-      "player_id": "40889",
+      "name": "Justin Herbert",
+      "player_id": "32676",
       "status": "FA",
       "injury_status": null
     },
     {
-      "name": "Jameis Winston",
-      "player_id": "28389",
+      "name": "Michael Penix Jr.",
+      "player_id": "40889",
       "status": "FA",
       "injury_status": null
     },
@@ -52,18 +52,6 @@
       "injury_status": null
     },
     {
-      "name": "J.J. McCarthy",
-      "player_id": "40905",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Marcus Mariota",
-      "player_id": "28390",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
       "name": "Case Keenum",
       "player_id": "26483",
       "status": "FA",
@@ -78,12 +66,6 @@
     {
       "name": "Shedeur Sanders",
       "player_id": "41930",
-      "status": "FA",
-      "injury_status": null
-    },
-    {
-      "name": "Athan Kaliakmanis",
-      "player_id": "42845",
       "status": "FA",
       "injury_status": null
     },
@@ -366,6 +348,24 @@
     {
       "name": "Bo Nix",
       "player_id": "40875",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Jameis Winston",
+      "player_id": "28389",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "J.J. McCarthy",
+      "player_id": "40905",
+      "status": "W",
+      "injury_status": null
+    },
+    {
+      "name": "Marcus Mariota",
+      "player_id": "28390",
       "status": "W",
       "injury_status": null
     }
