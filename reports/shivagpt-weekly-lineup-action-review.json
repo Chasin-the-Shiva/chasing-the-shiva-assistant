@@ -1,14 +1,35 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-11-13T20:39:26.230Z",
+  "generated_at": "2026-11-14T18:52:01.757Z",
   "league_id": "721343",
   "season_week": 10,
-  "roster_source_at": "2026-11-13T18:07:05.046Z",
-  "availability_source_at": "2026-11-13T18:07:05.046Z",
+  "roster_source_at": "2026-11-14T17:08:30.354Z",
+  "availability_source_at": "2026-11-14T17:08:30.354Z",
   "source_fresh": true,
-  "starter_warnings": [],
+  "starter_warnings": [
+    {
+      "name": "Kenneth Walker III",
+      "status": "O",
+      "slot": "RB",
+      "bye": false,
+      "severity": "HIGH",
+      "internal_options": [
+        {
+          "name": "Samaje Perine",
+          "position": "RB",
+          "status": null
+        }
+      ]
+    }
+  ],
   "verified_available_qb_options": [
+    {
+      "name": "Bo Nix",
+      "player_id": "40875",
+      "status": "FA",
+      "injury_status": null
+    },
     {
       "name": "Deshaun Watson",
       "player_id": "30125",
@@ -46,6 +67,12 @@
       "injury_status": null
     },
     {
+      "name": "Drew Lock",
+      "player_id": "31874",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
       "name": "Tanner McKee",
       "player_id": "40220",
       "status": "FA",
@@ -60,6 +87,12 @@
     {
       "name": "Tyson Bagent",
       "player_id": "40504",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Carson Wentz",
+      "player_id": "29236",
       "status": "FA",
       "injury_status": null
     },
@@ -346,12 +379,6 @@
       "injury_status": null
     },
     {
-      "name": "Bo Nix",
-      "player_id": "40875",
-      "status": "W",
-      "injury_status": null
-    },
-    {
       "name": "Jameis Winston",
       "player_id": "28389",
       "status": "W",
@@ -372,7 +399,7 @@
   ],
   "preferred_short_term_qb_research": null,
   "priority_actions": [
-    "No unavailable starters detected in this snapshot; verify injuries and status before kickoff.",
+    "REVIEW Kenneth Walker III (RB; O): Samaje Perine. Confirm official status and lineup eligibility before lock.",
     "Avoid meaningful FAAB spending solely to rescue a short-term matchup unless the pickup improves the roster beyond this week."
   ],
   "trade_or_waiver_orders_placed": 0,
