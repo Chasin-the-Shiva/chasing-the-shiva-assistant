@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-13T20:38:32.052Z",
-  "source_at": "2026-11-13T18:07:05.046Z",
+  "generated_at": "2026-11-14T18:50:37.064Z",
+  "source_at": "2026-11-14T17:08:30.354Z",
   "league_id": "721343",
   "lineup_week": 10,
   "verified_roster_count": 17,
@@ -22,9 +22,9 @@
       "name": "Kenneth Walker III",
       "position": "RB",
       "selected_position": "RB",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Groin",
       "bye_week": "5"
     },
     {
@@ -188,7 +188,18 @@
     "W/R/T": 2,
     "DEF": 1
   },
-  "starter_warnings": [],
+  "starter_warnings": [
+    {
+      "id": "33996",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "selected_position": "RB",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Groin",
+      "bye_week": "5"
+    }
+  ],
   "recommended_lineup_changes": [],
   "limits": [
     "Injury flag is not a confirmed game designation until Yahoo is refreshed and official NFL status checked",
