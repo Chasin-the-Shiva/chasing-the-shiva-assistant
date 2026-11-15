@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-14T18:50:37.064Z",
-  "source_at": "2026-11-14T17:08:30.354Z",
+  "generated_at": "2026-11-15T19:28:00.500Z",
+  "source_at": "2026-11-15T17:59:52.831Z",
   "league_id": "721343",
   "lineup_week": 10,
   "verified_roster_count": 17,
@@ -18,16 +18,6 @@
       "bye_week": "5"
     },
     {
-      "id": "33996",
-      "name": "Kenneth Walker III",
-      "position": "RB",
-      "selected_position": "RB",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Groin",
-      "bye_week": "5"
-    },
-    {
       "id": "34047",
       "name": "Rachaad White",
       "position": "RB",
@@ -36,6 +26,16 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "7"
+    },
+    {
+      "id": "41907",
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "selected_position": "RB",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "11"
     },
     {
       "id": "33966",
@@ -88,13 +88,13 @@
       "bye_week": "8"
     },
     {
-      "id": "41907",
-      "name": "Dylan Sampson",
-      "position": "RB",
+      "id": "31883",
+      "name": "A.J. Brown",
+      "position": "WR",
       "selected_position": "W/R/T",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Hamstring",
       "bye_week": "11"
     },
     {
@@ -110,6 +110,16 @@
   ],
   "bench": [
     {
+      "id": "33996",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Groin",
+      "bye_week": "5"
+    },
+    {
       "id": "42693",
       "name": "Antonio Williams",
       "position": "WR",
@@ -118,16 +128,6 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "7"
-    },
-    {
-      "id": "31883",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Knee",
-      "bye_week": "11"
     },
     {
       "id": "42696",
@@ -188,18 +188,7 @@
     "W/R/T": 2,
     "DEF": 1
   },
-  "starter_warnings": [
-    {
-      "id": "33996",
-      "name": "Kenneth Walker III",
-      "position": "RB",
-      "selected_position": "RB",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Groin",
-      "bye_week": "5"
-    }
-  ],
+  "starter_warnings": [],
   "recommended_lineup_changes": [],
   "limits": [
     "Injury flag is not a confirmed game designation until Yahoo is refreshed and official NFL status checked",
