@@ -1,60 +1,61 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-17T13:16:41.573Z",
+  "checked_at": "2026-11-17T22:16:48.642Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "STALE",
-      "age_hours": 8.47,
-      "timestamp": "2026-11-17T04:48:24.010Z"
+      "age_hours": 7.36,
+      "timestamp": "2026-11-17T14:55:17.426Z"
     },
     "availability": {
       "status": "STALE",
-      "age_hours": 8.47,
-      "timestamp": "2026-11-17T04:48:24.010Z",
-      "player_count": 940,
-      "unique_player_count": 940
+      "age_hours": 7.36,
+      "timestamp": "2026-11-17T14:55:17.426Z",
+      "player_count": 943,
+      "unique_player_count": 943
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 8.47,
-      "timestamp": "2026-11-17T04:48:24.010Z"
+      "age_hours": 7.36,
+      "timestamp": "2026-11-17T14:55:17.426Z"
     },
     "player_stats": {
-      "status": "FRESH",
-      "age_hours": 164.55,
+      "status": "STALE",
+      "age_hours": 173.55,
       "timestamp": "2026-11-10T16:43:32.372Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 16.36,
-      "timestamp": "2026-11-16T20:55:15.827712+00:00"
+      "age_hours": 2.54,
+      "timestamp": "2026-11-17T19:44:21.125323+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 16.34,
-      "timestamp": "2026-11-16T20:56:12.448491+00:00"
+      "age_hours": 2.51,
+      "timestamp": "2026-11-17T19:46:08.283143+00:00"
     },
     "popularity": {
       "status": "STALE",
-      "age_hours": 8.49,
-      "timestamp": "2026-11-17T04:47:05.842Z"
+      "age_hours": 7.38,
+      "timestamp": "2026-11-17T14:53:50.761Z"
     },
     "injury": {
       "status": "STALE",
-      "age_hours": 9.37,
-      "timestamp": "2026-11-17T03:54:17.589Z"
+      "age_hours": 8.82,
+      "timestamp": "2026-11-17T13:27:46.242Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 1.15,
-      "timestamp": "2026-11-17T12:07:37.048657+00:00"
+      "age_hours": 1.17,
+      "timestamp": "2026-11-17T21:06:47.892423+00:00"
     }
   },
   "blocking_sources": [
     "live",
-    "availability"
+    "availability",
+    "player_stats"
   ],
   "ready_for_scouting": false,
   "evidence_ready_for_recommendations": false,
