@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T19:58:08.574Z",
+  "generated_at": "2026-11-17T21:17:03.040Z",
   "league_id": "721343",
-  "source_fresh": true,
+  "source_fresh": false,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
   "recommended_moves": [],
   "candidate_reviews": [
@@ -37,13 +37,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -82,13 +83,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -127,13 +129,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -172,13 +175,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -217,13 +221,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -248,13 +253,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 6,
-        "median": 1,
+        "winning_bid_count": 7,
+        "median": 7,
         "p75": 11,
         "max": 11
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -293,13 +299,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -338,13 +345,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -384,13 +392,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -429,13 +438,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -475,13 +485,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -521,13 +532,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
         "TRADE_VALUE_UNCONFIRMED"
@@ -566,13 +578,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -612,13 +625,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 13,
-        "median": 7,
-        "p75": 23,
+        "winning_bid_count": 16,
+        "median": 5,
+        "p75": 15,
         "max": 51
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
@@ -658,13 +672,14 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 17,
+        "winning_bid_count": 21,
         "median": 9,
-        "p75": 17,
+        "p75": 15,
         "max": 40
       },
       "remaining_faab": 0,
       "risk_blockers": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
