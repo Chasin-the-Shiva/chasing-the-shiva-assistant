@@ -1,9 +1,9 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-11-10T19:59:49.019Z",
+  "generated_at": "2026-11-17T21:19:41.897Z",
   "league_id": "721343",
-  "verified_inputs_fresh": true,
+  "verified_inputs_fresh": false,
   "remaining_faab": 0,
   "decision": "HOLD_FAAB_NO_MOVE",
   "automatic_transactions_enabled": false,
@@ -19,15 +19,17 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Sam LaPorta",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "RECENT_SPIKE_REQUIRES_NEXT_GAME_CONFIRMATION",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 1,
+        "winning_bid_median": 7,
         "winning_bid_p75": 11
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -42,16 +44,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -65,16 +69,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -88,16 +94,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Antonio Williams",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -111,16 +119,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -134,16 +144,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Caleb Douglas",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -157,16 +169,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -180,17 +194,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Ollie Gordon II",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -204,16 +220,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Caleb Douglas",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -227,17 +245,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Caleb Douglas",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -251,17 +271,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Antonio Williams",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -275,16 +297,18 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Caleb Douglas",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -298,17 +322,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -322,17 +348,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Kendre Miller",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 7,
-        "winning_bid_p75": 23
+        "winning_bid_median": 5,
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     },
@@ -346,17 +374,19 @@
       "better_three_week_replacement_candidates": [],
       "first_look_drop": "Antonio Williams",
       "blocked_reasons": [
+        "STALE_SOURCE",
         "OFFENSIVE_ROLE_INCOMPLETE",
         "INSUFFICIENT_SUSTAINED_USAGE",
         "DEPTH_CHART_UNCONFIRMED",
-        "TRADE_VALUE_UNCONFIRMED"
+        "TRADE_VALUE_UNCONFIRMED",
+        "STALE_OR_INCONSISTENT_INPUTS"
       ],
       "external_role_status": "NOT_RESEARCHED",
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
         "winning_bid_median": 9,
-        "winning_bid_p75": 17
+        "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
     }
