@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-15T19:28:00.500Z",
-  "source_at": "2026-11-15T17:59:52.831Z",
+  "generated_at": "2026-11-19T21:46:38.863Z",
+  "source_at": "2026-11-19T21:34:35.343Z",
   "league_id": "721343",
-  "lineup_week": 10,
+  "lineup_week": 11,
   "verified_roster_count": 17,
   "selected_starters": [
     {
@@ -28,14 +28,14 @@
       "bye_week": "7"
     },
     {
-      "id": "41907",
-      "name": "Dylan Sampson",
+      "id": "33996",
+      "name": "Kenneth Walker III",
       "position": "RB",
       "selected_position": "RB",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "11"
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Groin",
+      "bye_week": "5"
     },
     {
       "id": "33966",
@@ -52,20 +52,20 @@
       "name": "Caleb Douglas",
       "position": "WR",
       "selected_position": "WR",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Shoulder",
       "bye_week": "6"
     },
     {
-      "id": "33445",
-      "name": "Tutu Atwell",
+      "id": "42693",
+      "name": "Antonio Williams",
       "position": "WR",
       "selected_position": "WR",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "11"
+      "bye_week": "7"
     },
     {
       "id": "40064",
@@ -78,9 +78,9 @@
       "bye_week": "6"
     },
     {
-      "id": "41019",
-      "name": "Audric Estime",
-      "position": "RB",
+      "id": "42696",
+      "name": "Malachi Fields",
+      "position": "WR",
       "selected_position": "W/R/T",
       "status": null,
       "status_full": null,
@@ -88,56 +88,46 @@
       "bye_week": "8"
     },
     {
+      "id": "30227",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
+    }
+  ],
+  "bench": [
+    {
       "id": "31883",
       "name": "A.J. Brown",
       "position": "WR",
-      "selected_position": "W/R/T",
+      "selected_position": "BN",
       "status": "Q",
       "status_full": "Questionable",
       "injury_note": "Hamstring",
       "bye_week": "11"
     },
     {
-      "id": "100018",
-      "name": "Saints",
-      "position": "DEF",
-      "selected_position": "DEF",
+      "id": "33445",
+      "name": "Tutu Atwell",
+      "position": "WR",
+      "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "8"
-    }
-  ],
-  "bench": [
+      "bye_week": "11"
+    },
     {
-      "id": "33996",
-      "name": "Kenneth Walker III",
+      "id": "41907",
+      "name": "Dylan Sampson",
       "position": "RB",
       "selected_position": "BN",
-      "status": "O",
-      "status_full": "Out",
-      "injury_note": "Groin",
-      "bye_week": "5"
-    },
-    {
-      "id": "42693",
-      "name": "Antonio Williams",
-      "position": "WR",
-      "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
-      "bye_week": "7"
-    },
-    {
-      "id": "42696",
-      "name": "Malachi Fields",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
+      "bye_week": "11"
     },
     {
       "id": "42030",
@@ -150,16 +140,6 @@
       "bye_week": "10"
     },
     {
-      "id": "30227",
-      "name": "Samaje Perine",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
-    },
-    {
       "id": "40954",
       "name": "Jalen McMillan",
       "position": "WR",
@@ -170,6 +150,16 @@
       "bye_week": "10"
     },
     {
+      "id": "40430",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
+    {
       "id": "40118",
       "name": "De'Von Achane",
       "position": "RB",
@@ -178,6 +168,16 @@
       "status_full": "Injured Reserve",
       "injury_note": "Knee - ACL",
       "bye_week": "6"
+    },
+    {
+      "id": "100008",
+      "name": "Lions",
+      "position": "DEF",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
     }
   ],
   "positions": {
@@ -185,8 +185,7 @@
     "RB": 2,
     "WR": 3,
     "TE": 1,
-    "W/R/T": 2,
-    "DEF": 1
+    "W/R/T": 2
   },
   "starter_warnings": [],
   "recommended_lineup_changes": [],
