@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-19T21:46:38.863Z",
-  "source_at": "2026-11-19T21:34:35.343Z",
+  "generated_at": "2026-11-20T21:31:12.704Z",
+  "source_at": "2026-11-20T20:20:16.156Z",
   "league_id": "721343",
   "lineup_week": 11,
   "verified_roster_count": 17,
@@ -28,14 +28,14 @@
       "bye_week": "7"
     },
     {
-      "id": "33996",
-      "name": "Kenneth Walker III",
+      "id": "30227",
+      "name": "Samaje Perine",
       "position": "RB",
       "selected_position": "RB",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Groin",
-      "bye_week": "5"
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "6"
     },
     {
       "id": "33966",
@@ -88,10 +88,20 @@
       "bye_week": "8"
     },
     {
-      "id": "30227",
-      "name": "Samaje Perine",
-      "position": "RB",
+      "id": "42030",
+      "name": "Tez Johnson",
+      "position": "WR",
       "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "10"
+    },
+    {
+      "id": "100008",
+      "name": "Lions",
+      "position": "DEF",
+      "selected_position": "DEF",
       "status": null,
       "status_full": null,
       "injury_note": null,
@@ -100,12 +110,22 @@
   ],
   "bench": [
     {
+      "id": "33996",
+      "name": "Kenneth Walker III",
+      "position": "RB",
+      "selected_position": "BN",
+      "status": "O",
+      "status_full": "Out",
+      "injury_note": "Groin",
+      "bye_week": "5"
+    },
+    {
       "id": "31883",
       "name": "A.J. Brown",
       "position": "WR",
       "selected_position": "BN",
-      "status": "Q",
-      "status_full": "Questionable",
+      "status": "D",
+      "status_full": "Doubtful",
       "injury_note": "Hamstring",
       "bye_week": "11"
     },
@@ -128,16 +148,6 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "11"
-    },
-    {
-      "id": "42030",
-      "name": "Tez Johnson",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "10"
     },
     {
       "id": "40954",
@@ -168,16 +178,6 @@
       "status_full": "Injured Reserve",
       "injury_note": "Knee - ACL",
       "bye_week": "6"
-    },
-    {
-      "id": "100008",
-      "name": "Lions",
-      "position": "DEF",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
     }
   ],
   "positions": {
@@ -185,7 +185,8 @@
     "RB": 2,
     "WR": 3,
     "TE": 1,
-    "W/R/T": 2
+    "W/R/T": 2,
+    "DEF": 1
   },
   "starter_warnings": [],
   "recommended_lineup_changes": [],
