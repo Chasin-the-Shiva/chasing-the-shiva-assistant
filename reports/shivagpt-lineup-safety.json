@@ -1,8 +1,8 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-20T21:31:12.704Z",
-  "source_at": "2026-11-20T20:20:16.156Z",
+  "generated_at": "2026-11-21T20:13:47.637Z",
+  "source_at": "2026-11-21T17:32:50.973Z",
   "league_id": "721343",
   "lineup_week": 11,
   "verified_roster_count": 17,
@@ -22,9 +22,9 @@
       "name": "Rachaad White",
       "position": "RB",
       "selected_position": "RB",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
+      "status": "Q",
+      "status_full": "Questionable",
+      "injury_note": "Heel",
       "bye_week": "7"
     },
     {
@@ -52,9 +52,9 @@
       "name": "Caleb Douglas",
       "position": "WR",
       "selected_position": "WR",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Shoulder",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "6"
     },
     {
@@ -88,27 +88,27 @@
       "bye_week": "8"
     },
     {
+      "id": "40231",
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "7"
+    }
+  ],
+  "bench": [
+    {
       "id": "42030",
       "name": "Tez Johnson",
       "position": "WR",
-      "selected_position": "W/R/T",
+      "selected_position": "BN",
       "status": null,
       "status_full": null,
       "injury_note": null,
       "bye_week": "10"
     },
-    {
-      "id": "100008",
-      "name": "Lions",
-      "position": "DEF",
-      "selected_position": "DEF",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "6"
-    }
-  ],
-  "bench": [
     {
       "id": "33996",
       "name": "Kenneth Walker III",
@@ -118,16 +118,6 @@
       "status_full": "Out",
       "injury_note": "Groin",
       "bye_week": "5"
-    },
-    {
-      "id": "31883",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": "D",
-      "status_full": "Doubtful",
-      "injury_note": "Hamstring",
-      "bye_week": "11"
     },
     {
       "id": "33445",
@@ -170,6 +160,16 @@
       "bye_week": "8"
     },
     {
+      "id": "42702",
+      "name": "Ja'Kobi Lane",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "13"
+    },
+    {
       "id": "40118",
       "name": "De'Von Achane",
       "position": "RB",
@@ -185,8 +185,7 @@
     "RB": 2,
     "WR": 3,
     "TE": 1,
-    "W/R/T": 2,
-    "DEF": 1
+    "W/R/T": 2
   },
   "starter_warnings": [],
   "recommended_lineup_changes": [],
