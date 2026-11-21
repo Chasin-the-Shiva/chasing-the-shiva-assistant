@@ -1,11 +1,11 @@
 {
   "schema": "shivagpt-weekly-lineup-action-review-v1",
   "read_only": true,
-  "generated_at": "2026-11-20T21:33:23.118Z",
+  "generated_at": "2026-11-21T20:14:58.790Z",
   "league_id": "721343",
   "season_week": 11,
-  "roster_source_at": "2026-11-20T20:20:16.156Z",
-  "availability_source_at": "2026-11-20T20:20:16.156Z",
+  "roster_source_at": "2026-11-21T17:32:50.973Z",
+  "availability_source_at": "2026-11-21T17:32:50.973Z",
   "source_fresh": true,
   "starter_warnings": [],
   "verified_available_qb_options": [
@@ -18,6 +18,12 @@
     {
       "name": "Deshaun Watson",
       "player_id": "30125",
+      "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Geno Smith",
+      "player_id": "26662",
       "status": "FA",
       "injury_status": null
     },
@@ -361,6 +367,12 @@
       "name": "Justin Fields",
       "player_id": "33399",
       "status": "FA",
+      "injury_status": null
+    },
+    {
+      "name": "Bo Nix",
+      "player_id": "40875",
+      "status": "W",
       "injury_status": null
     },
     {
