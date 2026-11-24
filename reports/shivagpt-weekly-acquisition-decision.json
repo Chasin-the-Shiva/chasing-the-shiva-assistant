@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-acquisition-decision-v1",
   "read_only": true,
-  "generated_at": "2026-11-17T21:17:03.040Z",
+  "generated_at": "2026-11-24T22:43:20.578Z",
   "league_id": "721343",
   "source_fresh": false,
   "default_decision": "NO_MOVE_UNTIL_EVIDENCE_COMPLETE",
@@ -129,8 +129,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -221,8 +221,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -392,8 +392,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -438,8 +438,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -485,8 +485,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -532,8 +532,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
@@ -672,8 +672,8 @@
         }
       ],
       "market_context": {
-        "winning_bid_count": 21,
-        "median": 9,
+        "winning_bid_count": 23,
+        "median": 8,
         "p75": 15,
         "max": 40
       },
