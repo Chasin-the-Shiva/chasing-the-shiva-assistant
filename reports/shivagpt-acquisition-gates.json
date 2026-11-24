@@ -1,11 +1,41 @@
 {
   "schema": "shivagpt-acquisition-gates-v1",
   "read_only": true,
-  "generated_at": "2026-11-17T20:56:50.395Z",
+  "generated_at": "2026-11-24T22:28:03.174Z",
   "league_id": "721343",
   "source_ready": false,
   "remaining_faab": 0,
   "winning_bid_market": {
+    "WR": {
+      "count": 23,
+      "minimum": 0,
+      "median": 8,
+      "p75": 15,
+      "p90": 30,
+      "maximum": 40,
+      "over_20": 4,
+      "over_40": 1
+    },
+    "QB": {
+      "count": 12,
+      "minimum": 0,
+      "median": 1,
+      "p75": 2,
+      "p90": 15,
+      "maximum": 15,
+      "over_20": 0,
+      "over_40": 0
+    },
+    "DEF": {
+      "count": 8,
+      "minimum": 0,
+      "median": 1,
+      "p75": 1,
+      "p90": 5,
+      "maximum": 5,
+      "over_20": 0,
+      "over_40": 0
+    },
     "RB": {
       "count": 16,
       "minimum": 0,
@@ -15,36 +45,6 @@
       "maximum": 51,
       "over_20": 4,
       "over_40": 2
-    },
-    "WR": {
-      "count": 21,
-      "minimum": 0,
-      "median": 9,
-      "p75": 15,
-      "p90": 30,
-      "maximum": 40,
-      "over_20": 4,
-      "over_40": 1
-    },
-    "QB": {
-      "count": 10,
-      "minimum": 0,
-      "median": 1,
-      "p75": 3,
-      "p90": 15,
-      "maximum": 15,
-      "over_20": 0,
-      "over_40": 0
-    },
-    "DEF": {
-      "count": 7,
-      "minimum": 0,
-      "median": 1,
-      "p75": 1,
-      "p90": 5,
-      "maximum": 5,
-      "over_20": 0,
-      "over_40": 0
     },
     "TE": {
       "count": 7,
