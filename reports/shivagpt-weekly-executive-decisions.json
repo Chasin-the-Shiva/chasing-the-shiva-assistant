@@ -1,7 +1,7 @@
 {
   "schema": "shivagpt-weekly-executive-decisions-v1",
   "read_only": true,
-  "generated_at": "2026-11-17T21:19:41.897Z",
+  "generated_at": "2026-11-24T22:45:01.948Z",
   "league_id": "721343",
   "verified_inputs_fresh": false,
   "remaining_faab": 0,
@@ -104,7 +104,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -154,7 +154,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -230,7 +230,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -256,7 +256,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -282,7 +282,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -307,7 +307,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
@@ -385,7 +385,7 @@
       "evidence_links": [],
       "individual_bid": null,
       "pricing_reference": {
-        "winning_bid_median": 9,
+        "winning_bid_median": 8,
         "winning_bid_p75": 15
       },
       "action": "NO_TRANSACTION_RECOMMENDED"
