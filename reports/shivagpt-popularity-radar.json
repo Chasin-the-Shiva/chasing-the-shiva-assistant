@@ -1,49 +1,19 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-24T16:26:22.767Z",
+  "generated_at": "2026-11-25T01:06:09.303Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-24T16:25:22.957Z",
+  "source_retrieved_at": "2026-11-25T01:05:15.569Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
-    {
-      "player_id": "100028",
-      "observed_ownership_change_pp": 2,
-      "name": "Commanders",
-      "availability_status": "rostered",
-      "percent_owned": 13,
-      "percent_owned_delta": 3,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "42859",
-      "observed_ownership_change_pp": -2,
-      "name": "Seth McGowan",
-      "availability_status": "rostered",
-      "percent_owned": 23,
-      "percent_owned_delta": -3,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "100002",
-      "observed_ownership_change_pp": -2,
-      "name": "Bills",
-      "availability_status": "rostered",
-      "percent_owned": 86,
-      "percent_owned_delta": -2,
-      "adds_24h": null,
-      "drops_24h": null
-    },
     {
       "player_id": "100012",
       "observed_ownership_change_pp": -2,
       "name": "Chiefs",
       "availability_status": "rostered",
-      "percent_owned": 91,
-      "percent_owned_delta": -2,
+      "percent_owned": 89,
+      "percent_owned_delta": -4,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -52,8 +22,8 @@
       "observed_ownership_change_pp": -2,
       "name": "Michael Mayer",
       "availability_status": "rostered",
-      "percent_owned": 40,
-      "percent_owned_delta": -2,
+      "percent_owned": 38,
+      "percent_owned_delta": -4,
       "adds_24h": null,
       "drops_24h": null
     }
@@ -61,7 +31,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-24T04:58:46.420Z",
-    "elapsed_hours": 11.44
+    "previous_retrieved_at": "2026-11-24T16:25:22.957Z",
+    "elapsed_hours": 8.66
   }
 }
