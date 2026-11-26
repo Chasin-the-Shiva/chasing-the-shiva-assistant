@@ -1,10 +1,10 @@
 {
   "schema": "shivagpt-live-lineup-check-v1",
   "read_only": true,
-  "generated_at": "2026-11-22T20:27:44.381Z",
-  "source_at": "2026-11-22T19:40:25.870Z",
+  "generated_at": "2026-11-26T22:34:04.397Z",
+  "source_at": "2026-11-26T15:17:33.638Z",
   "league_id": "721343",
-  "lineup_week": 11,
+  "lineup_week": 12,
   "verified_roster_count": 17,
   "selected_starters": [
     {
@@ -22,9 +22,9 @@
       "name": "Rachaad White",
       "position": "RB",
       "selected_position": "RB",
-      "status": "Q",
-      "status_full": "Questionable",
-      "injury_note": "Heel",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
       "bye_week": "7"
     },
     {
@@ -78,16 +78,6 @@
       "bye_week": "6"
     },
     {
-      "id": "42696",
-      "name": "Malachi Fields",
-      "position": "WR",
-      "selected_position": "W/R/T",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "8"
-    },
-    {
       "id": "40231",
       "name": "Chris Rodriguez Jr.",
       "position": "RB",
@@ -96,9 +86,39 @@
       "status_full": null,
       "injury_note": null,
       "bye_week": "7"
+    },
+    {
+      "id": "41907",
+      "name": "Dylan Sampson",
+      "position": "RB",
+      "selected_position": "W/R/T",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "11"
+    },
+    {
+      "id": "100019",
+      "name": "Giants",
+      "position": "DEF",
+      "selected_position": "DEF",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
     }
   ],
   "bench": [
+    {
+      "id": "42696",
+      "name": "Malachi Fields",
+      "position": "WR",
+      "selected_position": "BN",
+      "status": null,
+      "status_full": null,
+      "injury_note": null,
+      "bye_week": "8"
+    },
     {
       "id": "42030",
       "name": "Tez Johnson",
@@ -120,32 +140,12 @@
       "bye_week": "5"
     },
     {
-      "id": "33445",
-      "name": "Tutu Atwell",
-      "position": "WR",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "11"
-    },
-    {
-      "id": "41907",
-      "name": "Dylan Sampson",
-      "position": "RB",
-      "selected_position": "BN",
-      "status": null,
-      "status_full": null,
-      "injury_note": null,
-      "bye_week": "11"
-    },
-    {
       "id": "40954",
       "name": "Jalen McMillan",
       "position": "WR",
       "selected_position": "BN",
-      "status": "IR",
-      "status_full": "Injured Reserve",
+      "status": "IR-R",
+      "status_full": "Injured Reserve - Designated for Return",
       "injury_note": "Knee - PCL",
       "bye_week": "10"
     },
@@ -185,7 +185,8 @@
     "RB": 2,
     "WR": 3,
     "TE": 1,
-    "W/R/T": 2
+    "W/R/T": 2,
+    "DEF": 1
   },
   "starter_warnings": [],
   "recommended_lineup_changes": [],
