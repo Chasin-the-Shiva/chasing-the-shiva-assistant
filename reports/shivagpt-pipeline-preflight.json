@@ -1,55 +1,55 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-26T04:58:59.378Z",
+  "checked_at": "2026-11-26T15:07:46.185Z",
   "league_id": "721343",
   "sources": {
     "live": {
       "status": "FRESH",
-      "age_hours": 1.8,
-      "timestamp": "2026-11-26T03:10:59.882Z"
+      "age_hours": 1.92,
+      "timestamp": "2026-11-26T13:12:44.538Z"
     },
     "availability": {
       "status": "FRESH",
-      "age_hours": 1.8,
-      "timestamp": "2026-11-26T03:10:59.882Z",
-      "player_count": 942,
-      "unique_player_count": 942
+      "age_hours": 1.92,
+      "timestamp": "2026-11-26T13:12:44.538Z",
+      "player_count": 941,
+      "unique_player_count": 941
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 1.8,
-      "timestamp": "2026-11-26T03:10:59.882Z"
+      "age_hours": 1.92,
+      "timestamp": "2026-11-26T13:12:44.538Z"
     },
     "player_stats": {
       "status": "STALE",
-      "age_hours": 372.26,
+      "age_hours": 382.4,
       "timestamp": "2026-11-10T16:43:32.372Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 8.55,
+      "age_hours": 18.7,
       "timestamp": "2026-11-25T20:25:56.100078+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 8.54,
+      "age_hours": 18.69,
       "timestamp": "2026-11-25T20:26:17.287588+00:00"
     },
     "popularity": {
       "status": "FRESH",
-      "age_hours": 1.88,
-      "timestamp": "2026-11-26T03:06:08.879Z"
+      "age_hours": 1.97,
+      "timestamp": "2026-11-26T13:09:46.935Z"
     },
     "injury": {
       "status": "STALE",
-      "age_hours": 6.44,
-      "timestamp": "2026-11-25T22:32:43.159Z"
+      "age_hours": 10.05,
+      "timestamp": "2026-11-26T05:04:48.264Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.06,
-      "timestamp": "2026-11-26T02:55:19.704289+00:00"
+      "age_hours": 2.23,
+      "timestamp": "2026-11-26T12:53:56.840536+00:00"
     }
   },
   "blocking_sources": [
