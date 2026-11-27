@@ -1,15 +1,15 @@
 {
   "schema": "shivagpt-popularity-radar-v1",
   "read_only": true,
-  "generated_at": "2026-11-27T04:33:21.266Z",
+  "generated_at": "2026-11-27T14:21:38.169Z",
   "source_status": "connected",
-  "source_retrieved_at": "2026-11-27T04:32:30.558Z",
+  "source_retrieved_at": "2026-11-27T14:20:43.256Z",
   "league_id": "721343",
   "candidate_count": 1140,
   "spikes": [
     {
       "player_id": "100019",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Giants",
       "availability_status": "rostered",
       "percent_owned": 57,
@@ -19,7 +19,7 @@
     },
     {
       "player_id": "42693",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Antonio Williams",
       "availability_status": "rostered",
       "percent_owned": 65,
@@ -39,7 +39,7 @@
     },
     {
       "player_id": "100028",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Commanders",
       "availability_status": "rostered",
       "percent_owned": 42,
@@ -49,7 +49,7 @@
     },
     {
       "player_id": "100002",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Bills",
       "availability_status": "rostered",
       "percent_owned": 57,
@@ -62,8 +62,8 @@
       "observed_ownership_change_pp": 1,
       "name": "Deshaun Watson",
       "availability_status": "FA",
-      "percent_owned": 42,
-      "percent_owned_delta": 28,
+      "percent_owned": 43,
+      "percent_owned_delta": 29,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -79,7 +79,7 @@
     },
     {
       "player_id": "7200",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Aaron Rodgers",
       "availability_status": "rostered",
       "percent_owned": 22,
@@ -89,30 +89,40 @@
     },
     {
       "player_id": "100023",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": -1,
       "name": "Steelers",
-      "availability_status": "W",
-      "percent_owned": 68,
-      "percent_owned_delta": -18,
+      "availability_status": "FA",
+      "percent_owned": 67,
+      "percent_owned_delta": -19,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "100017",
-      "observed_ownership_change_pp": 0,
+      "observed_ownership_change_pp": 1,
       "name": "Patriots",
       "availability_status": "FA",
-      "percent_owned": 46,
-      "percent_owned_delta": 17,
+      "percent_owned": 47,
+      "percent_owned_delta": 18,
       "adds_24h": null,
       "drops_24h": null
     },
     {
       "player_id": "32695",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Brandon Aiyuk",
       "availability_status": "rostered",
       "percent_owned": 20,
+      "percent_owned_delta": 16,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "40231",
+      "observed_ownership_change_pp": 1,
+      "name": "Chris Rodriguez Jr.",
+      "availability_status": "rostered",
+      "percent_owned": 48,
       "percent_owned_delta": 16,
       "adds_24h": null,
       "drops_24h": null
@@ -124,16 +134,6 @@
       "availability_status": "rostered",
       "percent_owned": 73,
       "percent_owned_delta": 16,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
-      "player_id": "40231",
-      "observed_ownership_change_pp": 0,
-      "name": "Chris Rodriguez Jr.",
-      "availability_status": "rostered",
-      "percent_owned": 47,
-      "percent_owned_delta": 15,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -188,8 +188,18 @@
       "drops_24h": null
     },
     {
+      "player_id": "34047",
+      "observed_ownership_change_pp": -1,
+      "name": "Rachaad White",
+      "availability_status": "rostered",
+      "percent_owned": 58,
+      "percent_owned_delta": -12,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
       "player_id": "30227",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Samaje Perine",
       "availability_status": "rostered",
       "percent_owned": 41,
@@ -198,20 +208,10 @@
       "drops_24h": null
     },
     {
-      "player_id": "34047",
-      "observed_ownership_change_pp": 0,
-      "name": "Rachaad White",
-      "availability_status": "rostered",
-      "percent_owned": 59,
-      "percent_owned_delta": -11,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "41904",
       "observed_ownership_change_pp": 0,
       "name": "Elic Ayomanor",
-      "availability_status": "W",
+      "availability_status": "FA",
       "percent_owned": 23,
       "percent_owned_delta": -11,
       "adds_24h": null,
@@ -224,6 +224,16 @@
       "availability_status": "rostered",
       "percent_owned": 23,
       "percent_owned_delta": 10,
+      "adds_24h": null,
+      "drops_24h": null
+    },
+    {
+      "player_id": "100024",
+      "observed_ownership_change_pp": -1,
+      "name": "Chargers",
+      "availability_status": "rostered",
+      "percent_owned": 26,
+      "percent_owned_delta": -10,
       "adds_24h": null,
       "drops_24h": null
     },
@@ -248,16 +258,6 @@
       "drops_24h": null
     },
     {
-      "player_id": "100024",
-      "observed_ownership_change_pp": 0,
-      "name": "Chargers",
-      "availability_status": "rostered",
-      "percent_owned": 27,
-      "percent_owned_delta": -9,
-      "adds_24h": null,
-      "drops_24h": null
-    },
-    {
       "player_id": "40168",
       "observed_ownership_change_pp": 0,
       "name": "Puka Nacua",
@@ -269,7 +269,7 @@
     },
     {
       "player_id": "41087",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "Ryan Flournoy",
       "availability_status": "rostered",
       "percent_owned": 62,
@@ -289,7 +289,7 @@
     },
     {
       "player_id": "32725",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "J.K. Dobbins",
       "availability_status": "rostered",
       "percent_owned": 48,
@@ -299,7 +299,7 @@
     },
     {
       "player_id": "41843",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jack Bech",
       "availability_status": "rostered",
       "percent_owned": 9,
@@ -309,7 +309,7 @@
     },
     {
       "player_id": "32231",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Jakobi Meyers",
       "availability_status": "rostered",
       "percent_owned": 60,
@@ -369,7 +369,7 @@
     },
     {
       "player_id": "31896",
-      "observed_ownership_change_pp": -1,
+      "observed_ownership_change_pp": 0,
       "name": "DK Metcalf",
       "availability_status": "rostered",
       "percent_owned": 86,
@@ -389,7 +389,7 @@
     },
     {
       "player_id": "41907",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "Dylan Sampson",
       "availability_status": "rostered",
       "percent_owned": 31,
@@ -499,7 +499,7 @@
     },
     {
       "player_id": "40905",
-      "observed_ownership_change_pp": 1,
+      "observed_ownership_change_pp": 0,
       "name": "J.J. McCarthy",
       "availability_status": "FA",
       "percent_owned": 23,
@@ -531,7 +531,7 @@
   "message": "Observed ownership change uses two timestamped percent-owned readings, not add/drop counts. Yahoo weekly delta is a separate signal. Signals only. Verify NFL news, offensive roles, Shiva league scoring, current availability and exact drop candidate before recommending action.",
   "comparison": {
     "available": true,
-    "previous_retrieved_at": "2026-11-26T22:35:21.934Z",
-    "elapsed_hours": 5.95
+    "previous_retrieved_at": "2026-11-27T04:32:30.558Z",
+    "elapsed_hours": 9.8
   }
 }
