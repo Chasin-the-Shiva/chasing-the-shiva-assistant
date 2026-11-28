@@ -1,58 +1,60 @@
 {
   "schema": "shivagpt-pipeline-preflight-v1",
   "read_only": true,
-  "checked_at": "2026-11-28T01:56:32.497Z",
+  "checked_at": "2026-11-28T10:19:00.940Z",
   "league_id": "721343",
   "sources": {
     "live": {
-      "status": "FRESH",
-      "age_hours": 2.96,
-      "timestamp": "2026-11-27T22:58:56.084Z"
+      "status": "STALE",
+      "age_hours": 5.33,
+      "timestamp": "2026-11-28T04:59:13.284Z"
     },
     "availability": {
-      "status": "FRESH",
-      "age_hours": 2.96,
-      "timestamp": "2026-11-27T22:58:56.084Z",
+      "status": "STALE",
+      "age_hours": 5.33,
+      "timestamp": "2026-11-28T04:59:13.284Z",
       "player_count": 941,
       "unique_player_count": 941
     },
     "scoring": {
       "status": "FRESH",
-      "age_hours": 2.96,
-      "timestamp": "2026-11-27T22:58:56.084Z"
+      "age_hours": 5.33,
+      "timestamp": "2026-11-28T04:59:13.284Z"
     },
     "player_stats": {
       "status": "STALE",
-      "age_hours": 417.22,
+      "age_hours": 425.59,
       "timestamp": "2026-11-10T16:43:32.372Z"
     },
     "nfl_opportunity": {
       "status": "FRESH",
-      "age_hours": 6.07,
+      "age_hours": 14.44,
       "timestamp": "2026-11-27T19:52:31.179506+00:00"
     },
     "nfl_snaps": {
       "status": "FRESH",
-      "age_hours": 6.05,
+      "age_hours": 14.43,
       "timestamp": "2026-11-27T19:53:19.015402+00:00"
     },
     "popularity": {
-      "status": "FRESH",
-      "age_hours": 3,
-      "timestamp": "2026-11-27T22:56:29.310Z"
+      "status": "STALE",
+      "age_hours": 5.36,
+      "timestamp": "2026-11-28T04:57:30.044Z"
     },
     "injury": {
       "status": "STALE",
-      "age_hours": 27.32,
+      "age_hours": 35.69,
       "timestamp": "2026-11-26T22:37:38.224Z"
     },
     "nfl_headlines": {
       "status": "FRESH",
-      "age_hours": 2.31,
-      "timestamp": "2026-11-27T23:37:54.199779+00:00"
+      "age_hours": 2.19,
+      "timestamp": "2026-11-28T08:07:45.410204+00:00"
     }
   },
   "blocking_sources": [
+    "live",
+    "availability",
     "player_stats"
   ],
   "ready_for_scouting": false,
